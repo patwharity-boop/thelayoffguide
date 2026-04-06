@@ -32,6 +32,13 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5958895635970152"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <header className="border-b border-gray-200 bg-white">
           <div className="mx-auto max-w-4xl px-4 py-4 flex items-center justify-between">
