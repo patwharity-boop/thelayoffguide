@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Take a Breath — What to Do in the First 24 Hours After a Layoff | The Layoff Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Merriweather', Georgia, serif;
+    color: #1a1a2e;
+    background: #fafafa;
+    line-height: 1.85;
+    font-size: 17px;
+  }
+
+  /* Top nav bar */
+  .site-nav {
+    background: #1a1a2e;
+    padding: 16px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .site-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  .site-nav a span { color: #4ecdc4; }
+
+  /* Hero image */
+  .hero {
+    width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+    position: relative;
+  }
+  .hero img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.85);
+  }
+  .hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 60px 40px 40px;
+    background: linear-gradient(transparent, rgba(26,26,46,0.85));
+    color: #fff;
+  }
+  .hero-overlay .category {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #4ecdc4;
+    margin-bottom: 12px;
+  }
+  .hero-overlay h1 {
+    font-size: 38px;
+    line-height: 1.25;
+    font-weight: 700;
+    max-width: 700px;
+  }
+
+  /* Article body */
+  .article-container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  .article-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .article-meta .author-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #4ecdc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .meta-text .author-name { font-weight: 600; color: #1a1a2e; }
+  .meta-text .date { color: #888; margin-top: 2px; }
+
+  .article-container p {
+    margin-bottom: 24px;
+    color: #2c2c3e;
+  }
+  .article-container h2 {
+    font-size: 26px;
+    margin: 48px 0 20px;
+    color: #1a1a2e;
+    line-height: 1.3;
+  }
+  .article-container h3 {
+    font-size: 21px;
+    margin: 36px 0 16px;
+    color: #1a1a2e;
+  }
+
+  /* Pull quote */
+  .pull-quote {
+    border-left: 4px solid #4ecdc4;
+    padding: 20px 28px;
+    margin: 40px 0;
+    background: #f0faf9;
+    border-radius: 0 8px 8px 0;
+    font-size: 19px;
+    font-style: italic;
+    color: #1a1a2e;
+    line-height: 1.7;
+  }
+
+  /* Inline image */
+  .inline-image {
+    margin: 40px -40px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  .inline-image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+  .inline-image .caption {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #888;
+    text-align: center;
+    padding: 12px 16px;
+    background: #f5f5f5;
+  }
+
+  /* Closing CTA */
+  .cta-box {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 48px 0;
+    text-align: center;
+  }
+  .cta-box h3 {
+    color: #4ecdc4;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 12px;
+    font-size: 20px;
+  }
+  .cta-box p {
+    color: #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .cta-box a {
+    display: inline-block;
+    background: #4ecdc4;
+    color: #1a1a2e;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: transform 0.2s;
+  }
+  .cta-box a:hover { transform: translateY(-2px); }
+
+  /* Footer */
+  .site-footer {
+    background: #1a1a2e;
+    color: #888;
+    text-align: center;
+    padding: 32px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+  .site-footer a { color: #4ecdc4; text-decoration: none; }
+
+  @media (max-width: 768px) {
+    .hero-overlay h1 { font-size: 26px; }
+    .hero-overlay { padding: 40px 20px 24px; }
+    .article-container { padding: 32px 20px 60px; }
+    .inline-image { margin: 32px 0; }
+    .article-container h2 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="https://thelayoffguide.com">The<span>Layoff</span>Guide</a>
+</nav>
+
+<div class="hero">
+  <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1400&q=80" alt="Peaceful foggy valley at sunrise — a calm, quiet landscape">
+  <div class="hero-overlay">
+    <div class="category">Getting Started</div>
+    <h1>Take a Breath — What to Do in the First 24 Hours After a Layoff</h1>
+  </div>
+</div>
+
+<article class="article-container">
+
+  <div class="article-meta">
+    <div class="author-avatar">TLG</div>
+    <div class="meta-text">
+      <div class="author-name">The Layoff Guide</div>
+      <div class="date">April 6, 2026 · 5 min read</div>
+    </div>
+  </div>
+
+  <p>Hey. So it happened.</p>
+
+  <p>Maybe you saw it coming. Maybe you didn't. Maybe you were in a meeting this morning thinking about lunch, and twenty minutes later you were holding a box and trying to remember your car's parking spot. Maybe it was a Zoom call — a calendar invite that didn't have an agenda, the HR person you didn't recognize, and that awful phrase: <em>"We've made the difficult decision..."</em></p>
+
+  <p>However it went down, you're here now. And the first thing I want you to know — the most important thing — is that <strong>you are going to be okay.</strong></p>
+
+  <p>Not in a "slap a smile on it" way. In a real way. But we'll get to that. Right now, let's just talk about today.</p>
+
+  <h2>First: What You're Feeling Is Completely Normal</h2>
+
+  <p>Job loss is consistently ranked as one of the top five most stressful life events — right up there with divorce and the death of a loved one. Psychologists have studied this for decades. It's not just about money (though we'll deal with that tomorrow). It's about identity, routine, belonging, purpose. One minute you're a [job title] at [company], and the next minute you're... what, exactly?</p>
+
+  <p>That disorientation? It's grief. Real grief. And it doesn't matter if you hated the job. It doesn't matter if part of you is relieved. You can feel relief and loss at the same time — that's allowed.</p>
+
+  <p>You might feel numb right now. Or angry. Or weirdly calm. Or like you want to cry in the shower. All of it is normal. None of it means anything is wrong with you.</p>
+
+  <div class="pull-quote">
+    "You don't have to figure out your whole life today. You just have to get through today."
+  </div>
+
+  <h2>Don't Make Any Big Decisions Right Now</h2>
+
+  <p>Your brain is in fight-or-flight mode. That's not a metaphor — it's literally what's happening. Your cortisol is spiked, your thinking is narrowed, and your mind is racing through worst-case scenarios at a hundred miles an hour.</p>
+
+  <p>This is the absolute worst state to make important decisions in. So don't.</p>
+
+  <p>Don't fire off an angry LinkedIn post. Don't accept the first job you see on Indeed. Don't text your old boss about that thing they said three years ago. Don't sign anything from your former employer today — that severance agreement isn't going anywhere, and you deserve to read it with clear eyes (or have someone else look at it).</p>
+
+  <p>Today, your only job is to take care of yourself. Everything else can wait until tomorrow.</p>
+
+  <h2>Do These Three Things Instead</h2>
+
+  <h3>1. Get outside and move your body</h3>
+
+  <p>I know this sounds like the most annoying advice in the world. But I'm serious. Put your shoes on, walk out the front door, and go for a 20-minute walk. It doesn't have to be a hike. It doesn't have to be a run. Just walk.</p>
+
+  <p>There's solid research behind this — physical movement reduces cortisol and gets you out of the doom loop your brain is trying to build. The sunlight helps. The fresh air helps. The change of scenery helps. You don't have to solve anything on this walk. Just notice things. The trees. The sky. A dog. Whatever.</p>
+
+  <div class="inline-image">
+    <img src="https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=1200&q=80" alt="Person walking alone on a peaceful path at golden hour">
+    <div class="caption">You don't have to go far. Just go outside.</div>
+  </div>
+
+  <h3>2. Call one person</h3>
+
+  <p>Not to "network." Not to ask for job leads. Just to say it out loud: <em>"Hey, I got laid off today."</em></p>
+
+  <p>Pick someone safe. A partner, a sibling, a best friend, a parent — whoever you trust to just listen. You don't need advice right now. You need someone to say, "That sucks. I'm sorry. What do you need?"</p>
+
+  <p>Saying it out loud takes away some of its power. It moves it from a thing that's swirling in your head to a thing that's real and shared and survivable. Because it is survivable. People survive this every single day.</p>
+
+  <h3>3. Step away from your phone</h3>
+
+  <p>I know the instinct. The second something stressful happens, we reach for the phone. LinkedIn. Job boards. Glassdoor reviews of your former company. The "who else got cut?" Slack DMs. The doomscroll.</p>
+
+  <p><strong>Not today.</strong> None of that is going to help you right now, and most of it will make you feel worse. The job market will be there tomorrow. LinkedIn will be there tomorrow. Today, your phone is not your friend.</p>
+
+  <p>Watch a movie. Cook something. Play with your kids. Take a nap. Read a book. Do something that has absolutely nothing to do with work, careers, or employment. Give your nervous system a break.</p>
+
+  <h2>A Few Things to Remember</h2>
+
+  <p><strong>This is not your fault.</strong> Layoffs are a business decision. They're about spreadsheets and quarterly numbers and restructuring plans that were set in motion long before anyone told you. You didn't lose your job because you weren't good enough. You lost it because someone with a title three levels above you moved a line item.</p>
+
+  <p><strong>This does not define you.</strong> You are not your job title. You're not your company badge. You have skills, experience, and value that didn't evaporate when that meeting ended. They're still here. You're still here.</p>
+
+  <p><strong>This is temporary.</strong> I know it doesn't feel that way. Right now it feels like the walls are closing in. But people get through this — millions of them, every year. And so will you. Not because you're special (though you are), but because that's what happens: you feel terrible, then you feel a little less terrible, then you start moving, and then one day you're on the other side of it telling someone else, "Yeah, I got through it. You will too."</p>
+
+  <div class="pull-quote">
+    "You didn't lose your value today. You lost a job. Those are two very different things."
+  </div>
+
+  <h2>Tomorrow, We Get to Work</h2>
+
+  <p>Tomorrow I'm going to help you sit down with your finances and figure out exactly where you stand — no panic, no judgment, just numbers on a page. We'll figure out your runway, what you can pause, and what's coming in. It's going to feel a lot better than you think.</p>
+
+  <p>After that, we'll file for unemployment (yes, do it — it's money you already earned), polish up your resume, and start building a plan that actually works.</p>
+
+  <p>But that's tomorrow.</p>
+
+  <p>Today? Today you just breathe. Take the walk. Make the call. Put the phone down. Be gentle with yourself.</p>
+
+  <p>You're going to be okay. I mean that.</p>
+
+  <div class="cta-box">
+    <h3>Ready for the Next Step?</h3>
+    <p>Tomorrow we'll get practical. Start with your finances.</p>
+    <a href="https://www.thelayoffguide.com/blog">Read: The Money Talk →</a>
+  </div>
+
+</article>
+
+<footer class="site-footer">
+  <p>&copy; 2026 <a href="https://thelayoffguide.com">TheLayoffGuide.com</a> — Built with care for people in transition.</p>
+</footer>
+
+</body>
+</html>

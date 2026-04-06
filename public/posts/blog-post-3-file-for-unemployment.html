@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File for Unemployment Today — Here's Exactly How | The Layoff Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Merriweather', Georgia, serif;
+    color: #1a1a2e;
+    background: #fafafa;
+    line-height: 1.85;
+    font-size: 17px;
+  }
+  .site-nav {
+    background: #1a1a2e;
+    padding: 16px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .site-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  .site-nav a span { color: #4ecdc4; }
+
+  .hero {
+    width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+    position: relative;
+  }
+  .hero img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.8);
+  }
+  .hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 60px 40px 40px;
+    background: linear-gradient(transparent, rgba(26,26,46,0.85));
+    color: #fff;
+  }
+  .hero-overlay .category {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #4ecdc4;
+    margin-bottom: 12px;
+  }
+  .hero-overlay h1 {
+    font-size: 38px;
+    line-height: 1.25;
+    font-weight: 700;
+    max-width: 700px;
+  }
+
+  .article-container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  .article-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .article-meta .author-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #4ecdc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+  }
+  .meta-text .author-name { font-weight: 600; color: #1a1a2e; }
+  .meta-text .date { color: #888; margin-top: 2px; }
+
+  .article-container p {
+    margin-bottom: 24px;
+    color: #2c2c3e;
+  }
+  .article-container h2 {
+    font-size: 26px;
+    margin: 48px 0 20px;
+    color: #1a1a2e;
+    line-height: 1.3;
+  }
+
+  .pull-quote {
+    border-left: 4px solid #4ecdc4;
+    padding: 20px 28px;
+    margin: 40px 0;
+    background: #f0faf9;
+    border-radius: 0 8px 8px 0;
+    font-size: 19px;
+    font-style: italic;
+    color: #1a1a2e;
+    line-height: 1.7;
+  }
+
+  .inline-image {
+    margin: 40px -40px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  .inline-image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+  .inline-image .caption {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #888;
+    text-align: center;
+    padding: 12px 16px;
+    background: #f5f5f5;
+  }
+
+  /* Urgency banner */
+  .urgency-banner {
+    background: linear-gradient(135deg, #dc4a2a, #e85d3a);
+    color: #fff;
+    padding: 24px 32px;
+    border-radius: 12px;
+    margin: 36px 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .urgency-banner .icon {
+    font-size: 36px;
+    flex-shrink: 0;
+  }
+  .urgency-banner .urgency-text h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .urgency-banner .urgency-text p {
+    font-size: 15px;
+    color: #fdd;
+    margin: 0;
+  }
+
+  /* Myth buster */
+  .myth-box {
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin: 36px 0;
+  }
+  .myth-box .myth {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #dc4a2a;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .myth-box .reality {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d9488;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .myth-box p {
+    font-size: 15px;
+    color: #555;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Checklist */
+  .checklist {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin: 36px 0;
+  }
+  .checklist h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #1a1a2e;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #4ecdc4;
+  }
+  .checklist .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+  }
+  .checklist .item:last-child { border-bottom: none; }
+  .checklist .num {
+    width: 28px;
+    height: 28px;
+    background: #4ecdc4;
+    color: #1a1a2e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 13px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .checklist .item strong { color: #1a1a2e; }
+
+  /* Step cards */
+  .step-card {
+    background: #fff;
+    border-left: 4px solid #4ecdc4;
+    border-radius: 0 12px 12px 0;
+    padding: 24px 28px;
+    margin: 28px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  }
+  .step-card .step-num {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #4ecdc4;
+    margin-bottom: 6px;
+  }
+  .step-card h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #1a1a2e;
+  }
+  .step-card p {
+    font-size: 15px;
+    color: #555;
+    margin: 0;
+    line-height: 1.7;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Mistakes box */
+  .mistakes-box {
+    background: #fef8f0;
+    border: 1px solid #f0d9b5;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin: 36px 0;
+  }
+  .mistakes-box h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #b8860b;
+    margin-bottom: 16px;
+  }
+  .mistakes-box .mistake {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #555;
+    padding: 8px 0;
+    padding-left: 24px;
+    position: relative;
+    line-height: 1.6;
+  }
+  .mistakes-box .mistake::before {
+    content: "⚠";
+    position: absolute;
+    left: 0;
+    top: 8px;
+  }
+
+  .cta-box {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 48px 0;
+    text-align: center;
+  }
+  .cta-box h3 {
+    color: #4ecdc4;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 12px;
+    font-size: 20px;
+  }
+  .cta-box p {
+    color: #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .cta-box a {
+    display: inline-block;
+    background: #4ecdc4;
+    color: #1a1a2e;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: transform 0.2s;
+  }
+  .cta-box a:hover { transform: translateY(-2px); }
+
+  .site-footer {
+    background: #1a1a2e;
+    color: #888;
+    text-align: center;
+    padding: 32px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+  .site-footer a { color: #4ecdc4; text-decoration: none; }
+
+  @media (max-width: 768px) {
+    .hero-overlay h1 { font-size: 26px; }
+    .hero-overlay { padding: 40px 20px 24px; }
+    .article-container { padding: 32px 20px 60px; }
+    .inline-image { margin: 32px 0; }
+    .urgency-banner { flex-direction: column; text-align: center; }
+    .article-container h2 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="https://thelayoffguide.com">The<span>Layoff</span>Guide</a>
+</nav>
+
+<div class="hero">
+  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1400&q=80" alt="Person confidently working on a laptop at a bright, modern desk">
+  <div class="hero-overlay">
+    <div class="category">Action Steps</div>
+    <h1>File for Unemployment Today — Here's Exactly How</h1>
+  </div>
+</div>
+
+<article class="article-container">
+
+  <div class="article-meta">
+    <div class="author-avatar">TLG</div>
+    <div class="meta-text">
+      <div class="author-name">The Layoff Guide</div>
+      <div class="date">April 6, 2026 · 6 min read</div>
+    </div>
+  </div>
+
+  <p>I'm going to be direct with you: <strong>if you got laid off and you haven't filed for unemployment yet, stop reading and go do it right now.</strong></p>
+
+  <p>Seriously. Bookmark this page, open your state's unemployment website, and file. I'll be here when you get back.</p>
+
+  <p>Still here? Okay — maybe you need a little convincing first, or you're not sure how the process works. Let's fix that in the next five minutes so you can get this done today.</p>
+
+  <div class="urgency-banner">
+    <div class="icon">⏰</div>
+    <div class="urgency-text">
+      <h4>Every day you wait costs you money.</h4>
+      <p>Unemployment benefits start the week you FILE, not the week you lost your job. If you wait two weeks to file, that's two weeks of benefits you can never get back.</p>
+    </div>
+  </div>
+
+  <h2>First, Let's Kill the Stigma</h2>
+
+  <p>I know why you haven't filed yet. A lot of people feel the same way. There's a voice in your head saying something like: <em>"Unemployment is for people who really need it"</em> or <em>"I'll find something fast, I don't need it"</em> or <em>"I don't want to be that person."</em></p>
+
+  <p>Let me reframe that for you.</p>
+
+  <div class="myth-box">
+    <div class="myth">✘ MYTH: "Unemployment is a handout."</div>
+    <div class="reality">✔ REALITY: It's insurance your employer paid into on your behalf.</div>
+    <p>Every paycheck you ever earned, your employer paid a percentage into the state unemployment insurance fund. That money was part of your compensation — it's literally your insurance policy. Filing for unemployment is no different than filing a claim on your car insurance after an accident. You paid for it. Use it.</p>
+  </div>
+
+  <p>You wouldn't feel guilty about using your health insurance for a doctor's visit. This is the same thing. It's not charity. It's not welfare. It's insurance you already paid for through your work.</p>
+
+  <h2>What You'll Need Before You Start</h2>
+
+  <p>Gather these things before you sit down to file. It'll make the process smoother and faster — most people finish in 15 to 30 minutes.</p>
+
+  <div class="checklist">
+    <h4>Your Filing Checklist</h4>
+    <div class="item">
+      <div class="num">1</div>
+      <div><strong>Social Security Number</strong> — You'll need the full number, not just the last four.</div>
+    </div>
+    <div class="item">
+      <div class="num">2</div>
+      <div><strong>Driver's license or state ID number</strong> — Some states require this for identity verification.</div>
+    </div>
+    <div class="item">
+      <div class="num">3</div>
+      <div><strong>Your former employer's info</strong> — Company name, address, phone number, and your manager's name. Check your offer letter or a recent pay stub.</div>
+    </div>
+    <div class="item">
+      <div class="num">4</div>
+      <div><strong>Employment dates</strong> — Start date and last day worked. Approximate is fine if you don't remember exactly.</div>
+    </div>
+    <div class="item">
+      <div class="num">5</div>
+      <div><strong>Reason for separation</strong> — You'll select "layoff" or "reduction in force." This is important — it's different from quitting or being fired.</div>
+    </div>
+    <div class="item">
+      <div class="num">6</div>
+      <div><strong>Bank account info</strong> — For direct deposit (routing number and account number). You can also choose a debit card in most states, but direct deposit is faster.</div>
+    </div>
+    <div class="item">
+      <div class="num">7</div>
+      <div><strong>Recent earnings info</strong> — Your last pay stub or a rough idea of your weekly earnings. The system uses this to calculate your benefit amount.</div>
+    </div>
+  </div>
+
+  <h2>The Process: Step by Step</h2>
+
+  <div class="step-card">
+    <div class="step-num">Step 1</div>
+    <h3>Find your state's unemployment website</h3>
+    <p>Every state runs its own unemployment program with its own website. Don't Google it and click the first link — there are scam sites that look official. We've verified the official filing link for all 50 states so you don't have to: <a href="https://www.thelayoffguide.com" style="color: #4ecdc4; font-weight: 600;">Find your state's unemployment page →</a>. Each state guide includes your maximum weekly benefit amount, how long benefits last, and a direct link to file online.</p>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">Step 2</div>
+    <h3>Create an account</h3>
+    <p>You'll need to set up an account on your state's system. Use a personal email (not your work email — you just lost access to that). Set a strong password and write it down. You'll be coming back to this site every week.</p>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">Step 3</div>
+    <h3>Fill out the initial claim</h3>
+    <p>The form will ask about your employment history, reason for leaving, and personal information. For "reason for separation," select layoff/reduction in force. Be honest and straightforward — don't overthink it. This typically takes 15-30 minutes.</p>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">Step 4</div>
+    <h3>Set up direct deposit</h3>
+    <p>When you get to the payment section, choose direct deposit and enter your bank details. It's faster than waiting for a debit card in the mail. Some states take 1-2 weeks to mail you a card — direct deposit starts as soon as your claim is approved.</p>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">Step 5</div>
+    <h3>Submit and save your confirmation</h3>
+    <p>Screenshot or save your confirmation number. You'll need it if you ever have to call in. Save the website URL, your login, and any reference numbers. Make a folder in your email for unemployment correspondence.</p>
+  </div>
+
+  <div class="inline-image">
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80" alt="Person working confidently on a laptop">
+    <div class="caption">15-30 minutes. That's all it takes.</div>
+  </div>
+
+  <h2>What Happens After You File</h2>
+
+  <p><strong>Processing time:</strong> Most states take 1-3 weeks to process your initial claim. Some are faster. Don't panic if you don't see money immediately — it's coming.</p>
+
+  <p><strong>Weekly certifications:</strong> This is the part most people don't know about. After your claim is approved, you'll need to "certify" every week (or every two weeks, depending on your state). This usually means logging in and confirming that you're still unemployed and actively looking for work. It takes about 5 minutes. <strong>Set a phone reminder.</strong> If you miss a certification, you miss that week's payment — and you can't get it back.</p>
+
+  <p><strong>Job search requirements:</strong> Most states require you to actively look for work and document your job search activities. This usually means applying to a certain number of jobs per week and keeping a log. We'll cover job search strategy in detail in future posts — for now, just know this requirement exists and plan to track your applications. Check our <a href="https://www.thelayoffguide.com/resources" style="color: #4ecdc4;">Resources page</a> for free resume builders, job boards, and skills training to help with your search.</p>
+
+  <p><strong>Benefit amount:</strong> You'll receive a determination letter telling you your weekly benefit amount. It varies by state and is based on your previous earnings — typically 40-50% of your previous weekly pay, up to a state maximum. It's not your full salary, but combined with reduced expenses and other income, it can cover a lot. Want to see how your state stacks up? Check out our <a href="https://www.thelayoffguide.com/compare" style="color: #4ecdc4;">state-by-state comparison tool</a>.</p>
+
+  <h2>Common Mistakes to Avoid</h2>
+
+  <div class="mistakes-box">
+    <h4>Don't make these mistakes:</h4>
+    <div class="mistake"><strong>Waiting to file.</strong> This is mistake #1. Every week you delay is a week of benefits you'll never see. File today, even if you have severance. Most states allow you to file immediately.</div>
+    <div class="mistake"><strong>Saying you "quit" when you were laid off.</strong> How you describe your separation matters. A layoff and a resignation have very different implications for eligibility. Be accurate.</div>
+    <div class="mistake"><strong>Forgetting weekly certifications.</strong> Your claim doesn't auto-pay. You have to actively certify each week. Miss one, lose that week's money. Set a recurring calendar reminder.</div>
+    <div class="mistake"><strong>Not reporting other income.</strong> If you do freelance work or get severance, report it honestly. Getting caught underreporting income can disqualify you and create an overpayment you'll have to pay back.</div>
+    <div class="mistake"><strong>Using a work email to create your account.</strong> Your work email will be deactivated. Use a personal email you'll have access to for months.</div>
+  </div>
+
+  <h2>Now Go Do It</h2>
+
+  <p>Here's the bottom line: filing for unemployment is the single highest-value thing you can do today. It takes 15-30 minutes, it's money you already earned, and every day you wait is money you'll never see.</p>
+
+  <p>You don't need to have your entire life figured out. You don't need a new resume. You don't need a five-year plan. You just need to open your state's website, fill out the form, and hit submit.</p>
+
+  <p>Do it right now. Then come back, and we'll tackle the rest of this together — your resume, your job search strategy, your interview prep, all of it. One step at a time. And while you're at it, check out our <a href="https://www.thelayoffguide.com/resources" style="color: #4ecdc4;">Resources page</a> — we've put together everything from SNAP and food assistance to free health insurance options, affordable therapy, and skills training. It's all in one place so you don't have to hunt for it.</p>
+
+  <p>You're not alone in this. Thousands of people are going through the exact same thing right now, and they're figuring it out one step at a time — just like you will.</p>
+
+  <p>You got this.</p>
+
+  <div class="pull-quote">
+    "Filing takes 15 minutes. Not filing costs you hundreds of dollars a week. The math is simple — do it now."
+  </div>
+
+  <div class="cta-box">
+    <h3>Find Your State's Unemployment Page</h3>
+    <p>We've verified every state's official unemployment filing link — plus max weekly benefits, duration, and eligibility rules.</p>
+    <a href="https://www.thelayoffguide.com" style="margin: 6px;">Find Your State →</a>
+    <a href="https://www.thelayoffguide.com/resources" style="margin: 6px; background: transparent; border: 2px solid #4ecdc4; color: #4ecdc4;">Browse All Resources →</a>
+  </div>
+
+</article>
+
+<footer class="site-footer">
+  <p>&copy; 2026 <a href="https://thelayoffguide.com">TheLayoffGuide.com</a> — Built with care for people in transition.</p>
+</footer>
+
+</body>
+</html>

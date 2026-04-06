@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Money Talk — How to Map Your Finances After a Layoff | The Layoff Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Merriweather', Georgia, serif;
+    color: #1a1a2e;
+    background: #fafafa;
+    line-height: 1.85;
+    font-size: 17px;
+  }
+  .site-nav {
+    background: #1a1a2e;
+    padding: 16px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .site-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  .site-nav a span { color: #4ecdc4; }
+
+  .hero {
+    width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+    position: relative;
+  }
+  .hero img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.8);
+  }
+  .hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 60px 40px 40px;
+    background: linear-gradient(transparent, rgba(26,26,46,0.85));
+    color: #fff;
+  }
+  .hero-overlay .category {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #4ecdc4;
+    margin-bottom: 12px;
+  }
+  .hero-overlay h1 {
+    font-size: 38px;
+    line-height: 1.25;
+    font-weight: 700;
+    max-width: 700px;
+  }
+
+  .article-container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  .article-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .article-meta .author-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #4ecdc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+  }
+  .meta-text .author-name { font-weight: 600; color: #1a1a2e; }
+  .meta-text .date { color: #888; margin-top: 2px; }
+
+  .article-container p {
+    margin-bottom: 24px;
+    color: #2c2c3e;
+  }
+  .article-container h2 {
+    font-size: 26px;
+    margin: 48px 0 20px;
+    color: #1a1a2e;
+    line-height: 1.3;
+  }
+  .article-container h3 {
+    font-size: 21px;
+    margin: 36px 0 16px;
+    color: #1a1a2e;
+  }
+
+  .pull-quote {
+    border-left: 4px solid #4ecdc4;
+    padding: 20px 28px;
+    margin: 40px 0;
+    background: #f0faf9;
+    border-radius: 0 8px 8px 0;
+    font-size: 19px;
+    font-style: italic;
+    color: #1a1a2e;
+    line-height: 1.7;
+  }
+
+  .inline-image {
+    margin: 40px -40px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  .inline-image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+  .inline-image .caption {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #888;
+    text-align: center;
+    padding: 12px 16px;
+    background: #f5f5f5;
+  }
+
+  /* T-Chart visual */
+  .t-chart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin: 36px 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    font-family: 'Inter', sans-serif;
+  }
+  .t-chart-col {
+    padding: 24px;
+  }
+  .t-chart-col.income {
+    background: #e8f8f5;
+    border-right: 2px solid #4ecdc4;
+  }
+  .t-chart-col.expenses {
+    background: #fef3f0;
+  }
+  .t-chart-col h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  .t-chart-col.income h4 { color: #0d9488; }
+  .t-chart-col.expenses h4 { color: #dc4a2a; }
+  .t-chart-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  .t-chart-col li {
+    font-size: 14px;
+    padding: 6px 0;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+  }
+  .t-chart-col li .amount { font-weight: 600; }
+
+  /* Runway calculator visual */
+  .runway-box {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 32px;
+    border-radius: 12px;
+    margin: 36px 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+  .runway-box .formula {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4ecdc4;
+    margin: 16px 0;
+  }
+  .runway-box .example {
+    font-size: 15px;
+    color: #aaa;
+    margin-top: 8px;
+  }
+
+  /* Quick wins list */
+  .quick-wins {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin: 36px 0;
+  }
+  .quick-wins h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #1a1a2e;
+    margin-bottom: 16px;
+  }
+  .quick-wins .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #444;
+  }
+  .quick-wins .item:last-child { border-bottom: none; }
+  .quick-wins .check {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #4ecdc4;
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .quick-wins .savings {
+    margin-left: auto;
+    color: #0d9488;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .cta-box {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 48px 0;
+    text-align: center;
+  }
+  .cta-box h3 {
+    color: #4ecdc4;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 12px;
+    font-size: 20px;
+  }
+  .cta-box p {
+    color: #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .cta-box a {
+    display: inline-block;
+    background: #4ecdc4;
+    color: #1a1a2e;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: transform 0.2s;
+    margin: 6px;
+  }
+  .cta-box a:hover { transform: translateY(-2px); }
+  .cta-box a.secondary {
+    background: transparent;
+    border: 2px solid #4ecdc4;
+    color: #4ecdc4;
+  }
+
+  .site-footer {
+    background: #1a1a2e;
+    color: #888;
+    text-align: center;
+    padding: 32px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+  .site-footer a { color: #4ecdc4; text-decoration: none; }
+
+  @media (max-width: 768px) {
+    .hero-overlay h1 { font-size: 26px; }
+    .hero-overlay { padding: 40px 20px 24px; }
+    .article-container { padding: 32px 20px 60px; }
+    .inline-image { margin: 32px 0; }
+    .t-chart { grid-template-columns: 1fr; }
+    .t-chart-col.income { border-right: none; border-bottom: 2px solid #4ecdc4; }
+    .article-container h2 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="https://thelayoffguide.com">The<span>Layoff</span>Guide</a>
+</nav>
+
+<div class="hero">
+  <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1400&q=80" alt="Notebook with financial planning notes and a calculator on a clean desk">
+  <div class="hero-overlay">
+    <div class="category">Finances</div>
+    <h1>The Money Talk — How to Map Your Finances After a Layoff</h1>
+  </div>
+</div>
+
+<article class="article-container">
+
+  <div class="article-meta">
+    <div class="author-avatar">TLG</div>
+    <div class="meta-text">
+      <div class="author-name">The Layoff Guide</div>
+      <div class="date">April 6, 2026 · 6 min read</div>
+    </div>
+  </div>
+
+  <p>Okay. You made it through yesterday. You took the walk. You made the call. You let yourself feel it. Nice work — seriously.</p>
+
+  <p>Now let's talk about money.</p>
+
+  <p>I know. This is the part everyone dreads. The "how long can I survive?" conversation you've been having with the ceiling at 3am. But here's the thing: <strong>the unknown is always scarier than the known.</strong> Once we put real numbers on paper, the panic almost always goes down — because you usually have more runway than you think.</p>
+
+  <p>So let's do this together. Grab a notebook, open a spreadsheet, or honestly just use the back of an envelope. We're going to figure out exactly where you stand in about 20 minutes.</p>
+
+  <h2>Step 1: The T-Chart — Income vs. Expenses</h2>
+
+  <p>Draw a line down the middle of your page. Left side: money coming in. Right side: money going out. That's it. No fancy accounting — just an honest snapshot.</p>
+
+  <p>Here's what it might look like:</p>
+
+  <div class="t-chart">
+    <div class="t-chart-col income">
+      <h4>💰 Money Coming In</h4>
+      <ul>
+        <li><span>Severance (if any)</span> <span class="amount">$X,XXX</span></li>
+        <li><span>Unemployment benefits</span> <span class="amount">$XXX/wk</span></li>
+        <li><span>Partner's income</span> <span class="amount">$X,XXX</span></li>
+        <li><span>Side gig / freelance</span> <span class="amount">$XXX</span></li>
+        <li><span>Last paycheck + PTO payout</span> <span class="amount">$X,XXX</span></li>
+      </ul>
+    </div>
+    <div class="t-chart-col expenses">
+      <h4>📋 Money Going Out</h4>
+      <ul>
+        <li><span>Rent / Mortgage</span> <span class="amount">$X,XXX</span></li>
+        <li><span>Car payment</span> <span class="amount">$XXX</span></li>
+        <li><span>Insurance (COBRA/marketplace)</span> <span class="amount">$XXX</span></li>
+        <li><span>Groceries</span> <span class="amount">$XXX</span></li>
+        <li><span>Utilities & phone</span> <span class="amount">$XXX</span></li>
+        <li><span>Subscriptions</span> <span class="amount">$XXX</span></li>
+        <li><span>Minimum debt payments</span> <span class="amount">$XXX</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <p>Don't overthink it. Rough numbers are fine. We're going for "directionally correct," not "auditor-approved." Check your bank statement from last month if you need help — most banks let you download a spending summary.</p>
+
+  <h2>Step 2: The Subscription Purge</h2>
+
+  <p>You know all those $9.99 and $14.99 charges that quietly drain your account every month? Now's the time to go through every single one and ask: <em>do I actually need this right now?</em></p>
+
+  <div class="quick-wins">
+    <h4>Quick wins — things you can pause or cancel today:</h4>
+    <div class="item">
+      <div class="check"></div>
+      <span>Streaming services you barely use (keep one)</span>
+      <span class="savings">~$30-50/mo</span>
+    </div>
+    <div class="item">
+      <div class="check"></div>
+      <span>Gym membership (most allow a "freeze")</span>
+      <span class="savings">~$30-80/mo</span>
+    </div>
+    <div class="item">
+      <div class="check"></div>
+      <span>Premium app subscriptions (Spotify, cloud storage, etc.)</span>
+      <span class="savings">~$15-30/mo</span>
+    </div>
+    <div class="item">
+      <div class="check"></div>
+      <span>Meal kit deliveries</span>
+      <span class="savings">~$60-120/mo</span>
+    </div>
+    <div class="item">
+      <div class="check"></div>
+      <span>Subscription boxes</span>
+      <span class="savings">~$20-50/mo</span>
+    </div>
+    <div class="item">
+      <div class="check"></div>
+      <span>Unused SaaS tools or professional memberships</span>
+      <span class="savings">~$10-50/mo</span>
+    </div>
+  </div>
+
+  <p>Those "small" charges add up fast. Most people find $100-300/month in subscriptions they can pause without really noticing. That's real money — that's groceries, that's a car payment, that's an extra month of runway.</p>
+
+  <h2>Step 3: Calculate Your Runway</h2>
+
+  <p>This is the big one. This is the number that will either keep you up at night or help you sleep. Let's make it the second one.</p>
+
+  <div class="runway-box">
+    <div style="font-size: 14px; color: #aaa; text-transform: uppercase; letter-spacing: 1px;">Your Runway Formula</div>
+    <div class="formula">Total Savings ÷ Monthly Expenses = Months of Runway</div>
+    <div class="example">Example: $12,000 savings ÷ $3,200/month = 3.75 months</div>
+  </div>
+
+  <p>Now add in any income that's coming — severance, unemployment benefits, a partner's paycheck, freelance work. That extends your runway further. Most people, once they actually do this math, realize they're not in "the house is on fire" territory. They're in "I have some time to be thoughtful about this" territory. And that is a very different feeling.</p>
+
+  <div class="pull-quote">
+    "Knowing your numbers doesn't create the problem — it takes away the panic. You probably have more runway than you think."
+  </div>
+
+  <h2>Step 4: Don't Forget the Income Side</h2>
+
+  <p>Here's something people forget when they're panicking about expenses: <strong>there's money coming your way too.</strong></p>
+
+  <p><strong>Unemployment benefits.</strong> If you were laid off (not fired for cause), you almost certainly qualify. In most states, benefits replace 40-50% of your previous income, up to a cap. It's not everything, but it's not nothing. <a href="https://www.thelayoffguide.com" style="color: #4ecdc4;">Find your state's unemployment page here →</a></p>
+
+  <p><strong>Your last paycheck and PTO.</strong> Most states require your employer to pay out unused vacation and PTO. Check your state's labor laws — in many cases, that check is bigger than you expect.</p>
+
+  <p><strong>Severance.</strong> If it was offered, great. If it wasn't, it doesn't hurt to ask — especially if you're being asked to sign a release. That's a negotiation, not a formality.</p>
+
+  <p><strong>SNAP and food assistance.</strong> I'm going to say this plainly: if you qualify, use it. These programs exist precisely for moments like this. There is no shame in it. It's a bridge, not a destination. <a href="https://www.thelayoffguide.com/resources" style="color: #4ecdc4;">Check available assistance programs here →</a></p>
+
+  <div class="inline-image">
+    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80" alt="Person writing notes at a clean, organized desk">
+    <div class="caption">Twenty minutes with a pen and paper can change everything.</div>
+  </div>
+
+  <h2>Step 5: Put It All in One Place</h2>
+
+  <p>Now take everything — the income, the expenses, the subscriptions you're cutting, the runway number — and put it in one document you can look at whenever the 3am panic hits. It doesn't have to be fancy.</p>
+
+  <p>We built a free Google Sheets budget template that does the math for you. Plug in your numbers, and it'll show you your monthly burn rate, your runway, and where the quick wins are. <a href="https://www.thelayoffguide.com/resources" style="color: #4ecdc4;">Grab the free budget template here →</a></p>
+
+  <p>Here's the thing about this exercise: it's not fun. Nobody wants to sit down and stare at their bills. But the moment you do it — the moment you replace "I have no idea how long I can survive" with "I have 4.2 months of runway and here's how I can stretch it to 6" — the entire game changes. You go from reactive to proactive. From panicking to planning.</p>
+
+  <h2>One More Thing: No Shame in This Game</h2>
+
+  <p>If your savings are thin, that's okay. If your runway is shorter than you'd like, that's okay. If you're looking at the numbers thinking "this is tight," that's okay too. You're not behind. You're not bad with money. You just got hit with something unexpected, and now you're dealing with it — which is exactly the right thing to do.</p>
+
+  <p>The people who struggle most after a layoff aren't the ones with small savings accounts. They're the ones who avoid looking at the numbers entirely. You're not doing that. You're here, doing the work. That puts you ahead of most people already.</p>
+
+  <div class="pull-quote">
+    "You don't need a perfect financial plan. You need a 20-minute honest look at your numbers. That's enough to start."
+  </div>
+
+  <div class="cta-box">
+    <h3>Next Step: File for Unemployment</h3>
+    <p>This is the single most important thing you can do today. Don't wait — every day costs you money.</p>
+    <a href="https://www.thelayoffguide.com/blog">Read: File for Unemployment Today →</a>
+    <a href="https://www.thelayoffguide.com/resources" class="secondary">Get the Free Budget Template</a>
+  </div>
+
+</article>
+
+<footer class="site-footer">
+  <p>&copy; 2026 <a href="https://thelayoffguide.com">TheLayoffGuide.com</a> — Built with care for people in transition.</p>
+</footer>
+
+</body>
+</html>
