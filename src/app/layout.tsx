@@ -41,10 +41,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <header className="border-b border-gray-200 bg-white">
-          <div className="px-4 py-2 flex items-center justify-between">
-            <Link href="/" className="flex items-center hover:opacity-90 shrink-0">
-              <img src="/logo.png" alt="The Layoff Guide" className="h-28 w-auto" />
-            </Link>
+          <div className="mx-auto max-w-4xl px-4 py-4 flex items-center justify-end">
             <nav className="flex gap-6 text-sm">
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 All States
@@ -64,6 +61,11 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
+
+        {/* Logo - positioned left, outside main content */}
+        <Link href="/" className="fixed top-16 left-8 z-50 hover:opacity-90 hidden lg:block">
+          <img src="/logo.png" alt="The Layoff Guide" className="h-36 w-auto" />
+        </Link>
 
         <main className="flex-1">{children}</main>
 
