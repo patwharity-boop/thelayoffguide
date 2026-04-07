@@ -59,7 +59,7 @@ export default function AboutPage() {
         <p>
           One tip I found on Reddit that blew my mind: if you can&apos;t get through
           to your state&apos;s unemployment office, <strong>call the Governor&apos;s
-          office</strong> and ask to be connected. They&apos;ll put you through. That
+          office</strong>{" "}and ask to be connected. They&apos;ll put you through. That
           one piece of advice — buried in a comment thread with 73 upvotes — was
           worth more than everything on the official state website combined.
         </p>
