@@ -8,6 +8,7 @@ export interface StateData {
   filingUrl: string;
   filingPhone: string;
   handbookUrl?: string;
+  stateJobsUrl?: string;
   minEarnings: string;
   eligibility: string[];
   howToFile: string[];
@@ -28,6 +29,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://adol.alabama.gov/claimants/",
     filingPhone: "1-866-234-5382",
+    stateJobsUrl: "https://personnel.alabama.gov/Jobs",
     minEarnings: "You must have earned at least $2,314.01 in the highest quarter of your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -80,6 +82,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://my.alaska.gov/",
     filingPhone: "1-907-269-4700",
+    stateJobsUrl: "https://www.governmentjobs.com/careers/alaska",
     minEarnings: "You must have earned at least $2,500 in your base period with wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -132,6 +135,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://des.az.gov/services/employment/unemployment-individual",
     filingPhone: "1-877-600-2722",
+    stateJobsUrl: "https://www.azstatejobs.gov/",
     minEarnings: "You must have earned at least $7,000 in your base period with wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -184,6 +188,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.dws.arkansas.gov/unemployment/",
     filingPhone: "1-844-908-2178",
+    stateJobsUrl: "https://arcareers.arkansas.gov/",
     minEarnings: "You must have earned at least $3,965 in your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -237,6 +242,7 @@ export const states: StateData[] = [
     filingUrl: "https://edd.ca.gov/unemployment/",
     filingPhone: "1-800-300-5616",
     handbookUrl: "https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de1275a.pdf",
+    stateJobsUrl: "https://calcareers.ca.gov/",
     minEarnings: "You must have earned at least $1,300 in your highest quarter, or $900 in your highest quarter with total base period earnings at least 1.25 times your highest quarter.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -296,6 +302,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://cdle.colorado.gov/unemployment",
     filingPhone: "1-303-318-9000",
+    stateJobsUrl: "https://careers.colorado.gov/",
     minEarnings: "You must have earned at least $2,500 in wages during your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -348,6 +355,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://www.ctdol.state.ct.us/UI-Online/index.htm",
     filingPhone: "1-860-263-6970",
+    stateJobsUrl: "https://www.jobapscloud.com/CT/",
     minEarnings: "You must have earned at least $600 in your highest quarter and total base period wages of at least 40 times your weekly benefit rate.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -398,6 +406,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://uics.delawareworks.com/",
     filingPhone: "1-302-761-8446",
+    stateJobsUrl: "https://statejobs.delaware.gov/",
     minEarnings: "You must have earned at least $966 in your highest quarter and total base period wages of at least 36 times your weekly benefit rate.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -450,6 +459,7 @@ export const states: StateData[] = [
     filingUrl: "https://www.floridajobs.org/reemployment-assistance-service-center/reemployment-assistance/claimants",
     filingPhone: "1-800-204-2418",
     handbookUrl: "https://www.floridajobs.org/docs/default-source/reemployment-assistance-center/unemployment/bri/bri_english.pdf",
+    stateJobsUrl: "https://jobs.myflorida.com/",
     minEarnings: "You must have earned at least $3,400 in your base period with wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -508,6 +518,7 @@ export const states: StateData[] = [
     filingUrl: "https://www.dol.state.ga.us/",
     filingPhone: "1-877-709-8185",
     handbookUrl: "https://dol.georgia.gov/document/unemployment-benefits/ui-claimant-handbook/download",
+    stateJobsUrl: "https://careers.georgia.gov/",
     minEarnings: "You must have earned at least $3,080 in your base period with wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -559,6 +570,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://huiclaims.hawaii.gov/",
     filingPhone: "1-808-762-5751",
+    stateJobsUrl: "https://www.governmentjobs.com/careers/hawaii",
     minEarnings: "You must have earned at least $130 in your highest quarter and at least 26 times your weekly benefit amount in your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -610,6 +622,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.labor.idaho.gov/unemployment/",
     filingPhone: "1-208-332-8942",
+    stateJobsUrl: "https://statecareers.idaho.gov/",
     minEarnings: "You must have earned at least $2,535 in your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -662,6 +675,7 @@ export const states: StateData[] = [
     filingUrl: "https://ides.illinois.gov/unemployment/file-a-claim.html",
     filingPhone: "1-800-244-5631",
     handbookUrl: "https://ides.illinois.gov/content/dam/soi/en/web/ides/ides_forms_and_publications/cli105l.pdf",
+    stateJobsUrl: "https://careers.illinois.gov/",
     minEarnings: "You must have earned at least $1,600 during your base period with at least $440 outside your highest quarter.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -714,6 +728,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.in.gov/dwd/indiana-unemployment/file/",
     filingPhone: "1-800-891-6499",
+    stateJobsUrl: "https://workforindiana.in.gov/",
     minEarnings: "You must have earned at least $4,200 in your base period with wages in the last two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -765,6 +780,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://www.iowaworkforcedevelopment.gov/file-claim-unemployment-insurance-benefits",
     filingPhone: "1-866-239-0843",
+    stateJobsUrl: "https://das.iowa.gov/state-employment",
     minEarnings: "You must have earned at least $2,890 in your base period with wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -816,6 +832,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.getkansasbenefits.gov/",
     filingPhone: "1-800-292-6333",
+    stateJobsUrl: "https://admin.ks.gov/offices/personnel-services/jobs",
     minEarnings: "You must have earned at least $4,539 in your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -867,6 +884,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://kewes.ky.gov/",
     filingPhone: "1-502-875-0442",
+    stateJobsUrl: "https://personnel.ky.gov/Pages/Careers.aspx",
     minEarnings: "You must have earned at least $3,000 in your base period with wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -918,6 +936,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.laworks.net/",
     filingPhone: "1-866-783-5567",
+    stateJobsUrl: "https://jobs.la.gov/",
     minEarnings: "You must have earned at least $1,200 in your base period with wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -969,6 +988,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://reemployme.maine.gov/",
     filingPhone: "1-800-593-7660",
+    stateJobsUrl: "https://www.maine.gov/bhr/state-jobs",
     minEarnings: "You must have earned at least $6,030 in your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -1020,6 +1040,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://www.dllr.state.md.us/employment/unemployment.shtml",
     filingPhone: "1-410-949-0022",
+    stateJobsUrl: "https://dbm.maryland.gov/jobseekers/pages/jobseekershome.aspx",
     minEarnings: "You must have earned at least $2,014 in your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -1071,6 +1092,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.mass.gov/how-to/apply-for-unemployment-insurance-benefits",
     filingPhone: "1-877-626-6800",
+    stateJobsUrl: "https://www.mass.gov/find-your-career-at-the-commonwealth",
     minEarnings: "You must have earned at least $6,300 in your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -1124,6 +1146,7 @@ export const states: StateData[] = [
     filingUrl: "https://www.michigan.gov/leo/bureaus-agencies/uia",
     filingPhone: "1-866-500-0017",
     handbookUrl: "https://www.michigan.gov/-/media/Project/Websites/leo/Documents/UIA/Claimant-Forms/UIA-1901.pdf",
+    stateJobsUrl: "https://www.michigan.gov/som/job-seekers/state-of-michigan-employment",
     minEarnings: "You must have earned at least $3,667 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit Michigan.gov to file online through MiWAM", "Create an account", "Provide personal and employment information", "Submit your claim", "Certify biweekly"],
@@ -1141,6 +1164,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://www.uimn.org/",
     filingPhone: "1-651-296-3644",
+    stateJobsUrl: "https://mn.gov/careers",
     minEarnings: "You must have earned at least $3,575 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit uimn.org to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "Request payment weekly"],
@@ -1158,6 +1182,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://mdes.ms.gov/unemployment-claims/",
     filingPhone: "1-888-844-3577",
+    stateJobsUrl: "https://www.mspb.ms.gov/",
     minEarnings: "You must have earned at least $1,200 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit mdes.ms.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1175,6 +1200,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://labor.mo.gov/unemployed-workers",
     filingPhone: "1-800-320-2519",
+    stateJobsUrl: "https://mocareers.mo.gov/",
     minEarnings: "You must have earned at least $3,500 in your base period with at least $1,750 in two different quarters.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit labor.mo.gov to file online", "Create an account", "Provide personal and employment details", "Submit your claim", "File weekly certifications"],
@@ -1192,6 +1218,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://uid.dli.mt.gov/",
     filingPhone: "1-406-444-2545",
+    stateJobsUrl: "https://statecareers.mt.gov/",
     minEarnings: "You must have earned at least $2,000 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit uid.dli.mt.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1209,6 +1236,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dol.nebraska.gov/UIBenefits",
     filingPhone: "1-402-458-2500",
+    stateJobsUrl: "https://statejobs.nebraska.gov/",
     minEarnings: "You must have earned at least $4,581 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit NEworks.nebraska.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1226,6 +1254,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://ui.nv.gov/PDAS.aspx",
     filingPhone: "1-702-486-0350",
+    stateJobsUrl: "https://nvjobs.nv.gov/",
     minEarnings: "You must have earned at least $600 in your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit ui.nv.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1243,6 +1272,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://www.nhes.nh.gov/services/claimants/index.htm",
     filingPhone: "1-603-271-7700",
+    stateJobsUrl: "https://www.das.nh.gov/jobsearch/employment.aspx",
     minEarnings: "You must have earned at least $2,800 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit nhes.nh.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1260,6 +1290,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://myunemployment.nj.gov/",
     filingPhone: "1-201-601-4100",
+    stateJobsUrl: "https://www.nj.gov/csc/jobs/",
     minEarnings: "You must have earned at least $260 per week for 20 base weeks, or $13,000 total in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit myunemployment.nj.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "Certify weekly"],
@@ -1277,6 +1308,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.jobs.state.nm.us/",
     filingPhone: "1-877-664-6984",
+    stateJobsUrl: "https://careers.share.nm.gov/",
     minEarnings: "You must have earned at least $2,314 in your highest quarter and total base period wages of at least 1.5 times your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit jobs.state.nm.us to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1295,6 +1327,7 @@ export const states: StateData[] = [
     filingUrl: "https://dol.ny.gov/how-do-i-file",
     filingPhone: "1-888-209-8124",
     handbookUrl: "https://dol.ny.gov/system/files/documents/2026/01/ui-claimant-handbook_1-26.pdf",
+    stateJobsUrl: "https://statejobs.ny.gov/public/vacancytable.cfm",
     minEarnings: "You must have earned at least $3,200 in your highest quarter and total wages of at least 1.5 times your highest quarter.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -1348,6 +1381,7 @@ export const states: StateData[] = [
     filingUrl: "https://des.nc.gov/individuals/apply-unemployment",
     filingPhone: "1-888-737-0259",
     handbookUrl: "https://www.des.nc.gov/documents/guide-ui-benefits-english/open",
+    stateJobsUrl: "https://oshr.nc.gov/work-nc",
     minEarnings: "You must have earned at least $5,776 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit des.nc.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1365,6 +1399,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.jobsnd.com/unemployment-individuals/file-claim",
     filingPhone: "1-701-328-4995",
+    stateJobsUrl: "https://www.omb.nd.gov/team-nd-careers/career-openings",
     minEarnings: "You must have earned at least $4,279 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit jobsnd.com to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1383,6 +1418,7 @@ export const states: StateData[] = [
     filingUrl: "https://unemployment.ohio.gov/",
     filingPhone: "1-877-644-6562",
     handbookUrl: "https://www.odjfs.state.oh.us/forms/num/JFS22758/pdf/",
+    stateJobsUrl: "https://careers.ohio.gov/",
     minEarnings: "You must have earned at least $3,080 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit unemployment.ohio.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1400,6 +1436,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://unemployment.state.ok.us/",
     filingPhone: "1-405-525-1500",
+    stateJobsUrl: "https://www.jobs.ok.gov/",
     minEarnings: "You must have earned at least $1,500 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit unemployment.state.ok.us to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1417,6 +1454,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://unemployment.oregon.gov/",
     filingPhone: "1-877-345-3484",
+    stateJobsUrl: "https://www.oregon.gov/jobs/pages/index.aspx",
     minEarnings: "You must have earned at least $1,000 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit unemployment.oregon.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1435,6 +1473,7 @@ export const states: StateData[] = [
     filingUrl: "https://www.uc.pa.gov/",
     filingPhone: "1-888-313-7284",
     handbookUrl: "https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucp-forms/ucp-1.pdf",
+    stateJobsUrl: "https://careers.employment.pa.gov/",
     minEarnings: "You must have earned at least $116 in your highest quarter and total base period earnings of at least $1,688.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit uc.pa.gov to file online", "Create a Keystone ID account", "Provide personal and employment information", "Submit your claim", "File biweekly certifications"],
@@ -1452,6 +1491,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://dlt.ri.gov/individuals/unemployment-insurance",
     filingPhone: "1-401-243-9100",
+    stateJobsUrl: "https://www.ri.gov/employment/",
     minEarnings: "You must have earned at least $4,200 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit dlt.ri.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1469,6 +1509,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dew.sc.gov/individuals/applying-benefits",
     filingPhone: "1-866-831-1724",
+    stateJobsUrl: "https://careers.sc.gov/",
     minEarnings: "You must have earned at least $4,455 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit dew.sc.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1486,6 +1527,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dlr.sd.gov/ra/individuals/file_claim.aspx",
     filingPhone: "1-605-626-2452",
+    stateJobsUrl: "https://bhr.sd.gov/job-seekers/",
     minEarnings: "You must have earned at least $2,228 in your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit dlr.sd.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1503,6 +1545,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.jobs4tn.gov/",
     filingPhone: "1-844-224-5818",
+    stateJobsUrl: "https://www.tn.gov/careers.html",
     minEarnings: "You must have earned at least $1,560 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit jobs4tn.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1521,6 +1564,7 @@ export const states: StateData[] = [
     filingUrl: "https://www.twc.texas.gov/services/apply-benefits",
     filingPhone: "1-800-939-6631",
     handbookUrl: "https://www.twc.texas.gov/sites/default/files/ui/docs/unemployment-benefits-handbook-twc.pdf",
+    stateJobsUrl: "https://capps.taleo.net/careersection/ex/jobsearch.ftl",
     minEarnings: "You must have earned at least $2,028 in your highest quarter.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -1583,6 +1627,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://jobs.utah.gov/ui/home/",
     filingPhone: "1-801-526-9235",
+    stateJobsUrl: "https://www.utah.gov/employment/",
     minEarnings: "You must have earned enough wages in your base period as determined by Utah guidelines.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit jobs.utah.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1600,6 +1645,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://labor.vermont.gov/unemployment-insurance/claimants",
     filingPhone: "1-877-214-3330",
+    stateJobsUrl: "https://careers.vermont.gov/",
     minEarnings: "You must have earned at least $3,626 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit labor.vermont.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1617,6 +1663,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.vec.virginia.gov/unemployment",
     filingPhone: "1-866-832-2363",
+    stateJobsUrl: "https://www.jobs.virginia.gov/",
     minEarnings: "You must have earned at least $3,000 in your base period with wages in at least two quarters.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit vec.virginia.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1634,6 +1681,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://esd.wa.gov/get-financial-help/unemployment-benefits",
     filingPhone: "1-800-318-6022",
+    stateJobsUrl: "https://careers.wa.gov/",
     minEarnings: "You must have earned at least 680 hours of work in your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
@@ -1685,6 +1733,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://workforcewv.org/unemployment-insurance-benefits/my-unemployment-claim/",
     filingPhone: "1-800-252-5627",
+    stateJobsUrl: "https://personnel.wv.gov/empopp",
     minEarnings: "You must have earned at least $2,200 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit workforcewv.org to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1702,6 +1751,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dwd.wisconsin.gov/uiben/apply/",
     filingPhone: "1-414-435-7069",
+    stateJobsUrl: "https://wj.wi.gov/",
     minEarnings: "You must have earned at least $2,325 in your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit dwd.wisconsin.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
@@ -1719,6 +1769,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dws.wyo.gov/dws-division/unemployment-insurance/claimants/filing-for-ui/",
     filingPhone: "1-307-473-3789",
+    stateJobsUrl: "https://ai.wyo.gov/for-job-seekers",
     minEarnings: "You must have earned enough wages in your base period as determined by Wyoming guidelines.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit the Wyoming DOE website to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
