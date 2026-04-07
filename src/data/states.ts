@@ -32,7 +32,7 @@ export const states: StateData[] = [
     filingPhone: "1-866-234-5382",
     handbookUrl: "https://labor.alabama.gov/docs/guides/uc_brr_large_print.pdf",
     stateJobsUrl: "https://personnel.alabama.gov/Jobs",
-    minEarnings: "You must have earned at least $2,314.01 in the highest quarter of your base period.",
+    minEarnings: "You must have earned wages in at least two quarters of your base period, with your two highest quarters averaging at least $1,157.01 each.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -63,7 +63,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Alabama?",
-        answer: "Alabama pays up to $340 per week. Your actual amount is calculated as 1/26th of your highest quarter earnings in the base period."
+        answer: "Alabama pays up to $275 per week. Your actual amount is calculated as 1/26th of your highest quarter earnings in the base period."
       },
       {
         question: "How long can I receive unemployment benefits in Alabama?",
@@ -117,7 +117,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Alaska?",
-        answer: "Alaska pays up to $442 per week, increasing to $462 on July 1, 2026. Your benefit amount depends on your earnings during the base period."
+        answer: "Alaska pays up to $370 per week. Your benefit amount depends on your earnings during the base period."
       },
       {
         question: "How long can I receive unemployment benefits in Alaska?",
@@ -140,7 +140,7 @@ export const states: StateData[] = [
     filingPhone: "1-877-600-2722",
     handbookUrl: "https://des.az.gov/sites/default/files/legacy/dl/UIB-1240A.pdf",
     stateJobsUrl: "https://www.azstatejobs.gov/",
-    minEarnings: "You must have earned at least $7,000 in your base period with wages in at least two quarters.",
+    minEarnings: "You must have earned at least 390 times the state minimum wage (approximately $5,733) in your highest quarter of your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -225,11 +225,11 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Arkansas?",
-        answer: "Arkansas pays up to $481 per week. Your benefit amount is based on your earnings during the base period."
+        answer: "Arkansas pays up to $451 per week. Your benefit amount is based on your earnings during the base period."
       },
       {
         question: "How long can I receive unemployment benefits in Arkansas?",
-        answer: "Arkansas provides benefits for up to 16 weeks, one of the shorter durations in the country."
+        answer: "Arkansas provides benefits for up to 12 weeks, one of the shorter durations in the country."
       },
       {
         question: "Can I file for unemployment online in Arkansas?",
@@ -347,7 +347,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Colorado?",
-        answer: "Colorado pays up to $823 per week. Your benefit amount is 60% of your average weekly wage, up to the maximum."
+        answer: "Colorado pays up to $844 per week. Your benefit amount is 60% of your average weekly wage, up to the maximum."
       },
       {
         question: "How long can I receive unemployment benefits in Colorado?",
@@ -370,7 +370,7 @@ export const states: StateData[] = [
     filingPhone: "1-860-263-6970",
     handbookUrl: "https://www.ctdol.state.ct.us/progsupt/unemplt/claimant-guide/uc-288.pdf",
     stateJobsUrl: "https://www.jobapscloud.com/CT/",
-    minEarnings: "You must have earned at least $600 in your highest quarter and total base period wages of at least 40 times your weekly benefit rate.",
+    minEarnings: "You must have earned at least $1,680 in total base period wages (40 times the minimum weekly benefit rate).",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -399,7 +399,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Connecticut?",
-        answer: "Connecticut pays up to $742 per week including dependents. Base benefit is up to $649."
+        answer: "Connecticut pays up to $721 per week. Your benefit amount depends on your base period earnings."
       },
       {
         question: "Is there a waiting week in Connecticut?",
@@ -452,7 +452,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Delaware?",
-        answer: "Delaware pays up to $400 per week. Your benefit amount depends on your base period earnings."
+        answer: "Delaware pays up to $450 per week. Your benefit amount depends on your base period earnings."
       },
       {
         question: "How long can I receive unemployment benefits in Delaware?",
@@ -617,7 +617,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Hawaii?",
-        answer: "Hawaii pays up to $765 per week — one of the highest in the nation."
+        answer: "Hawaii pays up to $835 per week — one of the highest in the nation."
       },
       {
         question: "How long can I receive unemployment benefits in Hawaii?",
@@ -640,7 +640,7 @@ export const states: StateData[] = [
     filingPhone: "1-208-332-8942",
     handbookUrl: "https://www.labor.idaho.gov/wp-content/uploads/publications/UIClaimant_Booklet.pdf",
     stateJobsUrl: "https://statecareers.idaho.gov/",
-    minEarnings: "You must have earned at least $2,535 in your base period.",
+    minEarnings: "You must have earned at least $1,872 in your highest quarter, with total base period wages of at least 1.25 times your highest quarter, and wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -670,11 +670,11 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Idaho?",
-        answer: "Idaho pays up to $489 per week."
+        answer: "Idaho pays up to $590 per week."
       },
       {
         question: "How long can I receive unemployment benefits in Idaho?",
-        answer: "You can receive benefits for up to 20 weeks, depending on the state unemployment rate."
+        answer: "You can receive benefits for 10 to 26 weeks depending on state unemployment rate and your earnings."
       },
       {
         question: "Can I file for unemployment online in Idaho?",
@@ -724,7 +724,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Illinois?",
-        answer: "Illinois pays up to $707 per week with dependents. The base maximum is $604."
+        answer: "Illinois pays up to $628 per week (base), $748 with a non-working spouse, or $859 with dependent children."
       },
       {
         question: "How long can I receive unemployment benefits in Illinois?",
@@ -777,7 +777,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Indiana?",
-        answer: "Indiana pays up to $390 per week."
+        answer: "Indiana pays up to $445 per week."
       },
       {
         question: "How long can I receive unemployment benefits in Indiana?",
@@ -800,7 +800,7 @@ export const states: StateData[] = [
     filingPhone: "1-866-239-0843",
     handbookUrl: "https://www.iowaworkforcedevelopment.gov/2019-unemployment-insurance-claimant-handbook",
     stateJobsUrl: "https://das.iowa.gov/state-employment",
-    minEarnings: "You must have earned at least $2,890 in your base period with wages in at least two quarters.",
+    minEarnings: "You must have earned at least $1,700 in your highest quarter, with wages in at least two quarters, and total base period wages of at least 1.25 times your highest quarter.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -830,7 +830,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Iowa?",
-        answer: "Iowa pays up to $591 per week with dependents."
+        answer: "Iowa pays up to $763 per week with dependents."
       },
       {
         question: "How long can I receive unemployment benefits in Iowa?",
@@ -853,7 +853,7 @@ export const states: StateData[] = [
     filingPhone: "1-800-292-6333",
     handbookUrl: "https://www.getkansasbenefits.gov/Files/PDF/kbenp0950.pdf",
     stateJobsUrl: "https://admin.ks.gov/offices/personnel-services/jobs",
-    minEarnings: "You must have earned at least $4,539 in your base period.",
+    minEarnings: "You must have wages in at least two quarters and total base period wages of at least 30 times your calculated weekly benefit amount.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -883,7 +883,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Kansas?",
-        answer: "Kansas pays up to $560 per week."
+        answer: "Kansas pays up to $637 per week."
       },
       {
         question: "How long can I receive unemployment benefits in Kansas?",
@@ -906,7 +906,7 @@ export const states: StateData[] = [
     filingPhone: "1-502-875-0442",
     handbookUrl: "https://kcc.ky.gov/career/Documents/PAM400.pdf",
     stateJobsUrl: "https://personnel.ky.gov/Pages/Careers.aspx",
-    minEarnings: "You must have earned at least $3,000 in your base period with wages in at least two quarters.",
+    minEarnings: "You must have earned at least $1,500 in one quarter, plus $1,500 in the remaining three quarters combined, with total base period wages of at least 1.5 times your highest quarter.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -936,7 +936,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Kentucky?",
-        answer: "Kentucky pays up to $569 per week."
+        answer: "Kentucky pays up to $720 per week. Note: Kentucky has a one-week unpaid waiting period before benefits begin."
       },
       {
         question: "How long can I receive unemployment benefits in Kentucky?",
@@ -993,7 +993,7 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive unemployment benefits in Louisiana?",
-        answer: "You can receive benefits for up to 26 weeks."
+        answer: "You can receive benefits for 12-20 weeks (variable based on the state unemployment rate)."
       },
       {
         question: "Can I file for unemployment online in Louisiana?",
@@ -1012,7 +1012,7 @@ export const states: StateData[] = [
     filingPhone: "1-800-593-7660",
     handbookUrl: "https://www.maine.gov/unemployment/docs/2018/UIGuide2018.pdf",
     stateJobsUrl: "https://www.maine.gov/bhr/state-jobs",
-    minEarnings: "You must have earned at least $6,030 in your base period.",
+    minEarnings: "You must have earned at least $7,193 in your base period with wages in at least two quarters.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -1042,7 +1042,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Maine?",
-        answer: "Maine pays up to $535 per week."
+        answer: "Maine pays up to $623 per week."
       },
       {
         question: "How long can I receive unemployment benefits in Maine?",
@@ -1065,7 +1065,7 @@ export const states: StateData[] = [
     filingPhone: "1-410-949-0022",
     handbookUrl: "https://labor.maryland.gov/employment/clmtguide/uiclmtpamphlet.pdf",
     stateJobsUrl: "https://dbm.maryland.gov/jobseekers/pages/jobseekershome.aspx",
-    minEarnings: "You must have earned at least $2,014 in your base period.",
+    minEarnings: "You must have earned at least $1,176.01 in your highest quarter and at least $1,800 in total across at least two quarters of your base period.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -1118,7 +1118,7 @@ export const states: StateData[] = [
     filingPhone: "1-877-626-6800",
     handbookUrl: "https://www.mass.gov/doc/a-guide-to-benefits-and-employment-services/download",
     stateJobsUrl: "https://www.mass.gov/find-your-career-at-the-commonwealth",
-    minEarnings: "You must have earned at least $6,300 in your base period.",
+    minEarnings: "You must have earned at least $3,500 in your base period, plus total earnings of at least 30 times your calculated weekly benefit amount.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -1172,13 +1172,13 @@ export const states: StateData[] = [
     filingPhone: "1-866-500-0017",
     handbookUrl: "https://www.michigan.gov/-/media/Project/Websites/leo/Documents/UIA/Claimant-Forms/UIA-1901.pdf",
     stateJobsUrl: "https://www.michigan.gov/som/job-seekers/state-of-michigan-employment",
-    minEarnings: "You must have earned at least $3,667 in your base period.",
+    minEarnings: "You must have earned at least $5,328 in your highest quarter with total base period wages of at least 1.5 times your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit Michigan.gov to file online through MiWAM", "Create an account", "Provide personal and employment information", "Submit your claim", "Certify biweekly"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Missing biweekly certifications", "Not reporting all income", "Not registering on Pure Michigan Talent Connect", "Waiting too long to file"],
     processingTime: "Claims typically take 2-4 weeks to process.",
-    faq: [{ question: "How much will I receive in Michigan?", answer: "Michigan pays up to $362 per week." }, { question: "How long can I receive benefits in Michigan?", answer: "Up to 20 weeks." }, { question: "Can I file online in Michigan?", answer: "Yes. File through MiWAM at michigan.gov or call 1-866-500-0017." }]
+    faq: [{ question: "How much will I receive in Michigan?", answer: "Michigan pays up to $530 per week. Note: Michigan has a one-week unpaid waiting period before benefits begin." }, { question: "How long can I receive benefits in Michigan?", answer: "Up to 26 weeks." }, { question: "Can I file online in Michigan?", answer: "Yes. File through MiWAM at michigan.gov or call 1-866-500-0017." }]
   },
   {
     name: "Minnesota",
@@ -1191,13 +1191,13 @@ export const states: StateData[] = [
     filingPhone: "1-651-296-3644",
     handbookUrl: "https://www.uimn.org/assets/22c_tcm1068-193111.pdf",
     stateJobsUrl: "https://mn.gov/careers",
-    minEarnings: "You must have earned at least $3,575 in your base period.",
+    minEarnings: "You must have earned at least $3,900 in your base period (approximately 5.3% of the state average annual wage).",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit uimn.org to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "Request payment weekly"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer details for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not requesting payment weekly", "Failing to report earnings", "Not keeping job search logs", "Not responding to requests for information"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Minnesota?", answer: "Minnesota pays up to $857 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at uimn.org or call 1-651-296-3644." }]
+    faq: [{ question: "How much will I receive in Minnesota?", answer: "Minnesota pays up to $948 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at uimn.org or call 1-651-296-3644." }]
   },
   {
     name: "Mississippi",
@@ -1210,7 +1210,7 @@ export const states: StateData[] = [
     filingPhone: "1-888-844-3577",
     handbookUrl: "https://mdes.ms.gov/unemployment-claims/benefit-information/",
     stateJobsUrl: "https://www.mspb.ms.gov/",
-    minEarnings: "You must have earned at least $1,200 in your base period.",
+    minEarnings: "You must have earned at least $780 in your highest quarter with wages in at least two quarters of your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit mdes.ms.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
@@ -1229,7 +1229,7 @@ export const states: StateData[] = [
     filingPhone: "1-800-320-2519",
     handbookUrl: "https://labor.mo.gov/media/22111/download",
     stateJobsUrl: "https://mocareers.mo.gov/",
-    minEarnings: "You must have earned at least $3,500 in your base period with at least $1,750 in two different quarters.",
+    minEarnings: "You must have earned at least $2,250 in your base period, with at least $1,500 in one quarter and $750 in the remaining quarters. Total wages must be at least 1.5 times your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit labor.mo.gov to file online", "Create an account", "Provide personal and employment details", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
@@ -1248,13 +1248,13 @@ export const states: StateData[] = [
     filingPhone: "1-406-444-2545",
     handbookUrl: "https://uid.dli.mt.gov/Portals/55/Documents/Claims-Processing/dli-uid-cl001.pdf",
     stateJobsUrl: "https://statecareers.mt.gov/",
-    minEarnings: "You must have earned at least $2,000 in your base period.",
+    minEarnings: "You must have base period wages of at least 1.5 times your highest quarter wages and at least 7% of the state average annual wage.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit uid.dli.mt.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer details for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not documenting job searches"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Montana?", answer: "Montana pays up to $594 per week." }, { question: "How long can I receive benefits?", answer: "Up to 28 weeks — one of the longest in the nation." }, { question: "Can I file online?", answer: "Yes. File at uid.dli.mt.gov or call 1-406-444-2545." }]
+    faq: [{ question: "How much will I receive in Montana?", answer: "Montana pays up to $698 per week." }, { question: "How long can I receive benefits?", answer: "Up to 20 weeks." }, { question: "Can I file online?", answer: "Yes. File at uid.dli.mt.gov or call 1-406-444-2545." }]
   },
   {
     name: "Nebraska",
@@ -1267,13 +1267,13 @@ export const states: StateData[] = [
     filingPhone: "1-402-458-2500",
     handbookUrl: "https://www.dol.nebraska.gov/webdocs/Resources/Items/ClaimantGuide_1-9-18.pdf",
     stateJobsUrl: "https://statejobs.nebraska.gov/",
-    minEarnings: "You must have earned at least $4,581 in your base period.",
+    minEarnings: "You must have earned at least $5,440 in your base period, with at least $1,850 in one quarter and $800 in another.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit NEworks.nebraska.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Waiting to file", "Missing weekly certifications", "Not reporting earnings", "Not registering on NEworks"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Nebraska?", answer: "Nebraska pays up to $512 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at NEworks.nebraska.gov or call 1-402-458-2500." }]
+    faq: [{ question: "How much will I receive in Nebraska?", answer: "Nebraska pays up to $582 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at NEworks.nebraska.gov or call 1-402-458-2500." }]
   },
   {
     name: "Nevada",
@@ -1286,13 +1286,13 @@ export const states: StateData[] = [
     filingPhone: "1-702-486-0350",
     handbookUrl: "https://ui.nv.gov/PDFs/UI_Claimants_Handbook.pdf",
     stateJobsUrl: "https://nvjobs.nv.gov/",
-    minEarnings: "You must have earned at least $600 in your highest quarter.",
+    minEarnings: "You must have earned at least $400 in your highest quarter. Total base period wages must be at least 1.5 times your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit ui.nv.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer details for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not maintaining job search documentation"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Nevada?", answer: "Nevada pays up to $493 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at ui.nv.gov or call 1-702-486-0350." }]
+    faq: [{ question: "How much will I receive in Nevada?", answer: "Nevada pays up to $469 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at ui.nv.gov or call 1-702-486-0350." }]
   },
   {
     name: "New Hampshire",
@@ -1311,7 +1311,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Waiting to file", "Missing weekly certifications", "Not reporting earnings", "Not documenting job searches"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in New Hampshire?", answer: "New Hampshire pays up to $427 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at nhes.nh.gov or call 1-603-271-7700." }]
+    faq: [{ question: "How much will I receive in New Hampshire?", answer: "New Hampshire pays up to $427 per week. Note: New Hampshire has a one-week waiting period before benefits begin." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at nhes.nh.gov or call 1-603-271-7700." }]
   },
   {
     name: "New Jersey",
@@ -1343,13 +1343,13 @@ export const states: StateData[] = [
     filingPhone: "1-877-664-6984",
     handbookUrl: "https://www.dws.state.nm.us/Portals/0/DM/UI/UI_Handbook_052015.pdf",
     stateJobsUrl: "https://careers.share.nm.gov/",
-    minEarnings: "You must have earned at least $2,314 in your highest quarter and total base period wages of at least 1.5 times your highest quarter.",
+    minEarnings: "You must have earned at least $2,090 in total base period wages with wages in at least two quarters.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit jobs.state.nm.us to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer details for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Waiting to file", "Missing weekly certifications", "Not reporting all income", "Not maintaining job search logs"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in New Mexico?", answer: "New Mexico pays up to $511 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at jobs.state.nm.us or call 1-877-664-6984." }]
+    faq: [{ question: "How much will I receive in New Mexico?", answer: "New Mexico pays up to $598 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at jobs.state.nm.us or call 1-877-664-6984." }]
   },
   {
     name: "New York",
@@ -1362,7 +1362,7 @@ export const states: StateData[] = [
     filingPhone: "1-888-209-8124",
     handbookUrl: "https://dol.ny.gov/system/files/documents/2026/01/ui-claimant-handbook_1-26.pdf",
     stateJobsUrl: "https://statejobs.ny.gov/public/vacancytable.cfm",
-    minEarnings: "You must have earned at least $3,200 in your highest quarter and total wages of at least 1.5 times your highest quarter.",
+    minEarnings: "You must have earned at least $3,400 in your highest quarter and total wages of at least 1.5 times your highest quarter.",
     eligibility: [
       "You must be unemployed through no fault of your own",
       "You must have earned enough wages during your base period",
@@ -1422,7 +1422,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing immediately", "Missing weekly certifications", "Not meeting work search requirements", "Failing to report earnings"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in North Carolina?", answer: "North Carolina pays up to $350 per week." }, { question: "How long can I receive benefits?", answer: "Up to 12 weeks — tied with Florida for the shortest in the nation." }, { question: "Can I file online?", answer: "Yes. File at des.nc.gov or call 1-888-737-0259." }]
+    faq: [{ question: "How much will I receive in North Carolina?", answer: "North Carolina pays up to $450 per week." }, { question: "How long can I receive benefits?", answer: "Up to 12 weeks — tied with Florida for the shortest in the nation." }, { question: "Can I file online?", answer: "Yes. File at des.nc.gov or call 1-888-737-0259." }]
   },
   {
     name: "North Dakota",
@@ -1441,7 +1441,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not documenting job searches"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in North Dakota?", answer: "North Dakota pays up to $673 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at jobsnd.com or call 1-701-328-4995." }]
+    faq: [{ question: "How much will I receive in North Dakota?", answer: "North Dakota pays up to $786 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at jobsnd.com or call 1-701-328-4995." }]
   },
   {
     name: "Ohio",
@@ -1454,13 +1454,13 @@ export const states: StateData[] = [
     filingPhone: "1-877-644-6562",
     handbookUrl: "https://www.odjfs.state.oh.us/forms/num/JFS22758/pdf/",
     stateJobsUrl: "https://careers.ohio.gov/",
-    minEarnings: "You must have earned at least $3,080 in your base period.",
+    minEarnings: "You must have worked at least 20 weeks and earned an average of at least $352 per week during your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit unemployment.ohio.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not registering on OhioMeansJobs"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Ohio?", answer: "Ohio pays up to $574 per week with dependents." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at unemployment.ohio.gov or call 1-877-644-6562." }]
+    faq: [{ question: "How much will I receive in Ohio?", answer: "Ohio pays up to $600 per week (up to $842 with dependents)." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at unemployment.ohio.gov or call 1-877-644-6562." }]
   },
   {
     name: "Oklahoma",
@@ -1479,7 +1479,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not completing work search requirements"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Oklahoma?", answer: "Oklahoma pays up to $539 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at unemployment.state.ok.us or call 1-405-525-1500." }]
+    faq: [{ question: "How much will I receive in Oklahoma?", answer: "Oklahoma pays up to $649 per week." }, { question: "How long can I receive benefits?", answer: "Up to 16 weeks." }, { question: "Can I file online?", answer: "Yes. File at unemployment.state.ok.us or call 1-405-525-1500." }]
   },
   {
     name: "Oregon",
@@ -1498,7 +1498,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not maintaining job search documentation"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Oregon?", answer: "Oregon pays up to $733 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at unemployment.oregon.gov or call 1-877-345-3484." }]
+    faq: [{ question: "How much will I receive in Oregon?", answer: "Oregon pays up to $872 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at unemployment.oregon.gov or call 1-877-345-3484." }]
   },
   {
     name: "Pennsylvania",
@@ -1511,13 +1511,13 @@ export const states: StateData[] = [
     filingPhone: "1-888-313-7284",
     handbookUrl: "https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucp-forms/ucp-1.pdf",
     stateJobsUrl: "https://careers.employment.pa.gov/",
-    minEarnings: "You must have earned at least $116 in your highest quarter and total base period earnings of at least $1,688.",
+    minEarnings: "You must have earned at least $116 per week for at least 18 credit weeks, with total base period wages of at least $2,900. At least 37% of wages must come from outside your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit uc.pa.gov to file online", "Create a Keystone ID account", "Provide personal and employment information", "Submit your claim", "File biweekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing within the first week", "Missing biweekly certifications", "Not reporting all earnings", "Not registering on PA CareerLink"],
     processingTime: "Claims typically take 2-4 weeks to process.",
-    faq: [{ question: "How much will I receive in Pennsylvania?", answer: "Pennsylvania pays up to $607 per week with dependents." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at uc.pa.gov or call 1-888-313-7284." }]
+    faq: [{ question: "How much will I receive in Pennsylvania?", answer: "Pennsylvania pays up to $605 per week with dependents." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at uc.pa.gov or call 1-888-313-7284." }]
   },
   {
     name: "Rhode Island",
@@ -1530,13 +1530,13 @@ export const states: StateData[] = [
     filingPhone: "1-401-243-9100",
     handbookUrl: "https://dlt.ri.gov/ui/pdfs/UIGuide.pdf",
     stateJobsUrl: "https://www.ri.gov/employment/",
-    minEarnings: "You must have earned at least $4,200 in your base period.",
+    minEarnings: "You must have earned at least $13,800 in your base period, or at least $2,450 in one quarter with additional wage requirements.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit dlt.ri.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not documenting job searches"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Rhode Island?", answer: "Rhode Island pays up to $705 per week with dependents." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at dlt.ri.gov or call 1-401-243-9100." }]
+    faq: [{ question: "How much will I receive in Rhode Island?", answer: "Rhode Island pays up to $745 per week (up to $931 with dependents)." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at dlt.ri.gov or call 1-401-243-9100." }]
   },
   {
     name: "South Carolina",
@@ -1555,7 +1555,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing immediately", "Missing weekly certifications", "Not meeting work search requirements", "Failing to report earnings"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in South Carolina?", answer: "South Carolina pays up to $326 per week." }, { question: "How long can I receive benefits?", answer: "Up to 20 weeks." }, { question: "Can I file online?", answer: "Yes. File at dew.sc.gov or call 1-866-831-1724." }]
+    faq: [{ question: "How much will I receive in South Carolina?", answer: "South Carolina pays up to $350 per week." }, { question: "How long can I receive benefits?", answer: "Up to 20 weeks." }, { question: "Can I file online?", answer: "Yes. File at dew.sc.gov or call 1-866-831-1724." }]
   },
   {
     name: "South Dakota",
@@ -1568,13 +1568,13 @@ export const states: StateData[] = [
     filingPhone: "1-605-626-2452",
     handbookUrl: "https://dlr.sd.gov/ra/publications/pam247.pdf",
     stateJobsUrl: "https://bhr.sd.gov/job-seekers/",
-    minEarnings: "You must have earned at least $2,228 in your highest quarter.",
+    minEarnings: "You must have earned at least $728 in your highest quarter of your base period.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit dlr.sd.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not keeping job search records"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in South Dakota?", answer: "South Dakota pays up to $461 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at dlr.sd.gov or call 1-605-626-2452." }]
+    faq: [{ question: "How much will I receive in South Dakota?", answer: "South Dakota pays up to $553 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at dlr.sd.gov or call 1-605-626-2452." }]
   },
   {
     name: "Tennessee",
@@ -1593,7 +1593,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing immediately", "Missing weekly certifications", "Not reporting earnings", "Not registering for job search on Jobs4TN"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Tennessee?", answer: "Tennessee pays up to $275 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at jobs4tn.gov or call 1-844-224-5818." }]
+    faq: [{ question: "How much will I receive in Tennessee?", answer: "Tennessee pays up to $325 per week." }, { question: "How long can I receive benefits?", answer: "Up to 12 weeks (may increase up to 20 weeks if the state unemployment rate rises above 5.5%)." }, { question: "Can I file online?", answer: "Yes. File at jobs4tn.gov or call 1-844-224-5818." }]
   },
   {
     name: "Texas",
@@ -1643,7 +1643,7 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive unemployment benefits in Texas?",
-        answer: "You can receive benefits for up to 26 weeks. Texas does not have a waiting week — you can receive payment starting from your first eligible week."
+        answer: "You can receive benefits for up to 26 weeks. Texas has a waiting week — the first payable week of your claim is held back and not paid."
       },
       {
         question: "Can I file for unemployment online in Texas?",
@@ -1670,13 +1670,13 @@ export const states: StateData[] = [
     filingPhone: "1-801-526-9235",
     handbookUrl: "https://jobs.utah.gov/ui/jobseeker/ClaimantGuide.pdf",
     stateJobsUrl: "https://www.utah.gov/employment/",
-    minEarnings: "You must have earned enough wages in your base period as determined by Utah guidelines.",
+    minEarnings: "You must have earned at least $5,500 in total base period wages, with wages in at least two quarters and total wages of at least 1.5 times your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit jobs.utah.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not registering on jobs.utah.gov"],
     processingTime: "Claims typically take 1-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Utah?", answer: "Utah pays up to $668 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at jobs.utah.gov or call 1-801-526-9235." }]
+    faq: [{ question: "How much will I receive in Utah?", answer: "Utah pays up to $806 per week. Note: Utah has a one-week waiting period before benefits begin." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at jobs.utah.gov or call 1-801-526-9235." }]
   },
   {
     name: "Vermont",
@@ -1695,7 +1695,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not keeping job search records"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Vermont?", answer: "Vermont pays up to $594 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at labor.vermont.gov or call 1-877-214-3330." }]
+    faq: [{ question: "How much will I receive in Vermont?", answer: "Vermont pays up to $705 per week. There is no waiting week — benefits begin immediately." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at labor.vermont.gov or call 1-877-214-3330." }]
   },
   {
     name: "Virginia",
@@ -1714,7 +1714,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing immediately", "Missing weekly certifications", "Not reporting earnings", "Not registering on Virginia Workforce Connection"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Virginia?", answer: "Virginia pays up to $378 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at vec.virginia.gov or call 1-866-832-2363." }]
+    faq: [{ question: "How much will I receive in Virginia?", answer: "Virginia pays up to $430 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at vec.virginia.gov or call 1-866-832-2363." }]
   },
   {
     name: "Washington",
@@ -1786,7 +1786,7 @@ export const states: StateData[] = [
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not maintaining job search records"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in West Virginia?", answer: "West Virginia pays up to $424 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at workforcewv.org or call 1-800-252-5627." }]
+    faq: [{ question: "How much will I receive in West Virginia?", answer: "West Virginia pays up to $662 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at workforcewv.org or call 1-800-252-5627." }]
   },
   {
     name: "Wisconsin",
@@ -1818,13 +1818,13 @@ export const states: StateData[] = [
     filingPhone: "1-307-473-3789",
     handbookUrl: "https://www.wyomingworkforce.org/_docs/ui/Wyoming-Claimant-Guidebook.pdf",
     stateJobsUrl: "https://ai.wyo.gov/for-job-seekers",
-    minEarnings: "You must have earned enough wages in your base period as determined by Wyoming guidelines.",
+    minEarnings: "You must have earned at least 8% of the statewide average annual wage in your base period, with wages in at least two quarters and total wages of at least 1.4 times your highest quarter.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit the Wyoming DOE website to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "File weekly certifications"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit"],
     commonMistakes: ["Not filing promptly", "Missing weekly certifications", "Not reporting earnings", "Not keeping job search records"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in Wyoming?", answer: "Wyoming pays up to $580 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. Visit the Wyoming DOE website or call 1-307-473-3789." }]
+    faq: [{ question: "How much will I receive in Wyoming?", answer: "Wyoming pays up to $651 per week." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. Visit the Wyoming DOE website or call 1-307-473-3789." }]
   }
 ];
 
