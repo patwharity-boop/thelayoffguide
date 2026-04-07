@@ -49,9 +49,6 @@ export default function RootLayout({
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 All States
               </Link>
-              <Link href="/compare" className="text-gray-600 hover:text-gray-900">
-                Compare
-              </Link>
               <Link href="/blog" className="text-gray-600 hover:text-gray-900">
                 Blog
               </Link>
