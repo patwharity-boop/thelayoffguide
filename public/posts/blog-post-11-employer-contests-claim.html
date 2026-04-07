@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What to Do When Your Employer Contests Your Unemployment Claim - The Layoff Guide</title>
+    <meta name="description" content="Your employer contested your unemployment claim. Here's exactly what happens next, how to build your case, and how to win.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            color: #2c2c3e;
+            line-height: 1.7;
+            background-color: #fafafa;
+        }
+
+        /* Navigation */
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #1a1a2e;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .site-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .site-nav span {
+            color: #4ecdc4;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 500px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #0d9488 100%),
+                        url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1400&q=80') center/cover;
+            background-blend-mode: overlay;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 700px;
+            padding: 2rem;
+        }
+
+        .hero-category {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #4ecdc4;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .hero-meta {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Article Container */
+        .article-container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            background: white;
+        }
+
+        /* Article Header with Author */
+        .article-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .author-avatar {
+            width: 80px;
+            height: 80px;
+            background-color: #4ecdc4;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .author-info {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .author-name {
+            font-weight: 600;
+            color: #1a1a2e;
+            font-size: 1rem;
+        }
+
+        .author-title {
+            color: #555;
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+
+        /* Article Content */
+        .article-content h2 {
+            font-size: 1.8rem;
+            color: #1a1a2e;
+            margin: 2.5rem 0 1.5rem 0;
+            line-height: 1.3;
+        }
+
+        .article-content h3 {
+            font-size: 1.3rem;
+            color: #1a1a2e;
+            margin: 1.5rem 0 1rem 0;
+            font-weight: 700;
+        }
+
+        .article-content p {
+            margin-bottom: 1.3rem;
+            color: #444;
+        }
+
+        .article-content > p:first-of-type::first-letter {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #4ecdc4;
+            margin-right: 0.1em;
+            line-height: 1;
+        }
+
+        /* Pull Quotes */
+        .pull-quote {
+            border-left: 4px solid #4ecdc4;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            background-color: #f5f5f5;
+            font-style: italic;
+            color: #1a1a2e;
+            font-size: 1.1rem;
+        }
+
+        /* Reason Cards */
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .reason-card {
+            background: linear-gradient(135deg, #f5f5f5 0%, white 100%);
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .reason-card h3 {
+            font-size: 1.1rem;
+            margin: 0 0 1rem 0;
+            color: #1a1a2e;
+        }
+
+        .reason-card p {
+            font-size: 0.95rem;
+            color: #555;
+            margin: 0;
+        }
+
+        /* Timeline/Step Flow */
+        .timeline {
+            margin: 2.5rem 0;
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 40px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #4ecdc4;
+        }
+
+        .timeline-step {
+            margin-bottom: 2rem;
+            padding-left: 120px;
+            position: relative;
+        }
+
+        .timeline-step::before {
+            content: attr(data-step);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 80px;
+            height: 80px;
+            background-color: #4ecdc4;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .timeline-step h3 {
+            font-size: 1.1rem;
+            color: #1a1a2e;
+            margin: 0 0 0.5rem 0;
+        }
+
+        .timeline-step p {
+            color: #555;
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        /* Checklist */
+        .checklist {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .checklist-item:last-child {
+            border-bottom: none;
+        }
+
+        .checklist-checkbox {
+            width: 24px;
+            height: 24px;
+            min-width: 24px;
+            border: 2px solid #0d9488;
+            border-radius: 4px;
+            margin-top: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background: white;
+        }
+
+        .checklist-checkbox::after {
+            content: '✓';
+            color: #0d9488;
+            font-weight: bold;
+            font-size: 1rem;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .checklist-item input[type="checkbox"] {
+            display: none;
+        }
+
+        .checklist-item input[type="checkbox"]:checked + .checklist-checkbox {
+            background-color: #0d9488;
+        }
+
+        .checklist-item input[type="checkbox"]:checked + .checklist-checkbox::after {
+            opacity: 1;
+            color: white;
+        }
+
+        .checklist-label {
+            cursor: pointer;
+            flex: 1;
+        }
+
+        .checklist-label strong {
+            color: #1a1a2e;
+            font-weight: 600;
+        }
+
+        .checklist-label span {
+            display: block;
+            color: #555;
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+
+        /* Rights Boxes */
+        .rights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .rights-box {
+            background: white;
+            border: 2px solid #4ecdc4;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .rights-box-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .rights-box h3 {
+            font-size: 0.95rem;
+            color: #1a1a2e;
+            margin: 0;
+        }
+
+        /* Tactic/Counter Cards */
+        .tactics-container {
+            margin: 2rem 0;
+        }
+
+        .tactic-pair {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tactic-card {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .tactic-card.employer {
+            background: #fee8e8;
+            border: 1px solid #ffcccc;
+        }
+
+        .tactic-card.counter {
+            background: #e8f8f5;
+            border: 1px solid #ccf0e8;
+        }
+
+        .tactic-header {
+            padding: 1rem;
+            font-weight: 700;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .tactic-card.employer .tactic-header {
+            background-color: #d32f2f;
+            color: white;
+        }
+
+        .tactic-card.counter .tactic-header {
+            background-color: #0d9488;
+            color: white;
+        }
+
+        .tactic-content {
+            padding: 1rem;
+            font-size: 0.95rem;
+            color: #2c2c3e;
+        }
+
+        /* Success Stat Box */
+        .success-stat {
+            background: linear-gradient(135deg, #1a1a2e 0%, #4ecdc4 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 2.5rem;
+            text-align: center;
+            margin: 2.5rem 0;
+        }
+
+        .success-stat h3 {
+            color: #4ecdc4;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+
+        .success-stat .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .success-stat p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        /* Do/Don't Split Cards */
+        .do-dont-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .do-card {
+            border-left: 4px solid #0d9488;
+            background: #f0fdfb;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .dont-card {
+            border-left: 4px solid #d32f2f;
+            background: #fef5f5;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .do-card h3,
+        .dont-card h3 {
+            font-size: 1.1rem;
+            margin: 0 0 1rem 0;
+        }
+
+        .do-card h3 {
+            color: #0d9488;
+        }
+
+        .dont-card h3 {
+            color: #d32f2f;
+        }
+
+        .do-card ul,
+        .dont-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .do-card li,
+        .dont-card li {
+            padding: 0.5rem 0;
+            color: #444;
+            font-size: 0.95rem;
+        }
+
+        .do-card li::before {
+            content: '✓ ';
+            color: #0d9488;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .dont-card li::before {
+            content: '✗ ';
+            color: #d32f2f;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        /* CTA Box */
+        .cta-box {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0d9488 100%);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin: 3rem 0 2rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        .cta-box h2 {
+            color: white;
+            margin: 0 0 1rem 0;
+        }
+
+        .cta-box p {
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 0.9rem 1.8rem;
+            background-color: #4ecdc4;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            border: 2px solid #4ecdc4;
+        }
+
+        .cta-button:hover {
+            background-color: transparent;
+            color: #4ecdc4;
+        }
+
+        .cta-button.secondary {
+            background-color: transparent;
+            color: white;
+            border-color: white;
+        }
+
+        .cta-button.secondary:hover {
+            background-color: white;
+            color: #1a1a2e;
+        }
+
+        /* Resource Box */
+        .resource-box {
+            background: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .resource-box h3 {
+            margin-top: 0;
+        }
+
+        .resource-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .resource-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .resource-item strong {
+            color: #1a1a2e;
+        }
+
+        .resource-item a {
+            color: #4ecdc4;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .resource-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .site-footer {
+            background-color: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+        }
+
+        .site-footer a {
+            color: #4ecdc4;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .site-footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .article-container {
+                padding: 2rem 1.5rem;
+            }
+
+            .reasons-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-step {
+                padding-left: 100px;
+            }
+
+            .timeline-step::before {
+                width: 60px;
+                height: 60px;
+                font-size: 1.2rem;
+            }
+
+            .tactic-pair {
+                grid-template-columns: 1fr;
+            }
+
+            .do-dont-container {
+                grid-template-columns: 1fr;
+            }
+
+            .rights-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .cta-button {
+                width: 100%;
+            }
+
+            .article-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .site-nav {
+                padding: 1rem;
+            }
+
+            .site-nav a {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-meta {
+                font-size: 0.85rem;
+            }
+
+            .article-content h2 {
+                font-size: 1.4rem;
+            }
+
+            .success-stat .stat-number {
+                font-size: 2.5rem;
+            }
+
+            .timeline-step {
+                padding-left: 90px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <a href="https://www.thelayoffguide.com">The<span>Layoff</span>Guide</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-category">Unemployment Insurance</div>
+            <h1>What to Do When Your Employer Contests Your Unemployment Claim</h1>
+            <div class="hero-meta">April 7, 2026 · 11 min read</div>
+        </div>
+    </div>
+
+    <!-- Article Container -->
+    <div class="article-container">
+        <!-- Article Header with Author -->
+        <div class="article-header">
+            <div class="author-avatar">TLG</div>
+            <div class="author-info">
+                <div class="author-name">The Layoff Guide</div>
+                <div class="author-title">Career & Benefits Resource</div>
+            </div>
+        </div>
+
+        <!-- Article Content -->
+        <div class="article-content">
+            <!-- Opening -->
+            <p>Don't panic. Your employer contested your unemployment claim. That sounds serious, I know—but here's what most people don't realize: it's incredibly common, and employers do this for reasons that often have nothing to do with you personally.</p>
+
+            <p>The truth is, when you file for unemployment, your employer's insurance premiums are at risk. They know this. So some companies have a blanket policy to contest <em>every</em> claim, hoping people will give up. Others genuinely dispute the circumstances. Either way, you have more power than you think. This is a process you can absolutely win—and I'm going to walk you through exactly how.</p>
+
+            <!-- Why Employers Contest -->
+            <h2>Why Employers Contest Claims</h2>
+
+            <p>Understanding the "why" helps you prepare the "what." Let's break down the three main reasons employers challenge unemployment claims:</p>
+
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3>Tax Savings</h3>
+                    <p>When you collect unemployment benefits, your employer's UI tax rate increases. They're trying to reduce their future costs by disputing the claim.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Misconduct Allegations</h3>
+                    <p>They believe you were fired for cause—whether that's theft, insubordination, performance issues, or policy violations—and want to block your benefits.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Blanket Policy</h3>
+                    <p>Some companies contest every single claim as a matter of policy, hoping claimants will abandon the process. It's a numbers game for them.</p>
+                </div>
+            </div>
+
+            <div class="pull-quote">
+                "The fact that your employer contested doesn't mean they have a strong case. It means they're protecting their bottom line."
+            </div>
+
+            <!-- The Process -->
+            <h2>The Process: What Happens Next</h2>
+
+            <p>Here's the sequence of events after a contest. It can feel overwhelming if you don't know what to expect, but each step is manageable.</p>
+
+            <div class="timeline">
+                <div class="timeline-step" data-step="1">
+                    <h3>You Filed → State Notifies Employer</h3>
+                    <p>Your state unemployment agency sends your employer notice of your claim. They have 10 business days to respond with a written contest. Silence = they accept the claim.</p>
+                </div>
+
+                <div class="timeline-step" data-step="2">
+                    <h3>Fact-Finding Interview</h3>
+                    <p>The state usually contacts you (and sometimes the employer) for a phone interview to gather facts. This is informal—just answer honestly and clearly. It's often conducted over a call, not in person.</p>
+                </div>
+
+                <div class="timeline-step" data-step="3">
+                    <h3>Initial Determination Issued</h3>
+                    <p>The state makes a decision based on what they've learned. You either win and benefits start, or you're denied. Both you and the employer receive written notice.</p>
+                </div>
+
+                <div class="timeline-step" data-step="4">
+                    <h3>Appeal Hearing (If Needed)</h3>
+                    <p>If either side disagrees, you can appeal. You'll have a formal hearing before an Administrative Law Judge (ALJ). This is where you present evidence and witnesses. Legal representation is allowed.</p>
+                </div>
+
+                <div class="timeline-step" data-step="5">
+                    <h3>Written Decision → Further Appeal</h3>
+                    <p>The ALJ issues a written decision. If you still disagree, most states allow a final appeal to an appeals board. Very few cases go this far, but it's an option.</p>
+                </div>
+            </div>
+
+            <!-- Evidence Checklist -->
+            <h2>Your Evidence Checklist</h2>
+
+            <p>Now for the critical part: gathering evidence. This is where you win or lose. Start collecting these items immediately. Check them off as you find them.</p>
+
+            <div class="checklist">
+                <label class="checklist-item">
+                    <input type="checkbox">
+                    <span class="checklist-checkbox"></span>
+                    <span class="checklist-label">
+                        <strong>Offer Letter & Employment Contract</strong>
+                        <span>Establishes the terms of your employment and proves you were hired.</span>
+                    </span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox">
+                    <span class="checklist-checkbox"></span>
+                    <span class="checklist-label">
+                        <strong>Performance Reviews (Especially Positive Ones)</strong>
+                        <span>Directly contradicts "misconduct" claims. Recent positive reviews are gold.</span>
+                    </span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox">
+                    <span class="checklist-checkbox"></span>
+                    <span class="checklist-label">
+                        <strong>Emails & Communications with Management</strong>
+                        <span>Anything showing your working relationship, assignments, feedback, or agreements.</span>
+                    </span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox">
+                    <span class="checklist-checkbox"></span>
+                    <span class="checklist-label">
+                        <strong>Employee Handbook & Policy Manual</strong>
+                        <span>Proves what rules existed and what you were told about them.</span>
+                    </span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox">
+                    <span class="checklist-checkbox"></span>
+                    <span class="checklist-label">
+                        <strong>Written Warnings or Disciplinary Notices</strong>
+                        <span>If you received any, save them. If you didn't—the absence matters. Shows gradual escalation or lack thereof.</span>
+                    </span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox">
+                    <span class="checklist-checkbox"></span>
+                    <span class="checklist-label">
+                        <strong>Witness Statements from Colleagues</strong>
+                        <span>Written statements from former coworkers who can vouch for your work quality or the facts of your termination.</span>
+                    </span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox">
+                    <span class="checklist-checkbox"></span>
+                    <span class="checklist-label">
+                        <strong>Pay Stubs & Compensation Records</strong>
+                        <span>Proves employment duration, wages, and that you worked as expected.</span>
+                    </span>
+                </label>
+            </div>
+
+            <!-- Know Your Rights -->
+            <h2>Know Your Rights</h2>
+
+            <p>You have more legal protections than you might think. Here's what you're entitled to:</p>
+
+            <div class="rights-grid">
+                <div class="rights-box">
+                    <div class="rights-box-icon">🗣️</div>
+                    <h3>Right to Testify</h3>
+                </div>
+
+                <div class="rights-box">
+                    <div class="rights-box-icon">📋</div>
+                    <h3>Right to Present Evidence & Witnesses</h3>
+                </div>
+
+                <div class="rights-box">
+                    <div class="rights-box-icon">⚖️</div>
+                    <h3>Right to Cross-Examine Employer's Witnesses</h3>
+                </div>
+
+                <div class="rights-box">
+                    <div class="rights-box-icon">⚗️</div>
+                    <h3>Right to Legal Representation</h3>
+                </div>
+
+                <div class="rights-box">
+                    <div class="rights-box-icon">💰</div>
+                    <h3>Right to Payment During Appeals</h3>
+                </div>
+
+                <div class="rights-box">
+                    <div class="rights-box-icon">📖</div>
+                    <h3>Informal Hearing Rules</h3>
+                </div>
+            </div>
+
+            <p>That last one is huge: unemployment hearings are <em>informal</em>. They're not court. Rules of evidence are relaxed. You don't need a lawyer (though one helps). You won't be treated like a criminal defendant. The judge is trying to determine what actually happened, not trap you.</p>
+
+            <!-- Common Employer Tactics -->
+            <h2>Common Employer Tactics (And How to Beat Them)</h2>
+
+            <p>Employers often use predictable arguments. Here are the most common ones and exactly how to counter them:</p>
+
+            <div class="tactics-container">
+                <div class="tactic-pair">
+                    <div class="tactic-card employer">
+                        <div class="tactic-header">Employer Claim</div>
+                        <div class="tactic-content">
+                            <strong>"They quit."</strong> They claim you resigned or abandoned your job.
+                        </div>
+                    </div>
+                    <div class="tactic-card counter">
+                        <div class="tactic-header">Your Counter</div>
+                        <div class="tactic-content">
+                            <strong>Document conditions.</strong> Show emails about unreasonable demands, unsafe conditions, or harassment. Prove you were pushed out, not that you left.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tactic-pair">
+                    <div class="tactic-card employer">
+                        <div class="tactic-header">Employer Claim</div>
+                        <div class="tactic-content">
+                            <strong>"They committed misconduct."</strong> Theft, insubordination, poor performance, policy violations.
+                        </div>
+                    </div>
+                    <div class="tactic-card counter">
+                        <div class="tactic-header">Your Counter</div>
+                        <div class="tactic-content">
+                            <strong>Burden of proof is on them.</strong> Show positive performance reviews, emails from managers praising your work, and lack of documented warnings.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tactic-pair">
+                    <div class="tactic-card employer">
+                        <div class="tactic-header">Employer Claim</div>
+                        <div class="tactic-content">
+                            <strong>"They were a contractor, not an employee."</strong> Misclassification to avoid paying UI.
+                        </div>
+                    </div>
+                    <div class="tactic-card counter">
+                        <div class="tactic-header">Your Counter</div>
+                        <div class="tactic-content">
+                            <strong>Show employee status.</strong> Present your W-2, company equipment, set schedule, manager supervision, and integrated work. Contractors are independent.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tactic-pair">
+                    <div class="tactic-card employer">
+                        <div class="tactic-header">Employer Claim</div>
+                        <div class="tactic-content">
+                            <strong>"Their story has changed."</strong> Point out any inconsistencies in your account.
+                        </div>
+                    </div>
+                    <div class="tactic-card counter">
+                        <div class="tactic-header">Your Counter</div>
+                        <div class="tactic-content">
+                            <strong>Point out their contradictions.</strong> Show inconsistencies in their own documents, prior statements, or witness testimony. Their case is weaker than yours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Success Stats -->
+            <div class="success-stat">
+                <h3>The Numbers Are In Your Favor</h3>
+                <div class="stat-number">28.7%</div>
+                <p>That's the national rate for claimants who win their first appeal. But for job separation cases specifically, the number jumps to 70%. And with legal representation? 88% win rate.</p>
+            </div>
+
+            <!-- Get Legal Help -->
+            <h2>Get Free Legal Help</h2>
+
+            <p>You don't have to do this alone, and legal representation genuinely improves your odds. Here are your best resources for free or low-cost help:</p>
+
+            <div class="resource-box">
+                <div class="resource-item">
+                    <strong><a href="https://www.lawhelp.org">LawHelp.org</a></strong>
+                    <p>Enter your income and state. Find vetted legal aid organizations and unemployment law specialists near you.</p>
+                </div>
+
+                <div class="resource-item">
+                    <strong><a href="https://www.unemploymentlawproject.org">Unemployment Law Project</a></strong>
+                    <p>Free representation if you're in Washington state. If you're elsewhere, their site has excellent resources and guidance.</p>
+                </div>
+
+                <div class="resource-item">
+                    <strong>Your State Bar Association</strong>
+                    <p>Search "[your state] bar association pro bono." Many states have free lawyer referral programs for low-income people.</p>
+                </div>
+
+                <div class="resource-item">
+                    <strong>Your State's Unemployment Agency</strong>
+                    <p>Many states offer lawyer matching or list approved representatives. Check your state's unemployment website for resources.</p>
+                </div>
+            </div>
+
+            <!-- Hearing Day Tips -->
+            <h2>Hearing Day Tips</h2>
+
+            <p>The hearing itself is the final turning point. Here's what to do and what to avoid:</p>
+
+            <div class="do-dont-container">
+                <div class="do-card">
+                    <h3>✓ DO</h3>
+                    <ul>
+                        <li>Arrive early (at least 15 minutes)</li>
+                        <li>Have all documents organized and ready</li>
+                        <li>Stay calm and speak clearly</li>
+                        <li>Stick to facts, not emotions</li>
+                        <li>Answer questions directly and concisely</li>
+                        <li>Bring printed copies for the judge</li>
+                        <li>Listen carefully to questions before responding</li>
+                    </ul>
+                </div>
+
+                <div class="dont-card">
+                    <h3>✗ DON'T</h3>
+                    <ul>
+                        <li>Argue with the judge</li>
+                        <li>Badmouth your employer unnecessarily</li>
+                        <li>Lie or exaggerate (it's under oath)</li>
+                        <li>Interrupt the judge or employer's testimony</li>
+                        <li>Bring up irrelevant grievances</li>
+                        <li>Get emotional or defensive</li>
+                        <li>Answer questions you don't understand</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Closing -->
+            <h2>You've Got This</h2>
+
+            <p>Your employer contested your claim because they saw a way to protect their bottom line. But they also know the facts of your case. Most of the time, when people prepare, organize their evidence, and show up ready—they win.</p>
+
+            <p>This process isn't designed to be impossible. It's designed to be fair. You just need to take it seriously, gather your evidence, and tell your story clearly. That's it. And statistically, that's enough.</p>
+
+            <!-- CTA Box -->
+            <div class="cta-box">
+                <h2>Don't Navigate This Alone</h2>
+                <p>Whether you're at the fact-finding stage or preparing for a formal hearing, having a guide makes all the difference. Explore state-specific resources and find free legal support in your area.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.thelayoffguide.com" class="cta-button">Browse All Resources</a>
+                    <a href="https://www.thelayoffguide.com" class="cta-button secondary">Contact Local Legal Aid</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 <a href="https://www.thelayoffguide.com">The Layoff Guide</a>. A resource for people navigating layoffs and transitions.</p>
+    </footer>
+</body>
+</html>

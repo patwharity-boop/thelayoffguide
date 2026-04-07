@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden Benefits You're Probably Not Claiming | The Layoff Guide</title>
+    <meta name="description" content="Discover $30 billion in unclaimed benefits: food assistance, utility help, internet discounts, healthcare, and more. A guide for people navigating job loss.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            color: #2c2c3e;
+            line-height: 1.7;
+            background-color: #ffffff;
+        }
+
+        /* Navigation */
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: #1a1a2e;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .site-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .site-nav span {
+            color: #4ecdc4;
+        }
+
+        .site-nav a:hover {
+            opacity: 0.9;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 500px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%),
+                        url('https://images.unsplash.com/photo-1450101499163-c8848e66ad76?w=1400&q=80') center/cover;
+            background-blend-mode: overlay;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 3rem 2rem;
+            color: #ffffff;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(26, 26, 46, 0.3), rgba(26, 26, 46, 0.7));
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 760px;
+        }
+
+        .category-label {
+            display: inline-block;
+            font-family: 'Inter', sans-serif;
+            background-color: #4ecdc4;
+            color: #1a1a2e;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .meta {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.95);
+            font-style: italic;
+        }
+
+        /* Article Container */
+        .article {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .article p {
+            margin-bottom: 1.5rem;
+            color: #444;
+            font-size: 1.05rem;
+        }
+
+        .article h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #4ecdc4;
+        }
+
+        .article h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        /* Pull Quote */
+        .pullquote {
+            border-left: 5px solid #4ecdc4;
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-size: 1.25rem;
+            color: #1a1a2e;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        /* Stat Callout */
+        .stat-callout {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border-left: 5px solid #4ecdc4;
+        }
+
+        .stat-callout .big-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #4ecdc4;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-callout p {
+            color: #ffffff;
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Benefit Cards */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .benefit-card {
+            border-left: 5px solid #4ecdc4;
+            padding: 1.75rem;
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(78, 205, 196, 0.15);
+        }
+
+        .benefit-card.food {
+            border-left-color: #4ecdc4;
+        }
+
+        .benefit-card.energy {
+            border-left-color: #0d9488;
+        }
+
+        .benefit-card.internet {
+            border-left-color: #6366f1;
+        }
+
+        .benefit-card.health {
+            border-left-color: #f97316;
+        }
+
+        .benefit-card.education {
+            border-left-color: #8b5cf6;
+        }
+
+        .benefit-card.tax {
+            border-left-color: #10b981;
+        }
+
+        .benefit-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .benefit-icon {
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+
+        .benefit-title {
+            flex: 1;
+        }
+
+        .benefit-title h3 {
+            margin: 0 0 0.25rem 0;
+            font-size: 1.1rem;
+            color: #1a1a2e;
+        }
+
+        .benefit-category {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #666;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .benefit-description {
+            margin-bottom: 1rem;
+            color: #444;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .benefit-eligibility {
+            background-color: rgba(78, 205, 196, 0.08);
+            padding: 0.75rem;
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            color: #555;
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+
+        .benefit-link {
+            display: inline-block;
+            color: #4ecdc4;
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .benefit-link:hover {
+            color: #0d9488;
+            text-decoration: underline;
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e8f9f8;
+            color: #0d9488;
+            padding: 0.35rem 0.75rem;
+            border-radius: 20px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        /* Author Section */
+        .author-section {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            margin: 3rem 0;
+        }
+
+        .author-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #4ecdc4;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .author-info h4 {
+            margin: 0 0 0.25rem 0;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            color: #1a1a2e;
+        }
+
+        .author-info p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #666;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* CTA Box */
+        .cta-box {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ffffff;
+            padding: 2.5rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        .cta-box h3 {
+            color: #ffffff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .cta-box p {
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background-color: #4ecdc4;
+            color: #1a1a2e;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background-color 0.2s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-btn:hover {
+            background-color: #0d9488;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #1a1a2e;
+            color: #ffffff;
+            padding: 2rem;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+        }
+
+        .footer a {
+            color: #4ecdc4;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero {
+                height: 350px;
+                padding: 2rem 1.5rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .article {
+                padding: 2rem 1.5rem;
+            }
+
+            .article h2 {
+                font-size: 1.5rem;
+            }
+
+            .site-nav {
+                padding: 0.75rem 1.5rem;
+            }
+
+            .site-nav a {
+                font-size: 1rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .cta-btn {
+                width: 100%;
+            }
+
+            .author-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .benefits-grid {
+                gap: 1.5rem;
+            }
+
+            .benefit-card {
+                padding: 1.5rem;
+            }
+
+            .stat-callout {
+                padding: 1.5rem;
+            }
+
+            .stat-callout .big-number {
+                font-size: 2rem;
+            }
+
+            .pullquote {
+                font-size: 1.1rem;
+                padding-left: 1.25rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .article p {
+                font-size: 0.95rem;
+            }
+
+            .benefit-card {
+                padding: 1.25rem;
+            }
+
+            .cta-box {
+                padding: 1.5rem;
+            }
+
+            .cta-box h3 {
+                font-size: 1.25rem;
+            }
+        }
+    .site-footer { background: #1a1a2e; color: #888; text-align: center; padding: 32px 24px; font-family: "Inter", sans-serif; font-size: 14px; } .site-footer a { color: #4ecdc4; text-decoration: none; }
+</style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <a href="https://www.thelayoffguide.com">The<span>Layoff</span>Guide</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="category-label">Money Moves</div>
+            <h1>The Hidden Benefits You're Probably Not Claiming</h1>
+            <div class="meta">April 7, 2026 · 10 min read</div>
+        </div>
+    </section>
+
+    <!-- Article -->
+    <article class="article">
+        <p>Getting laid off throws everything off balance. You're suddenly juggling job hunting with financial stress, and honestly, most people miss out on billions of dollars in benefits they're actually eligible for. We're talking $30 billion left on the table every single year.</p>
+
+        <p>The good news? A lot of these programs exist specifically for you right now. They're not handouts—they're safety nets built into the system. And you've already paid into them through taxes. Let's walk through what you might be missing.</p>
+
+        <div class="stat-callout">
+            <span class="big-number">$30 Billion</span>
+            <p>in government and non-profit benefits go unclaimed annually—money that could be helping people just like you get through a transition.</p>
+        </div>
+
+        <!-- Food Assistance -->
+        <h2>Food Assistance</h2>
+        <p>This is the first place most people should look. Food costs real money, and reducing that pressure is huge for your mental game right now.</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-card food">
+                <div class="benefit-header">
+                    <div class="benefit-icon">🛒</div>
+                    <div class="benefit-title">
+                        <h3>SNAP Benefits</h3>
+                        <div class="benefit-category">Food Assistance</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    SNAP (Supplemental Nutrition Assistance Program) is the federal food stamp program. You get an EBT card that works like a debit card at any grocery store. The amount depends on your income and household size.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Typically income-based (around 130% of the federal poverty line). Your job loss could push you under the limit—worth checking right now.
+                </div>
+                <a href="https://www.fns.usda.gov/snap" class="benefit-link">→ Apply at USDA SNAP</a>
+                <div class="tags">
+                    <span class="tag">Free</span>
+                    <span class="tag">Government</span>
+                    <span class="tag">Income-Based</span>
+                </div>
+            </div>
+
+            <div class="benefit-card food">
+                <div class="benefit-header">
+                    <div class="benefit-icon">🥫</div>
+                    <div class="benefit-title">
+                        <h3>Feeding America Food Banks</h3>
+                        <div class="benefit-category">Food Assistance</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    These are legit community organizations that distribute food—no judgment, no hoops. Just walk in or request a box. They serve all income levels during tough transitions, and many don't even verify income.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> No strict requirements at most locations. Just show up and explain your situation.
+                </div>
+                <a href="https://www.feedingamerica.org/find-your-local-foodbank" class="benefit-link">→ Find your local food bank</a>
+                <div class="tags">
+                    <span class="tag">Free</span>
+                    <span class="tag">No Questions</span>
+                </div>
+            </div>
+
+            <div class="benefit-card food">
+                <div class="benefit-header">
+                    <div class="benefit-icon">❄️</div>
+                    <div class="benefit-title">
+                        <h3>Community Fridges</h3>
+                        <div class="benefit-category">Food Assistance</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Community fridges are popping up in cities nationwide—literally just free food in a fridge on a street corner. No apps, no eligibility checks, no names taken. Just need what you need.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Honestly? You need food. That's it.
+                </div>
+                <a href="https://www.communityfridge.com" class="benefit-link">→ Find a community fridge near you</a>
+                <div class="tags">
+                    <span class="tag">Free</span>
+                    <span class="tag">Immediate</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Utility & Energy Help -->
+        <h2>Utility & Energy Help</h2>
+        <p>Heating, cooling, and lights don't wait for your next paycheck. If you're struggling with utility bills, help exists.</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-card energy">
+                <div class="benefit-header">
+                    <div class="benefit-icon">💡</div>
+                    <div class="benefit-title">
+                        <h3>LIHEAP (Low Income Home Energy Assistance Program)</h3>
+                        <div class="benefit-category">Utilities & Energy</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Federal program that helps with heating and cooling bill assistance. Actual dollar amounts go directly to your utility company. Huge help if you're facing a shutoff notice.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Generally up to 150% of the federal poverty line. Your recent job loss likely qualifies you.
+                </div>
+                <a href="https://liheapch.acf.gov" class="benefit-link">→ Check LIHEAP eligibility</a>
+                <div class="tags">
+                    <span class="tag">Government</span>
+                    <span class="tag">Income-Based</span>
+                </div>
+            </div>
+
+            <div class="benefit-card energy">
+                <div class="benefit-header">
+                    <div class="benefit-icon">📞</div>
+                    <div class="benefit-title">
+                        <h3>Utility Company Hardship Programs</h3>
+                        <div class="benefit-category">Utilities & Energy</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Seriously, call your utility company. Most have Customer Assistance Programs (CAPs) that offer discounts, payment plans, or bill forgiveness during job loss. They just don't advertise them.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Usually just need to explain your situation. They've heard it before—they know layoffs happen.
+                </div>
+                <a href="https://www.usa.gov/help-with-energy-bills" class="benefit-link">→ Find your utility company contact</a>
+                <div class="tags">
+                    <span class="tag">Direct Contact</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Internet Discounts -->
+        <h2>Internet Discounts</h2>
+        <p>Internet isn't a luxury anymore—it's how you job hunt, apply for benefits, and stay connected. These programs make it affordable.</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-card internet">
+                <div class="benefit-header">
+                    <div class="benefit-icon">📡</div>
+                    <div class="benefit-title">
+                        <h3>FCC Lifeline Program</h3>
+                        <div class="benefit-category">Internet & Phone</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Federal program that gives you $9.25 per month off broadband service. It's not much, but it's built for people in exactly your situation. Works with most providers.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Income-based (typically 135% of federal poverty line) or already receiving SNAP/LIHEAP/Medicaid.
+                </div>
+                <a href="https://www.fcc.gov/lifeline-consumers" class="benefit-link">→ Apply for Lifeline</a>
+                <div class="tags">
+                    <span class="tag">Government</span>
+                    <span class="tag">Income-Based</span>
+                </div>
+            </div>
+
+            <div class="benefit-card internet">
+                <div class="benefit-header">
+                    <div class="benefit-icon">🌐</div>
+                    <div class="benefit-title">
+                        <h3>Comcast Internet Essentials</h3>
+                        <div class="benefit-category">Internet & Phone</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Comcast's program offers broadband at $9.95/month with 50 Mbps speeds. If you don't have Comcast in your area, look for similar programs from your local provider.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Income-based. Must qualify for SNAP, Medicaid, or be at 135% of poverty line.
+                </div>
+                <a href="https://www.internetessentials.com" class="benefit-link">→ Check Comcast Internet Essentials</a>
+                <div class="tags">
+                    <span class="tag">Income-Based</span>
+                </div>
+            </div>
+
+            <div class="benefit-card internet">
+                <div class="benefit-header">
+                    <div class="benefit-icon">📶</div>
+                    <div class="benefit-title">
+                        <h3>Spectrum Internet Assist</h3>
+                        <div class="benefit-category">Internet & Phone</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Spectrum's comparable program at $24.99/month for 30 Mbps. Regional availability, but worth checking if Spectrum operates near you.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Usually tied to income or existing assistance programs.
+                </div>
+                <a href="https://www.spectrum.com/browse/content/internet-assist" class="benefit-link">→ Spectrum Internet Assist</a>
+                <div class="tags">
+                    <span class="tag">Income-Based</span>
+                </div>
+            </div>
+        </div>
+
+        <p><em>Note: The Affordable Connectivity Program (ACP) ended in June 2024, but these alternatives still exist and are worth pursuing.</em></p>
+
+        <!-- Healthcare Beyond COBRA -->
+        <h2>Healthcare Beyond COBRA</h2>
+        <p>COBRA is expensive and temporary. But you have real options that are way cheaper, starting immediately.</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-card health">
+                <div class="benefit-header">
+                    <div class="benefit-icon">🏥</div>
+                    <div class="benefit-title">
+                        <h3>Community Health Centers (FQHCs)</h3>
+                        <div class="benefit-category">Healthcare</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Federally Qualified Health Centers serve low-income and uninsured patients with sliding scale fees. That means your payment is based on what you can actually afford right now.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Open to uninsured and underinsured people. No income verification at most locations.
+                </div>
+                <a href="https://findahealthcenter.hrsa.gov" class="benefit-link">→ Find a health center near you</a>
+                <div class="tags">
+                    <span class="tag">Sliding Scale</span>
+                    <span class="tag">Immediate</span>
+                </div>
+            </div>
+
+            <div class="benefit-card health">
+                <div class="benefit-header">
+                    <div class="benefit-icon">💊</div>
+                    <div class="benefit-title">
+                        <h3>Prescription Help & Discount Cards</h3>
+                        <div class="benefit-category">Healthcare</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    NeedyMeds and GoodRx are free tools that show you the lowest prices for medications at pharmacies near you—sometimes 50-90% cheaper than the sticker price. No insurance required.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Works for anyone. Download the app or search online before you fill any prescription.
+                </div>
+                <a href="https://www.needymeds.org" class="benefit-link">→ NeedyMeds</a> |
+                <a href="https://www.goodrx.com" class="benefit-link">→ GoodRx</a>
+                <div class="tags">
+                    <span class="tag">Free</span>
+                    <span class="tag">Immediate</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education & Retraining -->
+        <h2>Education & Retraining</h2>
+        <p>If a job loss is pushing you to upskill or change careers, there's funding available that didn't exist a few years ago.</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-card education">
+                <div class="benefit-header">
+                    <div class="benefit-icon">🎓</div>
+                    <div class="benefit-title">
+                        <h3>Workforce Pell Grants (NEW)</h3>
+                        <div class="benefit-category">Education & Training</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    As of July 2026, the Department of Education is expanding Pell Grants to cover short-term workforce training programs. Up to $4,310 per year for 8-15 week programs in high-demand fields.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Generally available to those who qualify for standard Pell (income-based, US citizens).
+                </div>
+                <a href="https://studentaid.gov" class="benefit-link">→ Check StudentAid.gov</a>
+                <div class="tags">
+                    <span class="tag">Government</span>
+                    <span class="tag">Income-Based</span>
+                </div>
+            </div>
+
+            <div class="benefit-card education">
+                <div class="benefit-header">
+                    <div class="benefit-icon">💻</div>
+                    <div class="benefit-title">
+                        <h3>Google Career Certificates (Free through Libraries)</h3>
+                        <div class="benefit-category">Education & Training</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Google Career Certificates in IT Support, Data Analytics, and Project Management are often free or heavily discounted through public libraries. Self-paced, actual credentials that employers recognize.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Check with your local library. Many offer free or reduced access to Coursera courses.
+                </div>
+                <a href="https://www.coursera.org/google-career-certificates" class="benefit-link">→ Google Career Certificates</a>
+                <div class="tags">
+                    <span class="tag">Free through Libraries</span>
+                    <span class="tag">Self-Paced</span>
+                </div>
+            </div>
+
+            <div class="benefit-card education">
+                <div class="benefit-header">
+                    <div class="benefit-icon">🏢</div>
+                    <div class="benefit-title">
+                        <h3>Workforce Development Boards</h3>
+                        <div class="benefit-category">Education & Training</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    Every state has local Workforce Development Boards that fund training for displaced workers. They often cover tuition, books, and stipends while you train for growing sectors.
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Usually available to recently laid-off workers. No income restrictions at most boards.
+                </div>
+                <a href="https://www.careeronestop.org" class="benefit-link">→ Find your local WDB</a>
+                <div class="tags">
+                    <span class="tag">Government</span>
+                    <span class="tag">Local</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tax Benefits -->
+        <h2>Tax Benefits You Might Not Know About</h2>
+        <p>Buried in the tax code are some genuinely useful rules if you've lost your job.</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-card tax">
+                <div class="benefit-header">
+                    <div class="benefit-icon">📋</div>
+                    <div class="benefit-title">
+                        <h3>IRA Penalty-Free Withdrawal for Health Insurance</h3>
+                        <div class="benefit-category">Tax Benefits</div>
+                    </div>
+                </div>
+                <div class="benefit-description">
+                    If you've been unemployed for 12+ weeks, you can withdraw from your IRA to pay for health insurance premiums without the usual 10% early withdrawal penalty. (But income tax still applies.)
+                </div>
+                <div class="benefit-eligibility">
+                    <strong>Eligibility:</strong> Must have been unemployed for 12+ consecutive weeks and be receiving unemployment benefits.
+                </div>
+                <a href="https://www.irs.gov" class="benefit-link">→ IRS.gov resources</a>
+                <div class="tags">
+                    <span class="tag">Tax Advantage</span>
+                    <span class="tag">Specific Rules</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="pullquote">
+            "The system is confusing on purpose. Benefits exist because you've paid taxes your whole working life. Claiming them isn't charity—it's using the safety net you built."
+        </div>
+
+        <!-- Author -->
+        <div class="author-section">
+            <div class="author-avatar">TLG</div>
+            <div class="author-info">
+                <h4>The Layoff Guide</h4>
+                <p>Written by people who've been through it. Real advice for navigating job loss with dignity and strategy.</p>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="cta-box">
+            <h3>You're Not Alone in This</h3>
+            <p>Whether it's benefits, job search strategy, or just needing to hear from someone who gets it—The Layoff Guide has resources built for exactly where you are right now.</p>
+            <div class="cta-buttons">
+                <a href="https://www.thelayoffguide.com/resources" class="cta-btn">Browse All Resources</a>
+                <a href="https://www.thelayoffguide.com/blog" class="cta-btn">Read More Articles</a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 The Layoff Guide. Made by people who've been there. <a href="https://www.thelayoffguide.com">Learn more</a></p>
+    </footer>
+<footer class="site-footer">© 2026 <a href="https://www.thelayoffguide.com">The Layoff Guide</a>. Built for people starting over.</footer>
+</body>
+</html>

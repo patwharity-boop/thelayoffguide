@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The First 30 Days After a Layoff — A Day-by-Day Playbook | The Layoff Guide</title>
+    <meta name="description" content="Your comprehensive day-by-day guide for the first 30 days after a layoff. From emergency mode to active job search—the ultimate playbook to turn crisis into momentum.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            color: #2c2c3e;
+            line-height: 1.7;
+            background-color: #f9f9f9;
+        }
+
+        /* Navigation */
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: #1a1a2e;
+            padding: 0.75rem 2rem;
+            display: flex;
+            align-items: center;
+            font-family: 'Inter', sans-serif;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .site-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .site-nav span {
+            color: #4ecdc4;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #2c3e50 100%);
+            background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1400&q=80');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(26, 26, 46, 0.4) 0%, rgba(26, 26, 46, 0.7) 100%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: white;
+            padding: 3rem 2rem;
+            max-width: 900px;
+            margin-bottom: 2rem;
+        }
+
+        .hero-category {
+            font-family: 'Inter', sans-serif;
+            display: inline-block;
+            background-color: #4ecdc4;
+            color: white;
+            padding: 0.5rem 1.25rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .hero-meta {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+        }
+
+        /* Article Container */
+        .article-wrapper {
+            background-color: white;
+            padding: 3rem 2rem;
+        }
+
+        .article-container {
+            max-width: 760px;
+            margin: 0 auto;
+        }
+
+        /* Author Info */
+        .author-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #4ecdc4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .author-text {
+            flex: 1;
+        }
+
+        .author-name {
+            font-weight: 600;
+            color: #1a1a2e;
+        }
+
+        .author-title {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Content Sections */
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 2rem;
+            color: #1a1a2e;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            padding-top: 1rem;
+        }
+
+        h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.3rem;
+            color: #1a1a2e;
+            margin-top: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        ul, ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+            color: #444;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+            line-height: 1.7;
+        }
+
+        a {
+            color: #4ecdc4;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+
+        a:hover {
+            border-bottom-color: #4ecdc4;
+        }
+
+        /* Opening Stats */
+        .opening-stats {
+            background: linear-gradient(135deg, #f0fffe 0%, #f8fcfb 100%);
+            border-left: 4px solid #4ecdc4;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #0d9488;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .opening-stats p {
+            margin: 0;
+            font-size: 1rem;
+            color: #2c2c3e;
+        }
+
+        /* Week Headers */
+        .week-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2.5rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .week-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            min-width: 80px;
+        }
+
+        .week-info h2 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: inherit;
+        }
+
+        .week-info p {
+            margin: 0;
+            font-size: 0.95rem;
+            opacity: 0.95;
+            color: inherit;
+        }
+
+        .week-1-header {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+        }
+
+        .week-2-header {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+        }
+
+        .week-3-header {
+            background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+        }
+
+        .week-4-header {
+            background: linear-gradient(135deg, #4ecdc4 0%, #16a085 100%);
+        }
+
+        /* Day Container */
+        .day-container {
+            margin: 2rem 0;
+            padding: 2rem;
+            background-color: #f9f9f9;
+            border-left: 4px solid #4ecdc4;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .day-container:hover {
+            box-shadow: 0 4px 12px rgba(78, 205, 196, 0.15);
+        }
+
+        .day-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .day-number {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #4ecdc4 0%, #0d9488 100%);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.8rem;
+            flex-shrink: 0;
+            box-shadow: 0 4px 15px rgba(78, 205, 196, 0.3);
+        }
+
+        .day-title {
+            flex: 1;
+        }
+
+        .day-title h3 {
+            margin: 0;
+            font-size: 1.4rem;
+        }
+
+        .day-title p {
+            margin: 0.25rem 0 0 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .day-content {
+            margin-left: 88px;
+        }
+
+        .day-content p {
+            margin-bottom: 1rem;
+        }
+
+        .day-content ul {
+            margin-left: 2rem;
+        }
+
+        /* Pull Quotes */
+        .pull-quote {
+            border-left: 4px solid #4ecdc4;
+            padding-left: 1.5rem;
+            padding: 1.5rem;
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            background-color: #f9f9f9;
+            font-size: 1.1rem;
+            color: #1a1a2e;
+            font-style: italic;
+            line-height: 1.8;
+        }
+
+        /* Checkpoint Boxes */
+        .checkpoint {
+            background: linear-gradient(135deg, #f0fffe 0%, #f8fcfb 100%);
+            border: 2px solid #4ecdc4;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .checkpoint h3 {
+            color: #0d9488;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .checkpoint-checkmark {
+            color: #0d9488;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+
+        .checkpoint-list {
+            list-style: none;
+            margin: 1.5rem 0 0 0;
+            padding: 0;
+        }
+
+        .checkpoint-list li {
+            padding-left: 1.75rem;
+            position: relative;
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+        }
+
+        .checkpoint-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #0d9488;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        /* Key Deadlines Box */
+        .deadlines-box {
+            background: linear-gradient(135deg, #1a1a2e 0%, #2c3e50 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2.5rem 0;
+            font-family: 'Inter', sans-serif;
+            border-top: 4px solid #4ecdc4;
+        }
+
+        .deadlines-box h3 {
+            color: #4ecdc4;
+            margin-top: 0;
+        }
+
+        .deadline-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.95rem;
+        }
+
+        .deadline-item:last-child {
+            border-bottom: none;
+        }
+
+        .deadline-name {
+            font-weight: 500;
+        }
+
+        .deadline-time {
+            color: #4ecdc4;
+            font-weight: 600;
+        }
+
+        /* Internal Link Cards */
+        .internal-link-card {
+            background: linear-gradient(135deg, #f0fffe 0%, #f8fcfb 100%);
+            border-left: 4px solid #4ecdc4;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+            display: block;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .internal-link-card:hover {
+            box-shadow: 0 6px 16px rgba(78, 205, 196, 0.2);
+            transform: translateX(4px);
+        }
+
+        .internal-link-card .link-label {
+            font-size: 0.8rem;
+            color: #0d9488;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .internal-link-card .link-title {
+            color: #1a1a2e;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        /* CTA Box */
+        .cta-box {
+            background: linear-gradient(135deg, #1a1a2e 0%, #2c3e50 100%);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .cta-box h3 {
+            color: #4ecdc4;
+            margin-top: 0;
+            font-size: 1.6rem;
+        }
+
+        .cta-box p {
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 2rem;
+        }
+
+        .cta-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #4ecdc4;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid #4ecdc4;
+        }
+
+        .cta-button:hover {
+            background-color: #0d9488;
+            border-color: #0d9488;
+            transform: translateY(-2px);
+        }
+
+        .cta-button.secondary {
+            background-color: transparent;
+            color: #4ecdc4;
+        }
+
+        .cta-button.secondary:hover {
+            background-color: rgba(78, 205, 196, 0.1);
+            color: #4ecdc4;
+        }
+
+        /* Mental Health Resources */
+        .resources-box {
+            background-color: #fef5e7;
+            border-left: 4px solid #f39c12;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .resources-box h4 {
+            color: #d68910;
+            margin-top: 0;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .resources-box p {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+            color: #2c2c3e;
+        }
+
+        .resources-box strong {
+            color: #1a1a2e;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a2e;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            margin-top: 4rem;
+        }
+
+        footer a {
+            color: #4ecdc4;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .site-nav {
+                padding: 0.75rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-meta {
+                font-size: 0.85rem;
+            }
+
+            .article-wrapper {
+                padding: 1.5rem 1rem;
+            }
+
+            .stat-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .week-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.5rem;
+            }
+
+            .week-number {
+                font-size: 2rem;
+            }
+
+            .week-info h2 {
+                font-size: 1.4rem;
+            }
+
+            .day-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+
+            .day-content {
+                margin-left: 0;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            .hero {
+                height: 350px;
+            }
+
+            .hero-content {
+                padding: 2rem 1rem;
+            }
+
+            .cta-buttons {
+                grid-template-columns: 1fr;
+            }
+
+            .deadline-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .site-nav {
+                position: static;
+            }
+
+            .cta-box {
+                page-break-inside: avoid;
+            }
+
+            a {
+                color: #4ecdc4;
+            }
+        }
+    .site-footer { background: #1a1a2e; color: #888; text-align: center; padding: 32px 24px; font-family: "Inter", sans-serif; font-size: 14px; } .site-footer a { color: #4ecdc4; text-decoration: none; }
+</style>
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="site-nav">
+        <a href="https://www.thelayoffguide.com">The<span>Layoff</span>Guide</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-category">Getting Started</span>
+            <h1>The First 30 Days After a Layoff — A Day-by-Day Playbook</h1>
+            <div class="hero-meta">April 7, 2026 · 15 min read</div>
+        </div>
+    </section>
+
+    <!-- Article Content -->
+    <article class="article-wrapper">
+        <div class="article-container">
+            <!-- Author Info -->
+            <div class="author-info">
+                <div class="author-avatar">TLG</div>
+                <div class="author-text">
+                    <div class="author-name">The Layoff Guide</div>
+                    <div class="author-title">Written by people who've been laid off</div>
+                </div>
+            </div>
+
+            <!-- Opening -->
+            <p>You just got laid off. Maybe you're still in shock. Maybe you're angry. Maybe you feel a weird sense of relief. All of that is completely normal.</p>
+
+            <p>Right now, your head is probably spinning with a thousand questions: <em>How long will it take to find a job? What do I do about health insurance? Should I take COBRA? How much money can I actually spend? When should I start applying?</em></p>
+
+            <p>This playbook is designed to answer those questions and walk you through the first 30 days after a layoff. Not to panic you. Not to overwhelm you. But to give you a clear, day-by-day roadmap so you know exactly what to do, when to do it, and why it matters.</p>
+
+            <p>Because here's the truth: the first month sets the tone for everything that comes next.</p>
+
+            <!-- Opening Stats -->
+            <div class="opening-stats">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">83</div>
+                        <div class="stat-label">Average days to first offer (late 2025)</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">53%</div>
+                        <div class="stat-label">Submitted 50+ applications before landing work</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">80%</div>
+                        <div class="stat-label">Of jobs filled through networking, not job boards</div>
+                    </div>
+                </div>
+                <p><strong>The insight:</strong> This playbook is designed to make those months count. You're not just randomly applying—you're building a system. You're not just waiting—you're networking. You're not just surviving—you're positioning yourself for what comes next.</p>
+            </div>
+
+            <!-- WEEK 1 -->
+            <div class="week-header week-1-header">
+                <div class="week-number">1</div>
+                <div class="week-info">
+                    <h2>Emergency Mode</h2>
+                    <p>Days 1–7: Protect yourself and get the basics done</p>
+                </div>
+            </div>
+
+            <h3>Day 1: Process & Protect</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">1</div>
+                    <div class="day-title">
+                        <h3>Process & Protect</h3>
+                        <p>What happens on day one matters</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>You might feel shock, anger, relief, panic—or all of them at once. That's not a sign something's wrong with you. That's a sign you're human.</p>
+
+                    <p><strong>What to do today:</strong></p>
+                    <ul>
+                        <li><strong>Document everything.</strong> Get your separation letter in writing. Save your contact list (especially important contacts you want to stay in touch with). Back up your work files or any projects you'll want for your portfolio. Do this before you leave the building.</li>
+                        <li><strong>Don't post on social media yet.</strong> I know the urge might be there. Wait a week. You'll have clarity.</li>
+                        <li><strong>Don't sign anything.</strong> Except your separation agreement (and even then, review it first). Don't sign away your unemployment claims or legal rights.</li>
+                        <li><strong>Don't send angry emails.</strong> To your boss, your company, anyone. Draft them if you need to. Burn them. But don't send them.</li>
+                        <li><strong>Call someone you trust.</strong> A friend, a partner, a therapist, a family member. Don't sit with this alone.</li>
+                    </ul>
+
+                    <div class="internal-link-card" href="https://www.thelayoffguide.com/blog">
+                        <span class="link-label">Related Resource</span>
+                        <span class="link-title">📖 Read: Your First 24 Hours After a Layoff</span>
+                    </div>
+
+                    <p>You don't need to have all the answers today. You just need to feel your feelings and protect yourself from making decisions you'll regret.</p>
+                </div>
+            </div>
+
+            <h3>Day 2: Understand Your Severance</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">2</div>
+                    <div class="day-title">
+                        <h3>Understand Your Severance</h3>
+                        <p>Know what you're actually getting</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>Your severance package is the money and benefits your company is giving you for leaving. It's not a gift—it's your safety net for the next few months. You need to understand every detail.</p>
+
+                    <p><strong>What to review:</strong></p>
+                    <ul>
+                        <li><strong>The amount and schedule.</strong> Are you getting it all at once? Over time? When does it actually hit your bank account?</li>
+                        <li><strong>The conditions.</strong> Do you have to sign a release (waiving legal claims)? Do you have to agree not to compete? Do you have to return company property?</li>
+                        <li><strong>Your timeline.</strong> You have <strong>21 days minimum to review the package</strong> (45 days if this is a group layoff). Mark this on your calendar. You don't have to decide today.</li>
+                        <li><strong>Ask these questions:</strong> When's my final paycheck? What about my unused PTO—is that paid out? What's the company's reference policy? Do I have outplacement services?</li>
+                    </ul>
+
+                    <p>If the severance package seems confusing or unfair, consider consulting with an employment lawyer. Some offer free 30-minute consultations.</p>
+                </div>
+            </div>
+
+            <h3>Day 3: File for Unemployment</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">3</div>
+                    <div class="day-title">
+                        <h3>File for Unemployment</h3>
+                        <p>Do this today. Don't wait.</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>This is non-negotiable. File today. Most states do not backdate unemployment benefits, which means every day you wait is money you're losing.</p>
+
+                    <p><strong>The facts:</strong></p>
+                    <ul>
+                        <li>Unemployment benefits replace about 40-60% of your previous wages (varies by state)</li>
+                        <li>You can receive benefits for 26 weeks in most states (some states offer up to 39 weeks)</li>
+                        <li>The application takes 30 minutes and is free</li>
+                        <li>You'll need your company name, the date of layoff, and your social security number</li>
+                    </ul>
+
+                    <div class="internal-link-card" href="https://www.thelayoffguide.com">
+                        <span class="link-label">State-by-State Guide</span>
+                        <span class="link-title">🗺️ Find Your State's Unemployment Process</span>
+                    </div>
+
+                    <p>Once you file, your state will reach out to you with next steps. You'll likely have to confirm you're actively job searching each week.</p>
+                </div>
+            </div>
+
+            <h3>Days 4–5: Financial Triage</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">4</div>
+                    <div class="day-title">
+                        <h3>Financial Triage</h3>
+                        <p>Know your actual runway</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>This is uncomfortable, but it's the most important thing you can do. You need to know, to the dollar, how long you can survive without a paycheck.</p>
+
+                    <p><strong>The math:</strong></p>
+                    <ul>
+                        <li><strong>Calculate your runway:</strong> (Savings + Severance + Expected unemployment) ÷ (Your essential monthly expenses) = Number of months you can survive</li>
+                        <li><strong>Define "essential."</strong> Housing, utilities, food, transportation. That's it. Not streaming services (yet). Not dining out (yet). Just survival.</li>
+                        <li><strong>Be honest about the number.</strong> If your runway is 3 months, you need to act like it. If it's 12 months, you have more breathing room—but don't waste time.</li>
+                    </ul>
+
+                    <p>Once you know your number, it changes everything. It's not scary anymore—it's data. And data helps you make decisions.</p>
+
+                    <p><strong>Today's action:</strong></p>
+                    <ul>
+                        <li>Start the subscription purge. Cancel everything you don't absolutely need: streaming services, gym memberships, premium apps. You can add them back in 3-4 months. Aim to cut $100-200/month minimum.</li>
+                    </ul>
+
+                    <div class="internal-link-card" href="https://www.thelayoffguide.com/blog">
+                        <span class="link-label">Money Talk</span>
+                        <span class="link-title">💰 Read: The Real Money Conversation After Layoff</span>
+                    </div>
+
+                    <p>The goal here is not deprivation—it's clarity. You're not cutting subscriptions because you're broken. You're doing it because you're smart.</p>
+                </div>
+            </div>
+
+            <h3>Days 6–7: Health Insurance Decision</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">6</div>
+                    <div class="day-title">
+                        <h3>Health Insurance Decision</h3>
+                        <p>COBRA vs. Marketplace vs. Spouse's Plan</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>This is huge. Don't mess this up. You have decisions to make and deadlines to hit.</p>
+
+                    <p><strong>Your options:</strong></p>
+                    <ul>
+                        <li><strong>COBRA:</strong> Keeps you on your company's insurance for 18 months. It's expensive (you pay the full premium, plus 2% admin fee) but it's familiar. You have 60 days to elect it. Mark your calendar with day 60.</li>
+                        <li><strong>ACA Marketplace:</strong> Open to self-employed and unemployed people. Often cheaper than COBRA. You might qualify for subsidies. 60-day special enrollment window (because of the layoff).</li>
+                        <li><strong>Spouse's plan (if applicable):</strong> Usually the cheapest option. Check if you're eligible to join mid-year.</li>
+                        <li><strong>Parent's plan (if you're under 26):</strong> You might still be eligible. Call and ask.</li>
+                    </ul>
+
+                    <div class="internal-link-card" href="https://www.thelayoffguide.com/blog">
+                        <span class="link-label">Insurance Guide</span>
+                        <span class="link-title">🏥 Read: COBRA vs. Marketplace—What Actually Works</span>
+                    </div>
+
+                    <p class="pull-quote">Don't let perfect be the enemy of good. You don't need to have the absolute perfect plan. You need coverage. Do the math, make a call, move on.</p>
+
+                    <p><strong>Critical dates to mark in your calendar:</strong></p>
+                    <ul>
+                        <li>Your COBRA 60-day election deadline</li>
+                        <li>Your ACA 60-day special enrollment window deadline</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 1 Checkpoint -->
+            <div class="checkpoint">
+                <h3><span class="checkpoint-checkmark">✓</span> Week 1 Checkpoint</h3>
+                <ul class="checkpoint-list">
+                    <li>You've processed your emotions and reached out to someone</li>
+                    <li>You have your separation agreement and understand the terms</li>
+                    <li>You've filed for unemployment</li>
+                    <li>You know your financial runway (in months)</li>
+                    <li>You've canceled unnecessary subscriptions</li>
+                    <li>You've made a health insurance decision (or have a plan to decide)</li>
+                    <li>You've marked critical deadlines on your calendar (COBRA, severance review, ACA)</li>
+                </ul>
+                <p style="margin-top: 1.5rem; font-size: 0.95rem; color: #444;"><strong>You've survived the initial crisis.</strong> You're not thinking straight yet, and that's okay. But you've protected yourself. The first 7 days are about defense, not offense. You're doing great.</p>
+            </div>
+
+            <!-- WEEK 2 -->
+            <div class="week-header week-2-header">
+                <div class="week-number">2</div>
+                <div class="week-info">
+                    <h2>Foundation Building</h2>
+                    <p>Days 8–14: Get your materials and strategy ready</p>
+                </div>
+            </div>
+
+            <h3>Day 8: Resume Refresh</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">8</div>
+                    <div class="day-title">
+                        <h3>Resume Refresh</h3>
+                        <p>Update while everything is fresh</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>Right now, while you still have context about what you did and what you accomplished, update your resume. Your brain is full of details about projects, metrics, and wins. In a few weeks, you'll forget.</p>
+
+                    <p><strong>What to update:</strong></p>
+                    <ul>
+                        <li><strong>Quantify everything.</strong> Not "led a team"—"led a team of 5 across 3 time zones." Not "increased revenue"—"increased quarterly revenue by 23% year-over-year." Numbers stick. Numbers convert.</li>
+                        <li><strong>Add context to accomplishments.</strong> What was the business impact? What problem did you solve? Why does it matter?</li>
+                        <li><strong>Include keywords</strong> from job descriptions in your field. This helps with ATS (Applicant Tracking Systems) that companies use to filter resumes.</li>
+                        <li><strong>Remove dates from graduation.</strong> Include graduation year if you graduated in the last 5 years, otherwise just list the school and degree.</li>
+                    </ul>
+
+                    <p><strong>Pro tip:</strong> Save 2-3 versions of your resume. One "master" version with everything on it. One single-page version for applying to jobs. One version tailored to your target industry or role.</p>
+                </div>
+            </div>
+
+            <h3>Day 9: LinkedIn Overhaul</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">9</div>
+                    <div class="day-title">
+                        <h3>LinkedIn Overhaul</h3>
+                        <p>Make yourself findable and open to work</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>LinkedIn is not Facebook. It's where jobs come from. 80% of jobs are filled through networking, and LinkedIn is networking at scale.</p>
+
+                    <p><strong>What to do:</strong></p>
+                    <ul>
+                        <li><strong>Update your headline.</strong> Instead of "Senior Product Manager at [Company]," try "Senior Product Manager | B2B SaaS | Hiring for [Month]" or something that shows what you're looking for.</li>
+                        <li><strong>Turn on "Open to Work."</strong> LinkedIn lets recruiters know you're available. It's not a job ad—it's a signal.</li>
+                        <li><strong>Update your About section.</strong> Write 3-4 sentences about what you're great at and what you're looking for next. Think of it as your elevator pitch.</li>
+                        <li><strong>Get your photo right.</strong> Professional, smiling, good lighting. No bathroom selfies.</li>
+                        <li><strong>Start engaging.</strong> Like, comment, and share posts from people in your field. Don't just post—participate. This makes your profile more visible.</li>
+                    </ul>
+
+                    <p>LinkedIn's algorithm rewards engagement. The more you engage, the more people see your profile. The more people see your profile, the more conversations start.</p>
+                </div>
+            </div>
+
+            <h3>Days 10–11: Start Networking (NOT Applications)</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">10</div>
+                    <div class="day-title">
+                        <h3>Start Networking</h3>
+                        <p>10-15 conversations beat 100 applications</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>This is the hardest part because it requires vulnerability. But it's also the most important part because it's where jobs come from.</p>
+
+                    <p class="pull-quote">"80% of jobs are filled through networking, not job boards. This isn't nice-to-have. This is the main event."</p>
+
+                    <p><strong>How to start:</strong></p>
+                    <ul>
+                        <li><strong>Make a list of 15-20 people you know.</strong> Former colleagues, mentors, friends from college, people in your industry. Just names. Anyone who would take a call from you.</li>
+                        <li><strong>Reach out with this message (not this exact one, but this concept):</strong> "Hey, I was laid off last week and I'm exploring my next role. I'd love to catch up for 15 minutes—not looking for a job, but I'd appreciate your advice on what you're seeing in the market and who you think I should be talking to."</li>
+                        <li><strong>Ask for advice, not a job.</strong> This removes pressure. Most people want to help. They just don't want to feel like you're only calling because you need something.</li>
+                        <li><strong>Always end with: "Who else should I be talking to?"</strong> This extends your network exponentially. One conversation becomes five. Five becomes twenty.</li>
+                        <li><strong>Take notes.</strong> Write down what they tell you, who they recommend, what themes you hear across multiple conversations. This research is gold.</li>
+                    </ul>
+
+                    <p><strong>What you're doing here:</strong> You're not job hunting yet. You're researching. You're getting context. You're building relationships. And yes, sometimes these conversations turn into jobs. But that's not the point. The point is you're staying connected, you're learning, and you're staying sane.</p>
+
+                    <p>Aim for 2-3 conversations this week. That's it. Quality over quantity.</p>
+                </div>
+            </div>
+
+            <h3>Days 12–14: Research Retraining</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">12</div>
+                    <div class="day-title">
+                        <h3>Research Retraining</h3>
+                        <p>Maybe a pivot is the right move</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>Some people come out of a layoff ready to try something new. If that's you, this is the time to explore. You have the time. You have the headspace. You might not have it next month.</p>
+
+                    <p><strong>Free or low-cost options:</strong></p>
+                    <ul>
+                        <li><strong>Google Career Certificates:</strong> Data Analytics, Project Management, UX Design. Many are free through your public library.</li>
+                        <li><strong>Coursera, edX, Udemy:</strong> Thousands of courses, often under $20 when on sale. Python, SQL, digital marketing—whatever interests you.</li>
+                        <li><strong>YouTube:</strong> Free tutorials for basically anything. Not always structured, but free.</li>
+                        <li><strong>Workforce Pell Grants (NEW):</strong> Starting July 2026, eligible unemployed workers can get grants up to $4,310 for short-term programs. Check if you qualify.</li>
+                    </ul>
+
+                    <div class="internal-link-card" href="https://www.thelayoffguide.com/blog">
+                        <span class="link-label">Career Pivot</span>
+                        <span class="link-title">🎓 Read: Fast-Track Careers You Can Start Learning Today</span>
+                    </div>
+
+                    <p><strong>Realistic expectations:</strong> You won't become a software engineer in 2 weeks. But you can learn enough to know if it's interesting. You can add a skill. You can build credibility in a new area. And some skills (like Google Certificates) look great on resumes and take 3-6 months.</p>
+
+                    <p>This is exploratory. Don't commit to a full retraining without talking to people doing the work you're considering. The research conversations from Days 10–11 are perfect for this.</p>
+                </div>
+            </div>
+
+            <!-- Week 2 Checkpoint -->
+            <div class="checkpoint">
+                <h3><span class="checkpoint-checkmark">✓</span> Week 2 Checkpoint</h3>
+                <ul class="checkpoint-list">
+                    <li>Your resume is updated with quantified accomplishments</li>
+                    <li>You have 2-3 versions of your resume ready to go</li>
+                    <li>Your LinkedIn profile is refreshed and "Open to Work" is enabled</li>
+                    <li>You've had 2-3 networking conversations</li>
+                    <li>You're starting to see patterns in what people are telling you</li>
+                    <li>You've explored retraining options (if interested)</li>
+                </ul>
+                <p style="margin-top: 1.5rem; font-size: 0.95rem; color: #444;"><strong>You're building your foundation.</strong> You're not applying to jobs yet. You're getting smart about what's out there, who can help, and what direction makes sense. This groundwork matters more than you know.</p>
+            </div>
+
+            <!-- WEEK 3 -->
+            <div class="week-header week-3-header">
+                <div class="week-number">3</div>
+                <div class="week-info">
+                    <h2>Active Mode</h2>
+                    <p>Days 15–21: Applications, systems, and interview prep</p>
+                </div>
+            </div>
+
+            <h3>Day 15: Start Strategic Applications</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">15</div>
+                    <div class="day-title">
+                        <h3>Start Strategic Applications</h3>
+                        <p>Quality over quantity. Always.</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>Now it's time to apply. But here's the key: you're not applying to 50 jobs this week. You're applying to 5-10 jobs really well.</p>
+
+                    <p class="pull-quote">"5-10 quality applications beat 50 generic ones. Every time."</p>
+
+                    <p><strong>The strategy:</strong></p>
+                    <ul>
+                        <li><strong>Tailor each application.</strong> Read the job description. Read the company's website. Understand what they need. Then tailor your resume and cover letter to speak to that specific need. It takes 30 minutes per application. It's worth it.</li>
+                        <li><strong>Prioritize internal referrals.</strong> If you know someone at the company—even loosely—ask if they can refer you. Internal referrals have a 10x higher interview rate than cold applications.</li>
+                        <li><strong>Where to apply:</strong> LinkedIn Jobs, your industry's job boards, company websites directly. Less on Indeed and Indeed-style sites (higher volume = lower attention).</li>
+                        <li><strong>Use your networking.</strong> "Hey, I saw [Company] is hiring for [Role]. Do you know anyone there? Would you be willing to make an introduction?" Often the answer is yes.</li>
+                    </ul>
+
+                    <p>By the end of the week, you should have 5-10 applications in. Not 50. Five to ten. Good ones.</p>
+                </div>
+            </div>
+
+            <h3>Days 16–17: Build Your Job Search System</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">16</div>
+                    <div class="day-title">
+                        <h3>Build Your Job Search System</h3>
+                        <p>You're going to be doing this for months. Make it sustainable.</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>A job search without a system is chaos. You'll lose track of what you applied to. You'll send duplicate applications. You'll lose your mind.</p>
+
+                    <p><strong>Build a simple spreadsheet with these columns:</strong></p>
+                    <ul>
+                        <li>Date Applied</li>
+                        <li>Company Name</li>
+                        <li>Job Title</li>
+                        <li>Status (Applied / Interviewed / Offer / Rejected)</li>
+                        <li>Notes (What you tailored, who referred you, what happened in the interview)</li>
+                        <li>Follow-up Date</li>
+                    </ul>
+
+                    <p><strong>Set a daily schedule:</strong></p>
+                    <ul>
+                        <li><strong>9 AM - 10 AM: Applications</strong> (1-2 quality applications, maybe 3 on a heavy day)</li>
+                        <li><strong>10 AM - 10:30 AM: Networking</strong> (respond to emails, set up calls, engage on LinkedIn)</li>
+                        <li><strong>10:30 AM - 11 AM: Learning</strong> (take that course, read an article, listen to a podcast)</li>
+                        <li><strong>11 AM onward: Stop job searching</strong>. Go to the gym, take a walk, work on something else, help a friend. This is non-negotiable.</li>
+                    </ul>
+
+                    <p>The worst thing you can do is job search for 8 hours a day. Your mental health will deteriorate. You'll make worse applications. You'll burn out. Work in focused blocks. Then step away. This is a marathon, not a sprint.</p>
+
+                    <p><strong>One more thing:</strong> Track your metrics. Each week, count how many applications you sent, how many responses you got, how many interviews you had. This data tells you if your approach is working. If you're not getting responses, you need to adjust. More networking. Better tailoring. Different jobs. The data tells you.</p>
+                </div>
+            </div>
+
+            <h3>Days 18–21: Interview Prep</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">18</div>
+                    <div class="day-title">
+                        <h3>Interview Prep</h3>
+                        <p>You'll be explaining this layoff. Do it well.</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>Interviewers will ask: "So, you were laid off. Tell me what happened." This is not a gotcha question. This is a normal question. And you need to have an answer that's brief, honest, and forward-looking.</p>
+
+                    <p><strong>Your layoff narrative (20-30 seconds):</strong></p>
+                    <p class="pull-quote">"My role was eliminated as part of a [company-wide restructuring / market adjustment / shift in strategy]. It wasn't performance-related—[department size] people were impacted. I'm focusing on [type of roles you're going for] because [reason]. And I'm excited about [specific aspect of their company or role]."</p>
+
+                    <p>That's it. Brief. Honest. Moving on.</p>
+
+                    <p><strong>Also prepare these stories (STAR format):</strong></p>
+                    <ul>
+                        <li>Tell me about a time you overcame a big challenge</li>
+                        <li>Tell me about a time you failed and what you learned</li>
+                        <li>Tell me about a time you worked with someone difficult</li>
+                        <li>Tell me about a time you led a project or team</li>
+                        <li>Tell me about a time you made a data-driven decision</li>
+                        <li>Tell me about a time you had to deliver something on a tight timeline</li>
+                        <li>Tell me about your proudest accomplishment</li>
+                    </ul>
+
+                    <p>Have 5-7 stories. Write them down. Practice them out loud. You'll start reusing parts of them across different questions, and that's fine. The goal is not to memorize—it's to have material ready so you don't ramble.</p>
+
+                    <div class="internal-link-card" href="https://www.thelayoffguide.com/blog">
+                        <span class="link-label">Interview Guide</span>
+                        <span class="link-title">💼 Read: How to Explain Your Layoff in an Interview</span>
+                    </div>
+
+                    <p><strong>Interview logistics:</strong></p>
+                    <ul>
+                        <li>Test your video/audio setup before the call</li>
+                        <li>Have water nearby</li>
+                        <li>Wear something that makes you feel confident</li>
+                        <li>Research the company and the person interviewing you (check LinkedIn)</li>
+                        <li>Send a thank you email within 2 hours of the interview</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 3 Checkpoint -->
+            <div class="checkpoint">
+                <h3><span class="checkpoint-checkmark">✓</span> Week 3 Checkpoint</h3>
+                <ul class="checkpoint-list">
+                    <li>You've submitted 5-10 quality applications</li>
+                    <li>You have a tracking spreadsheet set up and you're using it</li>
+                    <li>You've established a daily routine (applications, networking, learning, rest)</li>
+                    <li>You have your layoff narrative memorized and practiced</li>
+                    <li>You have 5-7 STAR stories ready</li>
+                    <li>You've had your first interview or two</li>
+                </ul>
+                <p style="margin-top: 1.5rem; font-size: 0.95rem; color: #444;"><strong>You're in motion now.</strong> You have a system. You're applying. You're getting interviews. You might have already had some rejections. That's normal and actually a sign you're doing something right.</p>
+            </div>
+
+            <!-- WEEK 4 -->
+            <div class="week-header week-4-header">
+                <div class="week-number">4</div>
+                <div class="week-info">
+                    <h2>Momentum</h2>
+                    <p>Days 22–30: Protect your sanity, track your data, plan ahead</p>
+                </div>
+            </div>
+
+            <h3>Days 22–23: Protect Your Routine</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">22</div>
+                    <div class="day-title">
+                        <h3>Protect Your Routine</h3>
+                        <p>Your health matters more than applications</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>By now, you might feel the pressure intensifying. You've been at this for three weeks. You're seeing rejection emails. You're tired. This is where most people break.</p>
+
+                    <p><strong>Non-negotiables:</strong></p>
+                    <ul>
+                        <li><strong>Exercise daily:</strong> 30 minutes of something. A walk. A workout. A yoga class. It doesn't have to be intense. It just has to happen. Exercise is the best job search tool you have.</li>
+                        <li><strong>Sleep 7-8 hours:</strong> Your brain doesn't work well on 5 hours of sleep. You'll make worse applications. You'll interview poorly. You'll get depressed. Sleep is not a luxury.</li>
+                        <li><strong>Eat real food:</strong> Not pizza and coffee at your desk. Actual meals. Your body needs fuel.</li>
+                        <li><strong>Maintain your morning/afternoon split:</strong> Job search in the morning (focused, energized). Afternoon and evening: something else. Therapy, a class, helping a friend, a hobby you love. Something that's not job searching.</li>
+                    </ul>
+
+                    <p class="pull-quote">"You will not get a better job by job searching for 10 hours a day. You will get a better job by being healthier, sharper, and more connected. Those come from rest, movement, and actual life."</p>
+
+                    <p>This is not lazy. This is strategic.</p>
+                </div>
+            </div>
+
+            <h3>Days 24–25: Mental Health Check-In</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">24</div>
+                    <div class="day-title">
+                        <h3>Mental Health Check-In</h3>
+                        <p>This is real. Address it.</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>Layoffs are traumatic. Your brain lost stability. Your income is gone. Your identity (often tied to your job) is shaken. It's okay if this is hard.</p>
+
+                    <p><strong>Check in with yourself:</strong></p>
+                    <ul>
+                        <li>Are you sleeping? (If not, that's a sign.)</li>
+                        <li>Are you eating? (If you're skipping meals, that's a sign.)</li>
+                        <li>Are you connecting with people? (If you're isolating, that's a sign.)</li>
+                        <li>Do you feel hopeful about anything? (If everything feels dark, that's a sign.)</li>
+                    </ul>
+
+                    <p><strong>Signs that you might need more support:</strong></p>
+                    <ul>
+                        <li>Persistent sadness or numbness</li>
+                        <li>Loss of interest in things you usually enjoy</li>
+                        <li>Anxiety that doesn't go away</li>
+                        <li>Isolation or not wanting to see anyone</li>
+                        <li>Feeling worthless or ashamed</li>
+                        <li>Difficulty concentrating</li>
+                        <li>Changes in sleep or appetite</li>
+                    </ul>
+
+                    <div class="resources-box">
+                        <h4>Resources Available to You (Right Now)</h4>
+                        <p><strong>SAMHSA National Helpline:</strong> 1-800-662-4357 (free, confidential, 24/7)</p>
+                        <p><strong>BetterHelp:</strong> Online therapy, often $60-90/week (cheaper than traditional therapy)</p>
+                        <p><strong>OpenPath Collective:</strong> Affordable therapy, $10-50/session sliding scale</p>
+                        <p><strong>Psychology Today's Find a Therapist:</strong> Filter by insurance, location, specialty</p>
+                        <p><strong>Crisis Text Line:</strong> Text HOME to 741741 (free, 24/7)</p>
+                    </div>
+
+                    <p>Talking to a therapist is not a sign of weakness. It's a sign you're taking care of yourself. And you deserve that care.</p>
+                </div>
+            </div>
+
+            <h3>Days 26–27: Evaluate & Adjust</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">26</div>
+                    <div class="day-title">
+                        <h3>Evaluate & Adjust</h3>
+                        <p>Your data tells you what's working</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>Pull up that spreadsheet. Look at the data.</p>
+
+                    <p><strong>Ask yourself:</strong></p>
+                    <ul>
+                        <li><strong>How many applications have you sent?</strong> (Should be 20-30 by now)</li>
+                        <li><strong>How many responses have you gotten?</strong> (Even rejections count as responses. If it's less than 5%, something's wrong.)</li>
+                        <li><strong>How many interviews?</strong> (If zero, your materials or targeting is off.)</li>
+                        <li><strong>Are interviews converting to second rounds?</strong> (If not, your interview skills need work.)</li>
+                    </ul>
+
+                    <p><strong>If you're not getting responses:</strong> Your resume, cover letter, or job targeting is off. Try this: Pick one application you thought was really good. Share it with someone you trust (a friend, a mentor, a recruiter) and ask for feedback. What's missing? What's confusing? Then apply that feedback to your next batch.</p>
+
+                    <p><strong>If you're getting interviews but no second rounds:</strong> You need mock interview practice. Find a friend, a mentor, or a service (many career coaches offer 1-2 hour mock interview sessions for $50-100) and practice. Do 2-3 mock interviews. You'll notice patterns in how you come across.</p>
+
+                    <p><strong>If your networking isn't generating leads:</strong> You're probably being too indirect. Next time you talk to someone, say clearly: "I'm looking for a role in [type of role]. Do you know anyone at [target companies] I should talk to?" Ask directly. People are not mind readers.</p>
+
+                    <p>Adjust based on your data. This is a test. You're learning what works. That's the entire point.</p>
+                </div>
+            </div>
+
+            <h3>Days 28–30: Plan Month 2</h3>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <div class="day-number">28</div>
+                    <div class="day-title">
+                        <h3>Plan Month 2</h3>
+                        <p>You've proven you can do this. Now scale it.</p>
+                    </div>
+                </div>
+
+                <div class="day-content">
+                    <p>You've made it 30 days. Take a breath. You're not the same person who got laid off. You're more resilient. You're smarter. You're systematized.</p>
+
+                    <p><strong>Before you move into month 2:</strong></p>
+                    <ul>
+                        <li><strong>Celebrate what you've accomplished.</strong> You've survived. You've applied. You've networked. You've learned. That's huge.</li>
+                        <li><strong>Review your 30-day data.</strong> What worked? More of that. What didn't work? Less of that.</li>
+                        <li><strong>Set month 2 goals.</strong> Maybe it's "50 applications." Maybe it's "10 networking conversations." Maybe it's "1 second-round interview." Pick numbers that feel challenging but achievable.</li>
+                        <li><strong>Adjust your routine if needed.</strong> If something isn't working, change it. Your routine is not sacred. Your sanity is.</li>
+                    </ul>
+
+                    <p><strong>Important reality check:</strong> 80+ days is the average time to first offer. That means most people are not getting hired in month 1. Some people take 2-3 months. Some take 4-5 months. You're in week 4. You're actually doing well. The goal is not to get a job this month. The goal is to have positioned yourself so that a job comes in months 2-3.</p>
+
+                    <p>You're building. That's all this is. Month by month, you're building toward the next role.</p>
+                </div>
+            </div>
+
+            <!-- Week 4 Checkpoint -->
+            <div class="checkpoint">
+                <h3><span class="checkpoint-checkmark">✓</span> Week 4 Checkpoint</h3>
+                <ul class="checkpoint-list">
+                    <li>You've maintained your morning routine and protected your afternoon/evening</li>
+                    <li>You're exercising daily and sleeping 7-8 hours</li>
+                    <li>You've done a mental health check-in and reached out if you needed support</li>
+                    <li>You've reviewed your data and made adjustments</li>
+                    <li>You have clear goals for month 2</li>
+                    <li>You've celebrated the 30 days you've completed</li>
+                </ul>
+                <p style="margin-top: 1.5rem; font-size: 0.95rem; color: #444;"><strong>You've survived the first month.</strong> By day 30, you've gone from crisis mode to active, strategic job searching. You have systems in place. You have momentum. You have clarity about what works and what doesn't.</p>
+            </div>
+
+            <!-- Key Deadlines -->
+            <div class="deadlines-box">
+                <h3>Critical Dates to Mark in Your Calendar</h3>
+                <div class="deadline-item">
+                    <div class="deadline-name">Severance review deadline (individual layoff)</div>
+                    <div class="deadline-time">Day 21</div>
+                </div>
+                <div class="deadline-item">
+                    <div class="deadline-name">Severance review deadline (group layoff)</div>
+                    <div class="deadline-time">Day 45</div>
+                </div>
+                <div class="deadline-item">
+                    <div class="deadline-name">COBRA election deadline</div>
+                    <div class="deadline-time">60 days from layoff</div>
+                </div>
+                <div class="deadline-item">
+                    <div class="deadline-name">ACA special enrollment window</div>
+                    <div class="deadline-time">60 days from layoff</div>
+                </div>
+                <div class="deadline-item">
+                    <div class="deadline-name">File for unemployment</div>
+                    <div class="deadline-time">ASAP (no backdate in most states)</div>
+                </div>
+            </div>
+
+            <!-- Closing Section -->
+            <h2>The Real Talk: What Happens Next</h2>
+
+            <p>By day 30, you're not out of crisis mode yet. But you're not in emergency mode either. You're in the steady, grinding work of finding a job.</p>
+
+            <p>Here's what the data says: most job offers come in weeks 8-16 of a job search. That's months 2-4. So in a weird way, the hardest part is coming. But you're prepared. You have a system. You have momentum. And you know what to expect.</p>
+
+            <p>Some things that will help in the coming months:</p>
+
+            <ul>
+                <li><strong>Stay consistent.</strong> The people who get hired are the ones who keep showing up. Not the ones who get lucky. The ones who keep showing up.</li>
+                <li><strong>Track what you're learning.</strong> Every conversation, every interview, every rejection teaches you something. Keep notes. Use them.</li>
+                <li><strong>Keep networking.</strong> Applications are important, but networking is your long-term job insurance. Keep those conversations going.</li>
+                <li><strong>Stay healthy.</strong> This won't happen if you burn out. Protect your sleep, your exercise, your relationships.</li>
+                <li><strong>Be honest about where you are.</strong> If you're struggling, say so. To your friends, to a therapist, to a support group (many exist specifically for people in job searches). You don't have to do this alone.</li>
+            </ul>
+
+            <p class="pull-quote">"By day 30, you've survived the immediate crisis. You're positioned for the next phase. You've proven to yourself that you can do hard things. Now do the next hard thing."</p>
+
+            <!-- Final CTA -->
+            <div class="cta-box">
+                <h3>Keep Going. You've Got This.</h3>
+                <p>This playbook gets you through the first 30 days. But your job search is just beginning. Get more resources, dive deeper into specific topics, and connect with a community of people who understand exactly what you're going through.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.thelayoffguide.com/resources" class="cta-button">📚 All Resources</a>
+                    <a href="https://www.thelayoffguide.com" class="cta-button">🎯 State-by-State Guides</a>
+                    <a href="https://www.thelayoffguide.com/blog" class="cta-button">📖 Read More Guides</a>
+                </div>
+            </div>
+
+            <!-- Closing -->
+            <h2>You're Going to Be Okay</h2>
+
+            <p>I know this is scary. I know you're uncertain. I know you're wondering if you made a mistake, if this was your fault, if you'll ever find another job as good.</p>
+
+            <p>You will. Not because you're special (though you might be). But because most people do. Because the job market is large. Because you're willing to put in the work. Because you have a plan now.</p>
+
+            <p>Thirty days from now, this will feel different. Not better necessarily. But different. More solid. More real. Less like a crisis and more like a project you're working on.</p>
+
+            <p>And one day—maybe in month 2, maybe in month 4, maybe in month 6—someone will say yes. And you'll have survived the layoff. And you'll have learned something about yourself. And you'll move forward.</p>
+
+            <p>That day is coming. This playbook is designed to get you there.</p>
+
+            <p>Now go. Day 1 starts today.</p>
+
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Layoff Guide. Built by people who've been there.</p>
+        <p>Questions? <a href="https://www.thelayoffguide.com">Visit our site</a> or reach out to our community.</p>
+    </footer>
+
+<footer class="site-footer">© 2026 <a href="https://www.thelayoffguide.com">The Layoff Guide</a>. Built for people starting over.</footer>
+</body>
+</html>

@@ -103,6 +103,12 @@ export default function BlogPage() {
             { slug: "fired-unemployment", title: "Can I Get Unemployment If I Was Fired?", description: "It depends on why. Misconduct = probably not. Performance = maybe. Here's exactly how it works.", date: "2026-04-07" },
             { slug: "cobra-vs-marketplace", title: "COBRA vs Marketplace — Which Health Insurance After a Layoff?", description: "COBRA keeps your plan but costs a fortune. Marketplace might be cheaper. Real numbers inside.", date: "2026-04-07" },
             { slug: "explain-layoff-interview", title: "How to Explain a Layoff in a Job Interview", description: "The dreaded question — here's exactly what to say and what not to say.", date: "2026-04-07" },
+            { slug: "subscription-purge", title: "The Subscription Purge: How I Saved $347/Month in One Afternoon", description: "Most people are paying $200-400/month in forgotten subscriptions. Here's how to find and cancel them all.", date: "2026-04-07" },
+            { slug: "hidden-benefits", title: "The Hidden Benefits You're Probably Not Claiming", description: "SNAP, WIC, LIHEAP, Lifeline, Medicaid — you probably qualify for more than you think.", date: "2026-04-07" },
+            { slug: "calling-unemployment-office", title: "I Spent 8 Hours Calling the Unemployment Office — Here's What Works", description: "The Governor's office trick and other strategies that actually get you through.", date: "2026-04-07" },
+            { slug: "employer-contests-claim", title: "What to Do When Your Employer Contests Your Claim", description: "Don't panic. Here's how the appeal process works and how to win.", date: "2026-04-07" },
+            { slug: "remote-jobs-no-experience", title: "Remote Jobs That Don't Require Experience — 15 Legit Options", description: "Real remote jobs you can get with no prior experience. No scams.", date: "2026-04-07" },
+            { slug: "first-30-days-playbook", title: "The First 30 Days After a Layoff — A Day-by-Day Playbook", description: "A complete day-by-day guide for your first month after losing your job.", date: "2026-04-07" },
           ].map((post) => (
             <article
               key={post.slug}

@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Subscription Purge: How I Saved $347/Month in One Afternoon | The Layoff Guide</title>
+    <meta name="description" content="A practical guide to auditing and cutting unnecessary subscriptions after a layoff. Save hundreds per month with our free checklist and decision framework.">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy: #1a1a2e;
+            --teal: #4ecdc4;
+            --mint: #0d9488;
+            --text-dark: #2c2c3e;
+            --text-med: #444;
+            --text-light: #555;
+            --border-light: #e0e0e0;
+            --bg-light: #f9f9f9;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            color: var(--text-dark);
+            line-height: 1.7;
+            background: white;
+        }
+
+        /* Navigation */
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: var(--navy);
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .site-nav a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            font-size: 1.3rem;
+            letter-spacing: -0.5px;
+        }
+
+        .site-nav a span {
+            color: var(--teal);
+        }
+
+        /* Hero Section */
+        .hero {
+            width: 100%;
+            height: 500px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #2a3f5f 100%), url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1400&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 3rem 2rem;
+            color: white;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(26, 26, 46, 0.55);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 760px;
+            margin: 0 auto;
+        }
+
+        .category-label {
+            display: inline-block;
+            background: var(--teal);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            font-family: 'Merriweather', serif;
+        }
+
+        .hero-meta {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            opacity: 0.95;
+        }
+
+        /* Article Container */
+        .article-container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Author Info */
+        .author-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--border-light);
+            margin-bottom: 2rem;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .author-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: var(--teal);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .author-details {
+            flex: 1;
+        }
+
+        .author-details p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .author-details strong {
+            display: block;
+            color: var(--text-dark);
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+
+        .author-details span {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Article Body */
+        article {
+            font-size: 1.1rem;
+        }
+
+        article p {
+            margin-bottom: 1.8rem;
+            color: var(--text-med);
+            line-height: 1.8;
+        }
+
+        article h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 2rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1.2rem;
+            color: var(--text-dark);
+            font-weight: 700;
+        }
+
+        article h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        article strong {
+            color: var(--navy);
+            font-weight: 700;
+        }
+
+        article em {
+            color: var(--text-med);
+            font-style: italic;
+        }
+
+        /* Pull Quote */
+        .pull-quote {
+            border-left: 5px solid var(--teal);
+            padding-left: 1.8rem;
+            margin: 2.5rem 0;
+            font-style: italic;
+            font-size: 1.25rem;
+            color: var(--text-med);
+            line-height: 1.8;
+        }
+
+        /* Subscription Audit Checklist */
+        .audit-checklist {
+            background: var(--bg-light);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+            border: 1px solid var(--border-light);
+        }
+
+        .checklist-category {
+            margin-bottom: 2rem;
+        }
+
+        .checklist-category:last-child {
+            margin-bottom: 0;
+        }
+
+        .checklist-category h4 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .checklist-items {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.8rem;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #e8e8e8;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .checklist-item:hover {
+            border-color: var(--teal);
+            background: rgba(78, 205, 196, 0.03);
+        }
+
+        .checklist-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--teal);
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        .checklist-item label {
+            flex: 1;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .checklist-item .price {
+            font-weight: 600;
+            color: var(--navy);
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+
+        /* Decision Framework */
+        .decision-framework {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+
+        .decision-card {
+            padding: 1.8rem;
+            border-radius: 10px;
+            border-left: 5px solid;
+            text-align: center;
+        }
+
+        .decision-card.keep {
+            background: #d4edda;
+            border-color: #28a745;
+            color: #155724;
+        }
+
+        .decision-card.keep h4 {
+            color: #155724;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+        }
+
+        .decision-card.pause {
+            background: #fff3cd;
+            border-color: #ffc107;
+            color: #856404;
+        }
+
+        .decision-card.pause h4 {
+            color: #856404;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+        }
+
+        .decision-card.cancel {
+            background: #f8d7da;
+            border-color: #dc3545;
+            color: #721c24;
+        }
+
+        .decision-card.cancel h4 {
+            color: #721c24;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+        }
+
+        .decision-card p {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+
+        /* Savings Calculator */
+        .savings-calculator {
+            background: linear-gradient(135deg, #1a1a2e 0%, #2a3f5f 100%);
+            color: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            text-align: center;
+            margin: 2.5rem 0;
+        }
+
+        .savings-calculator h3 {
+            color: white;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .savings-calc-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            font-family: 'Inter', sans-serif;
+            align-items: center;
+        }
+
+        .savings-calc-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--teal);
+            line-height: 1.2;
+        }
+
+        .savings-calc-label {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .savings-calc-total {
+            border-top: 2px solid rgba(255,255,255,0.3);
+            padding-top: 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .savings-calc-total .amount {
+            font-size: 3rem;
+            color: var(--teal);
+            display: block;
+            margin: 0.5rem 0;
+        }
+
+        /* Tools Section */
+        .tools-section {
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2.5rem 0;
+            border: 1px solid var(--border-light);
+        }
+
+        .tools-section h3 {
+            margin-top: 0;
+        }
+
+        .tool-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .tool-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .tool-item strong {
+            color: var(--navy);
+            display: block;
+            margin-bottom: 0.4rem;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .tool-item p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
+
+        .tool-item a {
+            color: var(--teal);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .tool-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #1a1a2e 0%, #2a3f5f 100%);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 12px;
+            margin: 3rem 0 3rem 0;
+            text-align: center;
+        }
+
+        .cta-section h3 {
+            color: white;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            color: rgba(255,255,255,0.95);
+            margin-bottom: 2rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 0.9rem 2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .cta-btn.primary {
+            background: var(--teal);
+            color: var(--navy);
+        }
+
+        .cta-btn.primary:hover {
+            background: #3eb8b0;
+            transform: translateY(-2px);
+        }
+
+        .cta-btn.secondary {
+            background: transparent;
+            color: white;
+            border-color: white;
+        }
+
+        .cta-btn.secondary:hover {
+            background: white;
+            color: var(--navy);
+        }
+
+        /* Related Articles Link */
+        .related-link {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2.5rem 0;
+            border-left: 4px solid var(--teal);
+        }
+
+        .related-link p {
+            margin-bottom: 0.8rem;
+        }
+
+        .related-link a {
+            color: var(--teal);
+            text-decoration: none;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .related-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--navy);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            font-family: 'Inter', sans-serif;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        footer a {
+            color: var(--teal);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                height: 350px;
+                padding: 2rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .article-container {
+                padding: 2rem 1rem;
+            }
+
+            article h2 {
+                font-size: 1.5rem;
+            }
+
+            article h3 {
+                font-size: 1.1rem;
+            }
+
+            .decision-framework {
+                grid-template-columns: 1fr;
+            }
+
+            .savings-calc-row {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .audit-checklist {
+                padding: 1.5rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .cta-btn {
+                width: 100%;
+            }
+
+            .pull-quote {
+                font-size: 1.1rem;
+                padding-left: 1.2rem;
+            }
+
+            .site-nav {
+                padding: 1rem;
+            }
+
+            .site-nav a {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-meta {
+                font-size: 0.9rem;
+            }
+
+            .category-label {
+                font-size: 0.75rem;
+                padding: 0.3rem 0.8rem;
+            }
+
+            .author-info {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .checklist-item label {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    .site-footer { background: #1a1a2e; color: #888; text-align: center; padding: 32px 24px; font-family: "Inter", sans-serif; font-size: 14px; } .site-footer a { color: #4ecdc4; text-decoration: none; }
+</style>
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="site-nav">
+        <a href="https://www.thelayoffguide.com">The<span>Layoff</span>Guide</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="category-label">Money Moves</div>
+            <h1>The Subscription Purge: How I Saved $347/Month in One Afternoon</h1>
+            <div class="hero-meta">April 7, 2026 · 8 min read</div>
+        </div>
+    </section>
+
+    <!-- Article -->
+    <div class="article-container">
+        <!-- Author Info -->
+        <div class="author-info">
+            <div class="author-avatar">TLG</div>
+            <div class="author-details">
+                <strong>The Layoff Guide</strong>
+                <span>Real stories. Practical advice. No corporate speak.</span>
+            </div>
+        </div>
+
+        <!-- Main Article -->
+        <article>
+            <p>I sat down on a Tuesday afternoon with my coffee, a spreadsheet, and a feeling I couldn't shake: <em>I'm probably wasting money.</em></p>
+
+            <p>Three weeks after my layoff, I was still in "keep everything the same" mode—the financial equivalent of not opening bills. But that afternoon, I finally opened my bank statements and realized something was bleeding me dry that had nothing to do with rent or groceries. It was subscriptions. Dozens of them. Some I'd forgotten I even had.</p>
+
+            <p>By the time I finished my audit, I'd cut <strong>$347 a month</strong> from my recurring charges. That's $4,164 a year. Money I didn't know I had, just sitting there.</p>
+
+            <p>If you're reading this after a layoff, you're probably doing the mental math on your own finances too. Let me walk you through exactly what I did.</p>
+
+            <!-- Pull Quote -->
+            <div class="pull-quote">
+                "Americans think they spend about $86 a month on subscriptions. They actually spend $219—and 55% have at least one they don't use."
+            </div>
+
+            <p>This stat from <strong>C+R Research</strong> hit me hard. We're terrible at knowing what we spend. Not because we're irresponsible—because subscriptions are <em>designed</em> to fade into the background. That's the whole business model. Small charges that don't trigger pain, autopay that requires you to actively cancel, services that count on you forgetting they exist.</p>
+
+            <p>After a layoff, though? Forgetting becomes expensive.</p>
+
+            <!-- Section: The Audit -->
+            <h2>Let's Do the Audit</h2>
+
+            <p>Here's the honest part: auditing your subscriptions takes maybe 30 minutes. I'll give you a checklist. You're probably using some of these, not using others, and don't even remember signing up for the rest.</p>
+
+            <!-- Subscription Audit Checklist -->
+            <div class="audit-checklist">
+                <div class="checklist-category">
+                    <h4>Streaming & Entertainment</h4>
+                    <div class="checklist-items">
+                        <div class="checklist-item">
+                            <input type="checkbox" id="netflix">
+                            <label for="netflix">
+                                <span>Netflix</span>
+                                <span class="price">$18</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="disney">
+                            <label for="disney">
+                                <span>Disney+</span>
+                                <span class="price">$12</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="hulu">
+                            <label for="hulu">
+                                <span>Hulu</span>
+                                <span class="price">$13</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="max">
+                            <label for="max">
+                                <span>Max (HBO)</span>
+                                <span class="price">$10</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="appletv">
+                            <label for="appletv">
+                                <span>Apple TV+</span>
+                                <span class="price">$13</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="spotify">
+                            <label for="spotify">
+                                <span>Spotify Premium</span>
+                                <span class="price">$13</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="youtube">
+                            <label for="youtube">
+                                <span>YouTube Premium</span>
+                                <span class="price">$14</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checklist-category">
+                    <h4>Fitness & Wellness</h4>
+                    <div class="checklist-items">
+                        <div class="checklist-item">
+                            <input type="checkbox" id="gym">
+                            <label for="gym">
+                                <span>Gym Membership</span>
+                                <span class="price">$15-45</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checklist-category">
+                    <h4>Cloud Storage & Backup</h4>
+                    <div class="checklist-items">
+                        <div class="checklist-item">
+                            <input type="checkbox" id="icloud">
+                            <label for="icloud">
+                                <span>iCloud+ Storage</span>
+                                <span class="price">$3-10</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="googleone">
+                            <label for="googleone">
+                                <span>Google One</span>
+                                <span class="price">$2-20</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="dropbox">
+                            <label for="dropbox">
+                                <span>Dropbox</span>
+                                <span class="price">$12-20</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checklist-category">
+                    <h4>Food & Delivery</h4>
+                    <div class="checklist-items">
+                        <div class="checklist-item">
+                            <input type="checkbox" id="dashpass">
+                            <label for="dashpass">
+                                <span>DashPass</span>
+                                <span class="price">$10</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="uberone">
+                            <label for="uberone">
+                                <span>Uber One</span>
+                                <span class="price">$10</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checklist-category">
+                    <h4>Software & Productivity</h4>
+                    <div class="checklist-items">
+                        <div class="checklist-item">
+                            <input type="checkbox" id="adobe">
+                            <label for="adobe">
+                                <span>Adobe Creative Cloud</span>
+                                <span class="price">$55+</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="office">
+                            <label for="office">
+                                <span>Microsoft 365</span>
+                                <span class="price">$7-10</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checklist-category">
+                    <h4>Shopping & Membership</h4>
+                    <div class="checklist-items">
+                        <div class="checklist-item">
+                            <input type="checkbox" id="prime">
+                            <label for="prime">
+                                <span>Amazon Prime</span>
+                                <span class="price">$15</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checklist-category">
+                    <h4>News, Media & Learning</h4>
+                    <div class="checklist-items">
+                        <div class="checklist-item">
+                            <input type="checkbox" id="medium">
+                            <label for="medium">
+                                <span>Medium Membership</span>
+                                <span class="price">$13</span>
+                            </label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="news">
+                            <label for="news">
+                                <span>News Subscriptions</span>
+                                <span class="price">Varies</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p>Go through each one and ask: <strong>Did I use this in the last month?</strong> Seriously—go look. Open your app. Check your usage stats. If you can't remember the last time you opened it, that's your answer.</p>
+
+            <!-- Section: Decision Framework -->
+            <h2>Keep, Pause, or Cancel?</h2>
+
+            <p>Now comes the framework that actually works. Not "should you cancel this"—because you'll talk yourself into keeping everything. But specific rules that take emotion out of it:</p>
+
+            <div class="decision-framework">
+                <div class="decision-card keep">
+                    <h4>Keep</h4>
+                    <p>You use it 3+ times a week. It genuinely adds value to your life.</p>
+                </div>
+                <div class="decision-card pause">
+                    <h4>Pause</h4>
+                    <p>You use it monthly but could live without it right now. Put it on hold, not cancel.</p>
+                </div>
+                <div class="decision-card cancel">
+                    <h4>Cancel</h4>
+                    <p>You haven't used it in 2+ weeks. You're just paying to own potential.</p>
+                </div>
+            </div>
+
+            <p>Most of my cuts were "Pauses" and "Cancels." I kept Spotify (daily) and Netflix (3x a week). I paused my gym membership for a month—I can use free fitness YouTube videos temporarily. I cancelled three streaming services I wasn't watching, a meditation app I'd stopped opening, and a cloud storage I didn't need.</p>
+
+            <p><strong>That's when the math clicked:</strong> If you're cancelling just 4 subscriptions averaging $15 each, you're looking at $60/month. $720/year. That's real money when your income just disappeared.</p>
+
+            <!-- Savings Calculator -->
+            <div class="savings-calculator">
+                <h3>Quick Math</h3>
+                <div class="savings-calc-row">
+                    <div>
+                        <div class="savings-calc-value">4</div>
+                        <div class="savings-calc-label">subscriptions cut</div>
+                    </div>
+                    <div>
+                        <div class="savings-calc-value">$15</div>
+                        <div class="savings-calc-label">average cost each</div>
+                    </div>
+                </div>
+                <div class="savings-calc-total">
+                    <div class="savings-calc-label">Monthly savings</div>
+                    <span class="amount">$60</span>
+                    <div class="savings-calc-label">= <strong>$720/year</strong></div>
+                </div>
+            </div>
+
+            <!-- Section: Tools -->
+            <h2>The Tools That Make This Easier</h2>
+
+            <div class="tools-section">
+                <h3>Two options:</h3>
+
+                <div class="tool-item">
+                    <strong>Option 1: Rocket Money (Free)</strong>
+                    <p>Visit <a href="https://www.rocketmoney.com">rocketmoney.com</a>. Connect your bank account (yes, securely—they're trusted). It'll automatically flag every subscription, let you see them categorized, and cancel directly from the app. This took me 15 minutes and caught subscriptions I'd completely forgotten about.</p>
+                </div>
+
+                <div class="tool-item">
+                    <strong>Option 2: DIY Bank Audit (Actually Free)</strong>
+                    <p>Open your last 3 months of bank statements. Search for recurring charges. Make a spreadsheet. Sort by "recurring charges." Cancel what you don't need. Slower, but you learn exactly where your money goes—and there's something powerful about doing it yourself.</p>
+                </div>
+            </div>
+
+            <p>I used Rocket Money. It was fast, didn't feel invasive, and I found subscriptions I genuinely didn't know I had. (Apparently I was still paying for a meditation app I tried once.)</p>
+
+            <!-- Pull Quote 2 -->
+            <div class="pull-quote">
+                This isn't about deprivation. It's about having $347 a month for things that actually matter—an emergency fund, groceries, therapy, or just breathing room.
+            </div>
+
+            <!-- Related Article Link -->
+            <div class="related-link">
+                <p><strong>Want more on managing money after a layoff?</strong> Check out our detailed guide on <a href="https://www.thelayoffguide.com/blog">money conversations and financial planning</a>.</p>
+            </div>
+
+            <!-- Section: The Real Impact -->
+            <h2>What $347 Really Means</h2>
+
+            <p>Here's why this matters beyond the number: After a layoff, you're probably in triage mode. Rent, utilities, food, health insurance. But while you're focused on the big stuff, these tiny recurring charges are quietly undermining your runway.</p>
+
+            <p>My $347 saved that month meant I could fund my emergency savings without cutting food. It meant I could afford therapy sessions (which I needed). It meant I wasn't watching my bank account drop every single day.</p>
+
+            <p>The subscription purge isn't about punishment or living like a monk. It's about <strong>intentionality</strong>. I still have streaming (one good service, not five mediocre ones). I still have Spotify. But now, every charge is something I actually use and value.</p>
+
+            <p>You don't need a life coach or a financial planner to do this. You just need 30 minutes, a coffee, and your bank statements. Everything else—the guilt, the "but what if I need this later"—that's noise. After a layoff, you need clarity.</p>
+
+            <p>Go audit your subscriptions. You might find $347 too. And if you do, don't spend it on another subscription.</p>
+        </article>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h3>Ready to Reset Your Finances?</h3>
+            <p>You've got this. Check out our full resource library for more practical guides on budgeting, negotiating, and rebuilding after a layoff.</p>
+            <div class="cta-buttons">
+                <a href="https://www.thelayoffguide.com/resources" class="cta-btn primary">View Resources</a>
+                <a href="https://www.thelayoffguide.com/blog" class="cta-btn secondary">Read More Posts</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Layoff Guide. Built by people who've been there. <a href="https://www.thelayoffguide.com">Visit the full site</a></p>
+    </footer>
+
+</body>
+</html>
