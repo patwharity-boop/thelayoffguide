@@ -182,6 +182,48 @@ const sections = [
     ],
   },
   {
+    title: "Medication & Prescription Assistance",
+    icon: "💊",
+    resources: [
+      {
+        name: "NeedyMeds — Prescription Assistance Finder",
+        url: "https://www.needymeds.org/",
+        description:
+          "Search by medication name to find patient assistance programs, discount coupons, and free/low-cost options. The most comprehensive database for finding help with prescription costs.",
+      },
+      {
+        name: "RxAssist — Patient Assistance Programs",
+        url: "https://www.rxassist.org/",
+        description:
+          "A free database of pharmaceutical company programs that provide free or low-cost brand-name medications to people who can't afford them. Most major drug makers offer these.",
+      },
+      {
+        name: "GoodRx — Free Prescription Discounts",
+        url: "https://www.goodrx.com/",
+        description:
+          "Free coupons that can cut your prescription costs by up to 80% at any pharmacy. No insurance needed. Just show the coupon on your phone at the pharmacy counter.",
+      },
+      {
+        name: "Mark Cuban Cost Plus Drugs",
+        url: "https://costplusdrugs.com/",
+        description:
+          "Generic medications at manufacturer cost plus a small markup. Often 90%+ cheaper than pharmacy prices. No insurance needed, ships to your door.",
+      },
+      {
+        name: "PAN Foundation — FundFinder",
+        url: "https://www.panfoundation.org/how-to-find-financial-assistance-for-your-prescription-medications/",
+        description:
+          "Free tool that searches 200+ assistance programs from charitable foundations to find help with your specific medications. Takes 2 minutes.",
+      },
+      {
+        name: "Medicaid — Free Health Coverage Including Prescriptions",
+        url: "https://www.medicaid.gov/",
+        description:
+          "If your income dropped to zero, you likely qualify for Medicaid which covers prescriptions at little or no cost. Apply any time — no enrollment window.",
+      },
+    ],
+  },
+  {
     title: "Interviewing & Career Coaching",
     icon: "🎯",
     resources: [

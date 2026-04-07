@@ -49,6 +49,9 @@ export default function RootLayout({
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 All States
               </Link>
+              <Link href="/fast-track-careers" className="text-gray-600 hover:text-gray-900">
+                Careers
+              </Link>
               <Link href="/blog" className="text-gray-600 hover:text-gray-900">
                 Blog
               </Link>
