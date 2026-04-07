@@ -66,6 +66,13 @@ export default function RootLayout({
 
         <footer className="border-t border-gray-200 bg-gray-50 mt-16">
           <div className="mx-auto max-w-4xl px-4 py-8 text-center text-sm text-gray-500">
+            <div className="flex justify-center gap-6 mb-4">
+              <Link href="/about" className="text-gray-500 hover:text-gray-700">About</Link>
+              <Link href="/blog" className="text-gray-500 hover:text-gray-700">Blog</Link>
+              <Link href="/resources" className="text-gray-500 hover:text-gray-700">Resources</Link>
+              <Link href="/fast-track-careers" className="text-gray-500 hover:text-gray-700">Careers</Link>
+              <Link href="/budget-template" className="text-gray-500 hover:text-gray-700">Budget Template</Link>
+            </div>
             <p>
               The Layoff Guide provides general information about unemployment
               benefits and post-layoff resources. This site is not affiliated with any government agency.
