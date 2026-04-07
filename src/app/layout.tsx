@@ -41,7 +41,10 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <header className="border-b border-gray-200 bg-white">
-          <div className="mx-auto max-w-4xl px-4 py-4 flex items-center justify-end">
+          <div className="mx-auto max-w-6xl px-6 py-6 flex items-center justify-center gap-8">
+            <Link href="/" className="hover:opacity-90 shrink-0">
+              <img src="/logo.png" alt="The Layoff Guide" className="h-24 w-auto" />
+            </Link>
             <nav className="flex gap-6 text-sm">
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 All States
@@ -61,11 +64,6 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
-
-        {/* Logo - positioned left, overlapping header */}
-        <Link href="/" className="fixed top-2 left-6 z-50 hover:opacity-90 hidden lg:block">
-          <img src="/logo.png" alt="The Layoff Guide" className="h-[448px] w-auto" />
-        </Link>
 
         <main className="flex-1">{children}</main>
 
