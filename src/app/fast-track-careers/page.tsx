@@ -141,6 +141,33 @@ const quickStart = [
       "Perform clinical and administrative tasks in physician offices. Accelerated programs get you certified fast, and jobs are everywhere. Great launchpad for a healthcare career.",
     link: "https://www.aama-ntl.org/",
   },
+  {
+    title: "Solar Panel Installer",
+    training: "1–6 months",
+    salary: "$44K–$67K",
+    outlook: "Outstanding — 42% growth projected, one of fastest-growing jobs in America",
+    description:
+      "Install, maintain, and repair solar systems on rooftops. Entry-level training is quick, NABCEP certification boosts pay. The green energy boom makes this a future-proof career.",
+    link: "https://www.solarenergy.org/become-a-solar-installer/",
+  },
+  {
+    title: "OSHA Safety Certification",
+    training: "2 days–1 week",
+    salary: "$55K–$95K (managers: $110K–$140K)",
+    outlook: "Growing — every construction site, factory, and warehouse needs safety compliance",
+    description:
+      "OSHA 10-Hour (2 days) or 30-Hour (1 week) card is a gateway credential for construction and manufacturing. Safety officers and managers earn six figures.",
+    link: "https://www.osha.gov/training/outreach",
+  },
+  {
+    title: "Bartender",
+    training: "1–4 weeks",
+    salary: "$40K–$60K with tips (top: $100K+)",
+    outlook: "Steady — always demand in hospitality",
+    description:
+      "Alcohol server cert takes hours, bartending school 1-4 weeks. Income is heavily tip-dependent — top bartenders in cities earn six figures. Great bridge income while job searching.",
+    link: "https://servingalcohol.com/",
+  },
 ];
 
 const quickCerts = [
