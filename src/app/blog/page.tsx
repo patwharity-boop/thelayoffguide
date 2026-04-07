@@ -92,10 +92,43 @@ export default function BlogPage() {
         Advertisement
       </div>
 
-      {/* More Articles */}
+      {/* Latest Articles */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          Latest Articles
+        </h2>
+        <div className="space-y-6">
+          {[
+            { slug: "fast-track-careers", title: "You Don't Need a Degree — 15 High-Paying Careers in 12 Weeks or Less", description: "Phlebotomist, CDL driver, insurance adjuster, drone pilot, and more. No degree required.", date: "2026-04-07" },
+            { slug: "fired-unemployment", title: "Can I Get Unemployment If I Was Fired?", description: "It depends on why. Misconduct = probably not. Performance = maybe. Here's exactly how it works.", date: "2026-04-07" },
+            { slug: "cobra-vs-marketplace", title: "COBRA vs Marketplace — Which Health Insurance After a Layoff?", description: "COBRA keeps your plan but costs a fortune. Marketplace might be cheaper. Real numbers inside.", date: "2026-04-07" },
+            { slug: "explain-layoff-interview", title: "How to Explain a Layoff in a Job Interview", description: "The dreaded question — here's exactly what to say and what not to say.", date: "2026-04-07" },
+          ].map((post) => (
+            <article
+              key={post.slug}
+              className="border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:bg-blue-50/30 transition-colors"
+            >
+              <Link href={`/blog/${post.slug}`}>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 hover:text-blue-700">
+                  {post.title}
+                </h3>
+              </Link>
+              <p className="text-gray-600 mb-3">{post.description}</p>
+              <time className="text-sm text-gray-400">{post.date}</time>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      {/* Ad */}
+      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">
+        Advertisement
+      </div>
+
+      {/* Earlier Articles */}
       <section>
         <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          More Articles
+          Earlier Articles
         </h2>
         <div className="space-y-6">
           {posts.map((post) => (
