@@ -64,7 +64,7 @@ export default function RootLayout({
 
         {/* Logo - positioned left, overlapping header */}
         <Link href="/" className="fixed top-2 left-6 z-50 hover:opacity-90 hidden lg:block">
-          <img src="/logo.png" alt="The Layoff Guide" className="h-56 w-auto" />
+          <img src="/logo.png" alt="The Layoff Guide" className="h-[448px] w-auto" />
         </Link>
 
         <main className="flex-1">{children}</main>
