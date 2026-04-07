@@ -14,6 +14,135 @@ export const metadata: Metadata = {
   ],
 };
 
+const quickStart = [
+  {
+    title: "Phlebotomist",
+    training: "4–12 weeks",
+    salary: "$35K–$42K",
+    outlook: "Growing 8-10% — high demand in labs, hospitals, blood banks",
+    description:
+      "Draw blood from patients for tests, transfusions, or donations. One of the fastest healthcare entries — many programs are just 4 weeks. Get certified through NHA.",
+    link: "https://www.nhanow.com/certifications/phlebotomy",
+  },
+  {
+    title: "Certified Nursing Assistant (CNA)",
+    training: "4–12 weeks",
+    salary: "$33K–$42K",
+    outlook: "Strong — massive demand in nursing homes and home health",
+    description:
+      "Assist patients with daily living activities under nurse supervision. State-approved programs are short and widely available. Great stepping stone to nursing if you want to advance later.",
+    link: "https://www.redcross.org/take-a-class/cna",
+  },
+  {
+    title: "Medical Billing & Coding",
+    training: "4–12 weeks (accelerated)",
+    salary: "$42K–$55K",
+    outlook: "Strong — 7-8% growth, remote work widely available",
+    description:
+      "Translate medical procedures into standardized codes for insurance billing. One of the few healthcare careers you can do 100% remotely. AAPC certification is the gold standard.",
+    link: "https://www.aapc.com/",
+  },
+  {
+    title: "CDL Truck Driver",
+    training: "3–8 weeks",
+    salary: "$50K–$80K+",
+    outlook: "Huge shortage — companies are desperate for drivers",
+    description:
+      "One of the absolute fastest paths to a good paycheck. Many trucking companies will pay for your CDL training in exchange for a work commitment.",
+    link: "https://www.fmcsa.dot.gov/registration/commercial-drivers-license",
+  },
+  {
+    title: "Insurance Claims Adjuster",
+    training: "2–6 weeks",
+    salary: "$48K–$80K (independent: $100K+)",
+    outlook: "Strong — especially during storm seasons",
+    description:
+      "Assess insurance claims and determine payouts. During hurricanes and natural disasters, adjusters can earn a year's salary in a few months. License requirements vary by state.",
+    link: "https://adjusterpro.com/become-a-claims-adjuster-in-5-steps/",
+  },
+  {
+    title: "EKG/ECG Technician",
+    training: "4–8 weeks",
+    salary: "$35K–$45K",
+    outlook: "Growing — cardiac care demand is steady",
+    description:
+      "Operate electrocardiogram equipment to monitor heart activity. Quick certification through NHA, and jobs are available in every hospital and cardiology office.",
+    link: "https://www.nhanow.com/certifications/ekg-technician",
+  },
+  {
+    title: "Pharmacy Technician",
+    training: "8–12 weeks",
+    salary: "$36K–$46K",
+    outlook: "Growing 5-6% — retail and hospital pharmacy demand",
+    description:
+      "Assist pharmacists in dispensing medications and managing inventory. PTCB certification opens doors at every CVS, Walgreens, and hospital pharmacy in the country.",
+    link: "https://www.ptcb.org/",
+  },
+  {
+    title: "Forklift Operator (OSHA Certified)",
+    training: "1–3 days",
+    salary: "$35K–$50K",
+    outlook: "Strong — warehousing and logistics are booming",
+    description:
+      "The fastest certification on this list. Get OSHA forklift certified in a day or two and start working in warehouses, distribution centers, or construction sites immediately.",
+    link: "https://www.osha.gov/training/outreach",
+  },
+  {
+    title: "FAA Drone Pilot (Part 107)",
+    training: "1–4 weeks",
+    salary: "$40K–$75K (freelance: $100K+)",
+    outlook: "Booming — real estate, agriculture, construction, film all need pilots",
+    description:
+      "Study for and pass the FAA Part 107 exam to fly drones commercially. Freelance drone pilots for real estate photography, inspections, and surveying earn great money.",
+    link: "https://www.faa.gov/uas/commercial_operators",
+  },
+  {
+    title: "Home Health Aide",
+    training: "2–4 weeks",
+    salary: "$30K–$38K",
+    outlook: "Very strong — 22-25% growth, aging population",
+    description:
+      "Provide in-home personal care to elderly or disabled patients. Training is short, demand is massive, and it's meaningful work. Great entry into healthcare.",
+    link: "https://www.nahc.org/",
+  },
+  {
+    title: "Personal Trainer (NASM/ACE)",
+    training: "4–12 weeks",
+    salary: "$40K–$65K (top trainers: $100K+)",
+    outlook: "Growing — wellness industry continues expanding",
+    description:
+      "Get NASM or ACE certified and start training clients at gyms, studios, or independently. Online training has exploded the market — you can build a client base from anywhere.",
+    link: "https://www.nasm.org/become-a-personal-trainer",
+  },
+  {
+    title: "Pest Control Technician",
+    training: "4–12 weeks",
+    salary: "$37K–$50K (specialized: $65K+)",
+    outlook: "Steady demand — pests don't take days off",
+    description:
+      "Get state-certified and start immediately. Termite inspectors and commercial specialists earn significantly more. Companies often train you on the job.",
+    link: "https://www.briostack.com/blog/how-to-become-a-pest-control-technician",
+  },
+  {
+    title: "Notary Public / Loan Signing Agent",
+    training: "Days (varies by state)",
+    salary: "$40K–$75K (signing agents: $100K+)",
+    outlook: "Steady — real estate transactions always need notaries",
+    description:
+      "Become a notary in days, then add loan signing agent training to earn $75-200 per signing. Flexible schedule, work on your own terms. Some states are easier than others.",
+    link: "https://www.nationalnotary.org/",
+  },
+  {
+    title: "Medical Assistant",
+    training: "8–12 weeks (accelerated)",
+    salary: "$37K–$46K",
+    outlook: "Very strong — 14-16% growth, one of the fastest in healthcare",
+    description:
+      "Perform clinical and administrative tasks in physician offices. Accelerated programs get you certified fast, and jobs are everywhere. Great launchpad for a healthcare career.",
+    link: "https://www.aama-ntl.org/",
+  },
+];
+
 const quickCerts = [
   {
     title: "Certified ScrumMaster (CSM)",
@@ -223,10 +352,42 @@ export default function FastTrackCareersPage() {
       {/* Ad */}
       <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">Advertisement</div>
 
-      {/* Quick Certifications */}
+      {/* Quick Start — 12 Weeks or Less */}
+      <section className="mb-14">
+        <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Quick Start — 12 Weeks or Less</h2>
+          <p className="text-gray-600">These careers get you earning the fastest. No degree required, most need no prior experience. Sorted by training time.</p>
+        </div>
+
+        <div className="space-y-4">
+          {quickStart.map((job) => (
+            <div key={job.title} className="border border-gray-200 rounded-xl p-6 hover:border-red-300 transition-colors">
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                <h3 className="text-lg font-bold text-gray-900">{job.title}</h3>
+                <div className="flex gap-2 shrink-0">
+                  <span className="text-xs font-semibold bg-red-100 text-red-800 px-3 py-1 rounded-full">{job.training}</span>
+                  <span className="text-xs font-semibold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">{job.salary}</span>
+                </div>
+              </div>
+              <p className="text-gray-600 text-sm mb-2">{job.description}</p>
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-gray-500">Outlook: {job.outlook}</span>
+                <a href={job.link} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-red-600 hover:text-red-800">
+                  Get started &rarr;
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Ad */}
+      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">Advertisement</div>
+
+      {/* Online Certifications */}
       <section className="mb-14">
         <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Online Certifications — Start From Your Couch</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Online Certifications — Level Up From Your Couch</h2>
           <p className="text-gray-600">These can all be done online, on your own schedule. Most don&apos;t require prior experience.</p>
         </div>
 
