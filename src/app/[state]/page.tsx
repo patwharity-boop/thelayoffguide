@@ -312,18 +312,18 @@ export default async function StatePage({
           <div className="flex items-start gap-3">
             <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
             <p className="text-gray-700">
-              <strong>File even if you don&apos;t think you&apos;ll qualify.</strong>{" "}
-              You might be surprised. And if you get denied, appeal it — a huge
-              percentage of appeals succeed because a real person actually reviews
-              your case.
+              <strong>File even if you&apos;re not sure you qualify.</strong>{" "}
+              You might be surprised. The worst that can happen is you get denied,
+              and you&apos;ll at least know where you stand.
             </p>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
             <p className="text-gray-700">
-              <strong>Always say you are available and looking for work.</strong>{" "}
-              Everyone should always be positioning themselves as ready to work,
-              whether unemployed, partially employed, or self-employed.
+              <strong>Be honest on every certification.</strong>{" "}
+              States cross-check your information with hospitals, jails, the IRS,
+              and other agencies. Misrepresenting your availability or earnings
+              can result in overpayment penalties and fraud charges.
             </p>
           </div>
           <div className="flex items-start gap-3">
@@ -338,10 +338,20 @@ export default async function StatePage({
           <div className="flex items-start gap-3">
             <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
             <p className="text-gray-700">
-              <strong>If you appeal, the hearing is much more fair than the initial process.</strong>{" "}
-              It&apos;s usually just you, a judge, and sometimes the employer on a
-              phone call. Judges give you real time to explain your side. Many
-              employers don&apos;t even show up.
+              <strong>If you get denied, don&apos;t miss the appeal deadline.</strong>{" "}
+              You typically have 10-30 days to file an appeal depending on your state.
+              If you file late without a documented compelling reason, your case
+              cannot be heard — no matter how strong it is. Read your denial letter
+              carefully and note every deadline.
+            </p>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
+            <p className="text-gray-700">
+              <strong>Read your state&apos;s claimant handbook before filing.</strong>{" "}
+              Every state publishes one. It covers monetary requirements, eligibility
+              rules, and your rights. Understanding these upfront can save you weeks
+              of confusion.
             </p>
           </div>
         </div>

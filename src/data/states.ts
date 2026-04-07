@@ -1319,18 +1319,18 @@ export const states: StateData[] = [
     abbreviation: "NJ",
     maxWeeklyBenefit: 905,
     maxWeeks: 26,
-    waitingWeek: true,
+    waitingWeek: false,
     filingUrl: "https://myunemployment.nj.gov/",
-    filingPhone: "1-201-601-4100",
+    filingPhone: "North NJ: 1-201-601-4100 | Central NJ: 1-732-761-2020 | South NJ: 1-856-507-2340",
     handbookUrl: "https://www.nj.gov/labor/forms_pdfs/ui/PR-94.pdf",
     stateJobsUrl: "https://www.nj.gov/csc/jobs/",
-    minEarnings: "You must have earned at least $260 per week for 20 base weeks, or $13,000 total in your base period.",
+    minEarnings: "You must have earned at least $310 per week for 20 or more weeks in covered employment during your base year, or a total of at least $15,500.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
     howToFile: ["Visit myunemployment.nj.gov to file online", "Create an account", "Provide personal and employment information", "Submit your claim", "Certify weekly"],
     documentsNeeded: ["Social Security number", "Driver's license or state ID", "Employer information for the past 18 months", "Banking information for direct deposit", "Alien registration number if applicable"],
-    commonMistakes: ["Not filing the week you become unemployed", "Missing weekly certifications", "Not reporting part-time work", "Not registering on the NJ career connections portal"],
+    commonMistakes: ["Not filing the week you become unemployed", "Missing weekly certifications", "Not reporting part-time work", "Not registering on the NJ career connections portal", "Filing an appeal after the deadline — if you miss the appeal window without a documented compelling reason, your case cannot be heard regardless of its merits"],
     processingTime: "Claims typically take 2-3 weeks to process.",
-    faq: [{ question: "How much will I receive in New Jersey?", answer: "New Jersey pays up to $830 per week with dependency allowance." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks." }, { question: "Can I file online?", answer: "Yes. File at myunemployment.nj.gov or call 1-201-601-4100." }]
+    faq: [{ question: "How much will I receive in New Jersey?", answer: "New Jersey pays up to $905 per week (with dependency allowance). Your actual amount depends on your earnings during the base period." }, { question: "How long can I receive benefits?", answer: "Up to 26 weeks. New Jersey has no waiting week — benefits begin immediately." }, { question: "Can I file online?", answer: "Yes. File at myunemployment.nj.gov. You can also call: North NJ 201-601-4100, Central NJ 732-761-2020, or South NJ 856-507-2340." }]
   },
   {
     name: "New Mexico",
