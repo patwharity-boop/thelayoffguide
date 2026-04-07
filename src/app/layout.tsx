@@ -42,11 +42,11 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <header className="border-b border-gray-200 bg-white">
-          <div className="mx-auto max-w-6xl px-6 py-6 flex items-center justify-center gap-8">
+          <div className="mx-auto max-w-6xl px-4 md:px-6 py-3 md:py-6 flex flex-col md:flex-row items-center justify-center gap-3 md:gap-8">
             <Link href="/" className="hover:opacity-90 shrink-0">
-              <img src="/logo.png" alt="The Layoff Guide" className="h-24 w-auto" />
+              <img src="/logo.png" alt="The Layoff Guide" className="h-14 md:h-24 w-auto" />
             </Link>
-            <nav className="flex gap-6 text-sm">
+            <nav className="flex flex-wrap justify-center gap-3 md:gap-6 text-xs md:text-sm">
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 All States
               </Link>
