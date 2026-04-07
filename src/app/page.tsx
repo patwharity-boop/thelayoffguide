@@ -36,7 +36,7 @@ export default function HomePage() {
         </div>
         <div className="bg-blue-50 rounded-lg p-4 text-center">
           <div className="text-2xl font-bold text-blue-700">$235–$1,152</div>
-          <div className="text-sm text-gray-600">Weekly Benefit Range</div>
+          <div className="text-sm text-gray-600">Max Weekly Range</div>
         </div>
         <div className="bg-blue-50 rounded-lg p-4 text-center">
           <div className="text-2xl font-bold text-blue-700">12–28</div>

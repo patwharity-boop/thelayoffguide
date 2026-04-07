@@ -291,7 +291,7 @@ export const states: StateData[] = [
     name: "Colorado",
     slug: "colorado",
     abbreviation: "CO",
-    maxWeeklyBenefit: 823,
+    maxWeeklyBenefit: 781,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://cdle.colorado.gov/unemployment",
@@ -656,7 +656,7 @@ export const states: StateData[] = [
     name: "Illinois",
     slug: "illinois",
     abbreviation: "IL",
-    maxWeeklyBenefit: 707,
+    maxWeeklyBenefit: 787,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://ides.illinois.gov/unemployment/file-a-claim.html",
@@ -1255,7 +1255,7 @@ export const states: StateData[] = [
     name: "New Jersey",
     slug: "new-jersey",
     abbreviation: "NJ",
-    maxWeeklyBenefit: 830,
+    maxWeeklyBenefit: 905,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://myunemployment.nj.gov/",
@@ -1289,7 +1289,7 @@ export const states: StateData[] = [
     name: "New York",
     slug: "new-york",
     abbreviation: "NY",
-    maxWeeklyBenefit: 504,
+    maxWeeklyBenefit: 869,
     maxWeeks: 26,
     waitingWeek: false,
     filingUrl: "https://dol.ny.gov/how-do-i-file",
@@ -1326,7 +1326,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in New York?",
-        answer: "New York pays up to $504 per week. Your benefit amount is about half your average weekly wage, up to the maximum."
+        answer: "New York pays up to $869 per week as of October 2025. Your benefit amount is about half your average weekly wage, up to the maximum."
       },
       {
         question: "How long can I receive unemployment benefits in New York?",
@@ -1412,7 +1412,7 @@ export const states: StateData[] = [
     name: "Oregon",
     slug: "oregon",
     abbreviation: "OR",
-    maxWeeklyBenefit: 733,
+    maxWeeklyBenefit: 813,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://unemployment.oregon.gov/",
