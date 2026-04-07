@@ -16,6 +16,7 @@ export interface StateData {
   commonMistakes: string[];
   processingTime: string;
   faq: { question: string; answer: string }[];
+  advocacy?: { title: string; url: string; description: string }[];
 }
 
 // Initial data for all 50 states — benefit amounts and details sourced from DOL and state workforce agencies (2026)
@@ -294,6 +295,13 @@ export const states: StateData[] = [
       {
         question: "What if I was fired — can I still get unemployment in California?",
         answer: "It depends. If you were fired for misconduct, you may be disqualified. If you were let go for performance reasons or a business decision, you likely still qualify. EDD will investigate and make a determination."
+      }
+    ],
+    advocacy: [
+      {
+        title: "Petition: Raise California's Maximum Unemployment Benefit",
+        url: "https://www.change.org/unemployment008",
+        description: "California's max weekly benefit of $450 hasn't increased in over 20 years. Sign this petition to push for an update that reflects today's cost of living."
       }
     ]
   },

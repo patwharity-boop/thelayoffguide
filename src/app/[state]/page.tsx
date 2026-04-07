@@ -347,6 +347,53 @@ export default async function StatePage({
         </div>
       </section>
 
+      {/* Take Action / Advocacy */}
+      {state.advocacy && state.advocacy.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Take Action
+          </h2>
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-6 space-y-4">
+            {state.advocacy.map((item, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <svg
+                  className="w-6 h-6 text-amber-600 mt-0.5 shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"
+                  />
+                </svg>
+                <div>
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-amber-800 hover:text-amber-900 underline"
+                  >
+                    {item.title}
+                  </a>
+                  <p className="text-gray-700 text-sm mt-1">
+                    {item.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+            <p className="text-xs text-gray-500 mt-2">
+              Know of a petition or advocacy effort in {state.name}?{" "}
+              <Link href="/community" className="text-blue-600 hover:underline">
+                Share it in our community forum
+              </Link>.
+            </p>
+          </div>
+        </section>
+      )}
+
       {/* Handbook Link */}
       {state.handbookUrl && (
         <section className="mb-10">
