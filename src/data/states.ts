@@ -29,7 +29,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://adol.alabama.gov/claimants/",
     filingPhone: "1-866-234-5382",
-    handbookUrl: "https://labor.alabama.gov/docs/guides/uc_brr.pdf",
+    handbookUrl: "https://labor.alabama.gov/docs/guides/uc_brr_large_print.pdf",
     stateJobsUrl: "https://personnel.alabama.gov/Jobs",
     minEarnings: "You must have earned at least $2,314.01 in the highest quarter of your base period.",
     eligibility: [
@@ -191,7 +191,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.dws.arkansas.gov/unemployment/",
     filingPhone: "1-844-908-2178",
-    handbookUrl: "https://www.dws.arkansas.gov/src/files/500-BOOKLET-8X11-ART-v05-29-2018-1.pdf",
+    handbookUrl: "https://dws.arkansas.gov/wp-content/uploads/UI-Handbook-2026-Final.pdf",
     stateJobsUrl: "https://arcareers.arkansas.gov/",
     minEarnings: "You must have earned at least $3,965 in your base period.",
     eligibility: [
@@ -412,7 +412,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://uics.delawareworks.com/",
     filingPhone: "1-302-761-8446",
-    handbookUrl: "https://ui.delawareworks.com/documents/UI%20Claimant%20Handbook.pdf",
+    handbookUrl: "https://laborfiles.delaware.gov/main/dui/handbook/UI%20Claimant%20Handbook.pdf",
     stateJobsUrl: "https://statejobs.delaware.gov/",
     minEarnings: "You must have earned at least $966 in your highest quarter and total base period wages of at least 36 times your weekly benefit rate.",
     eligibility: [
@@ -577,7 +577,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://huiclaims.hawaii.gov/",
     filingPhone: "1-808-762-5751",
-    handbookUrl: "https://labor.hawaii.gov/ui/files/2018/11/UI-Benefits-Handbook-UC-266-Rev-3.4.19.pdf",
+    handbookUrl: "https://labor.hawaii.gov/ui/files/2026/01/DLIR-UI-Claimant-Handbook-Rev1.26-with-BABEL.pdf",
     stateJobsUrl: "https://www.governmentjobs.com/careers/hawaii",
     minEarnings: "You must have earned at least $130 in your highest quarter and at least 26 times your weekly benefit amount in your base period.",
     eligibility: [
@@ -630,7 +630,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.labor.idaho.gov/unemployment/",
     filingPhone: "1-208-332-8942",
-    handbookUrl: "https://www.labor.idaho.gov/dnn/Portals/0/Publications/UIClaimant_Booklet.pdf",
+    handbookUrl: "https://www.labor.idaho.gov/wp-content/uploads/publications/UIClaimant_Booklet.pdf",
     stateJobsUrl: "https://statecareers.idaho.gov/",
     minEarnings: "You must have earned at least $2,535 in your base period.",
     eligibility: [
@@ -896,7 +896,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://kewes.ky.gov/",
     filingPhone: "1-502-875-0442",
-    handbookUrl: "https://kcc.ky.gov/career/Documents/PAM%20400_Web.pdf",
+    handbookUrl: "https://kcc.ky.gov/career/Documents/PAM400.pdf",
     stateJobsUrl: "https://personnel.ky.gov/Pages/Careers.aspx",
     minEarnings: "You must have earned at least $3,000 in your base period with wages in at least two quarters.",
     eligibility: [
@@ -1055,7 +1055,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://www.dllr.state.md.us/employment/unemployment.shtml",
     filingPhone: "1-410-949-0022",
-    handbookUrl: "https://www.dllr.state.md.us/employment/clmtguide/uiclmtpamphlet.pdf",
+    handbookUrl: "https://labor.maryland.gov/employment/clmtguide/uiclmtpamphlet.pdf",
     stateJobsUrl: "https://dbm.maryland.gov/jobseekers/pages/jobseekershome.aspx",
     minEarnings: "You must have earned at least $2,014 in your base period.",
     eligibility: [
@@ -1108,7 +1108,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://www.mass.gov/how-to/apply-for-unemployment-insurance-benefits",
     filingPhone: "1-877-626-6800",
-    handbookUrl: "https://www.mass.gov/files/documents/2017/10/05/unemployment%20bro%20P2594-10-02-17.pdf",
+    handbookUrl: "https://www.mass.gov/doc/a-guide-to-benefits-and-employment-services/download",
     stateJobsUrl: "https://www.mass.gov/find-your-career-at-the-commonwealth",
     minEarnings: "You must have earned at least $6,300 in your base period.",
     eligibility: [
@@ -1219,7 +1219,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://labor.mo.gov/unemployed-workers",
     filingPhone: "1-800-320-2519",
-    handbookUrl: "https://labor.mo.gov/sites/labor/files/pubs_forms/M-INF-170-11-AI.pdf",
+    handbookUrl: "https://labor.mo.gov/media/22111/download",
     stateJobsUrl: "https://mocareers.mo.gov/",
     minEarnings: "You must have earned at least $3,500 in your base period with at least $1,750 in two different quarters.",
     eligibility: ["You must be unemployed through no fault of your own", "You must have earned enough wages during your base period", "You must be able and available to work", "You must be actively seeking work each week"],
