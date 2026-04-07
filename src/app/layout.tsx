@@ -75,6 +75,8 @@ export default function RootLayout({
               <Link href="/resources" className="text-gray-500 hover:text-gray-700">Resources</Link>
               <Link href="/fast-track-careers" className="text-gray-500 hover:text-gray-700">Careers</Link>
               <Link href="/budget-template" className="text-gray-500 hover:text-gray-700">Budget Template</Link>
+              <Link href="/privacy" className="text-gray-500 hover:text-gray-700">Privacy</Link>
+              <Link href="/terms" className="text-gray-500 hover:text-gray-700">Terms</Link>
             </div>
             <p>
               The Layoff Guide provides general information about unemployment
