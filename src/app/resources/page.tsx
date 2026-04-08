@@ -71,6 +71,24 @@ const sections = [
         description:
           "Find a food bank near you for immediate help while your SNAP application is processed.",
       },
+      {
+        name: "Flashfood",
+        url: "https://www.flashfood.com",
+        description:
+          "App that sells groceries near their best-by date at up to 50% off. Available at major grocery chains. Great way to stretch your food budget.",
+      },
+      {
+        name: "Too Good To Go",
+        url: "https://www.toogoodtogo.com",
+        description:
+          "Restaurants and stores sell surplus food at a fraction of the price. Pay $3-5 for bags of food worth $15-20. Available in most major cities.",
+      },
+      {
+        name: "GasBuddy",
+        url: "https://www.gasbuddy.com",
+        description:
+          "Free app that finds the cheapest gas near you. Also has a pay-with-GasBuddy card that saves an extra 5-25 cents per gallon.",
+      },
     ],
   },
   {
