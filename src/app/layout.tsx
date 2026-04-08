@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import SessionProvider from "@/components/SessionProvider";
-import EmailCapture from "@/components/EmailCapture";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -87,8 +86,6 @@ export default function RootLayout({
         <main className="flex-1">
           <SessionProvider>{children}</SessionProvider>
         </main>
-
-        <EmailCapture />
 
         <footer className="border-t border-gray-200 bg-gray-50 mt-16">
           <div className="mx-auto max-w-4xl px-4 py-8 text-center text-sm text-gray-500">
