@@ -19,7 +19,7 @@ export async function generateMetadata({
 
   return {
     title: `How to File for Unemployment in ${state.name} (${state.abbreviation}) — ${new Date().getFullYear()} Guide`,
-    description: `Step-by-step guide to filing for unemployment in ${state.name}. Max benefit: $${state.maxWeeklyBenefit}/week for up to ${state.maxWeeks} weeks. Eligibility, documents needed, and how to file online.`,
+    description: `Free ${state.name} unemployment guide (${new Date().getFullYear()}). File online, max benefit $${state.maxWeeklyBenefit}/week for ${state.maxWeeks} weeks${state.waitingWeek ? ", 1-week waiting period" : ", no waiting week"}. Eligibility, documents needed, common mistakes, and direct filing links.`,
   };
 }
 

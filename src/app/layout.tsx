@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s | The Layoff Guide",
   },
   description:
-    "Your one-stop guide after a layoff. File for unemployment in all 50 states, find resources for health insurance, food assistance, resume help, and more. Written by someone who's been there.",
+    "Free unemployment filing guide for all 50 states. Step-by-step instructions, weekly benefit amounts, direct filing links, SNAP and health insurance resources, fast-track career paths, and more. No paywalls, no signup required.",
 };
 
 export default function RootLayout({
