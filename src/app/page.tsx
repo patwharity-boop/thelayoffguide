@@ -1,4 +1,4 @@
-import Link from "next/link";
+import TrackedLink from "@/components/TrackedLink";
 import { states } from "@/data/states";
 
 export default function HomePage() {
@@ -61,9 +61,11 @@ export default function HomePage() {
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
               {grouped[letter].map((state) => (
-                <Link
+                <TrackedLink
                   key={state.slug}
                   href={`/${state.slug}`}
+                  event="state_guide_click"
+                  eventProps={{ state: state.slug }}
                   className="flex items-center justify-between rounded-lg border border-gray-200 px-4 py-3 hover:border-blue-300 hover:bg-blue-50 transition-colors"
                 >
                   <span className="font-medium text-gray-900">
@@ -72,7 +74,7 @@ export default function HomePage() {
                   <span className="text-sm text-gray-500">
                     Up to ${state.maxWeeklyBenefit}/wk
                   </span>
-                </Link>
+                </TrackedLink>
               ))}
             </div>
           </div>
