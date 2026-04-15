@@ -168,6 +168,60 @@ const quickStart = [
       "Alcohol server cert takes hours, bartending school 1-4 weeks. Income is heavily tip-dependent — top bartenders in cities earn six figures. Great bridge income while job searching.",
     link: "https://servingalcohol.com/",
   },
+  {
+    title: "Patient Care Technician (PCT)",
+    training: "6–12 weeks",
+    salary: "$33K–$45K",
+    outlook: "Strong — hospitals face chronic nursing-support shortages",
+    description:
+      "A step up from CNA with broader clinical duties combined: phlebotomy, EKG, and direct patient care. Community colleges and career schools offer accelerated programs. Honest catch: entry pay is close to CNA rates, but the combined skill set makes you more competitive for hospital jobs versus nursing-home-only roles.",
+    link: "https://www.nhanow.com/certifications/patient-care-technician",
+  },
+  {
+    title: "EMT-Basic",
+    training: "8–12 weeks (full-time) or 4–6 months (part-time)",
+    salary: "$35K–$45K entry",
+    outlook: "Severe national shortage — ambulance services, fire departments, hospitals all hiring",
+    description:
+      "Learn emergency medical response, pass the National Registry exam, get state certified. Ambulance services and fire departments hire EMT-Bs with zero experience. Honest catch: entry pay is modest and the work is physically and emotionally demanding. Many use it as a stepping stone to paramedic or nursing.",
+    link: "https://www.nremt.org/",
+  },
+  {
+    title: "Direct Support Professional (DSP)",
+    training: "2–6 weeks (agency-provided)",
+    salary: "$30K–$42K",
+    outlook: "Chronic hiring shortage in disability services",
+    description:
+      "Support adults with developmental disabilities in group homes, day programs, or in-home settings. Agencies typically train you on the job — no pre-employment cert needed in most states. Honest catch: pay is on the lower end, but the work is stable, benefits are common, and agencies are actively desperate for reliable staff.",
+    link: "https://www.nadsp.org/",
+  },
+  {
+    title: "Veterinary Assistant",
+    training: "4–12 weeks",
+    salary: "$30K–$40K",
+    outlook: "Good — clinics and animal hospitals hiring consistently",
+    description:
+      "Assist veterinarians and vet techs with animal care, restraints, lab work, and client interaction. NAVTA-approved programs are the gold standard. Honest catch: entry pay is modest. Many use this as a stepping stone to Veterinary Technician (2-year degree with significantly higher pay).",
+    link: "https://www.navta.net/page/NAVTAApprovedProgram",
+  },
+  {
+    title: "Water/Wastewater Treatment Operator",
+    training: "Operator-in-Training: hired first, state license completed on the job over 6–12 months",
+    salary: "$45K–$75K (up to $120K with experience)",
+    outlook: "Excellent — BLS projects ~10,700 openings per year from retirements alone",
+    description:
+      "Run municipal water or wastewater treatment plants. Many utilities hire you as Operator-in-Training and pay for your state licensing while you work. Stable government jobs with pensions and benefits are common. Honest catch: involves physical labor and on-call/shift rotations. Upside: low glamour, high stability, and the retirement wave means openings for years.",
+    link: "https://www.bls.gov/ooh/production/water-and-wastewater-treatment-plant-and-system-operators.htm",
+  },
+  {
+    title: "School Bus Driver",
+    training: "4–8 weeks (districts typically pay for your CDL)",
+    salary: "$35K–$50K + $1,500–$3,500 sign-on bonuses common",
+    outlook: "National shortage — districts are actively recruiting",
+    description:
+      "Drive students to and from school. Most districts offer paid CDL training — you earn while getting licensed. Schedule fits school hours, which makes it popular with parents. Honest catch: split shifts (morning + afternoon), and some districts lose drivers to higher-paying trucking jobs once the CDL is in hand.",
+    link: "https://www.bls.gov/ooh/transportation-and-material-moving/bus-drivers.htm",
+  },
 ];
 
 const quickCerts = [

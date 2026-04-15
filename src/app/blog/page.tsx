@@ -99,6 +99,8 @@ export default function BlogPage() {
         </h2>
         <div className="space-y-6">
           {[
+            { slug: "long-term-unemployment-rising", title: "Long-Term Unemployment Just Jumped 322K — Here's Your Playbook", description: "1.8 million Americans have been out of work 27+ weeks. Here's how to stack benefits, close the resume gap, and pivot faster.", date: "2026-04-15" },
+            { slug: "mass-layoff-48-hour-playbook", title: "Caught in a Mass Layoff? Your 48-Hour Playbook", description: "Oracle, Disney, Chevron — layoffs are everywhere. Hour-by-hour: what to sign, what to save, what to file, what to say.", date: "2026-04-15" },
             { slug: "fast-track-careers", title: "You Don't Need a Degree — 15 High-Paying Careers in 12 Weeks or Less", description: "Phlebotomist, CDL driver, insurance adjuster, drone pilot, and more. No degree required.", date: "2026-04-07" },
             { slug: "fired-unemployment", title: "Can I Get Unemployment If I Was Fired?", description: "It depends on why. Misconduct = probably not. Performance = maybe. Here's exactly how it works.", date: "2026-04-07" },
             { slug: "cobra-vs-marketplace", title: "COBRA vs Marketplace — Which Health Insurance After a Layoff?", description: "COBRA keeps your plan but costs a fortune. Marketplace might be cheaper. Real numbers inside.", date: "2026-04-07" },
