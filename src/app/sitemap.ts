@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/take-a-breath`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/the-money-talk`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/file-for-unemployment-today`, changeFrequency: "monthly" as const, priority: 0.8 },
-    { url: `${baseUrl}/blog/fast-track-careers`, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/blog/long-term-unemployment-rising`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/fired-unemployment`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/cobra-vs-marketplace`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/explain-layoff-interview`, changeFrequency: "monthly" as const, priority: 0.8 },
