@@ -143,11 +143,6 @@ export default async function StatePage({
         )}
       </section>
 
-      {/* Ad Placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">
-        Advertisement
-      </div>
-
       {/* Eligibility */}
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -228,11 +223,6 @@ export default async function StatePage({
         </ul>
       </section>
 
-      {/* Ad Placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">
-        Advertisement
-      </div>
-
       {/* Common Mistakes */}
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -304,58 +294,23 @@ export default async function StatePage({
       </section>
 
       {/* Tips from People Who've Been Through It */}
-      <section className="mb-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          Tips from People Who&apos;ve Been Through It
-        </h2>
-        <div className="bg-green-50 border border-green-200 rounded-lg p-6 space-y-4">
-          <div className="flex items-start gap-3">
-            <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
-            <p className="text-gray-700">
-              <strong>File even if you&apos;re not sure you qualify.</strong>{" "}
-              You might be surprised. The worst that can happen is you get denied,
-              and you&apos;ll at least know where you stand.
-            </p>
+      {state.tips && state.tips.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Tips for Filing in {state.name}
+          </h2>
+          <div className="bg-green-50 border border-green-200 rounded-lg p-6 space-y-4">
+            {state.tips.map((tip, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
+                <p className="text-gray-700">
+                  <strong>{tip.headline}</strong> {tip.body}
+                </p>
+              </div>
+            ))}
           </div>
-          <div className="flex items-start gap-3">
-            <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
-            <p className="text-gray-700">
-              <strong>Be honest on every certification.</strong>{" "}
-              States cross-check your information with hospitals, jails, the IRS,
-              and other agencies. Misrepresenting your availability or earnings
-              can result in overpayment penalties and fraud charges.
-            </p>
-          </div>
-          <div className="flex items-start gap-3">
-            <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
-            <p className="text-gray-700">
-              <strong>Don&apos;t forget to sign up for SNAP (food benefits).</strong>{" "}
-              Most states are very lenient with eligibility when you&apos;re
-              unemployed. It&apos;s one less thing to worry about while you get back
-              on your feet.
-            </p>
-          </div>
-          <div className="flex items-start gap-3">
-            <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
-            <p className="text-gray-700">
-              <strong>If you get denied, don&apos;t miss the appeal deadline.</strong>{" "}
-              You typically have 10-30 days to file an appeal depending on your state.
-              If you file late without a documented compelling reason, your case
-              cannot be heard — no matter how strong it is. Read your denial letter
-              carefully and note every deadline.
-            </p>
-          </div>
-          <div className="flex items-start gap-3">
-            <span className="text-green-600 text-lg shrink-0">&ldquo;</span>
-            <p className="text-gray-700">
-              <strong>Read your state&apos;s claimant handbook before filing.</strong>{" "}
-              Every state publishes one. It covers monetary requirements, eligibility
-              rules, and your rights. Understanding these upfront can save you weeks
-              of confusion.
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Take Action / Advocacy */}
       {state.advocacy && state.advocacy.length > 0 && (

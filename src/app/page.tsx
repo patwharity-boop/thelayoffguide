@@ -48,6 +48,103 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Why this guide exists */}
+      <section className="mb-12 bg-white border border-gray-200 rounded-lg p-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          Built by Someone Who&apos;s Been There
+        </h2>
+        <div className="space-y-4 text-gray-700 leading-relaxed">
+          <p>
+            I lost my job in tech in September 2025. I&apos;d never filed for
+            unemployment before, and the official state website was a confusing
+            mess of government jargon, broken links, and PDFs from 2019. I
+            missed the &ldquo;waiting week&rdquo; certification because nobody
+            told me to click a button — that mistake cost me{" "}
+            <strong>three weeks</strong> of zero income.
+          </p>
+          <p>
+            The advice that finally helped wasn&apos;t on any official site. It
+            came from a Reddit comment buried in a thread. A stranger who&apos;d
+            been through it took the time to write down what they wished
+            someone had told them on day one.
+          </p>
+          <p>
+            <strong>The Layoff Guide is what I wish existed when it happened
+            to me.</strong> Every state guide on this site explains the rules
+            in plain English, lists the exact documents you need, and flags
+            the state-specific mistakes that cost real people real money.
+            Pick your state below to get started.
+          </p>
+        </div>
+      </section>
+
+      {/* How states differ */}
+      <section className="mb-12 bg-white border border-gray-200 rounded-lg p-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          Unemployment Benefits Vary Wildly by State
+        </h2>
+        <div className="space-y-4 text-gray-700 leading-relaxed">
+          <p>
+            The state where you live can mean a difference of more than{" "}
+            <strong>$24,000</strong> in total benefits. Washington claimants
+            can collect $1,152/week for 26 weeks (a max of $29,952). Mississippi
+            claimants cap out at $235/week (a max of $6,110 over the same
+            period). Florida and North Carolina cut payment off after just 12
+            weeks regardless of your earnings.
+          </p>
+          <p>
+            Filing systems differ too. Some states pay from your first eligible
+            week (Connecticut, Iowa, New Jersey, New York). Most require a
+            one-week unpaid waiting period. Some require weekly certification,
+            others biweekly. Some force you to register on a separate workforce
+            portal before they&apos;ll release benefits — and they don&apos;t
+            tell you about it until your first payment doesn&apos;t arrive.
+          </p>
+          <p>
+            Each of our 50 state guides covers the eligibility thresholds,
+            filing portal, certification cadence, work search requirements,
+            and state-specific traps that catch first-time claimants.
+          </p>
+        </div>
+      </section>
+
+      {/* What to do first */}
+      <section className="mb-12 bg-white border border-gray-200 rounded-lg p-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          What to Do in the First 72 Hours
+        </h2>
+        <ol className="space-y-3 text-gray-700 leading-relaxed list-decimal list-inside">
+          <li>
+            <strong>File for unemployment today, not tomorrow.</strong>{" "}
+            Almost no state backdates claims. Your benefits start the Sunday of
+            the week you file. Every day you wait is benefit days lost.
+          </li>
+          <li>
+            <strong>Don&apos;t sign anything from your employer yet.</strong>{" "}
+            Severance agreements, non-competes, and separation letters often
+            give you 21-45 days to review. Read carefully before signing — once
+            signed, you may have given up rights you needed.
+          </li>
+          <li>
+            <strong>Grab your records before you lose access.</strong>{" "}
+            Pay stubs, employer contact info, performance reviews, and
+            separation paperwork. You&apos;ll need them for both unemployment
+            and your job search.
+          </li>
+          <li>
+            <strong>Apply for health insurance via Healthcare.gov.</strong>{" "}
+            Job loss is a qualifying life event. The Marketplace plan is
+            usually cheaper than COBRA, and you have 60 days to decide.
+          </li>
+          <li>
+            <strong>Register on your state&apos;s workforce portal.</strong>{" "}
+            Most states require this separately from filing. They won&apos;t
+            release benefits until you&apos;re registered. Check your state
+            guide below.
+          </li>
+        </ol>
+      </section>
+
       {/* State List */}
       <section>
         <h2 className="text-2xl font-bold text-gray-900 mb-6">
