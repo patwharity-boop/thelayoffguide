@@ -10,7 +10,7 @@ export default function SignInPage() {
         Join the Community
       </h1>
       <p className="text-gray-600 mb-8">
-        Sign in to post, reply, upvote, and earn points. One click — no
+        Sign in to post, reply, upvote, and earn points. One click, no
         passwords to remember.
       </p>
 

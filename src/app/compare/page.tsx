@@ -110,7 +110,7 @@ export default function ComparePage() {
           </p>
           <p>
             <strong>Shortest duration:</strong> Florida and North Carolina at just 12
-            weeks — less than half of what most states offer.
+            weeks, less than half of what most states offer.
           </p>
           <p>
             <strong>Longest duration:</strong> Montana at 28 weeks.

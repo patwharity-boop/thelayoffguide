@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Free Post-Layoff Budget Template — Google Sheets / Excel",
+  title: "Free Post-Layoff Budget Template: Google Sheets / Excel",
   description:
     "Free budget planner template for after a layoff. T-chart format: must-pay vs can-cut expenses, runway calculator, and action checklist. Download as CSV for Google Sheets or Excel.",
 };
@@ -27,7 +27,7 @@ export default function BudgetTemplatePage() {
       </h1>
       <p className="text-lg text-gray-600 mb-8">
         Know your numbers, kill the panic. This template helps you figure out
-        exactly where you stand financially — in about 15 minutes.
+        exactly where you stand financially, in about 15 minutes.
       </p>
 
       {/* Download Card */}
@@ -36,7 +36,7 @@ export default function BudgetTemplatePage() {
           Download the Template
         </h2>
         <p className="text-gray-600 mb-6">
-          CSV file — open in Google Sheets, Excel, or Numbers. Fill in your
+          CSV file, open in Google Sheets, Excel, or Numbers. Fill in your
           numbers and see your runway instantly.
         </p>
         <a
@@ -105,7 +105,7 @@ export default function BudgetTemplatePage() {
               Step 4: Action Checklist
             </h3>
             <p className="text-gray-600">
-              A checkbox list of everything you should do ASAP — file for
+              A checkbox list of everything you should do ASAP, file for
               unemployment, apply for SNAP, review health insurance, call
               creditors about hardship programs, and more.
             </p>

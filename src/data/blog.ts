@@ -11,14 +11,14 @@ export const posts: BlogPost[] = [
     slug: "what-to-do-day-you-get-laid-off",
     title: "7 Things to Do the Day You Get Laid Off",
     description:
-      "Just lost your job? Here's exactly what to do in the first 24 hours — from someone who's been through it.",
+      "Just lost your job? Here's exactly what to do in the first 24 hours, from someone who's been through it.",
     date: "2026-04-06",
     content: `
 Getting laid off feels like the ground just disappeared under your feet. Your brain goes into panic mode. That's normal. But there are a few things you should do right away that will save you a lot of stress later.
 
-## 1. File for Unemployment Today — Not Tomorrow
+## 1. File for Unemployment Today, Not Tomorrow
 
-This is the single most important thing. In most states, your benefits start the week you file, not the week you lost your job. Every day you wait is money you won't get back. Even if it's 10pm and you just got the call — go to your state's website and start the process.
+This is the single most important thing. In most states, your benefits start the week you file, not the week you lost your job. Every day you wait is money you won't get back. Even if it's 10pm and you just got the call, go to your state's website and start the process.
 
 ## 2. Don't Sign Anything Yet
 
@@ -35,7 +35,7 @@ Before you lose access to your work email and systems, grab:
 
 ## 4. Sign Up for COBRA or Marketplace Insurance
 
-You have 60 days to elect COBRA (continuing your employer's health plan) but it's expensive. Check Healthcare.gov — losing your job is a qualifying life event that lets you sign up outside open enrollment. You might find a much cheaper plan.
+You have 60 days to elect COBRA (continuing your employer's health plan) but it's expensive. Check Healthcare.gov, losing your job is a qualifying life event that lets you sign up outside open enrollment. You might find a much cheaper plan.
 
 ## 5. Apply for SNAP (Food Benefits)
 
@@ -47,7 +47,7 @@ You know what you did at this job better right now than you will in two weeks. S
 
 ## 7. Tell Your Network
 
-This is hard for a lot of people. But a quick LinkedIn post or message to close contacts saying you're looking can lead to opportunities faster than cold applying. People want to help — let them.
+This is hard for a lot of people. But a quick LinkedIn post or message to close contacts saying you're looking can lead to opportunities faster than cold applying. People want to help, let them.
 
 ---
 
@@ -66,10 +66,10 @@ Getting denied unemployment benefits feels like a punch in the gut. But here's s
 ## Why Claims Get Denied
 
 The most common reasons:
-- **Your employer contested it** — they said you quit or were fired for misconduct
-- **Insufficient wages** — you didn't earn enough during the base period
-- **You didn't meet ongoing requirements** — missed a weekly certification or didn't report earnings
-- **Administrative errors** — wrong information, duplicate filings, etc.
+- **Your employer contested it**, they said you quit or were fired for misconduct
+- **Insufficient wages**, you didn't earn enough during the base period
+- **You didn't meet ongoing requirements**, missed a weekly certification or didn't report earnings
+- **Administrative errors**, wrong information, duplicate filings, etc.
 
 ## How the Appeal Process Works
 
@@ -77,10 +77,10 @@ The most common reasons:
 It will tell you exactly why you were denied and your deadline to appeal (usually 10-30 days depending on the state). Don't miss this deadline.
 
 ### Step 2: File Your Appeal
-Most states let you appeal online, by mail, or by fax. Keep it simple — state that you disagree with the determination and want a hearing.
+Most states let you appeal online, by mail, or by fax. Keep it simple, state that you disagree with the determination and want a hearing.
 
 ### Step 3: Prepare for Your Hearing
-This is usually a phone hearing with an Administrative Law Judge. It's not a courtroom — it's more like a conference call. You'll have a chance to explain your side. The judge may also question your former employer.
+This is usually a phone hearing with an Administrative Law Judge. It's not a courtroom, it's more like a conference call. You'll have a chance to explain your side. The judge may also question your former employer.
 
 **Bring evidence:**
 - Emails or documents supporting your case
@@ -89,7 +89,7 @@ This is usually a phone hearing with an Administrative Law Judge. It's not a cou
 - Your version of why you were separated from the job
 
 ### Step 4: The Hearing
-Be honest, be calm, and be specific. The judge is trying to determine the facts — they're not out to get you. Many judges are sympathetic to workers and will find a way to approve benefits if the facts support it.
+Be honest, be calm, and be specific. The judge is trying to determine the facts, they're not out to get you. Many judges are sympathetic to workers and will find a way to approve benefits if the facts support it.
 
 ## Tips from People Who've Been Through It
 
@@ -99,7 +99,7 @@ Be honest, be calm, and be specific. The judge is trying to determine the facts 
 
 ## What If You Lose the Appeal?
 
-Most states have a second level of appeal (to a Board of Review). You can also consult with a legal aid organization — many offer free help with unemployment cases.
+Most states have a second level of appeal (to a Board of Review). You can also consult with a legal aid organization, many offer free help with unemployment cases.
 
 ---
 
@@ -113,46 +113,46 @@ Most states have a second level of appeal (to a Board of Review). You can also c
       "Which states have the best unemployment benefits? We ranked all 50 states by weekly benefit, duration, and total payout.",
     date: "2026-04-06",
     content: `
-Not all unemployment benefits are created equal. Depending on which state you live in, you could receive anywhere from $235 to $1,152 per week — and for as few as 12 weeks or as many as 28. Here's how every state stacks up.
+Not all unemployment benefits are created equal. Depending on which state you live in, you could receive anywhere from $235 to $1,152 per week, and for as few as 12 weeks or as many as 28. Here's how every state stacks up.
 
 ## The Best States for Unemployment Benefits
 
-### 1. Washington — $1,152/week, 26 weeks
+### 1. Washington, $1,152/week, 26 weeks
 The highest maximum weekly benefit in the country. Washington's system is based on hours worked (680 hours minimum) rather than dollar amounts, which can make it easier to qualify.
 
-### 2. Massachusetts — $1,105/week, 26 weeks
+### 2. Massachusetts, $1,105/week, 26 weeks
 The highest on the East Coast, especially with the dependency allowance. Massachusetts also has a relatively straightforward filing process.
 
-### 3. Minnesota — $948/week, 26 weeks
+### 3. Minnesota, $948/week, 26 weeks
 Strong benefits and no waiting week. Minnesota also has good resources for job seekers through their workforce centers.
 
-### 4. New Jersey — $905/week, 26 weeks
+### 4. New Jersey, $905/week, 26 weeks
 High benefits with a dependency allowance. New Jersey raised its maximum weekly benefit to $905 effective January 2026.
 
-### 5. Oregon — $872/week, 26 weeks
+### 5. Oregon, $872/week, 26 weeks
 One of the highest in the western US, with strong online filing tools and indexed annual increases.
 
 ## The Worst States for Unemployment Benefits
 
-### 46. Louisiana — $275/week, 26 weeks
+### 46. Louisiana, $275/week, 26 weeks
 Low maximum but at least offers the full 26 weeks.
 
-### 47. Tennessee — $325/week, 26 weeks
+### 47. Tennessee, $325/week, 26 weeks
 Slightly higher than Louisiana, but still well below the national average.
 
-### 48. Florida — $275/week, 12 weeks
+### 48. Florida, $275/week, 12 weeks
 Low benefits AND the shortest duration in the country (tied with NC). Florida's CONNECT system is also notoriously buggy.
 
-### 49. North Carolina — $450/week, 12 weeks
+### 49. North Carolina, $450/week, 12 weeks
 North Carolina raised its weekly amount in recent years, but still caps at only 12 weeks of benefits, tied with Florida for the shortest duration in the country.
 
-### 50. Mississippi — $235/week, 26 weeks
+### 50. Mississippi, $235/week, 26 weeks
 The lowest maximum weekly benefit in the nation.
 
 ## Key Takeaways
 
 - **Your state matters enormously.** The difference between Washington ($1,152/wk for 26 weeks = $29,952 max) and Mississippi ($235/wk for 26 weeks = $6,110 max) is nearly $24,000.
-- **Duration matters as much as weekly amount.** Florida's $275/week for only 12 weeks means a max payout of just $3,300 — the lowest total in the country.
+- **Duration matters as much as weekly amount.** Florida's $275/week for only 12 weeks means a max payout of just $3,300, the lowest total in the country.
 - **States without a waiting week** (TX, NY, CT, and others) start paying you faster.
 - **These are maximums.** Your actual benefit depends on your earnings. Most people receive 40-60% of their previous weekly wage.
 
@@ -173,7 +173,7 @@ Short answer: **yes, you can work part-time or do gig work while on unemployment
 Most states reduce your weekly benefit based on how much you earn. The formula varies by state, but generally:
 
 - **Some states ignore a small amount** (e.g., the first $50-100 you earn doesn't affect your benefits)
-- **After that, your benefit is reduced** — often dollar for dollar, or by a percentage
+- **After that, your benefit is reduced**, often dollar for dollar, or by a percentage
 - **If you earn more than your weekly benefit amount**, you won't receive unemployment that week (but your claim stays active)
 
 ## Common Side Hustle Scenarios
@@ -192,10 +192,10 @@ Yes, you still have to report these. States cross-reference tax records and paym
 
 ## The Smart Approach
 
-1. **Report everything** — it's not worth the risk of fraud charges
+1. **Report everything**, it's not worth the risk of fraud charges
 2. **Track your hours and earnings** each week
-3. **Keep your weekly earnings below your benefit amount** if possible — this way you still receive a partial benefit
-4. **Use the partial earnings as a bridge** — it keeps money coming in while you build toward a full-time opportunity
+3. **Keep your weekly earnings below your benefit amount** if possible, this way you still receive a partial benefit
+4. **Use the partial earnings as a bridge**, it keeps money coming in while you build toward a full-time opportunity
 
 ## What NOT to Do
 
