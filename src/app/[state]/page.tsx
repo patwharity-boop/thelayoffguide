@@ -18,7 +18,7 @@ export async function generateMetadata({
   if (!state) return {};
 
   return {
-    title: `How to File for Unemployment in ${state.name} (${state.abbreviation}) — ${new Date().getFullYear()} Guide`,
+    title: `How to File for Unemployment in ${state.name} (${state.abbreviation}), ${new Date().getFullYear()} Guide`,
     description: `Free ${state.name} unemployment guide (${new Date().getFullYear()}). File online, max benefit $${state.maxWeeklyBenefit}/week for ${state.maxWeeks} weeks${state.waitingWeek ? ", 1-week waiting period" : ", no waiting week"}. Eligibility, documents needed, common mistakes, and direct filing links.`,
   };
 }
@@ -61,7 +61,7 @@ export default async function StatePage({
         </h1>
         <p className="text-lg text-gray-600">
           Everything you need to know about filing for unemployment benefits in{" "}
-          {state.name} ({state.abbreviation}) — updated for{" "}
+          {state.name} ({state.abbreviation}), updated for{" "}
           {new Date().getFullYear()}.
         </p>
       </header>
@@ -178,7 +178,7 @@ export default async function StatePage({
       {/* How to File */}
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          How to File for Unemployment in {state.name} — Step by Step
+          How to File for Unemployment in {state.name}, Step by Step
         </h2>
         <ol className="space-y-4">
           {state.howToFile.map((step, i) => (

@@ -23,7 +23,7 @@ export default function HomePage() {
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Just lost your job? We&apos;ve been there. Here&apos;s everything you
-          need to know about filing for unemployment — in plain English, not
+          need to know about filing for unemployment, in plain English, not
           government jargon.
         </p>
       </section>
@@ -59,7 +59,7 @@ export default function HomePage() {
             unemployment before, and the official state website was a confusing
             mess of government jargon, broken links, and PDFs from 2019. I
             missed the &ldquo;waiting week&rdquo; certification because nobody
-            told me to click a button — that mistake cost me{" "}
+            told me to click a button, that mistake cost me{" "}
             <strong>three weeks</strong> of zero income.
           </p>
           <p>
@@ -97,7 +97,7 @@ export default function HomePage() {
             week (Connecticut, Iowa, New Jersey, New York). Most require a
             one-week unpaid waiting period. Some require weekly certification,
             others biweekly. Some force you to register on a separate workforce
-            portal before they&apos;ll release benefits — and they don&apos;t
+            portal before they&apos;ll release benefits, and they don&apos;t
             tell you about it until your first payment doesn&apos;t arrive.
           </p>
           <p>
@@ -122,7 +122,7 @@ export default function HomePage() {
           <li>
             <strong>Don&apos;t sign anything from your employer yet.</strong>{" "}
             Severance agreements, non-competes, and separation letters often
-            give you 21-45 days to review. Read carefully before signing — once
+            give you 21-45 days to review. Read carefully before signing, once
             signed, you may have given up rights you needed.
           </li>
           <li>
@@ -186,7 +186,7 @@ export default function HomePage() {
         <div className="space-y-4 text-gray-700">
           <p>
             <strong>File immediately.</strong> In most states, your benefits
-            start the week you file — not when you lost your job. Every week you
+            start the week you file, not when you lost your job. Every week you
             wait is money left on the table.
           </p>
           <p>
@@ -198,7 +198,7 @@ export default function HomePage() {
           <p>
             <strong>It&apos;s your money.</strong> Your employer paid into the
             unemployment insurance fund on your behalf. Filing for benefits
-            isn&apos;t charity — it&apos;s insurance you&apos;ve already paid
+            isn&apos;t charity, it&apos;s insurance you&apos;ve already paid
             for.
           </p>
         </div>

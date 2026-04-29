@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Take a Breath — What to Do in the First 24 Hours After a Layoff",
+  title: "Take a Breath, What to Do in the First 24 Hours After a Layoff",
   description:
-    "Just got laid off? Here's what to do in the first 24 hours. Not a checklist — a human guide from someone who's been through it.",
+    "Just got laid off? Here's what to do in the first 24 hours. Not a checklist, a human guide from someone who's been through it.",
   keywords: [
     "laid off what to do",
     "just got laid off",
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     "coping with job loss",
   ],
   openGraph: {
-    title: "Take a Breath — What to Do in the First 24 Hours After a Layoff",
+    title: "Take a Breath, What to Do in the First 24 Hours After a Layoff",
     description:
-      "Just got laid off? Here's what to do in the first 24 hours — from someone who's been there.",
+      "Just got laid off? Here's what to do in the first 24 hours, from someone who's been there.",
     type: "article",
     images: [
       "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80",
@@ -43,7 +43,7 @@ export default function TakeABreathPage() {
         />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 bg-gradient-to-t from-black/70 to-transparent">
           <span className="text-xs font-semibold tracking-widest uppercase text-teal-400">Getting Started</span>
-          <h1 className="text-2xl md:text-4xl font-bold text-white mt-2">Take a Breath — What to Do in the First 24 Hours After a Layoff</h1>
+          <h1 className="text-2xl md:text-4xl font-bold text-white mt-2">Take a Breath, What to Do in the First 24 Hours After a Layoff</h1>
         </div>
       </div>
 
@@ -61,17 +61,17 @@ export default function TakeABreathPage() {
       <article className="prose-custom text-gray-700 leading-relaxed space-y-6">
         <p>Hey. So it happened.</p>
 
-        <p>Maybe you saw it coming. Maybe you didn&apos;t. Maybe you were in a meeting this morning thinking about lunch, and twenty minutes later you were holding a box and trying to remember your car&apos;s parking spot. Maybe it was a Zoom call — a calendar invite that didn&apos;t have an agenda, the HR person you didn&apos;t recognize, and that awful phrase: <em>&ldquo;We&apos;ve made the difficult decision...&rdquo;</em></p>
+        <p>Maybe you saw it coming. Maybe you didn&apos;t. Maybe you were in a meeting this morning thinking about lunch, and twenty minutes later you were holding a box and trying to remember your car&apos;s parking spot. Maybe it was a Zoom call, a calendar invite that didn&apos;t have an agenda, the HR person you didn&apos;t recognize, and that awful phrase: <em>&ldquo;We&apos;ve made the difficult decision...&rdquo;</em></p>
 
-        <p>However it went down, you&apos;re here now. And the first thing I want you to know — the most important thing — is that <strong>you are going to be okay.</strong></p>
+        <p>However it went down, you&apos;re here now. And the first thing I want you to know, the most important thing, is that <strong>you are going to be okay.</strong></p>
 
         <p>Not in a &ldquo;slap a smile on it&rdquo; way. In a real way. But we&apos;ll get to that. Right now, let&apos;s just talk about today.</p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">First: What You&apos;re Feeling Is Completely Normal</h2>
 
-        <p>Job loss is consistently ranked as one of the top five most stressful life events — right up there with divorce and the death of a loved one. It&apos;s not just about money (though we&apos;ll deal with that tomorrow). It&apos;s about identity, routine, belonging, purpose. One minute you&apos;re a [job title] at [company], and the next minute you&apos;re... what, exactly?</p>
+        <p>Job loss is consistently ranked as one of the top five most stressful life events, right up there with divorce and the death of a loved one. It&apos;s not just about money (though we&apos;ll deal with that tomorrow). It&apos;s about identity, routine, belonging, purpose. One minute you&apos;re a [job title] at [company], and the next minute you&apos;re... what, exactly?</p>
 
-        <p>That disorientation? It&apos;s grief. Real grief. And it doesn&apos;t matter if you hated the job. You can feel relief and loss at the same time — that&apos;s allowed.</p>
+        <p>That disorientation? It&apos;s grief. Real grief. And it doesn&apos;t matter if you hated the job. You can feel relief and loss at the same time, that&apos;s allowed.</p>
 
         <p>You might feel numb right now. Or angry. Or weirdly calm. Or like you want to cry in the shower. All of it is normal. None of it means anything is wrong with you.</p>
 
@@ -81,11 +81,11 @@ export default function TakeABreathPage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Don&apos;t Make Any Big Decisions Right Now</h2>
 
-        <p>Your brain is in fight-or-flight mode. That&apos;s not a metaphor — it&apos;s literally what&apos;s happening. Your cortisol is spiked, your thinking is narrowed, and your mind is racing through worst-case scenarios at a hundred miles an hour.</p>
+        <p>Your brain is in fight-or-flight mode. That&apos;s not a metaphor, it&apos;s literally what&apos;s happening. Your cortisol is spiked, your thinking is narrowed, and your mind is racing through worst-case scenarios at a hundred miles an hour.</p>
 
         <p>This is the absolute worst state to make important decisions in. So don&apos;t.</p>
 
-        <p>Don&apos;t fire off an angry LinkedIn post. Don&apos;t accept the first job you see on Indeed. Don&apos;t sign anything from your former employer today — that severance agreement isn&apos;t going anywhere, and you deserve to read it with clear eyes.</p>
+        <p>Don&apos;t fire off an angry LinkedIn post. Don&apos;t accept the first job you see on Indeed. Don&apos;t sign anything from your former employer today, that severance agreement isn&apos;t going anywhere, and you deserve to read it with clear eyes.</p>
 
         <p>Today, your only job is to take care of yourself. Everything else can wait until tomorrow.</p>
 
@@ -93,7 +93,7 @@ export default function TakeABreathPage() {
 
         <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">1. Get outside and move your body</h3>
 
-        <p>Put your shoes on, walk out the front door, and go for a 20-minute walk. There&apos;s solid research behind this — physical movement reduces cortisol and gets you out of the doom loop your brain is trying to build. The sunlight helps. The fresh air helps. You don&apos;t have to solve anything on this walk. Just notice things.</p>
+        <p>Put your shoes on, walk out the front door, and go for a 20-minute walk. There&apos;s solid research behind this, physical movement reduces cortisol and gets you out of the doom loop your brain is trying to build. The sunlight helps. The fresh air helps. You don&apos;t have to solve anything on this walk. Just notice things.</p>
 
         <div className="rounded-xl overflow-hidden shadow-lg my-8">
           <img src="https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=1200&q=80" alt="Person walking alone on a peaceful path" className="w-full h-64 object-cover" />
@@ -120,7 +120,7 @@ export default function TakeABreathPage() {
 
         <p><strong>This does not define you.</strong> You are not your job title. You have skills, experience, and value that didn&apos;t evaporate when that meeting ended.</p>
 
-        <p><strong>This is temporary.</strong> People get through this — millions of them, every year. And so will you.</p>
+        <p><strong>This is temporary.</strong> People get through this, millions of them, every year. And so will you.</p>
 
         <div className="border-l-4 border-teal-400 bg-teal-50 rounded-r-lg p-5 my-8 text-lg italic text-gray-800">
           &ldquo;You didn&apos;t lose your value today. You lost a job. Those are two very different things.&rdquo;
@@ -128,7 +128,7 @@ export default function TakeABreathPage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Tomorrow, We Get to Work</h2>
 
-        <p>Tomorrow I&apos;m going to help you sit down with your finances and figure out exactly where you stand — no panic, no judgment, just numbers on a page. After that, we&apos;ll file for unemployment and start building a plan.</p>
+        <p>Tomorrow I&apos;m going to help you sit down with your finances and figure out exactly where you stand, no panic, no judgment, just numbers on a page. After that, we&apos;ll file for unemployment and start building a plan.</p>
 
         <p>But that&apos;s tomorrow.</p>
 
@@ -156,7 +156,7 @@ export default function TakeABreathPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Take a Breath — What to Do in the First 24 Hours After a Layoff",
+            headline: "Take a Breath, What to Do in the First 24 Hours After a Layoff",
             description: "Just got laid off? Here's what to do in the first 24 hours.",
             image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80",
             author: { "@type": "Organization", name: "The Layoff Guide" },

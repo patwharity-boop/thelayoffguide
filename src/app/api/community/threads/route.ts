@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
     userId = newUser[0].id;
   }
 
-  // Create thread (not approved by default — goes to mod queue)
+  // Create thread (not approved by default, goes to mod queue)
   const thread = await sql`
     INSERT INTO threads (title, body, category_id, user_id, state_slug)
     VALUES (${title}, ${content}, ${categoryId}, ${userId}, ${stateSlug || null})
