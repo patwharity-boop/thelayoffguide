@@ -123,28 +123,28 @@ The highest maximum weekly benefit in the country. Washington's system is based 
 ### 2. Massachusetts — $1,105/week, 26 weeks
 The highest on the East Coast, especially with the dependency allowance. Massachusetts also has a relatively straightforward filing process.
 
-### 3. Minnesota — $857/week, 26 weeks
+### 3. Minnesota — $948/week, 26 weeks
 Strong benefits and no waiting week. Minnesota also has good resources for job seekers through their workforce centers.
 
-### 4. New Jersey — $830/week, 26 weeks
-High benefits with a dependency allowance. New Jersey's online filing system has improved significantly.
+### 4. New Jersey — $905/week, 26 weeks
+High benefits with a dependency allowance. New Jersey raised its maximum weekly benefit to $905 effective January 2026.
 
-### 5. Colorado — $823/week, 26 weeks
-One of the highest in the western US, with good online filing tools.
+### 5. Oregon — $872/week, 26 weeks
+One of the highest in the western US, with strong online filing tools and indexed annual increases.
 
 ## The Worst States for Unemployment Benefits
 
 ### 46. Louisiana — $275/week, 26 weeks
 Low maximum but at least offers the full 26 weeks.
 
-### 47. Tennessee — $275/week, 26 weeks
-Same low max as Louisiana.
+### 47. Tennessee — $325/week, 26 weeks
+Slightly higher than Louisiana, but still well below the national average.
 
 ### 48. Florida — $275/week, 12 weeks
 Low benefits AND the shortest duration in the country (tied with NC). Florida's CONNECT system is also notoriously buggy.
 
-### 49. North Carolina — $350/week, 12 weeks
-Only 12 weeks of benefits, though the weekly amount is slightly higher than Florida.
+### 49. North Carolina — $450/week, 12 weeks
+North Carolina raised its weekly amount in recent years, but still caps at only 12 weeks of benefits, tied with Florida for the shortest duration in the country.
 
 ### 50. Mississippi — $235/week, 26 weeks
 The lowest maximum weekly benefit in the nation.
