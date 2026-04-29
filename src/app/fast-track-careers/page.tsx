@@ -222,6 +222,15 @@ const quickStart = [
       "Drive students to and from school. Most districts offer paid CDL training — you earn while getting licensed. Schedule fits school hours, which makes it popular with parents. Honest catch: split shifts (morning + afternoon), and some districts lose drivers to higher-paying trucking jobs once the CDL is in hand.",
     link: "https://www.bls.gov/ooh/transportation-and-material-moving/bus-drivers.htm",
   },
+  {
+    title: "Sterile Processing Technician",
+    training: "4–16 weeks",
+    salary: "$36K–$50K",
+    outlook: "Steady demand, hospitals consistently hire and the role does not go remote",
+    description:
+      "Decontaminate, sterilize, assemble, and distribute surgical instruments for hospitals and surgery centers. The CRCST certification from HSPA is the standard credential and hospital-run training programs are common. Honest caveat: the work is physically active, often on your feet for full shifts, and sometimes runs evenings or overnights since instruments are processed around the clock.",
+    link: "https://myhspa.org/certification/crcst",
+  },
 ];
 
 const quickCerts = [
@@ -296,6 +305,15 @@ const quickCerts = [
     description:
       "The entry point to cybersecurity careers. Required for many government and defense contractor roles. Study, pass one exam, and enter one of the most in-demand fields in the world.",
     link: "https://www.comptia.org/certifications/security",
+  },
+  {
+    title: "Data Center Technician",
+    training: "2–4 months (CompTIA Server+ self-study path)",
+    salary: "$45K–$70K (more with overtime and shift premiums)",
+    outlook: "Strong, AI infrastructure expansion is driving sustained hiring at hyperscale data centers",
+    description:
+      "Hands-on hardware and networking work inside the buildings that run the modern internet (AWS, Google, Microsoft, Meta, and a growing list of colocation providers). Tasks include rack installs, cable management, hardware swaps, and basic troubleshooting. CompTIA Server+ is the most common entry credential, often paired with Network+. Honest caveat: most roles are shift work (12-hour days/nights, on-call rotations) and tied to physical sites in specific metros (Northern Virginia, Phoenix, Dallas, Columbus, Atlanta).",
+    link: "https://www.comptia.org/certifications/server",
   },
 ];
 
