@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "The Money Talk — How to Map Your Finances After a Layoff",
+  title: "The Money Talk, How to Map Your Finances After a Layoff",
   description:
     "How to map your finances after a layoff. T-chart your income vs expenses, calculate your runway, and find quick wins. Free budget template included.",
   keywords: [
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "how long can I survive without a job",
   ],
   openGraph: {
-    title: "The Money Talk — How to Map Your Finances After a Layoff",
+    title: "The Money Talk, How to Map Your Finances After a Layoff",
     description: "Figure out exactly where you stand financially in 20 minutes. Free budget template included.",
     type: "article",
     images: ["https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"],
@@ -35,7 +35,7 @@ export default function MoneyTalkPage() {
         <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1400&q=80" alt="Financial planning notebook and calculator" className="w-full h-full object-cover brightness-[0.8]" />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 bg-gradient-to-t from-black/70 to-transparent">
           <span className="text-xs font-semibold tracking-widest uppercase text-teal-400">Finances</span>
-          <h1 className="text-2xl md:text-4xl font-bold text-white mt-2">The Money Talk — How to Map Your Finances After a Layoff</h1>
+          <h1 className="text-2xl md:text-4xl font-bold text-white mt-2">The Money Talk, How to Map Your Finances After a Layoff</h1>
         </div>
       </div>
 
@@ -50,12 +50,12 @@ export default function MoneyTalkPage() {
       <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">Advertisement</div>
 
       <article className="text-gray-700 leading-relaxed space-y-6">
-        <p>Okay. You made it through yesterday. You took the walk. You made the call. You let yourself feel it. Nice work — seriously.</p>
+        <p>Okay. You made it through yesterday. You took the walk. You made the call. You let yourself feel it. Nice work, seriously.</p>
         <p>Now let&apos;s talk about money.</p>
-        <p>I know. This is the part everyone dreads. The &ldquo;how long can I survive?&rdquo; conversation you&apos;ve been having with the ceiling at 3am. But here&apos;s the thing: <strong>the unknown is always scarier than the known.</strong> Once we put real numbers on paper, the panic almost always goes down — because you usually have more runway than you think.</p>
+        <p>I know. This is the part everyone dreads. The &ldquo;how long can I survive?&rdquo; conversation you&apos;ve been having with the ceiling at 3am. But here&apos;s the thing: <strong>the unknown is always scarier than the known.</strong> Once we put real numbers on paper, the panic almost always goes down, because you usually have more runway than you think.</p>
         <p>Grab a notebook, open a spreadsheet, or honestly just use the back of an envelope. We&apos;re going to figure out exactly where you stand in about 20 minutes.</p>
 
-        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Step 1: The T-Chart — Income vs. Expenses</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Step 1: The T-Chart, Income vs. Expenses</h2>
         <p>Draw a line down the middle of your page. Left side: money coming in. Right side: money going out.</p>
 
         {/* T-Chart */}
@@ -90,7 +90,7 @@ export default function MoneyTalkPage() {
         <p>All those $9.99 and $14.99 charges that quietly drain your account every month? Time to go through every single one.</p>
 
         <div className="bg-white border border-gray-200 rounded-xl p-6 my-8">
-          <h4 className="font-bold text-gray-900 mb-4">Quick wins — things you can pause or cancel today:</h4>
+          <h4 className="font-bold text-gray-900 mb-4">Quick wins, things you can pause or cancel today:</h4>
           <div className="space-y-3 text-sm">
             {[
               { item: "Streaming services you barely use (keep one)", save: "~$30-50/mo" },
@@ -109,7 +109,7 @@ export default function MoneyTalkPage() {
           </div>
         </div>
 
-        <p>Most people find $100-300/month in subscriptions they can pause without really noticing. That&apos;s real money — that&apos;s an extra month of runway.</p>
+        <p>Most people find $100-300/month in subscriptions they can pause without really noticing. That&apos;s real money, that&apos;s an extra month of runway.</p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Step 3: Calculate Your Runway</h2>
         <p>This is the big one. The number that will either keep you up at night or help you sleep.</p>
@@ -120,10 +120,10 @@ export default function MoneyTalkPage() {
           <div className="text-sm text-gray-400">Example: $12,000 savings ÷ $3,200/month = 3.75 months</div>
         </div>
 
-        <p>Now add in any income — severance, unemployment benefits, a partner&apos;s paycheck. Most people, once they actually do this math, realize they&apos;re not in &ldquo;the house is on fire&rdquo; territory. They&apos;re in &ldquo;I have some time to be thoughtful&rdquo; territory.</p>
+        <p>Now add in any income, severance, unemployment benefits, a partner&apos;s paycheck. Most people, once they actually do this math, realize they&apos;re not in &ldquo;the house is on fire&rdquo; territory. They&apos;re in &ldquo;I have some time to be thoughtful&rdquo; territory.</p>
 
         <div className="border-l-4 border-teal-400 bg-teal-50 rounded-r-lg p-5 my-8 text-lg italic text-gray-800">
-          &ldquo;Knowing your numbers doesn&apos;t create the problem — it takes away the panic. You probably have more runway than you think.&rdquo;
+          &ldquo;Knowing your numbers doesn&apos;t create the problem, it takes away the panic. You probably have more runway than you think.&rdquo;
         </div>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Step 4: Don&apos;t Forget the Income Side</h2>
@@ -132,7 +132,7 @@ export default function MoneyTalkPage() {
 
         <p><strong>Your last paycheck and PTO.</strong> Most states require your employer to pay out unused vacation. That check is often bigger than you expect.</p>
 
-        <p><strong>Severance.</strong> If it was offered, great. If it wasn&apos;t, it doesn&apos;t hurt to ask — especially if you&apos;re being asked to sign a release.</p>
+        <p><strong>Severance.</strong> If it was offered, great. If it wasn&apos;t, it doesn&apos;t hurt to ask, especially if you&apos;re being asked to sign a release.</p>
 
         <p><strong>SNAP and food assistance.</strong> If you qualify, use it. These programs exist precisely for moments like this. <Link href="/resources" className="text-teal-600 hover:text-teal-800 underline">Check available assistance programs &rarr;</Link></p>
 
@@ -147,11 +147,11 @@ export default function MoneyTalkPage() {
 
         <p><Link href="/budget-template" className="text-teal-600 hover:text-teal-800 font-semibold underline">Grab the free budget template here &rarr;</Link></p>
 
-        <p>The moment you replace &ldquo;I have no idea how long I can survive&rdquo; with &ldquo;I have 4.2 months of runway and here&apos;s how I can stretch it to 6&rdquo; — the entire game changes.</p>
+        <p>The moment you replace &ldquo;I have no idea how long I can survive&rdquo; with &ldquo;I have 4.2 months of runway and here&apos;s how I can stretch it to 6&rdquo;, the entire game changes.</p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">One More Thing: No Shame in This Game</h2>
 
-        <p>If your savings are thin, that&apos;s okay. If your runway is shorter than you&apos;d like, that&apos;s okay. You&apos;re not behind. You just got hit with something unexpected, and now you&apos;re dealing with it — which is exactly the right thing to do.</p>
+        <p>If your savings are thin, that&apos;s okay. If your runway is shorter than you&apos;d like, that&apos;s okay. You&apos;re not behind. You just got hit with something unexpected, and now you&apos;re dealing with it, which is exactly the right thing to do.</p>
 
         <p>The people who struggle most after a layoff aren&apos;t the ones with small savings accounts. They&apos;re the ones who avoid looking at the numbers entirely. You&apos;re here, doing the work. That puts you ahead of most people already.</p>
 
@@ -165,7 +165,7 @@ export default function MoneyTalkPage() {
       {/* Series Navigation */}
       <div className="bg-gray-900 text-white rounded-xl p-8 mt-10 text-center">
         <h3 className="text-teal-400 font-bold text-lg mb-2">Next Step: File for Unemployment</h3>
-        <p className="text-gray-400 mb-5">This is the single most important thing you can do today. Don&apos;t wait — every day costs you money.</p>
+        <p className="text-gray-400 mb-5">This is the single most important thing you can do today. Don&apos;t wait, every day costs you money.</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link href="/blog/file-for-unemployment-today" className="inline-block bg-teal-500 text-gray-900 font-semibold px-8 py-3 rounded-lg hover:bg-teal-400 transition-colors">
             Read: File for Unemployment Today &rarr;
@@ -178,7 +178,7 @@ export default function MoneyTalkPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "Article",
-        headline: "The Money Talk — How to Map Your Finances After a Layoff",
+        headline: "The Money Talk, How to Map Your Finances After a Layoff",
         image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
         author: { "@type": "Organization", name: "The Layoff Guide" },
         datePublished: "2026-04-06",

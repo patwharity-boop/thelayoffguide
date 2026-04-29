@@ -3,7 +3,7 @@ import Link from "next/link";
 import { posts } from "@/data/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — Unemployment Tips, Guides & Advice",
+  title: "Blog: Unemployment Tips, Guides & Advice",
   description:
     "Practical advice for navigating unemployment. Tips on filing, appealing denials, side hustles, and getting back on your feet.",
 };
@@ -12,7 +12,7 @@ const series = [
   {
     part: 1,
     slug: "take-a-breath",
-    title: "Take a Breath — What to Do in the First 24 Hours",
+    title: "Take a Breath: What to Do in the First 24 Hours",
     description: "The emotional one. Give yourself permission to feel it, take a walk, call a friend.",
     category: "Getting Started",
     image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
@@ -20,7 +20,7 @@ const series = [
   {
     part: 2,
     slug: "the-money-talk",
-    title: "The Money Talk — How to Map Your Finances",
+    title: "The Money Talk: How to Map Your Finances",
     description: "T-chart your income vs expenses, calculate your runway, find quick wins.",
     category: "Finances",
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
@@ -28,7 +28,7 @@ const series = [
   {
     part: 3,
     slug: "file-for-unemployment-today",
-    title: "File for Unemployment Today — Here's Exactly How",
+    title: "File for Unemployment Today: Here's Exactly How",
     description: "Stop waiting. 15-30 minutes, step by step, and the mistakes to avoid.",
     category: "Action Steps",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
@@ -41,7 +41,7 @@ export default function BlogPage() {
       <h1 className="text-3xl font-bold text-gray-900 mb-3">Blog</h1>
       <p className="text-lg text-gray-600 mb-10">
         Practical advice from people who&apos;ve been through it. No corporate
-        fluff — just what you actually need to know.
+        fluff, just what you actually need to know.
       </p>
 
       {/* Featured 3-Part Series */}
@@ -99,17 +99,17 @@ export default function BlogPage() {
         </h2>
         <div className="space-y-6">
           {[
-            { slug: "long-term-unemployment-rising", title: "Long-Term Unemployment Just Jumped 322K — Here's Your Playbook", description: "1.8 million Americans have been out of work 27+ weeks. Here's how to stack benefits, close the resume gap, and pivot faster.", date: "2026-04-15" },
-            { slug: "fast-track-careers", title: "You Don't Need a Degree — 15 High-Paying Careers in 12 Weeks or Less", description: "Phlebotomist, CDL driver, insurance adjuster, drone pilot, and more. No degree required.", date: "2026-04-07" },
+            { slug: "long-term-unemployment-rising", title: "Long-Term Unemployment Just Jumped 322K: Here's Your Playbook", description: "1.8 million Americans have been out of work 27+ weeks. Here's how to stack benefits, close the resume gap, and pivot faster.", date: "2026-04-15" },
+            { slug: "fast-track-careers", title: "You Don't Need a Degree, 15 High-Paying Careers in 12 Weeks or Less", description: "Phlebotomist, CDL driver, insurance adjuster, drone pilot, and more. No degree required.", date: "2026-04-07" },
             { slug: "fired-unemployment", title: "Can I Get Unemployment If I Was Fired?", description: "It depends on why. Misconduct = probably not. Performance = maybe. Here's exactly how it works.", date: "2026-04-07" },
-            { slug: "cobra-vs-marketplace", title: "COBRA vs Marketplace — Which Health Insurance After a Layoff?", description: "COBRA keeps your plan but costs a fortune. Marketplace might be cheaper. Real numbers inside.", date: "2026-04-07" },
-            { slug: "explain-layoff-interview", title: "How to Explain a Layoff in a Job Interview", description: "The dreaded question — here's exactly what to say and what not to say.", date: "2026-04-07" },
+            { slug: "cobra-vs-marketplace", title: "COBRA vs Marketplace, Which Health Insurance After a Layoff?", description: "COBRA keeps your plan but costs a fortune. Marketplace might be cheaper. Real numbers inside.", date: "2026-04-07" },
+            { slug: "explain-layoff-interview", title: "How to Explain a Layoff in a Job Interview", description: "The dreaded question, here's exactly what to say and what not to say.", date: "2026-04-07" },
             { slug: "subscription-purge", title: "The Subscription Purge: How I Saved $347/Month in One Afternoon", description: "Most people are paying $200-400/month in forgotten subscriptions. Here's how to find and cancel them all.", date: "2026-04-07" },
-            { slug: "hidden-benefits", title: "The Hidden Benefits You're Probably Not Claiming", description: "SNAP, WIC, LIHEAP, Lifeline, Medicaid — you probably qualify for more than you think.", date: "2026-04-07" },
-            { slug: "calling-unemployment-office", title: "I Spent 8 Hours Calling the Unemployment Office — Here's What Works", description: "The Governor's office trick and other strategies that actually get you through.", date: "2026-04-07" },
+            { slug: "hidden-benefits", title: "The Hidden Benefits You're Probably Not Claiming", description: "SNAP, WIC, LIHEAP, Lifeline, Medicaid, you probably qualify for more than you think.", date: "2026-04-07" },
+            { slug: "calling-unemployment-office", title: "I Spent 8 Hours Calling the Unemployment Office, Here's What Works", description: "The Governor's office trick and other strategies that actually get you through.", date: "2026-04-07" },
             { slug: "employer-contests-claim", title: "What to Do When Your Employer Contests Your Claim", description: "Don't panic. Here's how the appeal process works and how to win.", date: "2026-04-07" },
-            { slug: "remote-jobs-no-experience", title: "Remote Jobs That Don't Require Experience — 15 Legit Options", description: "Real remote jobs you can get with no prior experience. No scams.", date: "2026-04-07" },
-            { slug: "first-30-days-playbook", title: "The First 30 Days After a Layoff — A Day-by-Day Playbook", description: "A complete day-by-day guide for your first month after losing your job.", date: "2026-04-07" },
+            { slug: "remote-jobs-no-experience", title: "Remote Jobs That Don't Require Experience, 15 Legit Options", description: "Real remote jobs you can get with no prior experience. No scams.", date: "2026-04-07" },
+            { slug: "first-30-days-playbook", title: "The First 30 Days After a Layoff, A Day-by-Day Playbook", description: "A complete day-by-day guide for your first month after losing your job.", date: "2026-04-07" },
           ].map((post) => (
             <article
               key={post.slug}

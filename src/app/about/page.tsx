@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About — Why I Built The Layoff Guide",
+  title: "About: Why I Built The Layoff Guide",
   description:
     "I built The Layoff Guide because I lived it. Lost my job in tech, missed my waiting week, spent 8 hours a day trying to reach unemployment. This site is what I wish existed when it happened to me.",
 };
@@ -36,14 +36,14 @@ export default function AboutPage() {
 
         <p>
           I made mistakes immediately. I didn&apos;t know I had to certify my
-          &ldquo;waiting week&rdquo; — that unpaid first week that most people don&apos;t
+          &ldquo;waiting week&rdquo;, that unpaid first week that most people don&apos;t
           even know exists. Missing it caused a <strong>three-week delay</strong> in
           receiving my first check. Three weeks of zero income because nobody told
           me to click a button.
         </p>
 
         <div className="border-l-4 border-teal-400 bg-teal-50 rounded-r-lg p-5 my-8 text-lg italic text-gray-800">
-          &ldquo;I spent 8 hours a day — literally an entire workday — calling the
+          &ldquo;I spent 8 hours a day, literally an entire workday, calling the
           unemployment office trying to get through to a human being. Day after day.
           It became my full-time job just trying to get help.&rdquo;
         </div>
@@ -60,7 +60,7 @@ export default function AboutPage() {
           One tip I found on Reddit that blew my mind: if you can&apos;t get through
           to your state&apos;s unemployment office, <strong>call the Governor&apos;s
           office</strong>{" "}and ask to be connected. They&apos;ll put you through. That
-          one piece of advice — buried in a comment thread with 73 upvotes — was
+          one piece of advice, buried in a comment thread with 73 upvotes, was
           worth more than everything on the official state website combined.
         </p>
 
@@ -76,8 +76,8 @@ export default function AboutPage() {
         </p>
 
         <p>
-          Everything on this site — every state guide, every resource link, every
-          blog post — comes from one question: <em>what did I need to know on the
+          Everything on this site, every state guide, every resource link, every
+          blog post, comes from one question: <em>what did I need to know on the
           day I got laid off, and in every difficult day that followed?</em>
         </p>
 
@@ -92,7 +92,7 @@ export default function AboutPage() {
           <li className="list-disc text-gray-700">What food assistance programs you qualify for (and that there&apos;s no shame in using them)</li>
           <li className="list-disc text-gray-700">How to get help with prescription medications when you lose your coverage</li>
           <li className="list-disc text-gray-700">What careers you can pivot to quickly if you want a fresh start</li>
-          <li className="list-disc text-gray-700">That it&apos;s okay to not be okay — and where to find support</li>
+          <li className="list-disc text-gray-700">That it&apos;s okay to not be okay, and where to find support</li>
         </ul>
 
         <p>
@@ -104,7 +104,7 @@ export default function AboutPage() {
         </h2>
 
         <p>
-          If you just lost your job and you found this site — I&apos;m glad you&apos;re
+          If you just lost your job and you found this site, I&apos;m glad you&apos;re
           here. I know exactly how you feel right now. The shock, the anger, the
           fear, the 3am ceiling-staring. I&apos;ve been there.
         </p>
@@ -120,7 +120,7 @@ export default function AboutPage() {
           This site is here to make that process a little less painful and a
           lot less confusing. Use it. Share it with someone who needs it. And
           if you find something helpful that we haven&apos;t covered yet, let us
-          know — we&apos;re building this for people like us, and every tip helps.
+          know, we&apos;re building this for people like us, and every tip helps.
         </p>
 
         <div className="border-l-4 border-teal-400 bg-teal-50 rounded-r-lg p-5 my-8 text-lg italic text-gray-800">
@@ -129,7 +129,7 @@ export default function AboutPage() {
         </div>
 
         <p className="text-gray-500 text-sm mt-8">
-          — Patrick, founder of The Layoff Guide
+         , Patrick, founder of The Layoff Guide
         </p>
       </article>
 
@@ -150,7 +150,7 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "AboutPage",
         name: "About The Layoff Guide",
-        description: "Why I built The Layoff Guide — from personal experience with job loss and a broken unemployment system.",
+        description: "Why I built The Layoff Guide, from personal experience with job loss and a broken unemployment system.",
         publisher: { "@type": "Organization", name: "The Layoff Guide" },
       })}} />
     </div>

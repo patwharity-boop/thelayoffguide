@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getDb } from "@/lib/db";
 
 export const metadata: Metadata = {
-  title: "Community — Connect With Others Who've Been Through It",
+  title: "Community, Connect With Others Who've Been Through It",
   description:
     "Join the conversation. Share your experience, ask questions, get advice from people who understand what you're going through. The Layoff Guide community forum.",
 };
