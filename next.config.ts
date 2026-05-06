@@ -21,6 +21,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/blog/fast-track-careers", destination: "/fast-track-careers", permanent: true },
+      // Forum removed 2026-05-06 (zero signups, generated thin-content URLs
+      // that hurt AdSense scoring). 301 redirect any indexed forum URL to
+      // homepage so Google deindexes them cleanly.
+      { source: "/community", destination: "/", permanent: true },
+      { source: "/community/:path*", destination: "/", permanent: true },
     ];
   },
 };

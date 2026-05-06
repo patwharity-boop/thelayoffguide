@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
-import SessionProvider from "@/components/SessionProvider";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -74,9 +73,6 @@ export default function RootLayout({
               <Link href="/resources" className="text-gray-600 hover:text-gray-900">
                 Resources
               </Link>
-              <Link href="/community" className="text-gray-600 hover:text-gray-900">
-                Community
-              </Link>
               <Link href="/about" className="text-gray-600 hover:text-gray-900">
                 About
               </Link>
@@ -84,9 +80,7 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main className="flex-1">
-          <SessionProvider>{children}</SessionProvider>
-        </main>
+        <main className="flex-1">{children}</main>
         <Analytics />
 
         <footer className="border-t border-gray-200 bg-gray-50 mt-16">
