@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import {
+  AUTHOR_ID,
+  AUTHOR_NAME,
+  AUTHOR_DESCRIPTION,
+  LAST_REVIEWED,
+  SITE_URL,
+} from "@/data/site";
 
 export const metadata: Metadata = {
   title: "About: Why I Built The Layoff Guide",
@@ -128,8 +135,18 @@ export default function AboutPage() {
           different things.&rdquo;
         </div>
 
-        <p className="text-gray-500 text-sm mt-8">
-         , Patrick, founder of The Layoff Guide
+        <p id="patrick" className="text-gray-500 text-sm mt-8">
+          Patrick, founder of The Layoff Guide
+          <br />
+          <span className="text-gray-400">
+            Last reviewed:{" "}
+            <time dateTime={LAST_REVIEWED}>
+              {new Date(LAST_REVIEWED + "T00:00:00Z").toLocaleDateString(
+                "en-US",
+                { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }
+              )}
+            </time>
+          </span>
         </p>
       </article>
 
@@ -147,12 +164,45 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org", "@type": "AboutPage",
-        name: "About The Layoff Guide",
-        description: "Why I built The Layoff Guide, from personal experience with job loss and a broken unemployment system.",
-        publisher: { "@type": "Organization", name: "The Layoff Guide" },
-      })}} />
+      {/* JSON-LD graph: AboutPage + Person + Organization, all linked.
+          The Person @id is the canonical author identity referenced by every
+          state page's Article.author.@id, which is what gives Google a
+          coherent author graph across the site. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "AboutPage",
+                "@id": `${SITE_URL}/about`,
+                name: "About The Layoff Guide",
+                description:
+                  "Why I built The Layoff Guide, from personal experience with job loss and a broken unemployment system.",
+                url: `${SITE_URL}/about`,
+                mainEntity: { "@id": AUTHOR_ID },
+                publisher: { "@id": `${SITE_URL}#organization` },
+              },
+              {
+                "@type": "Person",
+                "@id": AUTHOR_ID,
+                name: AUTHOR_NAME,
+                description: AUTHOR_DESCRIPTION,
+                url: `${SITE_URL}/about`,
+                worksFor: { "@id": `${SITE_URL}#organization` },
+              },
+              {
+                "@type": "Organization",
+                "@id": `${SITE_URL}#organization`,
+                name: "The Layoff Guide",
+                url: SITE_URL,
+                founder: { "@id": AUTHOR_ID },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

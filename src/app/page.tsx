@@ -22,9 +22,9 @@ export default function HomePage() {
           How to File for Unemployment in Your State
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Just lost your job? We&apos;ve been there. Here&apos;s everything you
-          need to know about filing for unemployment, in plain English, not
-          government jargon.
+          Hi, I&apos;m Patrick. I lost my job in September 2025 and built this
+          site so you wouldn&apos;t have to learn the hard way. Pick your state
+          below to get started.
         </p>
       </section>
 

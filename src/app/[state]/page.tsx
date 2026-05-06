@@ -3,6 +3,15 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { states, getStateBySlug, getAllStateSlugs } from "@/data/states";
 import DisqusComments from "@/components/DisqusComments";
+import AuthorBlock from "@/components/AuthorBlock";
+import BenefitEstimator from "@/components/BenefitEstimator";
+import {
+  AUTHOR_ID,
+  AUTHOR_NAME,
+  AUTHOR_DESCRIPTION,
+  LAST_REVIEWED,
+  SITE_URL,
+} from "@/data/site";
 
 export async function generateStaticParams() {
   return getAllStateSlugs().map((state) => ({ state }));
@@ -17,9 +26,15 @@ export async function generateMetadata({
   const state = getStateBySlug(slug);
   if (!state) return {};
 
+  // Title format chosen to match how people actually search: front-loads the
+  // state name (matches "florida unemployment" type queries), drops em-dashes
+  // (Google's content classifiers in 2026 increasingly treat em-dashes as an
+  // AI-generated content signal), and varies enough that the 50 state pages
+  // don't all look identical in a SERP scan.
+  const year = new Date().getFullYear();
   return {
-    title: `How to File for Unemployment in ${state.name} (${state.abbreviation}), ${new Date().getFullYear()} Guide`,
-    description: `Free ${state.name} unemployment guide (${new Date().getFullYear()}). File online, max benefit $${state.maxWeeklyBenefit}/week for ${state.maxWeeks} weeks${state.waitingWeek ? ", 1-week waiting period" : ", no waiting week"}. Eligibility, documents needed, common mistakes, and direct filing links.`,
+    title: `${state.name} Unemployment ${year}: How to File, Eligibility & Benefits`,
+    description: `${state.name} unemployment guide for ${year}. File online, max benefit $${state.maxWeeklyBenefit}/week for ${state.maxWeeks} weeks${state.waitingWeek ? ", 1-week waiting period" : ", no waiting week"}. Step-by-step filing, eligibility rules, documents needed, and direct links to ${state.abbreviation} state filing.`,
   };
 }
 
@@ -53,6 +68,10 @@ export default async function StatePage({
         <span className="mx-2">/</span>
         <span className="text-gray-900">{state.name}</span>
       </nav>
+
+      {/* Author byline (compact). Establishes the page has a real author
+          and a recent review date before the reader hits the content. */}
+      <AuthorBlock variant="compact" reviewedAt={state.lastReviewedAt} />
 
       {/* Header */}
       <header className="mb-10">
@@ -142,6 +161,17 @@ export default async function StatePage({
           </div>
         )}
       </section>
+
+      {/* Benefit estimator (interactive). Placed right after the quick facts
+          card because the very next question after "what's the max benefit"
+          is "what will I actually get." Persists user input to localStorage
+          so a returning visitor sees their last estimate. */}
+      <BenefitEstimator
+        stateName={state.name}
+        stateAbbr={state.abbreviation}
+        maxWeeklyBenefit={state.maxWeeklyBenefit}
+        maxWeeks={state.maxWeeks}
+      />
 
       {/* Eligibility */}
       <section className="mb-10">
@@ -349,12 +379,6 @@ export default async function StatePage({
                 </div>
               </div>
             ))}
-            <p className="text-xs text-gray-500 mt-2">
-              Know of a petition or advocacy effort in {state.name}?{" "}
-              <Link href="/community" className="text-blue-600 hover:underline">
-                Share it in our community forum
-              </Link>.
-            </p>
           </div>
         </section>
       )}
@@ -401,6 +425,58 @@ export default async function StatePage({
             })),
           }),
         }}
+      />
+
+      {/* Article + author schema. Tells Google this state page is an
+          authored Article with a named human author whose Person record
+          lives at /about. Critical YMYL signal. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: `How to File for Unemployment in ${state.name}`,
+            description: `${state.name} unemployment guide: how to file, eligibility, weekly benefits, common mistakes, and direct links.`,
+            url: `${SITE_URL}/${state.slug}`,
+            datePublished: state.lastReviewedAt ?? LAST_REVIEWED,
+            dateModified: state.lastReviewedAt ?? LAST_REVIEWED,
+            author: {
+              "@type": "Person",
+              "@id": AUTHOR_ID,
+              name: AUTHOR_NAME,
+              description: AUTHOR_DESCRIPTION,
+              url: `${SITE_URL}/about`,
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "The Layoff Guide",
+              url: SITE_URL,
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": `${SITE_URL}/${state.slug}`,
+            },
+            ...(state.handbookUrl
+              ? {
+                  citation: {
+                    "@type": "CreativeWork",
+                    name: `Official ${state.name} Unemployment Handbook`,
+                    url: state.handbookUrl,
+                  },
+                }
+              : {}),
+          }),
+        }}
+      />
+
+      {/* Author block (expanded) at the bottom of the content. Closes the
+          page with a clear byline + state handbook citation when available. */}
+      <AuthorBlock
+        variant="expanded"
+        handbookUrl={state.handbookUrl}
+        stateName={state.name}
+        reviewedAt={state.lastReviewedAt}
       />
 
       {/* Disqus Comments */}
