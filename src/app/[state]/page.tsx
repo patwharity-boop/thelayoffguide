@@ -172,6 +172,35 @@ export default async function StatePage({
         maxWeeks={state.maxWeeks}
       />
 
+      {/* CTA to the personal claim tracker. Discovery point for the
+          /my-claim dashboard; designed as a small upsell, not a hijack of
+          the page flow. */}
+      <section className="mb-10">
+        <Link
+          href="/my-claim"
+          className="block bg-blue-50 border border-blue-200 rounded-lg p-5 hover:bg-blue-100 transition-colors group"
+        >
+          <div className="flex items-start gap-4">
+            <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center shrink-0 font-bold text-lg">
+              ✓
+            </div>
+            <div className="flex-1">
+              <h3 className="font-bold text-gray-900 mb-1">
+                Track your {state.name} claim week by week
+              </h3>
+              <p className="text-sm text-gray-700">
+                Save your filing date once, and the dashboard tells you what
+                week you&apos;re in, what&apos;s normal, and what to do next.
+                All data stays in your browser.
+              </p>
+            </div>
+            <span className="text-blue-700 group-hover:translate-x-1 transition-transform shrink-0 mt-2">
+              →
+            </span>
+          </div>
+        </Link>
+      </section>
+
       {/* Eligibility */}
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
