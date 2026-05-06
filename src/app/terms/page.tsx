@@ -61,13 +61,6 @@ export default function TermsPage() {
           use of the site or reliance on any information provided.
         </p>
 
-        <h2 className="text-xl font-bold text-gray-900 mt-8">User Comments</h2>
-        <p>
-          If comments are enabled on the site (via Disqus or similar), you are responsible
-          for the content you post. We reserve the right to remove comments that are
-          abusive, spam, or otherwise inappropriate.
-        </p>
-
         <h2 className="text-xl font-bold text-gray-900 mt-8">Changes to Terms</h2>
         <p>
           We may update these terms from time to time. Continued use of the site after

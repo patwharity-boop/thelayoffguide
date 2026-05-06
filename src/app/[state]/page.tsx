@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { states, getStateBySlug, getAllStateSlugs } from "@/data/states";
-import DisqusComments from "@/components/DisqusComments";
 import AuthorBlock from "@/components/AuthorBlock";
 import BenefitEstimator from "@/components/BenefitEstimator";
 import {
@@ -477,12 +476,6 @@ export default async function StatePage({
         handbookUrl={state.handbookUrl}
         stateName={state.name}
         reviewedAt={state.lastReviewedAt}
-      />
-
-      {/* Disqus Comments */}
-      <DisqusComments
-        identifier={`state-${state.slug}`}
-        title={`Unemployment in ${state.name}`}
       />
 
       {/* State Navigation */}

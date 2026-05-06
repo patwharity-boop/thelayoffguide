@@ -150,15 +150,6 @@ export default async function BlogPostPage({
         </div>
       </article>
 
-      {/* Disqus Comments */}
-      <section className="mt-12 pt-8 border-t border-gray-200">
-        <h2 className="text-xl font-bold text-gray-900 mb-4">Discussion</h2>
-        <div id="disqus_thread"></div>
-        <noscript>
-          Please enable JavaScript to view the comments.
-        </noscript>
-      </section>
-
       {/* Post Navigation */}
       <nav className="flex items-center justify-between mt-12 pt-8 border-t border-gray-200">
         {prevPost ? (

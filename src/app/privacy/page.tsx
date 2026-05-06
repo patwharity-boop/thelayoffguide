@@ -34,8 +34,6 @@ export default function PrivacyPage() {
             </a>.</li>
           <li><strong>Vercel Analytics:</strong> Our hosting provider may collect anonymous usage data
             such as page views, device type, and geographic region.</li>
-          <li><strong>Disqus:</strong> If you use the comment feature on our pages, Disqus may collect
-            information as described in their privacy policy.</li>
         </ul>
 
         <h2 className="text-xl font-bold text-gray-900 mt-8">Cookies</h2>
