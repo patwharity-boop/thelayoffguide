@@ -18,6 +18,10 @@ export interface StateData {
   faq: { question: string; answer: string }[];
   advocacy?: { title: string; url: string; description: string }[];
   tips?: { headline: string; body: string }[];
+  // Optional ISO date (YYYY-MM-DD) of the last hand-review for this state.
+  // When present, overrides the global LAST_REVIEWED on the AuthorBlock and
+  // in JSON-LD dateModified. Leave undefined to fall back to the global date.
+  lastReviewedAt?: string;
 }
 
 // Per-state unemployment data sourced from each state's Department of Labor or workforce agency (2026).
