@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { states, getStateBySlug, getAllStateSlugs } from "@/data/states";
 import AuthorBlock from "@/components/AuthorBlock";
 import BenefitEstimator from "@/components/BenefitEstimator";
+import FieldNotesForState from "@/components/FieldNotesForState";
 import {
   AUTHOR_ID,
   AUTHOR_NAME,
@@ -369,6 +370,15 @@ export default async function StatePage({
           </div>
         </section>
       )}
+
+      {/* Field Notes for this state. Pulls the top 3 most recent notes from
+          the central /field-notes feed that are tagged with this state.
+          Pinned notes (cross-state tactical wisdom) appear first. */}
+      <FieldNotesForState
+        stateSlug={state.slug}
+        stateName={state.name}
+        limit={3}
+      />
 
       {/* Take Action / Advocacy */}
       {state.advocacy && state.advocacy.length > 0 && (

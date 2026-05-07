@@ -67,6 +67,9 @@ export default function RootLayout({
               <Link href="/my-claim" className="text-gray-600 hover:text-gray-900">
                 My Claim
               </Link>
+              <Link href="/field-notes" className="text-gray-600 hover:text-gray-900">
+                Field Notes
+              </Link>
               <Link href="/fast-track-careers" className="text-gray-600 hover:text-gray-900">
                 Careers
               </Link>
@@ -91,6 +94,7 @@ export default function RootLayout({
             <div className="flex justify-center gap-6 mb-4 flex-wrap">
               <Link href="/about" className="text-gray-500 hover:text-gray-700">About</Link>
               <Link href="/my-claim" className="text-gray-500 hover:text-gray-700">My Claim</Link>
+              <Link href="/field-notes" className="text-gray-500 hover:text-gray-700">Field Notes</Link>
               <Link href="/blog" className="text-gray-500 hover:text-gray-700">Blog</Link>
               <Link href="/resources" className="text-gray-500 hover:text-gray-700">Resources</Link>
               <Link href="/fast-track-careers" className="text-gray-500 hover:text-gray-700">Careers</Link>
