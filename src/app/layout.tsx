@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import Image from "next/image";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -15,12 +17,49 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.thelayoffguide.com"),
   title: {
     default: "The Layoff Guide, Everything You Need After Losing Your Job",
     template: "%s | The Layoff Guide",
   },
   description:
     "Free unemployment filing guide for all 50 states. Step-by-step instructions, weekly benefit amounts, direct filing links, SNAP and health insurance resources, fast-track career paths, and more. No paywalls, no signup required.",
+  openGraph: {
+    type: "website",
+    siteName: "The Layoff Guide",
+    title:
+      "The Layoff Guide, Everything You Need After Losing Your Job",
+    description:
+      "Free unemployment filing guide for all 50 states. Plain-English instructions, interactive benefit estimator, personal claim tracker, and field notes from people who've been through it.",
+    url: "https://www.thelayoffguide.com",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1024,
+        height: 1024,
+        alt: "The Layoff Guide",
+      },
+    ],
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary",
+    title: "The Layoff Guide",
+    description:
+      "Free unemployment filing guide for all 50 states. Built by someone who's been through it.",
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -33,32 +72,42 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <head>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-008LYB41HQ"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-008LYB41HQ');
-            `,
-          }}
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5958895635970152"
-          crossOrigin="anonymous"
-        ></script>
-      </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900">
+        {/* Third-party scripts. next/script with strategy="afterInteractive"
+            defers loading until after page interactivity, which lifts LCP
+            without hurting GA pageview accuracy or AdSense fill rate. */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-008LYB41HQ"
+          strategy="afterInteractive"
+        />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-008LYB41HQ');
+          `}
+        </Script>
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5958895635970152"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
         <header className="border-b border-gray-200 bg-white">
           <div className="mx-auto max-w-6xl px-4 md:px-6 py-3 md:py-6 flex flex-col md:flex-row items-center justify-center gap-3 md:gap-8">
             <Link href="/" className="hover:opacity-90 shrink-0">
-              <img src="/logo.png" alt="The Layoff Guide" className="h-14 md:h-24 w-auto" />
+              {/* Logo is a 1024x1024 PNG; Next/Image generates responsive
+                  WebP variants and serves the right size for each viewport.
+                  priority skips lazy-loading since the logo is above-the-fold
+                  and contributes to LCP. */}
+              <Image
+                src="/logo.png"
+                alt="The Layoff Guide"
+                width={1024}
+                height={1024}
+                className="h-14 md:h-24 w-auto"
+                priority
+              />
             </Link>
             <nav className="flex flex-wrap justify-center gap-3 md:gap-6 text-xs md:text-sm">
               <Link href="/" className="text-gray-600 hover:text-gray-900">

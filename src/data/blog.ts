@@ -161,9 +161,9 @@ Check your state's specific guide on our [homepage](/) for detailed filing instr
   },
   {
     slug: "side-hustles-while-on-unemployment",
-    title: "Can You Work a Side Hustle While on Unemployment?",
+    title: "How Much Can You Earn on Unemployment? Partial Benefits Rules in Every State",
     description:
-      "Yes, but you MUST report it. Here's how part-time work affects your unemployment benefits and how to stay compliant.",
+      "Most states let you keep some unemployment benefits while working part-time. The threshold is $25 in California, $48 in Pennsylvania, dollar-for-dollar in others. Here's the rule for your state and how to maximize what you keep.",
     date: "2026-04-06",
     content: `
 Short answer: **yes, you can work part-time or do gig work while on unemployment.** But you absolutely must report every dollar you earn. Not reporting income is fraud, and states are getting better at catching it.
