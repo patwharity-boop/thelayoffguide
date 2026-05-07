@@ -143,6 +143,8 @@ export default function RootLayout({
             <div className="flex justify-center gap-6 mb-4 flex-wrap">
               <Link href="/about" className="text-gray-500 hover:text-gray-700">About</Link>
               <Link href="/my-claim" className="text-gray-500 hover:text-gray-700">My Claim</Link>
+              <Link href="/eligibility" className="text-gray-500 hover:text-gray-700">Eligibility</Link>
+              <Link href="/timeline" className="text-gray-500 hover:text-gray-700">Timeline</Link>
               <Link href="/field-notes" className="text-gray-500 hover:text-gray-700">Field Notes</Link>
               <Link href="/blog" className="text-gray-500 hover:text-gray-700">Blog</Link>
               <Link href="/resources" className="text-gray-500 hover:text-gray-700">Resources</Link>

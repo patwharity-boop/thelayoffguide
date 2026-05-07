@@ -210,7 +210,14 @@ export default async function StatePage({
         <p className="text-gray-600 mb-4">{state.minEarnings}</p>
         <p className="text-gray-700 mb-3">
           To qualify for unemployment benefits in {state.name}, you must meet
-          these requirements:
+          these requirements (or take the{" "}
+          <Link
+            href="/eligibility"
+            className="text-blue-700 hover:text-blue-900 underline"
+          >
+            1-minute eligibility quiz
+          </Link>{" "}
+          for a state-aware read on your specific situation):
         </p>
         <ul className="space-y-2">
           {state.eligibility.map((req, i) => (
@@ -316,7 +323,18 @@ export default async function StatePage({
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           How Long Does It Take?
         </h2>
-        <p className="text-gray-700">{state.processingTime}</p>
+        <p className="text-gray-700 mb-3">{state.processingTime}</p>
+        <p className="text-sm text-gray-600">
+          For the realistic week-by-week breakdown of what happens after you
+          file (and what to do when something stalls), see the full{" "}
+          <Link
+            href="/timeline"
+            className="text-blue-700 hover:text-blue-900 underline"
+          >
+            unemployment timeline guide
+          </Link>
+          .
+        </p>
       </section>
 
       {/* FAQ with Schema Markup */}
