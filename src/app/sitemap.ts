@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/employer-contests-claim`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/remote-jobs-no-experience`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/first-30-days-playbook`, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/blog/how-to-get-past-ats`, changeFrequency: "monthly" as const, priority: 0.85 },
   ];
 
   const statePages = states.map((state) => ({
