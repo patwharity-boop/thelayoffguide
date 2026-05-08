@@ -482,11 +482,6 @@ export default function ResourcesPage() {
         start, here&apos;s the rest of what you should know about.
       </p>
 
-      {/* Ad Placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">
-        Advertisement
-      </div>
-
       <div className="space-y-12">
         {sections.map((section) => (
           <section key={section.title}>
@@ -514,11 +509,6 @@ export default function ResourcesPage() {
             </div>
           </section>
         ))}
-      </div>
-
-      {/* Ad Placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mt-10 text-center text-sm text-gray-400">
-        Advertisement
       </div>
 
       {/* Bottom note */}

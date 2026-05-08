@@ -23,11 +23,6 @@ export default function ComparePage() {
         {new Date().getFullYear()}.
       </p>
 
-      {/* Ad Placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">
-        Advertisement
-      </div>
-
       <div className="overflow-x-auto">
         <table className="w-full text-left">
           <thead>
@@ -90,11 +85,6 @@ export default function ComparePage() {
             ))}
           </tbody>
         </table>
-      </div>
-
-      {/* Ad Placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mt-8 mb-8 text-center text-sm text-gray-400">
-        Advertisement
       </div>
 
       {/* Insights */}

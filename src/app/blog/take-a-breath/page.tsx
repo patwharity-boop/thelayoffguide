@@ -55,9 +55,6 @@ export default function TakeABreathPage() {
         </div>
       </div>
 
-      {/* Ad */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">Advertisement</div>
-
       <article className="prose-custom text-gray-700 leading-relaxed space-y-6">
         <p>Hey. So it happened.</p>
 
@@ -136,9 +133,6 @@ export default function TakeABreathPage() {
 
         <p><strong>You&apos;re going to be okay. I mean that.</strong></p>
       </article>
-
-      {/* Ad */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mt-8 mb-8 text-center text-sm text-gray-400">Advertisement</div>
 
       {/* Series Navigation */}
       <div className="bg-gray-900 text-white rounded-xl p-8 mt-10 text-center">

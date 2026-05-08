@@ -47,8 +47,6 @@ export default function FileForUnemploymentPage() {
         </div>
       </div>
 
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">Advertisement</div>
-
       <article className="text-gray-700 leading-relaxed space-y-6">
         <p>I&apos;m going to be direct with you: <strong>if you got laid off and you haven&apos;t filed for unemployment yet, stop reading and go do it right now.</strong></p>
         <p>Seriously. Bookmark this page, <Link href="/" className="text-teal-600 underline">find your state&apos;s unemployment website</Link>, and file. I&apos;ll be here when you get back.</p>
@@ -150,8 +148,6 @@ export default function FileForUnemploymentPage() {
           &ldquo;Filing takes 15 minutes. Not filing costs you hundreds of dollars a week. The math is simple, do it now.&rdquo;
         </div>
       </article>
-
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mt-8 mb-8 text-center text-sm text-gray-400">Advertisement</div>
 
       <div className="bg-gray-900 text-white rounded-xl p-8 mt-10 text-center">
         <h3 className="text-teal-400 font-bold text-lg mb-2">Find Your State&apos;s Unemployment Page</h3>

@@ -72,9 +72,6 @@ export default function GetPastAtsPage() {
       </div>
 
       {/* Ad placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">
-        Advertisement
-      </div>
 
       <article className="prose-custom text-gray-700 leading-relaxed space-y-6">
         <p>

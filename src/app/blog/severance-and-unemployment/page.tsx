@@ -48,8 +48,6 @@ export default function SeveranceAndUnemploymentPage() {
         </div>
       </div>
 
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">Advertisement</div>
-
       <article className="text-gray-700 leading-relaxed space-y-6">
         <p>If you just got laid off and your employer offered severance, the question on most people&apos;s minds is simple: do I still qualify for unemployment?</p>
         <p>The short answer is yes, almost always. The longer answer is that most online guides oversimplify what happens next. Severance does not cancel your unemployment, but it can delay when payments start, sometimes by weeks. Whether yours will depends on two things: how your severance is structured, and how your state classifies it.</p>
@@ -68,8 +66,6 @@ export default function SeveranceAndUnemploymentPage() {
 
         <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">2. How Your State Classifies It</h3>
         <p>States interpret severance through their own statutes. Some states care a lot about whether a release was signed. Others care about the structure of the payment. A few apply formulas (severance amount divided by your average weekly wage) to calculate exactly how many weeks you are disqualified.</p>
-
-        <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 my-8 text-center text-sm text-gray-400">Advertisement</div>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Examples From Four Common States</h2>
         <p>These are simplified summaries, not legal advice. Verify with your state&apos;s official handbook before making decisions.</p>

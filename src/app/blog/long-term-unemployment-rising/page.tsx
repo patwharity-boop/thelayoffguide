@@ -48,8 +48,6 @@ export default function LongTermUnemploymentPage() {
         </div>
       </div>
 
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">Advertisement</div>
-
       <article className="text-gray-700 leading-relaxed space-y-6">
         <p>The March jobs report dropped on April 3. Headlines mostly focused on the unemployment rate (4.3%, little changed) and the 178,000 jobs added. A lot of coverage moved on.</p>
         <p>But buried in the release is the number that actually matters if you&apos;ve been out of work for a while.</p>
@@ -77,8 +75,6 @@ export default function LongTermUnemploymentPage() {
           <li><strong>Rental assistance</strong>, many cities still have emergency rental programs. Call 211 or your local housing authority.</li>
         </ul>
         <p>Read our full <Link href="/blog/hidden-benefits" className="text-blue-600 hover:text-blue-800 underline">hidden benefits guide</Link> for the details on each.</p>
-
-        <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 my-8 text-center text-sm text-gray-400">Advertisement</div>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">3. Address the resume gap head-on</h2>
         <p>Hiding a 6-month gap doesn&apos;t work. Recruiters notice. What works better is owning it.</p>

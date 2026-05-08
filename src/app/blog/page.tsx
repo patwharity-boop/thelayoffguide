@@ -87,11 +87,6 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Ad Placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">
-        Advertisement
-      </div>
-
       {/* Latest Articles */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">
@@ -127,11 +122,6 @@ export default function BlogPage() {
           ))}
         </div>
       </section>
-
-      {/* Ad */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">
-        Advertisement
-      </div>
 
       {/* Earlier Articles */}
       <section>

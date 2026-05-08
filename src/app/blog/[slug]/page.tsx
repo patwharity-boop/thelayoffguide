@@ -137,17 +137,7 @@ export default async function BlogPostPage({
           <time className="text-sm text-gray-400">{post.date}</time>
         </header>
 
-        {/* Ad Placeholder */}
-        <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">
-          Advertisement
-        </div>
-
         <div className="prose-custom">{renderMarkdown(post.content)}</div>
-
-        {/* Ad Placeholder */}
-        <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mt-8 mb-8 text-center text-sm text-gray-400">
-          Advertisement
-        </div>
       </article>
 
       {/* Post Navigation */}

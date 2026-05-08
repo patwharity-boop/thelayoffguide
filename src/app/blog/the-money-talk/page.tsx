@@ -47,8 +47,6 @@ export default function MoneyTalkPage() {
         </div>
       </div>
 
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-8 text-center text-sm text-gray-400">Advertisement</div>
-
       <article className="text-gray-700 leading-relaxed space-y-6">
         <p>Okay. You made it through yesterday. You took the walk. You made the call. You let yourself feel it. Nice work, seriously.</p>
         <p>Now let&apos;s talk about money.</p>
@@ -159,8 +157,6 @@ export default function MoneyTalkPage() {
           &ldquo;You don&apos;t need a perfect financial plan. You need a 20-minute honest look at your numbers. That&apos;s enough to start.&rdquo;
         </div>
       </article>
-
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mt-8 mb-8 text-center text-sm text-gray-400">Advertisement</div>
 
       {/* Series Navigation */}
       <div className="bg-gray-900 text-white rounded-xl p-8 mt-10 text-center">

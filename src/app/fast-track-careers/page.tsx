@@ -448,9 +448,6 @@ export default function FastTrackCareersPage() {
         this page has the careers, salary data, job outlook, and links to get started.
       </p>
 
-      {/* Ad */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">Advertisement</div>
-
       {/* Quick Start, 12 Weeks or Less */}
       <section className="mb-14">
         <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-6">
@@ -479,9 +476,6 @@ export default function FastTrackCareersPage() {
           ))}
         </div>
       </section>
-
-      {/* Ad */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">Advertisement</div>
 
       {/* Online Certifications */}
       <section className="mb-14">
@@ -512,9 +506,6 @@ export default function FastTrackCareersPage() {
         </div>
       </section>
 
-      {/* Ad */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">Advertisement</div>
-
       {/* Trade Careers */}
       <section className="mb-14">
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
@@ -538,9 +529,6 @@ export default function FastTrackCareersPage() {
           ))}
         </div>
       </section>
-
-      {/* Ad */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">Advertisement</div>
 
       {/* Find Programs */}
       <section className="mb-14">

@@ -113,11 +113,6 @@ export default function BudgetTemplatePage() {
         </div>
       </section>
 
-      {/* Ad Placeholder */}
-      <div className="bg-gray-100 border border-dashed border-gray-300 rounded-lg p-4 mb-10 text-center text-sm text-gray-400">
-        Advertisement
-      </div>
-
       {/* Tips */}
       <section className="bg-green-50 border border-green-200 rounded-lg p-6 mb-10">
         <h2 className="text-xl font-bold text-gray-900 mb-4">
