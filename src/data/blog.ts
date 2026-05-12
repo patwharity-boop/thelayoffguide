@@ -161,9 +161,9 @@ Check your state's specific guide on our [homepage](/) for detailed filing instr
   },
   {
     slug: "side-hustles-while-on-unemployment",
-    title: "How Much Can You Earn on Unemployment? Partial Benefits Rules in Every State",
+    title: "Can You DoorDash on Unemployment? Gig Work Rules by State (2026)",
     description:
-      "Most states let you keep some unemployment benefits while working part-time. The threshold is $25 in California, $48 in Pennsylvania, dollar-for-dollar in others. Here's the rule for your state and how to maximize what you keep.",
+      "Yes, you can DoorDash, Uber, or work another job on unemployment, but every dollar must be reported. Here's how gig earnings affect benefits in every state.",
     date: "2026-04-06",
     content: `
 Short answer: **yes, you can work part-time or do gig work while on unemployment.** But you absolutely must report every dollar you earn. Not reporting income is fraud, and states are getting better at catching it.
