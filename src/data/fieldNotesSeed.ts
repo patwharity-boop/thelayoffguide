@@ -667,11 +667,11 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "nv-claimantselfservice",
     title: "Nevada Claimant Self Service portal handles weekly cert by Sunday",
-    body: "Nevada's Claimant Self Service portal opens weekly cert Sunday morning Pacific. Nevada DETR has had multiple PUA-era system issues that linger as occasional bugs. Use desktop browser, not mobile, for first filing. The state's portal at ui.nv.gov posts maintenance notices.",
+    body: "Nevada's Claimant Self Service (CSS) portal opens weekly cert Sunday morning Pacific. Use a desktop browser, not mobile, for first filing. The state's portal at apps.detr.nv.gov/CSS posts maintenance notices.",
     states: ["nevada"],
     topics: ["portal", "cert"],
     source: "research",
-    sourceUrl: "https://ui.nv.gov/css.html",
+    sourceUrl: "https://apps.detr.nv.gov/CSS",
     publishedAt: "2024-09-01",
   },
   {
