@@ -176,8 +176,24 @@ export default function MoneyTalkPage() {
         "@context": "https://schema.org", "@type": "Article",
         headline: "The Money Talk, How to Map Your Finances After a Layoff",
         image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
-        author: { "@type": "Organization", name: "The Layoff Guide" },
+        url: "https://www.thelayoffguide.com/blog/the-money-talk",
         datePublished: "2026-04-06",
+        dateModified: "2026-04-06",
+        author: {
+          "@type": "Person",
+          "@id": "https://www.thelayoffguide.com/about#patrick",
+          name: "Patrick",
+          url: "https://www.thelayoffguide.com/about",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "The Layoff Guide",
+          url: "https://www.thelayoffguide.com",
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": "https://www.thelayoffguide.com/blog/the-money-talk",
+        },
       })}} />
     </div>
   );

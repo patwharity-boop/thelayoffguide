@@ -145,6 +145,36 @@ export default async function BlogPostPage({
         <div className="prose-custom">{renderMarkdown(post.content)}</div>
       </article>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: post.title,
+            description: post.description,
+            url: `https://www.thelayoffguide.com/blog/${post.slug}`,
+            datePublished: post.date,
+            dateModified: post.date,
+            author: {
+              "@type": "Person",
+              "@id": "https://www.thelayoffguide.com/about#patrick",
+              name: "Patrick",
+              url: "https://www.thelayoffguide.com/about",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "The Layoff Guide",
+              url: "https://www.thelayoffguide.com",
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": `https://www.thelayoffguide.com/blog/${post.slug}`,
+            },
+          }),
+        }}
+      />
+
       {/* Post Navigation */}
       <nav className="flex items-center justify-between mt-12 pt-8 border-t border-gray-200">
         {prevPost ? (

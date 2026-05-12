@@ -166,8 +166,24 @@ export default function FileForUnemploymentPage() {
         "@context": "https://schema.org", "@type": "Article",
         headline: "File for Unemployment Today, Here's Exactly How",
         image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
-        author: { "@type": "Organization", name: "The Layoff Guide" },
+        url: "https://www.thelayoffguide.com/blog/file-for-unemployment-today",
         datePublished: "2026-04-06",
+        dateModified: "2026-04-06",
+        author: {
+          "@type": "Person",
+          "@id": "https://www.thelayoffguide.com/about#patrick",
+          name: "Patrick",
+          url: "https://www.thelayoffguide.com/about",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "The Layoff Guide",
+          url: "https://www.thelayoffguide.com",
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": "https://www.thelayoffguide.com/blog/file-for-unemployment-today",
+        },
       })}} />
     </div>
   );

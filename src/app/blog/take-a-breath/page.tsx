@@ -153,9 +153,24 @@ export default function TakeABreathPage() {
             headline: "Take a Breath, What to Do in the First 24 Hours After a Layoff",
             description: "Just got laid off? Here's what to do in the first 24 hours.",
             image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80",
-            author: { "@type": "Organization", name: "The Layoff Guide" },
-            publisher: { "@type": "Organization", name: "The Layoff Guide" },
+            url: "https://www.thelayoffguide.com/blog/take-a-breath",
             datePublished: "2026-04-06",
+            dateModified: "2026-04-06",
+            author: {
+              "@type": "Person",
+              "@id": "https://www.thelayoffguide.com/about#patrick",
+              name: "Patrick",
+              url: "https://www.thelayoffguide.com/about",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "The Layoff Guide",
+              url: "https://www.thelayoffguide.com",
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://www.thelayoffguide.com/blog/take-a-breath",
+            },
           }),
         }}
       />

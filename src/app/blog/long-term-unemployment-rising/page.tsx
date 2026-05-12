@@ -115,6 +115,32 @@ export default function LongTermUnemploymentPage() {
           </ul>
         </div>
       </article>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Long-Term Unemployment Just Jumped 322K: Here's Your Playbook",
+        description: "If you've been out of work more than 6 months, here's the actual playbook, benefits, safety net, resume strategy, fast pivots.",
+        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+        url: "https://www.thelayoffguide.com/blog/long-term-unemployment-rising",
+        datePublished: "2026-04-15",
+        dateModified: "2026-04-15",
+        author: {
+          "@type": "Person",
+          "@id": "https://www.thelayoffguide.com/about#patrick",
+          name: "Patrick",
+          url: "https://www.thelayoffguide.com/about",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "The Layoff Guide",
+          url: "https://www.thelayoffguide.com",
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": "https://www.thelayoffguide.com/blog/long-term-unemployment-rising",
+        },
+      })}} />
     </div>
   );
 }

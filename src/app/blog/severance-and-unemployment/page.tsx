@@ -109,6 +109,32 @@ export default function SeveranceAndUnemploymentPage() {
           </ul>
         </div>
       </article>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Got Severance? Here's How It Actually Affects Your Unemployment Benefits",
+        description: "Severance does not cancel your unemployment, but it can delay when payments start. Here's what actually drives the outcome by state.",
+        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+        url: "https://www.thelayoffguide.com/blog/severance-and-unemployment",
+        datePublished: "2026-04-20",
+        dateModified: "2026-04-20",
+        author: {
+          "@type": "Person",
+          "@id": "https://www.thelayoffguide.com/about#patrick",
+          name: "Patrick",
+          url: "https://www.thelayoffguide.com/about",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "The Layoff Guide",
+          url: "https://www.thelayoffguide.com",
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": "https://www.thelayoffguide.com/blog/severance-and-unemployment",
+        },
+      })}} />
     </div>
   );
 }
