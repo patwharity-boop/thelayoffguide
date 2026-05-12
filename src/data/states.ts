@@ -79,6 +79,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Alabama?",
         answer: "Yes. The fastest way to file is online through the Alabama Department of Labor website. You can also call 1-866-234-5382."
+      },
+      {
+        question: "Who qualifies for unemployment in Alabama?",
+        answer: "You qualify if you separated from your Alabama job through no fault of your own, earned wages in at least two quarters of your base period with the two highest quarters averaging at least $1,157.01 each, and are able and available for full-time Alabama work."
+      },
+      {
+        question: "When should I apply for unemployment in Alabama?",
+        answer: "File the same week you separate. Alabama's effective date is the Sunday of the filing week, so waiting even a few days can cost you a week of benefits."
       }
     ],
     tips: [
@@ -140,6 +148,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Alaska?",
         answer: "Yes. File online at my.alaska.gov or call 1-907-269-4700 for assistance."
+      },
+      {
+        question: "Who qualifies for unemployment in Alaska?",
+        answer: "You qualify if you separated from your Alaska job through no fault of your own, earned at least $2,500 in your base period with wages in at least two quarters, and are able and available for full-time Alaska work."
+      },
+      {
+        question: "When should I apply for unemployment in Alaska?",
+        answer: "File the same week you separate. Alaska has a one-week unpaid waiting period that starts when you file, so delay only pushes back your first payment."
       }
     ],
     tips: [
@@ -201,6 +217,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Arizona?",
         answer: "Yes. File online at des.az.gov or call 1-877-600-2722."
+      },
+      {
+        question: "Who qualifies for unemployment in Arizona?",
+        answer: "You qualify if you separated from your Arizona job through no fault of your own, earned at least 390 times the state minimum wage (approximately $5,733) in your highest quarter of your base period, and meet Arizona's job-search requirement of 4 contacts on 4 separate days each week."
+      },
+      {
+        question: "When should I apply for unemployment in Arizona?",
+        answer: "File the same week you separate. Arizona's one-week unpaid waiting period starts from your filing date, so filing late means delayed payments."
       }
     ],
     tips: [
