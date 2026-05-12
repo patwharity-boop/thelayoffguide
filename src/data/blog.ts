@@ -134,11 +134,11 @@ One of the highest in the western US, with strong online filing tools and indexe
 
 ## The Worst States for Unemployment Benefits
 
-### 46. Louisiana, $275/week, 26 weeks
-Low maximum but at least offers the full 26 weeks.
+### 46. Louisiana, $275/week, 12 weeks
+Low maximum and Louisiana caps current claims at 12 weeks under its sliding-scale duration formula (the higher end of the 12-20 week range only kicks in during higher unemployment).
 
-### 47. Tennessee, $325/week, 26 weeks
-Slightly higher than Louisiana, but still well below the national average.
+### 47. Tennessee, $325/week, 12 weeks
+Slightly higher weekly amount than Louisiana, but Tennessee caps at 12 weeks of benefits.
 
 ### 48. Florida, $275/week, 12 weeks
 Low benefits AND the shortest duration in the country (tied with NC). Florida's CONNECT system is also notoriously buggy.

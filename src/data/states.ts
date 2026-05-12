@@ -1085,7 +1085,7 @@ export const states: StateData[] = [
     slug: "louisiana",
     abbreviation: "LA",
     maxWeeklyBenefit: 275,
-    maxWeeks: 20,
+    maxWeeks: 12,
     waitingWeek: false,
     filingUrl: "https://www.laworks.net/",
     filingPhone: "1-866-783-5567",
