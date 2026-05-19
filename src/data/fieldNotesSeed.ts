@@ -287,8 +287,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["hawaii"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://labor.hawaii.gov/ui/files/2012/12/HUIBhandbook.pdf",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://labor.hawaii.gov/ui/files/2026/01/DLIR-UI-Claimant-Handbook-Rev1.26-with-BABEL.pdf",
+    publishedAt: "2026-05-19",
   },
 
   // ============================== IDAHO ==============================
@@ -710,13 +710,13 @@ export const seedFieldNotes: FieldNote[] = [
   // ============================== NEW JERSEY ==============================
   {
     id: "nj-mynjuhealth-portal",
-    title: "New Jersey UI claim must be filed during your hour-and-day window",
-    body: "New Jersey assigns each new filer a specific filing window based on the last four digits of Social Security number; filing outside the assigned window historically caused processing delays. The state has loosened this in recent years but the time-window guidance remains posted. Check the NJDOL site for the current schedule.",
+    title: "New Jersey sets your certification day by the last digit of your SSN",
+    body: "New Jersey schedules your benefit certification by the last digit of your Social Security number: odd (1, 3, 5, 7, 9) certify on Monday, even (2, 4, 6, 8, 0) on Tuesday. Your first certification falls on a Wednesday, 17 days after your claim date, then it is every two weeks on your assigned day. Miss your day and you can still certify Wednesday through Friday that same week, or certify online any day.",
     states: ["new-jersey"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://www.nj.gov/labor/myunemployment/",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.nj.gov/labor/myunemployment/schedule.shtml",
+    publishedAt: "2026-05-19",
   },
   {
     id: "nj-severance-not-disqualifying",

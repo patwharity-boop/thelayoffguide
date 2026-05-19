@@ -286,6 +286,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Arkansas?",
         answer: "Yes. File online at the Arkansas DWS website or call 1-844-908-2178."
+      },
+      {
+        question: "Who qualifies for unemployment in Arkansas?",
+        answer: "You qualify if you separated from your Arkansas job through a layoff, closure, or reduction in force, earned at least $3,965 in total base period wages spread across at least two quarters, are able to work and accepting full-time Arkansas employment, and document weekly job search activity through the Arkansas Workforce system."
+      },
+      {
+        question: "When should I apply for unemployment in Arkansas?",
+        answer: "File the same week you separate. Arkansas pays only from your file date forward and does not backdate claims, and a one-week unpaid waiting period starts when you file, so even a few days of delay can cost you a full week of benefits."
       }
     ],
     tips: [
@@ -353,6 +361,14 @@ export const states: StateData[] = [
       {
         question: "What if I was fired, can I still get unemployment in California?",
         answer: "It depends. If you were fired for misconduct, you may be disqualified. If you were let go for performance reasons or a business decision, you likely still qualify. EDD will investigate and make a determination."
+      },
+      {
+        question: "Who qualifies for unemployment in California?",
+        answer: "You qualify if you separated from your California job through no fault of your own, which includes layoffs and reductions under EDD rules, earned at least $1,300 in your highest base period quarter or meet the alternative $900 threshold with sufficient total wages, are physically able and immediately available for California work, and are a US citizen or legally authorized to work in the United States."
+      },
+      {
+        question: "When should I apply for unemployment in California?",
+        answer: "File the same week you separate. Your claim starts the Sunday of the week you file, not the day you lost your job, and a seven-day unpaid waiting period begins then, so filing late only pushes back your first payment."
       }
     ],
     advocacy: [
@@ -421,6 +437,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Colorado?",
         answer: "Yes. File online at coloradoui.gov or call 1-303-318-9000."
+      },
+      {
+        question: "Who qualifies for unemployment in Colorado?",
+        answer: "You qualify if you separated from a Colorado employer through no fault of your own, earned at least $2,500 in covered wages during your base period, are physically able and immediately available to work full-time, document at least 5 employer contacts per week through MyUI+, and register with your local Colorado Workforce Center."
+      },
+      {
+        question: "When should I apply for unemployment in Colorado?",
+        answer: "File the same week you separate. Colorado has no unpaid waiting week, so your first eligible week pays, but benefits run only from your claim date forward, so file and request payment immediately."
       }
     ],
     tips: [
