@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Fast Track Careers: High-Paying Jobs With Short Training",
   description:
     "Well-paying careers you can start in weeks or months, not years. Certifications, trade schools, and training programs that get you earning fast. Salary data, job outlook, and links to get started.",
+  path: "/fast-track-careers",
   keywords: [
     "high paying jobs short training",
     "certificate programs that pay well",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     "fast track career change",
     "quick certifications high salary",
   ],
-};
+});
 
 const quickStart = [
   {

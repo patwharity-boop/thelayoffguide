@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Privacy Policy",
   description: "Privacy policy for The Layoff Guide (thelayoffguide.com).",
-};
+  path: "/privacy",
+});
 
 export default function PrivacyPage() {
   return (

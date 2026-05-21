@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import EligibilityQuiz from "./EligibilityQuiz";
 import AuthorBlock from "@/components/AuthorBlock";
@@ -10,13 +9,15 @@ import {
   LAST_REVIEWED,
   SITE_URL,
 } from "@/data/site";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title:
     "Do I Qualify for Unemployment? Eligibility Rules in Every State (2026)",
   description:
     "Take a 1-minute eligibility quiz and find out whether you likely qualify for unemployment in your state. Plain-English explanation of base periods, monetary eligibility, fired-vs-laid-off rules, and the good-cause exceptions every state recognizes.",
-};
+  path: "/eligibility",
+});
 
 export default function EligibilityPage() {
   // Top 8 states by population for the in-table preview

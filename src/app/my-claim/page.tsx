@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import MyClaimClient from "./MyClaimClient";
 import AuthorBlock from "@/components/AuthorBlock";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "My Claim: Track Your Unemployment Benefits Week by Week",
   description:
     "A free personal dashboard for your unemployment claim. Enter your filing date and state once. See where you are in the journey, what's normal at this stage, and what to do next. All data stays in your browser.",
-};
+  path: "/my-claim",
+});
 
 export default function MyClaimPage() {
   return (

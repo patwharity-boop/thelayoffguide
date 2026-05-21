@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { states } from "@/data/states";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Compare Unemployment Benefits by State",
   description:
     "Compare unemployment benefits across all 50 states. See max weekly benefits, duration, waiting weeks, and total potential benefits side by side.",
-};
+  path: "/compare",
+});
 
 export default function ComparePage() {
   const sorted = [...states].sort(

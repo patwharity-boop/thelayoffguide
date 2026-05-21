@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import AuthorBlock from "@/components/AuthorBlock";
 import {
@@ -8,13 +7,15 @@ import {
   LAST_REVIEWED,
   SITE_URL,
 } from "@/data/site";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title:
     "How Long Does Unemployment Take? Realistic Timeline by Week (2026)",
   description:
     "What actually happens between filing and your first unemployment payment. Realistic week-by-week timeline (file, waiting week, first cert, first payment, weeks 4-8, wind-down) with the gap between statutory promises and lived reality.",
-};
+  path: "/timeline",
+});
 
 export default function TimelinePage() {
   return (

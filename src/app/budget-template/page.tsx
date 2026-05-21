@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Free Post-Layoff Budget Template: Google Sheets / Excel",
   description:
     "Free budget planner template for after a layoff. T-chart format: must-pay vs can-cut expenses, runway calculator, and action checklist. Download as CSV for Google Sheets or Excel.",
-};
+  path: "/budget-template",
+});
 
 export default function BudgetTemplatePage() {
   return (

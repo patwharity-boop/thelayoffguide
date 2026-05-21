@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { posts } from "@/data/blog";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Blog: Unemployment Tips, Guides & Advice",
   description:
     "Practical advice for navigating unemployment. Tips on filing, appealing denials, side hustles, and getting back on your feet.",
-};
+  path: "/blog",
+});
 
 const series = [
   {

@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import {
   AUTHOR_ID,
@@ -7,12 +6,14 @@ import {
   LAST_REVIEWED,
   SITE_URL,
 } from "@/data/site";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "About: Why I Built The Layoff Guide",
   description:
     "I built The Layoff Guide because I lived it. Lost my job in tech, missed my waiting week, spent 8 hours a day trying to reach unemployment. This site is what I wish existed when it happened to me.",
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

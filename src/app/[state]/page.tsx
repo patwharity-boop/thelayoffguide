@@ -12,6 +12,7 @@ import {
   LAST_REVIEWED,
   SITE_URL,
 } from "@/data/site";
+import { buildPageMetadata } from "@/lib/metadata";
 
 export async function generateStaticParams() {
   return getAllStateSlugs().map((state) => ({ state }));
@@ -32,10 +33,11 @@ export async function generateMetadata({
   // AI-generated content signal), and varies enough that the 50 state pages
   // don't all look identical in a SERP scan.
   const year = new Date().getFullYear();
-  return {
+  return buildPageMetadata({
     title: `${state.name} Unemployment ${year}: How to File, Eligibility & Benefits`,
     description: `${state.name}: up to $${state.maxWeeklyBenefit}/week for ${state.maxWeeks} weeks, ${state.waitingWeek ? "1-week wait" : "no waiting week"}. File online the week you're laid off. Step-by-step eligibility and filing guide for ${state.abbreviation}.`,
-  };
+    path: `/${slug}`,
+  });
 }
 
 export default async function StatePage({

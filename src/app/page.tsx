@@ -1,5 +1,13 @@
 import TrackedLink from "@/components/TrackedLink";
 import { states } from "@/data/states";
+import { buildPageMetadata } from "@/lib/metadata";
+
+export const metadata = buildPageMetadata({
+  title: "How to File for Unemployment in Your State (All 50, Free, 2026)",
+  description:
+    "Free unemployment filing guide for all 50 states. Plain-English instructions, interactive benefit estimator, personal claim tracker, and field notes from people who've been through it.",
+  path: "/",
+});
 
 export default function HomePage() {
   const grouped = states.reduce(
@@ -203,6 +211,38 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "The Layoff Guide",
+              url: "https://www.thelayoffguide.com",
+              description:
+                "Free unemployment filing guide for all 50 states. Plain-English instructions, benefit estimator, claim tracker, and field notes from people who've been through it.",
+              potentialAction: {
+                "@type": "SearchAction",
+                target:
+                  "https://www.thelayoffguide.com/compare?state={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "The Layoff Guide",
+              url: "https://www.thelayoffguide.com",
+              logo: "https://www.thelayoffguide.com/logo.png",
+              sameAs: [],
+              description:
+                "Independent unemployment-filing reference site built by someone who went through a layoff. Not affiliated with any government agency.",
+            },
+          ]),
+        }}
+      />
     </div>
   );
 }

@@ -1,14 +1,15 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllNotes } from "@/data/fieldNotes";
 import { getStateBySlug } from "@/data/states";
 import AuthorBlock from "@/components/AuthorBlock";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Field Notes: Tactical Tips for Filing Unemployment in Your State",
   description:
     "Short, specific tips from filing unemployment in all 50 states. Portal quirks, phone strategy, cert timing, severance interaction, and what to do when the system breaks. Updated as we learn more.",
-};
+  path: "/field-notes",
+});
 
 const SOURCE_LABELS: Record<string, string> = {
   personal: "From Patrick's experience",

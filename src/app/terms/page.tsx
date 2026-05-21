@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Terms of Use",
   description: "Terms of use for The Layoff Guide (thelayoffguide.com).",
-};
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

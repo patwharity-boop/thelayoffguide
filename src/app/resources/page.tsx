@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Resources: Everything You Need After a Layoff",
   description:
     "One-stop shop for everything you need after losing your job. Resume builders, job boards, food assistance, health insurance, LinkedIn tips, and more.",
-};
+  path: "/resources",
+});
 
 const sections = [
   {
@@ -524,6 +525,33 @@ export default function ResourcesPage() {
           You will too.
         </p>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Resources: Everything You Need After a Layoff",
+            url: "https://www.thelayoffguide.com/resources",
+            description:
+              "One-stop shop for everything you need after losing your job. Resume builders, job boards, food assistance, health insurance, LinkedIn tips, and more.",
+            isPartOf: {
+              "@type": "WebSite",
+              name: "The Layoff Guide",
+              url: "https://www.thelayoffguide.com",
+            },
+            mainEntity: {
+              "@type": "ItemList",
+              itemListElement: sections.map((s, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                name: s.title,
+              })),
+            },
+          }),
+        }}
+      />
     </div>
   );
 }
