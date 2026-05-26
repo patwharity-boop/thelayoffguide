@@ -1,3 +1,4 @@
+import Link from "next/link";
 import TrackedLink from "@/components/TrackedLink";
 import { states } from "@/data/states";
 import { buildPageMetadata } from "@/lib/metadata";
@@ -77,6 +78,19 @@ export default function HomePage() {
             someone had told them on day one.
           </p>
           <p>
+            That same kind of help is now collected in one place on this site
+            as{" "}
+            <Link
+              href="/field-notes"
+              className="text-blue-700 hover:text-blue-900 underline"
+            >
+              Field Notes
+            </Link>
+            : short, specific tips from filing in each state. Portal quirks,
+            phone strategy, cert timing, the small things that cost real money
+            when you miss them.
+          </p>
+          <p>
             <strong>The Layoff Guide is what I wish existed when it happened
             to me.</strong> Every state guide on this site explains the rules
             in plain English, lists the exact documents you need, and flags
@@ -125,7 +139,15 @@ export default function HomePage() {
           <li>
             <strong>File for unemployment today, not tomorrow.</strong>{" "}
             Almost no state backdates claims. Your benefits start the Sunday of
-            the week you file. Every day you wait is benefit days lost.
+            the week you file. Every day you wait is benefit days lost. Not
+            sure if you qualify?{" "}
+            <Link
+              href="/eligibility"
+              className="text-blue-700 hover:text-blue-900 underline"
+            >
+              Take the 1-minute eligibility quiz
+            </Link>
+            .
           </li>
           <li>
             <strong>Don&apos;t sign anything from your employer yet.</strong>{" "}
@@ -148,9 +170,41 @@ export default function HomePage() {
             <strong>Register on your state&apos;s workforce portal.</strong>{" "}
             Most states require this separately from filing. They won&apos;t
             release benefits until you&apos;re registered. Check your state
-            guide below.
+            guide below. For a realistic week-by-week sense of what comes next,
+            see the{" "}
+            <Link
+              href="/timeline"
+              className="text-blue-700 hover:text-blue-900 underline"
+            >
+              unemployment timeline guide
+            </Link>
+            .
           </li>
         </ol>
+      </section>
+
+      {/* Compare-by-state callout */}
+      <section className="mb-12">
+        <Link
+          href="/compare"
+          className="block bg-blue-50 border border-blue-200 rounded-lg p-5 hover:bg-blue-100 transition-colors group"
+        >
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h3 className="font-bold text-gray-900 mb-1">
+                See all 50 states ranked by max weekly benefit
+              </h3>
+              <p className="text-sm text-gray-700">
+                From $235/wk in Mississippi to $1,152/wk in Washington. Sort
+                by weekly amount, weeks of duration, or total payout. Updated
+                for 2026.
+              </p>
+            </div>
+            <span className="text-blue-700 group-hover:translate-x-1 transition-transform shrink-0 mt-2">
+              →
+            </span>
+          </div>
+        </Link>
       </section>
 
       {/* State List */}

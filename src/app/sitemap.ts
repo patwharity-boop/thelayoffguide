@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/fast-track-careers`, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/about`, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/budget-template`, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/compare`, changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${baseUrl}/compare`, changeFrequency: "monthly" as const, priority: 0.9 },
     // Blog series
     { url: `${baseUrl}/blog/take-a-breath`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/the-money-talk`, changeFrequency: "monthly" as const, priority: 0.8 },

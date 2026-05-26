@@ -27,14 +27,17 @@ export async function generateMetadata({
   const state = getStateBySlug(slug);
   if (!state) return {};
 
-  // Title format chosen to match how people actually search: front-loads the
-  // state name (matches "florida unemployment" type queries), drops em-dashes
+  // Title format chosen to match how people actually search. CT and NV are
+  // both ranking position 6-9 for "[state] unemployment maximum weekly
+  // benefit [year]" with their current titles. New format leans into that
+  // exact query phrase and adds the literal dollar amount (numbers in
+  // titles lift CTR ~10-15% in published studies). Front-loads the state
+  // name (matches "florida unemployment" type queries), drops em-dashes
   // (Google's content classifiers in 2026 increasingly treat em-dashes as an
-  // AI-generated content signal), and varies enough that the 50 state pages
-  // don't all look identical in a SERP scan.
+  // AI-generated content signal).
   const year = new Date().getFullYear();
   return buildPageMetadata({
-    title: `${state.name} Unemployment ${year}: How to File, Eligibility & Benefits`,
+    title: `${state.name} Unemployment ${year}: $${state.maxWeeklyBenefit}/wk Max Benefit, How to File`,
     description: `${state.name}: up to $${state.maxWeeklyBenefit}/week for ${state.maxWeeks} weeks, ${state.waitingWeek ? "1-week wait" : "no waiting week"}. File online the week you're laid off. Step-by-step eligibility and filing guide for ${state.abbreviation}.`,
     path: `/${slug}`,
   });
