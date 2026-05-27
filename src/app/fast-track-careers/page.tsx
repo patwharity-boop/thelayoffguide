@@ -23,7 +23,7 @@ const quickStart = [
     outlook: "Growing 8-10%, high demand in labs, hospitals, blood banks",
     description:
       "Draw blood from patients for tests, transfusions, or donations. One of the fastest healthcare entries, many programs are just 4 weeks. Get certified through NHA.",
-    link: "https://www.nhanow.com/certifications/phlebotomy",
+    link: "https://www.nhanow.com/certification/nha-certifications/certified-phlebotomy-technician-(cpt)",
   },
   {
     title: "Certified Nursing Assistant (CNA)",
@@ -68,7 +68,7 @@ const quickStart = [
     outlook: "Growing, cardiac care demand is steady",
     description:
       "Operate electrocardiogram equipment to monitor heart activity. Quick certification through NHA, and jobs are available in every hospital and cardiology office.",
-    link: "https://www.nhanow.com/certifications/ekg-technician",
+    link: "https://www.nhanow.com/certification/nha-certifications/certified-ekg-technician-(cet)",
   },
   {
     title: "Pharmacy Technician",
@@ -176,7 +176,7 @@ const quickStart = [
     outlook: "Strong, hospitals face chronic nursing-support shortages",
     description:
       "A step up from CNA with broader clinical duties combined: phlebotomy, EKG, and direct patient care. Community colleges and career schools offer accelerated programs. Honest catch: entry pay is close to CNA rates, but the combined skill set makes you more competitive for hospital jobs versus nursing-home-only roles.",
-    link: "https://www.nhanow.com/certifications/patient-care-technician",
+    link: "https://www.nhanow.com/certification/nha-certifications/certified-patient-care-technician-assistant-(cpct-a)",
   },
   {
     title: "EMT-Basic",
