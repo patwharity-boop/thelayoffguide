@@ -134,7 +134,7 @@ const sections = [
       },
       {
         name: "Consumer Financial Protection Bureau",
-        url: "https://www.consumerfinance.gov/consumer-tools/guide-to-filing-for-bankruptcy/",
+        url: "https://www.consumerfinance.gov/ask-cfpb/search-by-tag/bankruptcy/",
         description:
           "Know your rights. Creditors can't harass you, and there are options for managing debt during unemployment.",
       },

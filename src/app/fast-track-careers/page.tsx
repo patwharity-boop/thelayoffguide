@@ -203,7 +203,7 @@ const quickStart = [
     outlook: "Good, clinics and animal hospitals hiring consistently",
     description:
       "Assist veterinarians and vet techs with animal care, restraints, lab work, and client interaction. NAVTA-approved programs are the gold standard. Honest catch: entry pay is modest. Many use this as a stepping stone to Veterinary Technician (2-year degree with significantly higher pay).",
-    link: "https://www.navta.net/page/NAVTAApprovedProgram",
+    link: "https://navta.net/veterinary-assistants-program/ava-programs/",
   },
   {
     title: "Water/Wastewater Treatment Operator",
@@ -403,7 +403,7 @@ const findPrograms = [
   },
   {
     name: "Community College Finder",
-    url: "https://www.aacc.nche.edu/research-trends/ccfinder/",
+    url: "https://www.aacc.nche.edu/college-finder/",
     description: "Find your local community college for affordable certificate and associate degree programs. Many offer workforce training programs at low or no cost if you're unemployed.",
   },
   {

@@ -954,7 +954,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://www.iowaworkforcedevelopment.gov/file-claim-unemployment-insurance-benefits",
     filingPhone: "1-866-239-0843",
-    handbookUrl: "https://www.iowaworkforcedevelopment.gov/2019-unemployment-insurance-claimant-handbook",
+    handbookUrl: "https://www.iowaworkforcedevelopment.gov/book/export/html/37356",
     stateJobsUrl: "https://das.iowa.gov/state-employment",
     minEarnings: "You must have earned at least $1,700 in your highest quarter, with wages in at least two quarters, and total base period wages of at least 1.25 times your highest quarter.",
     eligibility: [
@@ -2297,7 +2297,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://unemployment.oregon.gov/",
     filingPhone: "1-877-345-3484",
-    handbookUrl: "https://www.oregon.gov/employ/Documents/UIPUB350(English)11-5-19.pdf",
+    handbookUrl: "https://unemployment.oregon.gov/uploads/docs/UIPUB350-EN.pdf",
     stateJobsUrl: "https://www.oregon.gov/jobs/pages/index.aspx",
     minEarnings: "You must have earned at least $1,000 in your base period.",
     eligibility: [
@@ -2419,7 +2419,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://dlt.ri.gov/individuals/unemployment-insurance",
     filingPhone: "1-401-243-9100",
-    handbookUrl: "https://dlt.ri.gov/ui/pdfs/UIGuide.pdf",
+    handbookUrl: "https://dlt.ri.gov/sites/g/files/xkgbur571/files/documents/pdf/ui/UIGuide.pdf",
     stateJobsUrl: "https://www.ri.gov/employment/",
     minEarnings: "You must have earned at least $13,800 in your base period, or at least $2,450 in one quarter with additional wage requirements.",
     eligibility: [
@@ -2480,7 +2480,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dew.sc.gov/individuals/applying-benefits",
     filingPhone: "1-866-831-1724",
-    handbookUrl: "https://dew.sc.gov/docs/default-source/worksearch/work-search-all-rev-10-9-17.pdf",
+    handbookUrl: "https://www.dew.sc.gov/individuals/search-work",
     stateJobsUrl: "https://careers.sc.gov/",
     minEarnings: "You must have earned at least $4,455 in your base period.",
     eligibility: [
@@ -2792,7 +2792,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 705,
     maxWeeks: 26,
     waitingWeek: false,
-    filingUrl: "https://labor.vermont.gov/unemployment-insurance/claimants",
+    filingUrl: "https://labor.vermont.gov/unemployment-insurance/ui-claimants",
     filingPhone: "1-877-214-3330",
     handbookUrl: "https://labor.vermont.gov/sites/labor/files/doc_library/B-11Claimant%20handbook%202019.pdf",
     stateJobsUrl: "https://careers.vermont.gov/",
@@ -2977,7 +2977,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://workforcewv.org/unemployment-insurance-benefits/my-unemployment-claim/",
     filingPhone: "1-800-252-5627",
-    handbookUrl: "https://workforcewv.org/images/files/Claimants/CLAIMANT_HANDBOOK-_REVISION-2-09-16_2_002.pdf",
+    handbookUrl: "https://workforcewv.org/wp-content/uploads/2024/07/WorkForce-West-Virginia-Claimant-Handbook-Rev.-07.24.pdf",
     stateJobsUrl: "https://personnel.wv.gov/empopp",
     minEarnings: "You must have earned at least $2,200 in your base period.",
     eligibility: [

@@ -115,7 +115,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["california"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://edd.ca.gov/en/unemployment/login/",
+    sourceUrl: "https://edd.ca.gov/en/unemployment/identity-verification",
     publishedAt: "2024-11-01",
   },
   {
@@ -167,7 +167,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["colorado"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://cdle.colorado.gov/unemployment/payment-options",
+    sourceUrl: "https://cdle.colorado.gov/payment",
     publishedAt: "2024-09-01",
   },
 
@@ -179,7 +179,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["connecticut"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://portal.ct.gov/dol/unemployment-benefits-portal-pages/reemployct",
+    sourceUrl: "https://portal.ct.gov/dolui/reemployctclaimants",
     publishedAt: "2024-08-01",
   },
   {
@@ -189,7 +189,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["connecticut"],
     topics: ["severance"],
     source: "research",
-    sourceUrl: "https://portal.ct.gov/dol/knowledge-base/articles/unemployment-tax/severance-pay",
+    sourceUrl: "https://portal.ct.gov/dolui/benefits-booklet/benefits-booklet---a-guide-to-collecting-benefits-in-connecticut",
     publishedAt: "2024-08-01",
   },
 
@@ -233,7 +233,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["florida"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://floridajobs.org/office-directory/division-of-workforce-services/reemployment-assistance",
+    sourceUrl: "https://www.floridajobs.org/Reemployment-Assistance-Service-Center/reemployment-assistance/claimants",
     publishedAt: "2024-10-01",
   },
   {
@@ -255,7 +255,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["georgia"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://dol.georgia.gov/unemployment-benefits/file-unemployment-claim",
+    sourceUrl: "https://dol.georgia.gov/employer-filed-partial-unemployment-claims",
     publishedAt: "2024-09-01",
   },
   {
@@ -265,7 +265,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["georgia"],
     topics: ["portal", "filing"],
     source: "research",
-    sourceUrl: "https://dol.georgia.gov/myui-claimant-portal",
+    sourceUrl: "https://dol.georgia.gov/new-myui-claimant-portal-overview",
     publishedAt: "2024-06-01",
   },
 
@@ -309,7 +309,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["idaho"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://www.labor.idaho.gov/dnn/Unemployment-Benefits/Job-Search-Requirements",
+    sourceUrl: "https://www.labor.idaho.gov/unemployment-benefits/work-search-requirements/",
     publishedAt: "2024-09-01",
   },
 
@@ -331,7 +331,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["illinois"],
     topics: ["severance"],
     source: "research",
-    sourceUrl: "https://ides.illinois.gov/unemployment/resources/severance-pay.html",
+    sourceUrl: "https://ides.illinois.gov/faqs/claimants.html",
     publishedAt: "2024-09-01",
   },
   {
@@ -341,7 +341,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["illinois"],
     topics: ["appeals"],
     source: "research",
-    sourceUrl: "https://ides.illinois.gov/unemployment/resources/appeals.html",
+    sourceUrl: "https://ides.illinois.gov/unemployment/appeals.html",
     publishedAt: "2024-09-01",
   },
 
@@ -363,7 +363,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["indiana"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://www.in.gov/dwd/indiana-unemployment/work-search/",
+    sourceUrl: "https://www.in.gov/dwd/indiana-unemployment/individuals/work-search",
     publishedAt: "2024-09-01",
   },
 
@@ -385,7 +385,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["iowa"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://workforce.iowa.gov/unemployment/file-claim",
+    sourceUrl: "https://workforce.iowa.gov/unemployment/initial-claim",
     publishedAt: "2024-09-01",
   },
 
@@ -441,7 +441,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["louisiana"],
     topics: ["filing", "portal", "cert"],
     source: "research",
-    sourceUrl: "https://www.laworks.net/UnemploymentBenefits/UnemploymentBenefits.asp",
+    sourceUrl: "https://www.laworks.net/unemploymentinsurance/ui_claimants.asp",
     publishedAt: "2024-09-01",
   },
   {
@@ -451,7 +451,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["louisiana"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.laworks.net/UnemploymentBenefits/UnemploymentBenefits.asp",
+    sourceUrl: "https://www.laworks.net/unemploymentinsurance/ui_claimants.asp",
     publishedAt: "2024-01-01",
   },
 
@@ -473,7 +473,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["maine"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.maine.gov/unemployment/benefits/",
+    sourceUrl: "https://www.maine.gov/unemployment/claimsfaq/",
     publishedAt: "2024-09-01",
   },
 
@@ -571,7 +571,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["minnesota"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.uimn.org/applicants/needtoknow/payments/index.jsp",
+    sourceUrl: "https://www.uimn.org/applicants/needtoknow/eligibility-requirements/index.jsp",
     publishedAt: "2024-09-01",
   },
 
@@ -615,7 +615,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["missouri"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://labor.mo.gov/des/claims/regular_unemployment",
+    sourceUrl: "https://labor.mo.gov/faqs/knowledge-base/when-and-how-long-can-benefits-be-claimed",
     publishedAt: "2024-09-01",
   },
 
@@ -747,7 +747,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["new-mexico"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://www.dws.state.nm.us/Unemployment-Insurance",
+    sourceUrl: "https://www.dws.nm.gov/en-us/Unemployment",
     publishedAt: "2024-09-01",
   },
   {
@@ -757,7 +757,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["new-mexico"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.dws.state.nm.us/Unemployment-Insurance",
+    sourceUrl: "https://www.dws.nm.gov/en-us/Unemployment",
     publishedAt: "2024-09-01",
   },
 
@@ -779,7 +779,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["new-york"],
     topics: ["severance"],
     source: "research",
-    sourceUrl: "https://dol.ny.gov/unemployment/severance",
+    sourceUrl: "https://dol.ny.gov/dismissalseverance-pay-and-pensions-frequently-asked-questions",
     publishedAt: "2024-09-01",
   },
   {
@@ -789,7 +789,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["new-york"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://dol.ny.gov/unemployment/certify-weekly-benefits",
+    sourceUrl: "https://dol.ny.gov/unemployment/certify-weekly-unemployment-insurance-benefits",
     publishedAt: "2024-09-01",
   },
 
@@ -811,7 +811,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["north-carolina"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://des.nc.gov/individuals/work-search-requirements",
+    sourceUrl: "https://www.des.nc.gov/individuals/weekly-requirements",
     publishedAt: "2024-09-01",
   },
 
@@ -867,7 +867,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["oklahoma"],
     topics: ["portal", "filing"],
     source: "research",
-    sourceUrl: "https://oklahoma.gov/oesc/individuals/file-your-claim.html",
+    sourceUrl: "https://oklahoma.gov/oesc/individuals/unemployment.html",
     publishedAt: "2024-09-01",
   },
   {
@@ -877,7 +877,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["oklahoma"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://oklahoma.gov/oesc/individuals/file-your-claim.html",
+    sourceUrl: "https://oklahoma.gov/oesc/individuals/unemployment.html",
     publishedAt: "2024-09-01",
   },
 
@@ -965,7 +965,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["south-carolina"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://dew.sc.gov/individuals/apply-for-benefits",
+    sourceUrl: "https://www.dew.sc.gov/individuals/applying-benefits",
     publishedAt: "2024-09-01",
   },
   {
@@ -975,7 +975,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["south-carolina"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://dew.sc.gov/individuals/apply-for-benefits",
+    sourceUrl: "https://www.dew.sc.gov/individuals/applying-benefits",
     publishedAt: "2024-09-01",
   },
 
@@ -1171,7 +1171,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["west-virginia"],
     topics: ["filing", "portal", "cert"],
     source: "research",
-    sourceUrl: "https://workforcewv.org/unemployment-compensation/",
+    sourceUrl: "https://workforcewv.org/individuals/claimants/",
     publishedAt: "2024-09-01",
   },
   {
@@ -1181,7 +1181,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["west-virginia"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://workforcewv.org/unemployment-compensation/",
+    sourceUrl: "https://workforcewv.org/individuals/claimants/",
     publishedAt: "2024-09-01",
   },
 
@@ -1203,7 +1203,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["wisconsin"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://dwd.wisconsin.gov/uiben/work-search/",
+    sourceUrl: "https://dwd.wisconsin.gov/uiben/worksearch-requirements.htm",
     publishedAt: "2024-09-01",
   },
 
@@ -1237,7 +1237,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["california", "kansas", "alabama", "arizona"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://help.id.me/hc/en-us/articles/4416659067287",
+    sourceUrl: "https://help.id.me/hc/en-us/sections/360009311694-Video-calls",
     publishedAt: "2024-09-15",
   },
   {
