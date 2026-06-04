@@ -13,7 +13,7 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "al-id-verification-idme",
     title: "Alabama requires ID.me verification before first payment",
-    body: "Alabama Department of Labor routes new claimants through ID.me identity verification before any benefits release. The state's claimant FAQ notes that unverified accounts hold in pending status until ID.me confirms the match. Submit a state-issued ID and a selfie video at first prompt; do not wait for a separate notice. If automated verification fails twice, ID.me triggers a Trusted Referee video call that often books two weeks out.",
+    body: "Alabama Department of Labor routes new claimants through ID.me identity verification before any benefits release. The state's claimant FAQ notes that unverified accounts hold in pending status until ID.me confirms the match. Submit a state-issued ID and a selfie video at first prompt; do not wait for a separate notice. If automated verification fails twice, ID.me triggers a Trusted Referee video call; appointments are typically available within a week.",
     states: ["alabama"],
     topics: ["filing", "portal"],
     source: "research",
@@ -111,7 +111,7 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "ca-edd-idme-video-backlog",
     title: "California EDD ID.me video calls book 2 to 3 weeks out",
-    body: "California EDD frequently routes new claims to ID.me video verification when automated checks fail. Slots are limited and routinely book 2 to 3 weeks out at peak. Schedule the video call the moment you receive the prompt, not after gathering documents; you can prepare during the wait. Missed appointments push you to the back of the queue.",
+    body: "California EDD frequently routes new claims to ID.me video verification when automated checks fail. Appointments are typically available within about a week. Schedule the video call the moment you receive the prompt, not after gathering documents; you can prepare during the wait. Missed appointments push you to the back of the queue.",
     states: ["california"],
     topics: ["filing", "portal"],
     source: "research",
@@ -304,13 +304,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "id-2-work-search",
-    title: "Idaho requires 2 work-search contacts per week, with detailed log",
-    body: "Idaho requires 2 work-search activities per week, fewer than most states, but the documentation standard is strict. Log employer name, contact info, position, date, and method for each contact. Idaho audits roughly 1 in 4 cert weeks; sloppy logs trigger overpayment notices.",
+    title: "Idaho requires 5 work-search activities per week (increased July 2025)",
+    body: "Idaho increased its weekly work-search requirement from 2 to 5 activities under HB 686, effective July 7, 2025. Each week you must complete and report 5 actions: submitting a resume or application, attending an interview, or other qualifying contact. Log employer name, contact info, position, date, and method for each activity. Idaho audits roughly 1 in 4 cert weeks; sloppy logs trigger overpayment notices.",
     states: ["idaho"],
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://www.labor.idaho.gov/unemployment-benefits/work-search-requirements/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== ILLINOIS ==============================
@@ -358,13 +358,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "in-1-work-search-relaxed",
-    title: "Indiana relaxed work-search to 1 contact per week in pilot regions",
-    body: "Indiana DWD has piloted a relaxed work-search rule in some workforce regions, dropping from 3 contacts per week to 1 in certain reemployment programs. The default statewide rule remains 3 contacts. Verify your specific case manager's instructions; the rule depends on your assigned reemployment plan.",
+    title: "Indiana requires 2 work-search activities per week, 1 must be a direct contact",
+    body: "Indiana DWD requires 2 qualifying work-search activities per week. At least 1 must be a direct employer contact (job application or interview). Log all activities in IndianaCareerConnect; DWD can verify your records at any point during the claim and will deny weeks with incomplete logs. Previous versions of this note referenced a 3-contact default that no longer applies.",
     states: ["indiana"],
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://www.in.gov/dwd/indiana-unemployment/individuals/work-search",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== IOWA ==============================
@@ -403,7 +403,7 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "ks-id-verification-idme",
     title: "Kansas uses ID.me for new-claim identity verification",
-    body: "Kansas Department of Labor routes new claims through ID.me. The verification step happens after initial claim submission, not before. If the automated check fails, you are queued for a Trusted Referee video call that books out one to two weeks. Schedule immediately to preserve your claim's effective date.",
+    body: "Kansas Department of Labor routes new claims through ID.me. The verification step happens after initial claim submission, not before. If the automated check fails, you are queued for a Trusted Referee video call; appointments are generally available within a week. Schedule immediately to preserve your claim's effective date.",
     states: ["kansas"],
     topics: ["filing", "portal"],
     source: "research",
@@ -468,13 +468,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "me-dependent-allowance",
-    title: "Maine pays a dependent allowance up to 50% of weekly benefit",
-    body: "Maine adds a dependent allowance to the weekly benefit, up to 50% of your weekly amount, for each qualifying dependent child. The allowance does not increase the maximum weekly benefit cap. List dependents during the initial claim; adding them later requires a claim adjustment.",
+    title: "Maine dependent allowance increased to 75% of weekly benefit (June 2026)",
+    body: "Maine pays $25 per qualifying dependent child per week, up to a cap of 75% of your weekly benefit amount for claims filed on or after June 1, 2026 (previously capped at 50%). The allowance does not raise the maximum weekly benefit itself. List dependents at the time of your initial claim; adding them retroactively requires a claim adjustment through ReEmployME.",
     states: ["maine"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.maine.gov/unemployment/claimsfaq/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MARYLAND ==============================
@@ -632,13 +632,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "mt-28-week-cap",
-    title: "Montana offers up to 28 weeks of regular UI, longer than most states",
-    body: "Montana provides up to 28 weeks of regular unemployment benefits, slightly longer than the 26-week standard most states use. The cap depends on individual base-period earnings; not all claimants reach 28. Montana is one of only a few states above the 26-week norm.",
+    title: "Montana caps regular UI at 20 weeks after 2023 law change",
+    body: "Montana reduced its maximum unemployment duration from 28 weeks to 20 weeks under HB 652, effective July 1, 2023. Before that change, Montana was one of the few states offering more than 26 weeks. The 20-week cap now applies to all regular UI claims filed on or after July 1, 2023.",
     states: ["montana"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://uid.dli.mt.gov/claimants",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NEBRASKA ==============================
@@ -1232,8 +1232,8 @@ export const seedFieldNotes: FieldNote[] = [
   // ============================== MULTI-STATE NOTES ==============================
   {
     id: "multi-idme-3-week-backlog",
-    title: "ID.me video calls in CA, KS, AL, AZ book 1 to 3 weeks out",
-    body: "States that route claims through ID.me video verification (California, Kansas, Alabama, Arizona, and others) routinely show 1 to 3 week wait times for Trusted Referee video calls. Schedule the call the moment you receive the prompt; do not wait to gather documents first. Missed appointments push you to the back of the queue.",
+    title: "ID.me video calls in CA, KS, AL, AZ: schedule immediately when prompted",
+    body: "States that route claims through ID.me video verification (California, Kansas, Alabama, Arizona, and others) require a Trusted Referee video call if automated identity checks fail. ID.me now offers appointments up to one week ahead; availability is generally within a few days. Schedule the call the moment you receive the prompt, do not wait to gather documents first. Missed appointments push you to the back of the queue.",
     states: ["california", "kansas", "alabama", "arizona"],
     topics: ["filing", "portal"],
     source: "research",

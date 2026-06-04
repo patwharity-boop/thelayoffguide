@@ -499,8 +499,20 @@ export const states: StateData[] = [
         answer: "Connecticut pays up to $721 per week. Your benefit amount depends on your base period earnings."
       },
       {
+        question: "How long can I receive unemployment benefits in Connecticut?",
+        answer: "You can receive benefits for up to 26 weeks in Connecticut. There is no unpaid waiting week, so paid benefits begin from your first eligible week."
+      },
+      {
         question: "Is there a waiting week in Connecticut?",
         answer: "No. Connecticut does not require an unpaid waiting week, you can receive benefits starting from your first eligible week."
+      },
+      {
+        question: "Who qualifies for unemployment in Connecticut?",
+        answer: "You qualify if you separated from your Connecticut job through no fault of your own, earned at least $1,680 in total base period wages (40 times the minimum weekly benefit rate), are able and immediately available for full-time work, and complete at least 3 employer contacts per week."
+      },
+      {
+        question: "When should I apply for unemployment in Connecticut?",
+        answer: "File the same week you separate. Connecticut has no waiting week, so benefits start from your first eligible week. Any delay is money you cannot recover."
       },
       {
         question: "Can I file for unemployment online in Connecticut?",
@@ -561,7 +573,19 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive unemployment benefits in Delaware?",
-        answer: "You can receive benefits for up to 26 weeks."
+        answer: "You can receive benefits for up to 26 weeks. Delaware has a one-week unpaid waiting period before paid benefits begin."
+      },
+      {
+        question: "How do I file for unemployment in Delaware?",
+        answer: "File online at ui.delawareworks.com or call 1-302-761-8446. Have your SSN, photo ID, employer details for the last 18 months, and bank info for direct deposit ready before you start."
+      },
+      {
+        question: "Who qualifies for unemployment in Delaware?",
+        answer: "You qualify if you separated from your Delaware job through no fault of your own, earned at least $966 in your highest base period quarter with total wages of at least 36 times your weekly benefit amount, and are able and available for full-time Delaware work."
+      },
+      {
+        question: "When should I apply for unemployment in Delaware?",
+        answer: "File the same week you separate. Delaware's effective date is the Sunday of your filing week, so even a 2-day delay can cost you a full week of benefits."
       },
       {
         question: "Can I file for unemployment online in Delaware?",
@@ -618,19 +642,27 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Florida?",
-        answer: "Florida pays up to $275 per week, one of the lowest maximums in the country."
+        answer: "Florida pays up to $275 per week, one of the lowest maximums in the country. The figure has not changed since 1998."
       },
       {
         question: "How long can I receive unemployment benefits in Florida?",
-        answer: "Florida provides benefits for only 12 weeks, the shortest duration of any state."
+        answer: "Florida provides benefits for only 12 weeks at low unemployment rates, the shortest duration of any state. The cap can rise toward 23 weeks when the statewide unemployment rate is higher."
+      },
+      {
+        question: "Who qualifies for unemployment (Reemployment Assistance) in Florida?",
+        answer: "You qualify if you separated from your Florida job through no fault of your own, earned at least $3,400 in your base period with wages in at least two quarters, are able and available for full-time work, register on Employ Florida, and complete 5 employer contacts each week."
       },
       {
         question: "Why is Florida's unemployment system so difficult?",
         answer: "Florida's CONNECT system has been widely criticized for technical issues and long wait times. Filing online during off-peak hours (early morning) and having all documents ready before starting can help."
       },
       {
+        question: "When should I apply for unemployment in Florida?",
+        answer: "File the same week you separate. Florida has a one-week waiting period and does not backdate claims. Also register on Employ Florida immediately, because DEO blocks payments until that separate registration is complete."
+      },
+      {
         question: "Can I file for unemployment online in Florida?",
-        answer: "Yes. File at connect.myflorida.com or call 1-800-204-2418. The online system is available 24/7 but can be slow."
+        answer: "Yes. File at connect.myflorida.com or call 1-800-204-2418. The online system is available 24/7 but can be slow during peak hours."
       }
     ],
     tips: [
@@ -1686,7 +1718,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dol.nebraska.gov/UIBenefits",
     filingPhone: "1-402-458-2500",
-    handbookUrl: "https://www.dol.nebraska.gov/webdocs/Resources/Items/ClaimantGuide_1-9-18.pdf",
+    handbookUrl: "https://dol.nebraska.gov/webdocs/Resources/Items/Updated%20English%20Handbook%20for%20Unemployed%20Workers.pdf",
     stateJobsUrl: "https://statejobs.nebraska.gov/",
     minEarnings: "You must have earned at least $5,440 in your base period, with at least $1,850 in one quarter and $800 in another.",
     eligibility: [
