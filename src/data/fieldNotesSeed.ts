@@ -12,23 +12,23 @@ export const seedFieldNotes: FieldNote[] = [
   // ============================== ALABAMA ==============================
   {
     id: "al-id-verification-idme",
-    title: "Alabama requires ID.me verification before first payment",
-    body: "Alabama Department of Labor routes new claimants through ID.me identity verification before any benefits release. The state's claimant FAQ notes that unverified accounts hold in pending status until ID.me confirms the match. Submit a state-issued ID and a selfie video at first prompt; do not wait for a separate notice. If automated verification fails twice, ID.me triggers a Trusted Referee video call that often books two weeks out.",
+    title: "Alabama requires identity verification before first payment",
+    body: "Alabama Department of Labor requires identity verification before releasing any benefits. New claimants verify through the state's Identity Verification Portal, and the claimant portal login uses a Google, Microsoft, or Apple account. To verify, you generally need your driver's license or state ID number and your mother's maiden name. Unverified claims hold in pending status until the match is confirmed, so complete the step at the first prompt rather than waiting for a separate notice.",
     states: ["alabama"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://adol.alabama.gov/claimants/",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://labor.alabama.gov/idv/",
+    publishedAt: "2026-06-04",
   },
   {
     id: "al-weekly-cert-sunday-window",
-    title: "Alabama weekly cert opens Sunday and closes Saturday",
-    body: "Alabama's weekly certification window runs Sunday 12:01am through Saturday 11:59pm Central each week. Miss the Saturday deadline and the week is forfeit; you cannot backfile a missed week without an appealable reason. The state's online filing portal at labor.alabama.gov posts the schedule under its weekly claim instructions.",
+    title: "Alabama weekly cert opens Sunday and closes Friday",
+    body: "Alabama's benefit week runs Sunday through Saturday, but you file the weekly certification between 12:01am Sunday and 5:00pm Friday Central. File by 5:00pm Friday for the week to count as timely. Miss that deadline and the week can be lost unless you have an appealable reason. File online through the Alabama Claimant Portal at uiclaimantportal.labor.alabama.gov or by the weekly certification phone number given during your initial claim.",
     states: ["alabama"],
     topics: ["cert", "portal"],
     source: "research",
     sourceUrl: "https://uiclaimantportal.labor.alabama.gov/SignIn",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "al-appeal-15-days",
@@ -38,7 +38,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["appeals"],
     source: "research",
     sourceUrl: "https://adol.alabama.gov/divisions/unemployment-compensation/hearings-and-appeals/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== ALASKA ==============================
@@ -50,17 +50,17 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://my.alaska.gov/",
-    publishedAt: "2024-08-15",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ak-fishing-season-pia",
-    title: "Alaska excludes fishing-season seasonal earnings from base period",
-    body: "Alaska treats commercial fishing as exempt employment for unemployment purposes. Crew shares from a fishing season do not count toward your base period wages and cannot establish or boost a claim. If your only recent earnings are crew shares, your monetary determination will likely show insufficient wages. Plan to file based on prior covered employment.",
+    title: "Alaska may exclude commercial fishing earnings from your base period",
+    body: "Some commercial fishing work is exempt from Alaska unemployment coverage, depending on the boat and the crew arrangement, which means those crew-share earnings may not count toward your base period wages. Coverage is not automatic either way, so if your recent earnings are mostly crew shares, check your monetary determination carefully and be prepared to rely on prior covered employment if wages come back insufficient. Confirm your specific situation with the Alaska Department of Labor.",
     states: ["alaska"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://labor.alaska.gov/unemployment/ui-handbook.html",
-    publishedAt: "2024-08-15",
+    sourceUrl: "https://labor.alaska.gov/estax/addendum.htm",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== ARIZONA ==============================
@@ -71,8 +71,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["arizona"],
     topics: ["denial", "appeals"],
     source: "research",
-    sourceUrl: "https://des.az.gov/services/employment/unemployment-individual",
-    publishedAt: "2025-01-20",
+    sourceUrl: "https://des.az.gov/desuiwaivers",
+    publishedAt: "2026-06-04",
   },
   {
     id: "az-weekly-search-4-contacts",
@@ -81,8 +81,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["arizona"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://des.az.gov/services/employment/unemployment-individual/work-search-requirements",
-    publishedAt: "2024-10-01",
+    sourceUrl: "https://des.az.gov/work-search",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== ARKANSAS ==============================
@@ -94,17 +94,17 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.dws.arkansas.gov/unemployment/",
-    publishedAt: "2024-01-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ar-arkline-phone-strategy",
     title: "Arkansas ArkLine automated cert is faster than the portal",
-    body: "Arkansas runs ArkLine at 1-501-907-1335 for weekly claim certification by phone. Many claimants find ArkLine more reliable than the online portal during peak hours. The automated system accepts your SSN and PIN; have your work-search log ready to read in. Calls placed before 8am Central usually clear without a queue.",
+    body: "Arkansas runs ArkLine at 1-501-907-2590 for filing weekly claims by phone. ArkLine is available Monday through Friday from 6:00am to 6:00pm and Sunday from 12:01am to 6:00pm Central. The system accepts your Social Security number and PIN, so have your work-search log ready to enter. ArkLine also offers service in Spanish.",
     states: ["arkansas"],
     topics: ["cert", "phone"],
     source: "research",
-    sourceUrl: "https://www.dws.arkansas.gov/unemployment/",
-    publishedAt: "2024-09-15",
+    sourceUrl: "https://dws.arkansas.gov/workforce-services/unemployment/arkline/",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== CALIFORNIA ==============================
@@ -120,13 +120,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "ca-uionline-mobile-issues",
-    title: "California UI Online breaks on mobile Safari for some flows",
-    body: "California's UI Online portal has known rendering issues with mobile Safari, particularly on the work-search certification screen and PDF document upload. Use desktop Chrome or Firefox for first-time filing and any document upload. The state has not officially announced fixes; the workaround is browser choice.",
+    title: "California UI Online works best on a desktop browser",
+    body: "California EDD's UI Online works most reliably in a current desktop browser. If a page will not load or displays oddly on a phone, switch to a laptop or desktop, or try a different browser, before assuming the claim itself failed. Save the confirmation number after each weekly certification in case a submission does not register.",
     states: ["california"],
     topics: ["portal"],
     source: "research",
-    sourceUrl: "https://edd.ca.gov/en/unemployment/ui_online/",
-    publishedAt: "2024-10-15",
+    sourceUrl: "https://edd.ca.gov/en/about_edd/technical_help/",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ca-severance-not-disqualifying",
@@ -136,39 +136,39 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://edd.ca.gov/en/unemployment/eligibility/",
-    publishedAt: "2024-08-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ca-edd-call-time-strategy",
     title: "California EDD lines clear 8:00 to 8:15 AM Pacific",
-    body: "California EDD's main claims line at 1-800-300-5616 routinely sees the shortest hold times in the first 15 minutes after open at 8am Pacific. Call volume spikes after 9am and stays heavy through 4pm. Spanish line at 1-800-326-8937 often has a shorter queue if you are bilingual.",
+    body: "California EDD's UI customer service line is 1-800-300-5616, open 8am to 5pm Pacific, Monday through Friday. The same number serves English and Spanish callers, with free interpreter services available in Spanish and other languages. EDD says Monday and Tuesday mornings before 10am are the busiest, so calling later in the week or later in the day can mean a shorter wait.",
     states: ["california"],
     topics: ["phone"],
     source: "research",
     sourceUrl: "https://edd.ca.gov/en/unemployment/contact_ui/",
-    publishedAt: "2024-10-15",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== COLORADO ==============================
   {
     id: "co-mycoui-virtual-assistant",
     title: "Colorado MyUI+ virtual assistant resolves password resets fastest",
-    body: "Colorado's MyUI+ portal includes a virtual assistant chatbot that handles most password resets and account unlocks without phone hold time. For substantive claim issues you still need a live agent, but for login problems start with the chatbot. The state's claimant guide at cdle.colorado.gov walks through the access path.",
+    body: "Colorado's MyUI+ system offers an online virtual agent that answers basic questions about the UI process, but it cannot change information on your claim. Password resets run through an emailed reset code, and some email providers (such as Yahoo and AOL) have had delivery delays, so check your spam folder before requesting another code. Note that you now need to register with ID.me to log into MyUI+. For substantive claim issues you still need a live agent.",
     states: ["colorado"],
     topics: ["portal"],
     source: "research",
     sourceUrl: "https://cdle.colorado.gov/unemployment",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "co-payment-method-prepaid-card",
     title: "Colorado defaults to U.S. Bank ReliaCard prepaid; switch to direct deposit",
-    body: "Colorado issues benefits to a U.S. Bank ReliaCard prepaid card by default for new claims unless you select direct deposit during the initial application. The card carries ATM and inactivity fees that direct deposit avoids. Switch to direct deposit through your MyUI+ account before your first payment posts.",
+    body: "Colorado issues benefits either by direct deposit or on a U.S. Bank ReliaCard prepaid debit card. If you file by phone, the prepaid card is the default; if you file electronically, you choose your method during the application. The ReliaCard can carry fees that direct deposit avoids. To switch, log into MyUI+, go to View and Maintain Account Information, then Payment Method Options and Tax Information. Direct deposit requires bank account verification, and if that fails you will need to use the ReliaCard.",
     states: ["colorado"],
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://cdle.colorado.gov/payment",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== CONNECTICUT ==============================
@@ -180,17 +180,17 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://portal.ct.gov/dolui/reemployctclaimants",
-    publishedAt: "2024-08-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ct-severance-allocation",
     title: "Connecticut allocates severance to the weeks it covers",
-    body: "Connecticut treats severance as wages allocated to a specific period. If your separation agreement allocates severance to a defined number of weeks, those weeks are disqualifying. Lump-sum severance with no allocation language is treated as not wages, similar to California. Read the allocation language carefully before filing.",
+    body: "Connecticut treats severance as wages for the period it covers. As of January 1, 2024, receiving severance disqualifies you from benefits for the weeks the payment covers. If your separation agreement allocates severance to a set number of weeks, those weeks are disqualifying. If the severance is a lump sum with no allocation language, Connecticut allocates it over a number of weeks based on your average weekly wage and disqualifies you for that period. Report any separation pay when you file, and read the allocation language carefully.",
     states: ["connecticut"],
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://portal.ct.gov/dolui/benefits-booklet/benefits-booklet---a-guide-to-collecting-benefits-in-connecticut",
-    publishedAt: "2024-08-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== DELAWARE ==============================
@@ -202,7 +202,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["extension", "filing"],
     source: "research",
     sourceUrl: "https://ui.delawareworks.com/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "de-weekly-cert-sunday-saturday",
@@ -212,19 +212,19 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert", "portal"],
     source: "research",
     sourceUrl: "https://ui.delawareworks.com/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== FLORIDA ==============================
   {
     id: "fl-connect-maintenance-window",
     title: "Florida CONNECT goes offline Sundays for maintenance",
-    body: "Florida's CONNECT portal runs scheduled maintenance Sunday late evening through early Monday morning Eastern. File your weekly cert by Sunday 8pm Eastern or expect to wait until Monday. The Florida Department of Commerce publishes the recurring window on its claimant resource pages.",
+    body: "Florida's CONNECT portal has regular hours of 8am to 7:59pm Eastern, Monday through Friday, and is generally offline overnight and on weekends while the system processes payments. Plan to file your weekly certification during weekday business hours rather than over the weekend. New claims can be filed anytime at FloridaJobs.org, but the CONNECT account functions follow the weekday schedule.",
     states: ["florida"],
     topics: ["portal", "cert"],
     source: "research",
     sourceUrl: "https://floridajobs.org/Reemployment-Assistance-Service-Center",
-    publishedAt: "2024-10-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "fl-12-week-cap",
@@ -234,51 +234,51 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.floridajobs.org/Reemployment-Assistance-Service-Center/reemployment-assistance/claimants",
-    publishedAt: "2024-10-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "fl-275-weekly-max",
     title: "Florida weekly max remains $275, unchanged since 1998",
-    body: "Florida's maximum weekly benefit amount remains $275, the figure set in 1998 and not adjusted for inflation since. Florida and Tennessee share this distinction as the two states with no inflation-indexed weekly maximum. Real purchasing power has fallen by roughly half since the figure was set.",
+    body: "Florida's maximum weekly benefit amount remains $275, the figure set for benefit years beginning January 1, 1998 and not raised since. Florida is one of roughly 17 states that do not index the weekly maximum to average wages, so it takes an act of the legislature to change it. Several other low-benefit states, including Tennessee, Alabama, and Louisiana, also cap at $275. Inflation since 1998 has cut the real purchasing power of the $275 figure by roughly half.",
     states: ["florida"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://floridajobs.org/Reemployment-Assistance-Service-Center",
-    publishedAt: "2024-10-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== GEORGIA ==============================
   {
     id: "ga-employer-files-partial",
     title: "Georgia requires employers to file partial claims for laid-off workers",
-    body: "Georgia is one of the few states where the employer files a partial unemployment claim on behalf of laid-off employees in many separation scenarios. If your employer has not filed within a few days of separation, contact GDOL directly; you can file your own claim, but the employer-filed path is faster when used.",
+    body: "Georgia requires employers to file a partial unemployment claim for full-time employees whose hours are cut or who have no work for a short period due to lack of work, as long as the worker stays attached to the employer. This does not cover permanent layoffs; if you are permanently separated, you file your own regular claim. For a temporary reduction, the employer-filed partial claim is the correct and faster path. If your employer has not filed and your hours were cut for lack of work, contact GDOL directly.",
     states: ["georgia"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://dol.georgia.gov/employer-filed-partial-unemployment-claims",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ga-myui-portal-replacement-2024",
-    title: "Georgia launched MyUI portal in 2024 replacing legacy system",
-    body: "Georgia DOL rolled out MyUI in 2024, replacing the older claimant interface. Legacy account credentials do not transfer; you must create a new MyUI account to file or recertify. Existing in-progress claims migrated, but communication preferences and saved payment info reset.",
+    title: "Georgia uses the MyUI Claimant Portal",
+    body: "Georgia DOL introduced the MyUI Claimant Portal, announced in December 2022, as its online system for filing claims, requesting weekly payments, reporting work searches, and viewing determinations. If you have not used MyUI before, create a MyUI account to file or recertify. Confirm your contact and payment details after you log in, since older accounts may need them re-entered.",
     states: ["georgia"],
     topics: ["portal", "filing"],
     source: "research",
     sourceUrl: "https://dol.georgia.gov/new-myui-claimant-portal-overview",
-    publishedAt: "2024-06-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== HAWAII ==============================
   {
     id: "hi-huiclaims-account",
     title: "Hawaii HUI Claims requires in-person ID at first claim",
-    body: "Hawaii historically requires an in-person identity verification at a local Hawaii Department of Labor office for first-time claimants. The state has expanded virtual verification options post-pandemic, but in-person remains the default if remote verification fails. Book the appointment as early as possible; neighbor-island offices have limited slots.",
+    body: "First-time Hawaii claimants create an account at huiclaims.hawaii.gov and must verify their identity. Hawaii offers two methods: online through Login.gov, or in-person proofing at participating U.S. Post Offices across the state, where you present a photo ID. If online verification does not work, use the USPS option. Neighbor-island residents should check post office availability early.",
     states: ["hawaii"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://labor.hawaii.gov/ui/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "hi-26-week-base-period",
@@ -288,19 +288,19 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://labor.hawaii.gov/ui/files/2026/01/DLIR-UI-Claimant-Handbook-Rev1.26-with-BABEL.pdf",
-    publishedAt: "2026-05-19",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== IDAHO ==============================
   {
     id: "id-iui-weekly-sunday-friday",
-    title: "Idaho weekly cert opens Sunday and closes Friday",
-    body: "Idaho's claimant portal opens the weekly certification at midnight Sunday and closes Friday at midnight Mountain. This is shorter than most states' Saturday-close window. File mid-week to leave room if the portal hiccups. The Idaho Department of Labor confirms the window in its claimant guide.",
+    title: "Idaho weekly certification runs Sunday through Saturday",
+    body: "Idaho's benefit week runs from 12:01am Sunday through midnight the following Saturday, and you have seven full days to file the weekly certification for that week. File earlier in the week for faster processing, and submit before 6pm Mountain to have it processed the same business day. Weekend filings are processed the next business day.",
     states: ["idaho"],
     topics: ["cert", "portal"],
     source: "research",
-    sourceUrl: "https://www.labor.idaho.gov/dnn/Unemployment-Benefits",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.labor.idaho.gov/unemployment-benefits/weekly-reports/",
+    publishedAt: "2026-06-04",
   },
   {
     id: "id-2-work-search",
@@ -322,7 +322,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["phone"],
     source: "research",
     sourceUrl: "https://ides.illinois.gov/unemployment.html",
-    publishedAt: "2024-10-15",
+    publishedAt: "2026-06-04",
   },
   {
     id: "il-severance-not-disqualifying",
@@ -337,12 +337,12 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "il-30-day-appeal",
     title: "Illinois appeals due within 30 days of determination",
-    body: "Illinois gives claimants 30 calendar days from the mailing date of a determination to appeal, longer than most states. Late appeals require a showing of good cause. File appeals through the IDES tele-serve number or by mail to the address on the determination.",
+    body: "Illinois gives claimants 30 calendar days from the mailing date printed on a determination to file an appeal. The period counts weekends and holidays, and Illinois courts treat the deadline as strict, so file early. Submit your appeal in writing by mail, fax, or in person to the office shown on the determination notice.",
     states: ["illinois"],
     topics: ["appeals"],
     source: "research",
     sourceUrl: "https://ides.illinois.gov/unemployment/appeals.html",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== INDIANA ==============================
@@ -354,7 +354,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert", "portal"],
     source: "research",
     sourceUrl: "https://www.in.gov/dwd/indiana-unemployment/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "in-1-work-search-relaxed",
@@ -371,12 +371,12 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "ia-16-week-cap-2022",
     title: "Iowa cut benefit duration to 16 weeks in 2022",
-    body: "Iowa reduced its maximum unemployment duration from 26 to 16 weeks under a 2022 law, with a sliding scale for some claimants. Iowa Workforce Development applies the new cap to all claims filed after the effective date. Combined with strict work-search rules, Iowa benefits are among the shorter durations nationally.",
+    body: "Iowa reduced its maximum regular unemployment duration from 26 to 16 weeks under HF 2355, signed June 16, 2022 and effective for claims filed on or after July 3, 2022. The 16-week cap is a flat limit for regular claims; business-closing claims have a separate cap, cut from 39 to 26 weeks. Combined with strict work-search rules, Iowa's regular benefit duration is among the shortest nationally.",
     states: ["iowa"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://workforce.iowa.gov/unemployment",
-    publishedAt: "2024-01-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ia-iworks-portal",
@@ -386,51 +386,51 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://workforce.iowa.gov/unemployment/initial-claim",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== KANSAS ==============================
   {
     id: "ks-getkansasbenefits-replaced-2023",
-    title: "Kansas modernized its UI system in 2023; legacy logins reset",
-    body: "Kansas replaced its legacy UI system with GetKansasBenefits in 2023. Older account credentials do not work; new claimants and returning claimants must create a fresh account. Two-factor authentication is mandatory and ties to a working phone number, not just email.",
+    title: "Kansas launched a modernized UI system in late 2024",
+    body: "Kansas launched a modernized unemployment system on November 19, 2024, replacing the older GetKansasBenefits site. Claimants now file at kansasui.gov. New and returning claimants should expect to set up an account on the new system, set up two-factor authentication when prompted, and keep a working phone number on file.",
     states: ["kansas"],
     topics: ["portal", "filing"],
     source: "research",
-    sourceUrl: "https://www.getkansasbenefits.gov/",
-    publishedAt: "2024-04-01",
+    sourceUrl: "https://kansasui.gov/cp/landing",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ks-id-verification-idme",
-    title: "Kansas uses ID.me for new-claim identity verification",
-    body: "Kansas Department of Labor routes new claims through ID.me. The verification step happens after initial claim submission, not before. If the automated check fails, you are queued for a Trusted Referee video call that books out one to two weeks. Schedule immediately to preserve your claim's effective date.",
+    title: "Kansas verifies identity through LexisNexis, not ID.me",
+    body: "Kansas verifies claimant identity using LexisNexis, which asks questions based on your credit history. If the automated check does not clear, you can complete in-person verification at a participating U.S. Post Office or law enforcement agency. Handle any verification step promptly so it does not delay your claim.",
     states: ["kansas"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://www.getkansasbenefits.gov/Home.aspx",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.dol.ks.gov/unemployment/identity-verification",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== KENTUCKY ==============================
   {
     id: "ky-uionline-weekly-cert",
-    title: "Kentucky UI online cert window opens Sunday at midnight Eastern",
-    body: "Kentucky's UI portal opens the weekly cert at 12:01am Eastern Sunday for the prior week. Kentucky's Career Center office network handles in-person help if portal verification fails. The Education and Labor Cabinet posts the schedule on its claimant resource page.",
+    title: "Kentucky pays benefits on a two-week request cycle",
+    body: "Kentucky pays benefits on a two-week cycle: you request payment for two weeks at a time through the claims portal at uiclaimsportal.ky.gov. You can make your first request 13 days after filing, then every 13 days after each request. The system is open Sunday 10:00am to 9:00pm ET and weekdays 7:00am to 7:00pm ET, and requests are accepted Sunday through Friday. Kentucky verifies identity through ID.me. Career Center offices can help if you have trouble.",
     states: ["kentucky"],
     topics: ["cert", "portal"],
     source: "research",
-    sourceUrl: "https://kcc.ky.gov/career/Pages/default.aspx",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://uiclaimsportal.ky.gov/",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ky-severance-disqualifying-allocated",
-    title: "Kentucky disqualifies weeks covered by allocated severance",
-    body: "Kentucky treats severance allocated to specific weeks as wages, disqualifying those weeks from UI. Lump-sum severance with no allocation in the separation agreement is generally treated as not wages and does not delay benefits. Read the agreement carefully; the wording determines treatment.",
+    title: "Kentucky does not reduce UI for severance pay",
+    body: "Kentucky does not reduce or delay unemployment benefits because of severance pay. The Kentucky Unemployment Insurance Commission treats severance as neither deductible nor disqualifying for the weeks after you separate, and the Career Center claimant guide confirms severance is not deducted from benefits. You can generally collect benefits and severance at the same time, regardless of how the severance is paid out. Note that pay in lieu of notice is treated differently and can reduce benefits for the weeks it covers.",
     states: ["kentucky"],
     topics: ["severance"],
     source: "research",
-    sourceUrl: "https://kcc.ky.gov/career/Pages/default.aspx",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://kcc.ky.gov/career/Documents/PAM400.pdf",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== LOUISIANA ==============================
@@ -442,29 +442,29 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal", "cert"],
     source: "research",
     sourceUrl: "https://www.laworks.net/unemploymentinsurance/ui_claimants.asp",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "la-12-week-cap-2025",
     title: "Louisiana cut maximum UI duration to 12 weeks in 2024",
-    body: "Louisiana reduced its maximum unemployment duration to 12 weeks for claims filed after January 2024 under Act 412 of 2023, tied to the state unemployment rate. At low rates the cap is 12 weeks; at higher rates the cap rises but stays below the previous 26-week ceiling. Louisiana joins Florida and Arkansas among the shortest durations.",
+    body: "Louisiana reduced its maximum unemployment duration under Act 412 of the 2024 Regular Session (HB 119), effective for new claims filed on or after January 5, 2025. The cap is tied to the state's average unemployment rate: 12 weeks when the rate is 5 percent or below, rising one week for each 0.5 percentage point increase, up to 20 weeks when the rate reaches 8.5 percent or higher. That is down from a prior ceiling of 26 weeks, putting Louisiana among the shortest-duration states.",
     states: ["louisiana"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.laworks.net/unemploymentinsurance/ui_claimants.asp",
-    publishedAt: "2024-01-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MAINE ==============================
   {
     id: "me-reempley-modernization",
-    title: "Maine launched ReEmployME modernization with phased rollout",
-    body: "Maine has been rolling out a modernized claimant system. New claimants should expect occasional planned outages during the migration. Maine Department of Labor posts maintenance windows on its claimant updates page. File mid-week and during business hours when state IT staff are available to help if something breaks.",
+    title: "Maine files unemployment claims through ReEmployME",
+    body: "Maine files unemployment claims through ReEmployME, the state's online UI system in use since 2017. You file initial claims, weekly certifications, and work searches there. The Maine Department of Labor posts any scheduled maintenance windows on its unemployment site, so check there before filing and, if possible, file during business hours when staff can help if you hit a problem.",
     states: ["maine"],
     topics: ["portal"],
     source: "research",
     sourceUrl: "https://www.maine.gov/unemployment/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "me-dependent-allowance",
@@ -481,12 +481,12 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "md-beacon-portal",
     title: "Maryland BEACON portal handles all UI functions in one login",
-    body: "Maryland's BEACON portal consolidates filing, weekly certs, appeal documents, and direct deposit changes in a single account. BEACON requires a phone number for two-factor authentication; landline numbers without text capability are not accepted. The Maryland DOL site walks through the registration steps.",
+    body: "Maryland's BEACON portal handles filing, weekly certifications, appeal documents, and payment changes in a single account, and there is a companion mobile app, MD Unemployment for Claimants. Create your account on the BEACON login page and follow the prompts. The Maryland Department of Labor technical-support pages walk through registration if you get stuck.",
     states: ["maryland"],
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://www.dllr.state.md.us/employment/unemployment.shtml",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "md-3-work-search",
@@ -496,19 +496,19 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://www.dllr.state.md.us/employment/unemployment.shtml",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MASSACHUSETTS ==============================
   {
     id: "ma-uionline-stable",
-    title: "Massachusetts UI Online has industry-standard reliability",
-    body: "Massachusetts UI Online is one of the more reliable state portals, with infrequent outages and a clear maintenance schedule. The Department of Unemployment Assistance posts planned downtime in advance. The system handles weekly certs, appeals, and document upload through a single login.",
+    title: "Massachusetts moved to Unemployment Services for Workers",
+    body: "Massachusetts has moved unemployment claims to its Unemployment Services for Workers portal, which uses a MyMassGov login. If you had an older UI Online account, you cannot use it to log into the new site. The portal handles your application, weekly certification, appeals, and document upload in one account. The Department of Unemployment Assistance runs the system and also takes weekly certifications by phone through the TeleCert line.",
     states: ["massachusetts"],
     topics: ["portal"],
     source: "research",
     sourceUrl: "https://www.mass.gov/orgs/department-of-unemployment-assistance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ma-dependent-allowance-25",
@@ -518,7 +518,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.mass.gov/info-details/check-eligibility-for-unemployment-benefits",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MICHIGAN ==============================
@@ -530,7 +530,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["portal", "phone"],
     source: "research",
     sourceUrl: "https://www.michigan.gov/uia",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "mi-fraud-overpayment-2025",
@@ -540,7 +540,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["denial", "appeals"],
     source: "research",
     sourceUrl: "https://www.michigan.gov/leo/bureaus-agencies/uia",
-    publishedAt: "2025-01-15",
+    publishedAt: "2026-06-04",
   },
   {
     id: "mi-20-week-cap",
@@ -550,7 +550,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.michigan.gov/uia",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MINNESOTA ==============================
@@ -562,7 +562,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert", "portal"],
     source: "research",
     sourceUrl: "https://www.uimn.org/applicants/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "mn-base-period-flexibility",
@@ -572,7 +572,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.uimn.org/applicants/needtoknow/eligibility-requirements/index.jsp",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MISSISSIPPI ==============================
@@ -584,17 +584,17 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://mdes.ms.gov/unemployment-claims/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ms-mdes-call-line",
     title: "Mississippi MDES contact center clears earliest before 9 AM Central",
-    body: "Mississippi MDES at 601-493-9427 sees the lightest call volumes in the first hour after opening. The contact center opens at 8am Central. Calls placed after 10am routinely sit on hold for an hour or more.",
+    body: "Mississippi MDES claimant services run through the Contact Center at 601-493-9427. The Contact Center is open Monday through Friday from 7am to 7pm Central. Call volumes tend to be lighter in the first hour after opening, so calling early can mean a shorter wait. Note that new or reopened claims are taken from 8am to 5pm.",
     states: ["mississippi"],
     topics: ["phone"],
     source: "research",
     sourceUrl: "https://mdes.ms.gov/unemployment-claims/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MISSOURI ==============================
@@ -606,17 +606,17 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["portal", "filing"],
     source: "research",
     sourceUrl: "https://uinteract.labor.mo.gov/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "mo-20-week-cap-2022",
-    title: "Missouri reduced maximum UI duration to 20 weeks in 2016",
-    body: "Missouri reduced its maximum UI duration to 20 weeks under a 2016 law, with further reductions tied to the state unemployment rate. At low statewide unemployment the cap can drop further. Verify the current cap on the Department of Labor site at the time of filing.",
+    title: "Missouri caps regular UI at 20 weeks",
+    body: "Missouri caps regular unemployment benefits at a maximum of 20 weeks per benefit year. A 2015 law (HB 150) tried to cut duration further on a sliding scale tied to the state unemployment rate, but the veto override was ruled unconstitutional, so that reduction never took effect. More recent legislation could change the cap, so verify the current maximum on the Missouri Department of Labor site at the time you file.",
     states: ["missouri"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://labor.mo.gov/faqs/knowledge-base/when-and-how-long-can-benefits-be-claimed",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MONTANA ==============================
@@ -628,17 +628,17 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://uid.dli.mt.gov/claimants",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "mt-28-week-cap",
-    title: "Montana offers up to 28 weeks of regular UI, longer than most states",
-    body: "Montana provides up to 28 weeks of regular unemployment benefits, slightly longer than the 26-week standard most states use. The cap depends on individual base-period earnings; not all claimants reach 28. Montana is one of only a few states above the 26-week norm.",
+    title: "Montana provides up to 24 weeks of regular UI",
+    body: "Montana provides up to 24 weeks of regular unemployment benefits. A 2023 law (House Bill 652) reduced the maximum from 28 to 24 weeks for claims filed on or after July 1, 2023. The number of weeks you qualify for depends on your base-period earnings, so not everyone reaches the full 24. Confirm the current maximum on the Montana Department of Labor and Industry site when you file.",
     states: ["montana"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://uid.dli.mt.gov/claimants",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NEBRASKA ==============================
@@ -650,7 +650,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://dol.nebraska.gov/UIBenefits",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ne-26-week-base-period",
@@ -660,41 +660,41 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "partial"],
     source: "research",
     sourceUrl: "https://dol.nebraska.gov/UIBenefits",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NEVADA ==============================
   {
     id: "nv-claimantselfservice",
     title: "Nevada Claimant Self Service portal handles weekly cert by Sunday",
-    body: "Nevada's Claimant Self Service (CSS) portal opens weekly cert Sunday morning Pacific. Use a desktop browser, not mobile, for first filing. The state's portal at apps.detr.nv.gov/CSS posts maintenance notices.",
+    body: "Nevada's Claimant Self Service (CSS) portal is now at nui.nv.gov/CSS following the state's system modernization. Benefit weeks run Sunday through Saturday, and you submit your weekly certification after the week ends. Use a desktop browser rather than mobile for your first filing. The portal uses ID.me to verify your identity.",
     states: ["nevada"],
     topics: ["portal", "cert"],
     source: "research",
-    sourceUrl: "https://apps.detr.nv.gov/CSS",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://detr.nv.gov/Page/Unemployment_Insurance_Claimant_Portal",
+    publishedAt: "2026-06-04",
   },
   {
     id: "nv-detr-call-strategy",
     title: "Nevada DETR call lines split by region; check yours",
-    body: "Nevada DETR uses separate phone numbers for northern and southern Nevada claims. Calling the wrong region routes you to a longer transfer queue. Verify your assigned region from your claim notice; northern Nevada is 775-687-6916, southern Nevada is 702-486-0350.",
+    body: "Nevada DETR uses separate phone numbers for northern and southern Nevada claims. Calling the wrong region can route you to a longer transfer queue. Northern Nevada is 775-684-0350 and southern Nevada is 702-486-0350. Rural and out-of-state callers use 888-890-8211. Check your claim notice for your assigned region.",
     states: ["nevada"],
     topics: ["phone"],
     source: "research",
-    sourceUrl: "https://ui.nv.gov/contact.html",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://detr.nv.gov/Page/Contact_Us",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NEW HAMPSHIRE ==============================
   {
     id: "nh-nhuis-portal",
     title: "New Hampshire NHUIS portal handles claim and weekly cert",
-    body: "New Hampshire Employment Security's NHUIS portal at nhes.nh.gov runs claim filing, weekly cert, and document upload. New Hampshire requires in-person reemployment services check-in at certain claim weeks; the portal flags the requirement when due.",
+    body: "New Hampshire Employment Security runs claims through its NHUIS portal at nhuis.nh.gov, with general information at nhes.nh.gov. The portal handles claim filing, weekly certification, and document upload. New Hampshire requires a weekly work search and reemployment activities, and the system flags those requirements when they are due.",
     states: ["new-hampshire"],
     topics: ["portal", "filing"],
     source: "research",
     sourceUrl: "https://www.nhes.nh.gov/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "nh-26-week-cap-stable",
@@ -704,7 +704,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.nhes.nh.gov/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NEW JERSEY ==============================
@@ -716,7 +716,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://www.nj.gov/labor/myunemployment/schedule.shtml",
-    publishedAt: "2026-05-19",
+    publishedAt: "2026-06-04",
   },
   {
     id: "nj-severance-not-disqualifying",
@@ -726,17 +726,17 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://www.nj.gov/labor/myleavebenefits/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "nj-7-day-week",
     title: "New Jersey UI weeks run Sunday through Saturday",
-    body: "New Jersey's benefit week runs Sunday through Saturday. Weekly certs become available Sunday morning Eastern. New Jersey's nj.gov UI portal shows the next certification date in the claim summary; file as soon as the prior week ends to keep payments on schedule.",
+    body: "New Jersey's benefit week runs Sunday through Saturday and ends at midnight Saturday. You can only certify after the week has ended. New Jersey lets claimants certify Sunday through Friday from 8am to 6pm Eastern. File early in that window to keep payments on schedule. Your nj.gov account shows your certification details.",
     states: ["new-jersey"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://www.nj.gov/labor/myunemployment/",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.nj.gov/labor/myunemployment/schedule.shtml",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NEW MEXICO ==============================
@@ -747,8 +747,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["new-mexico"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://www.dws.nm.gov/en-us/Unemployment",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.dws.nm.gov/Unemployment",
+    publishedAt: "2026-06-04",
   },
   {
     id: "nm-26-week-cap-stable",
@@ -757,30 +757,30 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["new-mexico"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.dws.nm.gov/en-us/Unemployment",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.dws.nm.gov/Unemployment",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NEW YORK ==============================
   {
     id: "ny-nydol-call-by-letter",
-    title: "New York DOL phone routing depends on Social Security last digit",
-    body: "New York DOL routes claimant phone calls based on the last digit of Social Security number to specific call windows. Calling outside your assigned window routes you to a longer hold queue. The schedule is posted on the New York DOL site under tele-claim filing.",
+    title: "New York DOL unemployment phone contacts",
+    body: "New York's automated Tel-Service line for certifying and claim questions is 1-888-581-5812, and the claims line is 1-888-209-8124. Lines are busiest early in the week, so calling midweek or later in the day can mean a shorter wait. Have your Social Security number and any determination notice in front of you before you call.",
     states: ["new-york"],
     topics: ["phone"],
     source: "research",
-    sourceUrl: "https://dol.ny.gov/unemployment/file-your-first-claim-benefits",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://dol.ny.gov/unemployment-insurance-contact",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ny-severance-allocation-impact",
     title: "New York severance allocation can disqualify weeks",
-    body: "New York treats severance as wages if the separation agreement allocates it to specific weeks; those weeks are disqualifying. Lump-sum severance with no allocation is generally treated as not wages and does not delay benefits. Do not sign a separation agreement without understanding the allocation language.",
+    body: "New York looks at two things for severance, which it calls dismissal pay. First, timing: if the first severance payment is made more than 30 days after your last day of work, the severance does not affect your unemployment eligibility. Second, amount: if severance is paid within 30 days of your separation, New York allocates it on a weekly basis (a lump sum is converted to a weekly equivalent based on your prior pay). For each week, if that weekly amount is more than the maximum weekly benefit rate, you are ineligible for that week; if it is equal to or less than the maximum rate, you may still qualify. Read your separation agreement and ask when payments start, because the 30-day timing matters.",
     states: ["new-york"],
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://dol.ny.gov/dismissalseverance-pay-and-pensions-frequently-asked-questions",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ny-weekly-sunday-saturday",
@@ -790,7 +790,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://dol.ny.gov/unemployment/certify-weekly-unemployment-insurance-benefits",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NORTH CAROLINA ==============================
@@ -802,7 +802,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://des.nc.gov/individuals",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "nc-3-work-search",
@@ -812,7 +812,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://www.des.nc.gov/individuals/weekly-requirements",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== NORTH DAKOTA ==============================
@@ -824,7 +824,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["portal", "filing"],
     source: "research",
     sourceUrl: "https://www.jobsnd.com/unemployment-individuals",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "nd-26-week-cap-stable",
@@ -834,41 +834,41 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.jobsnd.com/unemployment-individuals",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== OHIO ==============================
   {
     id: "oh-ohiojfs-portal",
     title: "Ohio OHIO ID single-sign-on now gates UI filing",
-    body: "Ohio rolled out OHIO ID, a single-sign-on system that now controls access to the unemployment portal and other state services. New claimants must create an OHIO ID account before filing UI; the OHIO ID also covers tax and BMV systems. Two-factor authentication is mandatory.",
+    body: "Ohio uses OH|ID, a statewide single sign-on system that controls access to the unemployment portal and other state services. New claimants must create an OH|ID account before filing for unemployment, and the same OH|ID is used across many Ohio agency systems. File weekly claims by logging in at unemployment.ohio.gov. OH|ID supports multi-factor sign-in, so keep a working phone or email on file.",
     states: ["ohio"],
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://jfs.ohio.gov/unemployment-and-workers-comp/unemployment-insurance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "oh-severance-not-allocated",
-    title: "Ohio treats lump-sum severance as not wages",
-    body: "Ohio treats lump-sum severance as not wages for UI purposes; it does not delay benefit start. Severance allocated to specific pay periods in a separation agreement is treated as wages for those periods. As in many states, the language of the agreement controls the treatment.",
+    title: "Ohio treats severance as deductible income",
+    body: "Ohio treats severance pay, including a lump sum, as deductible income that can reduce or eliminate your weekly benefit. By default, when the employer does not designate a period, Ohio allocates a lump sum to the weeks right after your separation based on your last weekly wage, so a larger payment can cover several weeks. For any week where the allocated severance equals or exceeds your weekly benefit amount, no benefit is paid for that week. An employer can instead designate the specific week or period the severance covers, and Ohio will follow that. File as soon as you are unemployed and report your severance accurately.",
     states: ["ohio"],
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://jfs.ohio.gov/unemployment-and-workers-comp/unemployment-insurance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== OKLAHOMA ==============================
   {
     id: "ok-eztax-portal",
-    title: "Oklahoma EZ Tax Express handles claims after legacy retirement",
-    body: "Oklahoma Employment Security Commission has been migrating from legacy systems to a modern claimant interface. Older login credentials may not work; verify on the OESC site before assuming a returning-user shortcut. The contact center handles login resets if the portal blocks you.",
+    title: "Oklahoma moved to a new UI claimant portal",
+    body: "Oklahoma Employment Security Commission has moved to a new claimant portal with updated identity proofing, separate from its EZ Tax employer tax system. Older login credentials may not work, so verify on the OESC site before assuming a returning-user shortcut. The contact center handles login resets if the portal blocks you.",
     states: ["oklahoma"],
     topics: ["portal", "filing"],
     source: "research",
     sourceUrl: "https://oklahoma.gov/oesc/individuals/unemployment.html",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ok-26-week-cap",
@@ -878,19 +878,19 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://oklahoma.gov/oesc/individuals/unemployment.html",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== OREGON ==============================
   {
     id: "or-frances-online-2022",
-    title: "Oregon launched Frances Online in 2022 for UI claims",
-    body: "Oregon Employment Department's Frances Online replaced the older OED system in March 2022. Legacy logins do not transfer; new account creation is required. Frances Online also handles paid leave applications, so the same login covers Oregon's PFML system.",
+    title: "Oregon's Frances Online replaced the legacy UI system in 2024",
+    body: "Oregon Employment Department's Frances Online became the system for unemployment insurance claimants on March 4, 2024, replacing the older 1990s-era system. Legacy logins do not transfer, so new account creation is required. Frances Online also handles Paid Leave Oregon, which moved onto the system in 2023, so the same login covers Oregon's paid leave program.",
     states: ["oregon"],
     topics: ["portal", "filing"],
     source: "research",
     sourceUrl: "https://unemployment.oregon.gov/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "or-weekly-sunday",
@@ -900,7 +900,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert", "portal"],
     source: "research",
     sourceUrl: "https://unemployment.oregon.gov/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== PENNSYLVANIA ==============================
@@ -912,7 +912,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["portal", "filing"],
     source: "research",
     sourceUrl: "https://www.uc.pa.gov/Pages/default.aspx",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "pa-partial-earnings-threshold",
@@ -921,18 +921,18 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["pennsylvania"],
     topics: ["partial"],
     source: "research",
-    sourceUrl: "https://www.uc.pa.gov/unemployment-benefits/Am-I-Eligible/Pages/Partial-Benefits.aspx",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.pa.gov/agencies/dli/resources/for-claimants-workers/benefits-information/benefit-guide/partial-benefit-credit",
+    publishedAt: "2026-06-04",
   },
   {
     id: "pa-severance-allocation",
     title: "Pennsylvania allocates severance over weeks based on agreement",
-    body: "Pennsylvania treats severance with allocation language as wages applied to specific weeks, disqualifying those weeks. Severance without allocation is generally not wages and does not delay benefits. Check the separation agreement carefully; the wording matters.",
+    body: "Pennsylvania only deducts severance from your benefits to the extent it exceeds 40 percent of the state's average annual wage, and only for agreements or applications dated on or after January 1, 2012. For benefit years beginning in 2026 that threshold is $28,153.63. If your total severance is at or below the threshold, it is not deducted. If it is above, only the portion above the threshold is deductible, and that amount is spread across the weeks right after your separation based on your full-time weekly wage. File as soon as you are unemployed rather than waiting for severance to end.",
     states: ["pennsylvania"],
     topics: ["severance"],
     source: "research",
-    sourceUrl: "https://www.uc.pa.gov/unemployment-benefits/file/Pages/Severance-Pay.aspx",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.pa.gov/agencies/dli/resources/for-claimants-workers/benefits-information/using-the-uc-system/claimant-faqs/severance-pension-pay-deductions-faqs",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== RHODE ISLAND ==============================
@@ -944,7 +944,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert", "portal"],
     source: "research",
     sourceUrl: "https://dlt.ri.gov/individuals/unemployment-insurance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ri-dependent-allowance",
@@ -954,7 +954,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://dlt.ri.gov/individuals/unemployment-insurance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== SOUTH CAROLINA ==============================
@@ -966,17 +966,17 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://www.dew.sc.gov/individuals/applying-benefits",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "sc-20-week-cap",
     title: "South Carolina caps regular UI at 20 weeks",
-    body: "South Carolina caps regular UI duration at 20 weeks, below the 26-week standard most states use. Weekly maximums update annually but remain modest relative to the cost of living in coastal counties. Plan accordingly when budgeting your transition runway.",
+    body: "South Carolina caps regular UI duration at 20 weeks, below the 26-week standard most states use, and the actual number of weeks slides with the statewide unemployment rate. In low-unemployment periods the cap can drop to as few as 12 weeks. The maximum weekly benefit is $350. Plan accordingly when budgeting your transition runway, and confirm your current maximum number of weeks on the DEW site at the time of filing.",
     states: ["south-carolina"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.dew.sc.gov/individuals/applying-benefits",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== SOUTH DAKOTA ==============================
@@ -988,7 +988,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert", "portal"],
     source: "research",
     sourceUrl: "https://dlr.sd.gov/ra/individuals/default.aspx",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "sd-26-week-cap",
@@ -998,7 +998,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://dlr.sd.gov/ra/individuals/default.aspx",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== TENNESSEE ==============================
@@ -1010,7 +1010,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://www.tn.gov/workforce/unemployment.html",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "tn-275-weekly-max",
@@ -1020,29 +1020,29 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.tn.gov/workforce/unemployment.html",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "tn-3-work-search",
-    title: "Tennessee requires 3 weekly work-search contacts logged in Jobs4TN",
-    body: "Tennessee requires 3 work-search activities per week, logged in Jobs4TN with employer detail. Apps logged outside Jobs4TN need manual entry. Audit rates are high; vague entries trigger holds and overpayment determinations.",
+    title: "Tennessee requires 4 work-search activities per week",
+    body: "Tennessee requires 4 work-search activities per week, logged in Jobs4TN with employer detail. The count rose from 3 to 4 effective July 1, 2024. Activities done outside Jobs4TN need manual entry. Vague entries can trigger holds and overpayment determinations, so keep specific records.",
     states: ["tennessee"],
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://www.tn.gov/workforce/unemployment.html",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== TEXAS ==============================
   {
     id: "tx-twc-tele-center-time",
     title: "Texas TWC Tele-Center calls clear 8:00 to 8:45 AM Central",
-    body: "Texas TWC Tele-Center hold times drop sharply between 8:00 and 8:45 AM Central. Calls placed mid-day routinely sit on hold 90 minutes or more. The Tele-Center number is 800-939-6631; have your claim ID and the date of your last work ready before dialing.",
+    body: "Texas TWC Tele-Center hold times are generally shortest right after the lines open. TWC call center hours are 7:00am to 7:00pm Central, seven days a week, and calling early in the morning typically means a shorter wait than midday. The Tele-Center number is 800-939-6631; have your claim ID and the date of your last work ready before dialing. For automated payment requests and claim status, Tele-Serv is 800-558-8321.",
     states: ["texas"],
     topics: ["phone"],
     source: "research",
     sourceUrl: "https://www.twc.texas.gov/programs/unemployment-benefits",
-    publishedAt: "2024-10-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "tx-ui-portal-overlap",
@@ -1051,8 +1051,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["texas"],
     topics: ["cert", "portal"],
     source: "research",
-    sourceUrl: "https://www.twc.texas.gov/programs/unemployment-benefits/request-benefit-payment",
-    publishedAt: "2024-10-01",
+    sourceUrl: "https://www.twc.texas.gov/programs/unemployment-benefits/request-benefit-payments",
+    publishedAt: "2026-06-04",
   },
   {
     id: "tx-severance-disqualifying-weeks",
@@ -1062,7 +1062,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://www.twc.texas.gov/programs/unemployment-benefits/eligibility",
-    publishedAt: "2024-10-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== UTAH ==============================
@@ -1074,7 +1074,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://jobs.utah.gov/ui/home",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ut-26-week-cap",
@@ -1084,7 +1084,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://jobs.utah.gov/ui/home",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== VERMONT ==============================
@@ -1096,7 +1096,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert", "portal"],
     source: "research",
     sourceUrl: "https://labor.vermont.gov/unemployment-insurance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "vt-severance-not-disqualifying",
@@ -1106,7 +1106,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://labor.vermont.gov/unemployment-insurance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== VIRGINIA ==============================
@@ -1117,8 +1117,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["virginia"],
     topics: ["portal", "filing"],
     source: "research",
-    sourceUrl: "https://www.vec.virginia.gov/unemployed",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.vec.virginia.gov/online-services",
+    publishedAt: "2026-06-04",
   },
   {
     id: "va-2-work-search",
@@ -1127,8 +1127,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["virginia"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://www.vec.virginia.gov/unemployed/online-services",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.vec.virginia.gov/online-services",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== WASHINGTON ==============================
@@ -1140,7 +1140,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://esd.wa.gov/unemployment",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "wa-3-work-search",
@@ -1149,8 +1149,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["washington"],
     topics: ["cert"],
     source: "research",
-    sourceUrl: "https://esd.wa.gov/unemployment/job-search-requirements",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://esd.wa.gov/get-financial-help/unemployment-benefits/weekly-unemployment-claims/job-search-requirements",
+    publishedAt: "2026-06-04",
   },
   {
     id: "wa-severance-not-disqualifying",
@@ -1160,7 +1160,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://esd.wa.gov/unemployment/calculate-your-benefit",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== WEST VIRGINIA ==============================
@@ -1172,7 +1172,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal", "cert"],
     source: "research",
     sourceUrl: "https://workforcewv.org/individuals/claimants/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "wv-26-week-cap",
@@ -1181,8 +1181,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["west-virginia"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://workforcewv.org/individuals/claimants/",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://workforcewv.org/unemployment-insurance-benefits/unemployment-resources/unemployment-basics/",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== WISCONSIN ==============================
@@ -1194,7 +1194,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://dwd.wisconsin.gov/uiben/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "wi-4-work-search",
@@ -1204,19 +1204,19 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://dwd.wisconsin.gov/uiben/worksearch-requirements.htm",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== WYOMING ==============================
   {
     id: "wy-wyui-portal",
     title: "Wyoming WYUI portal serves a small claimant pool",
-    body: "Wyoming Department of Workforce Services runs UI through the WYUI portal. Wyoming's small claimant pool means contact center waits are usually modest. The portal opens weekly cert Sunday morning Mountain, and the state's filing flow is one of the simpler interfaces nationally.",
+    body: "Wyoming Department of Workforce Services runs UI through the WYUI portal at wyui.wyo.gov. Each claim week ends on a Saturday, and you file your continued claim within 14 days after the week ends. Wyoming's small claimant pool means contact center waits are usually modest, and the filing flow is one of the simpler interfaces nationally.",
     states: ["wyoming"],
     topics: ["filing", "portal", "cert"],
     source: "research",
     sourceUrl: "https://dws.wyo.gov/dws-division/unemployment-insurance/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "wy-26-week-cap",
@@ -1226,7 +1226,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://dws.wyo.gov/dws-division/unemployment-insurance/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MULTI-STATE NOTES ==============================
@@ -1248,7 +1248,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["severance"],
     source: "research",
     sourceUrl: "https://www.nelp.org/publication/unemployment-insurance-101/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-short-duration-states",
@@ -1257,8 +1257,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["florida", "north-carolina", "georgia", "arkansas", "iowa", "michigan", "missouri", "south-carolina", "louisiana"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.cbpp.org/research/economy/policy-basics-how-many-weeks-of-unemployment-compensation-are-available",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.cbpp.org/research/economy/how-many-weeks-of-unemployment-compensation-are-available",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-dependent-allowance-states",
@@ -1267,8 +1267,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["massachusetts", "rhode-island", "connecticut", "maine", "michigan", "illinois", "new-jersey", "ohio", "pennsylvania"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.nelp.org/publication/unemployment-insurance-101/",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://www.nelp.org/insights-research/dependent-allowance/",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-extended-base-period",
@@ -1278,7 +1278,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.nelp.org/publication/unemployment-insurance-101/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-pua-overpayment-waivers",
@@ -1287,8 +1287,8 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["arizona", "michigan", "california", "colorado", "florida", "ohio", "pennsylvania"],
     topics: ["denial", "appeals"],
     source: "research",
-    sourceUrl: "https://www.dol.gov/agencies/eta/unemployment-insurance-payment-accuracy/state-information",
-    publishedAt: "2025-01-15",
+    sourceUrl: "https://oui.doleta.gov/unemploy/overpay_waivers.asp",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-cobra-subsidy-myth",
@@ -1298,7 +1298,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["cobra"],
     source: "research",
     sourceUrl: "https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-1099-disqualifying-w2-claims",
@@ -1308,7 +1308,7 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["1099", "filing"],
     source: "research",
     sourceUrl: "https://www.dol.gov/general/topic/unemployment-insurance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-remote-work-state-rule",
@@ -1318,16 +1318,16 @@ export const seedFieldNotes: FieldNote[] = [
     topics: ["remote-work", "filing"],
     source: "research",
     sourceUrl: "https://www.dol.gov/general/topic/unemployment-insurance",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-work-search-strict-states",
     title: "Strict work-search states: WI 4, AZ 4, NC 3, MD 3, TN 3, WA 3",
-    body: "Wisconsin and Arizona require 4 weekly work-search activities; North Carolina, Maryland, Tennessee, and Washington require 3. These states audit logs at high rates. Save URLs of postings, dates, employer contact info, and any confirmation email or response. Vague entries like 'searched online' trigger overpayment determinations.",
+    body: "Several states require a high number of weekly work-search activities: Wisconsin 4, Arizona 4, Tennessee 4, North Carolina 3, Maryland 3, and Washington 3. These states also run frequent work-search audits, so log each activity with the employer name, method, date, and result, and keep the records for at least a year in case you are asked to prove them.",
     states: ["wisconsin", "arizona", "north-carolina", "maryland", "tennessee", "washington"],
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://www.nelp.org/publication/unemployment-insurance-101/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 ];
