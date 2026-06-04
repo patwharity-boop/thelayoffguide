@@ -110,13 +110,13 @@ export const seedFieldNotes: FieldNote[] = [
   // ============================== CALIFORNIA ==============================
   {
     id: "ca-edd-idme-video-backlog",
-    title: "California EDD ID.me video calls book 2 to 3 weeks out",
-    body: "California EDD frequently routes new claims to ID.me video verification when automated checks fail. Slots are limited and routinely book 2 to 3 weeks out at peak. Schedule the video call the moment you receive the prompt, not after gathering documents; you can prepare during the wait. Missed appointments push you to the back of the queue.",
+    title: "California EDD may route your claim to an ID.me video call",
+    body: "California EDD routes some new claims to ID.me video verification when automated identity checks fail. Once your documents are approved, you schedule a video appointment; ID.me lets you book a slot up to about a week ahead, and the live wait varies with demand. Start the video step the moment you receive the prompt rather than after gathering documents, since you can prepare while you wait. Missed appointments send you back to rescheduling.",
     states: ["california"],
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://edd.ca.gov/en/unemployment/identity-verification",
-    publishedAt: "2024-11-01",
+    publishedAt: "2026-06-04",
   },
   {
     id: "ca-uionline-mobile-issues",
@@ -304,13 +304,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "id-2-work-search",
-    title: "Idaho requires 2 work-search contacts per week, with detailed log",
-    body: "Idaho requires 2 work-search activities per week, fewer than most states, but the documentation standard is strict. Log employer name, contact info, position, date, and method for each contact. Idaho audits roughly 1 in 4 cert weeks; sloppy logs trigger overpayment notices.",
+    title: "Idaho requires 5 work-search actions per week, with detailed log",
+    body: "Idaho now requires five work search actions each week, up from the two it required previously, and the documentation standard is strict. Log the employer name, contact info, position, date, and method for each action. The department verifies reported actions with the employers, and lying about your work search is treated as fraud, with penalties and denied benefits.",
     states: ["idaho"],
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://www.labor.idaho.gov/unemployment-benefits/work-search-requirements/",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== ILLINOIS ==============================
@@ -327,12 +327,12 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "il-severance-not-disqualifying",
     title: "Illinois severance does not delay UI start",
-    body: "Illinois treats severance as not wages for UI purposes. Severance, whether lump sum or installment, does not delay your benefit start date and does not reduce your weekly amount. Report the payment but expect eligibility from your last day worked.",
+    body: "Illinois treats severance as not wages for UI purposes. Under the state's disqualifying-income rule, payments for past services or for lost pension and seniority rights are severance and are not attributed to weeks after your separation, so they do not delay your benefit start date or reduce your weekly amount. Report the payment, but expect eligibility from your last day worked. Note the contrast with vacation pay tied to specific post-separation weeks, which can reduce benefits for those weeks.",
     states: ["illinois"],
     topics: ["severance"],
     source: "research",
-    sourceUrl: "https://ides.illinois.gov/faqs/claimants.html",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://ides.illinois.gov/resources/ui-law-handbook.html",
+    publishedAt: "2026-06-04",
   },
   {
     id: "il-30-day-appeal",
@@ -358,13 +358,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "in-1-work-search-relaxed",
-    title: "Indiana relaxed work-search to 1 contact per week in pilot regions",
-    body: "Indiana DWD has piloted a relaxed work-search rule in some workforce regions, dropping from 3 contacts per week to 1 in certain reemployment programs. The default statewide rule remains 3 contacts. Verify your specific case manager's instructions; the rule depends on your assigned reemployment plan.",
+    title: "Indiana requires 2 work-search activities per week",
+    body: "Indiana requires two work search activities each week to keep unemployment eligibility. Keep a written record and save your confirmation emails or documentation for six months, since DWD can verify activities at any point and deny benefits for incomplete or inaccurate logs. The requirement is waived only in narrow cases: DWD-approved training, a job-attached worker with a recall date within 60 days of separation, or a member in good standing of a DWD-authorized union hiring hall.",
     states: ["indiana"],
     topics: ["cert"],
     source: "research",
     sourceUrl: "https://www.in.gov/dwd/indiana-unemployment/individuals/work-search",
-    publishedAt: "2024-09-01",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== IOWA ==============================
@@ -468,13 +468,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "me-dependent-allowance",
-    title: "Maine pays a dependent allowance up to 50% of weekly benefit",
-    body: "Maine adds a dependent allowance to the weekly benefit, up to 50% of your weekly amount, for each qualifying dependent child. The allowance does not increase the maximum weekly benefit cap. List dependents during the initial claim; adding them later requires a claim adjustment.",
+    title: "Maine pays a dependent allowance up to 75% of weekly benefit",
+    body: "Maine adds a supplemental dependency allowance of $25 per week for each unemancipated dependent child, on top of your weekly benefit amount. State law caps the total dependency allowance at 75% of your weekly benefit amount, so the per-child payments stop adding once they reach that limit. List dependents during the initial claim; adding them later requires a claim adjustment.",
     states: ["maine"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.maine.gov/unemployment/claimsfaq/",
-    publishedAt: "2024-09-01",
+    sourceUrl: "https://legislature.maine.gov/statutes/26/title26sec1191.html",
+    publishedAt: "2026-06-04",
   },
 
   // ============================== MARYLAND ==============================
@@ -1232,13 +1232,13 @@ export const seedFieldNotes: FieldNote[] = [
   // ============================== MULTI-STATE NOTES ==============================
   {
     id: "multi-idme-3-week-backlog",
-    title: "ID.me video calls in CA, KS, AL, AZ book 1 to 3 weeks out",
-    body: "States that route claims through ID.me video verification (California, Kansas, Alabama, Arizona, and others) routinely show 1 to 3 week wait times for Trusted Referee video calls. Schedule the call the moment you receive the prompt; do not wait to gather documents first. Missed appointments push you to the back of the queue.",
+    title: "ID.me video verification can add a wait in CA, KS, AL, AZ",
+    body: "Several states route identity checks through ID.me video verification (California, Kansas, Alabama, Arizona, and others). After your documents are approved, you schedule a Trusted Referee video call; ID.me books appointments up to about a week ahead and shows a live wait time that varies with demand. Schedule the call as soon as you receive the prompt instead of waiting to gather documents first. Missed appointments send you back to rescheduling.",
     states: ["california", "kansas", "alabama", "arizona"],
     topics: ["filing", "portal"],
     source: "research",
     sourceUrl: "https://help.id.me/hc/en-us/sections/360009311694-Video-calls",
-    publishedAt: "2024-09-15",
+    publishedAt: "2026-06-04",
   },
   {
     id: "multi-severance-allocation-language",
