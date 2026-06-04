@@ -17,7 +17,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["alabama"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://labor.alabama.gov/uc/claimanthandbook.aspx",
+    sourceUrl: "https://adol.alabama.gov/claimants/",
     publishedAt: "2024-09-01",
   },
   {
@@ -27,7 +27,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["alabama"],
     topics: ["cert", "portal"],
     source: "research",
-    sourceUrl: "https://labor.alabama.gov/uc/UCWeeklyClaim.aspx",
+    sourceUrl: "https://uiclaimantportal.labor.alabama.gov/SignIn",
     publishedAt: "2024-09-01",
   },
   {
@@ -37,7 +37,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["alabama"],
     topics: ["appeals"],
     source: "research",
-    sourceUrl: "https://labor.alabama.gov/uc/appealsinfo.aspx",
+    sourceUrl: "https://adol.alabama.gov/divisions/unemployment-compensation/hearings-and-appeals/",
     publishedAt: "2024-09-01",
   },
 
@@ -59,7 +59,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["alaska"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://labor.alaska.gov/unemployment/exemptemp.htm",
+    sourceUrl: "https://labor.alaska.gov/unemployment/ui-handbook.html",
     publishedAt: "2024-08-15",
   },
 
