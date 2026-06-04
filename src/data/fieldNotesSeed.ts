@@ -13,7 +13,7 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "al-id-verification-idme",
     title: "Alabama requires identity verification before first payment",
-    body: "Alabama Department of Labor requires identity verification before releasing any benefits. New claimants verify through the state's Identity Verification Portal, and the claimant portal login uses a Google, Microsoft, or Apple account. To verify, you generally need your driver's license or state ID number and your mother's maiden name. Unverified claims hold in pending status until the match is confirmed, so complete the step at the first prompt rather than waiting for a separate notice.",
+    body: "Alabama Department of Labor requires identity verification before releasing any benefits. New claimants verify through the state's Identity Verification Portal, and the claimant portal login uses a Google, Microsoft, or Apple account. Unverified claims hold in pending status until the match is confirmed, so complete the step at the first prompt rather than waiting for a separate notice.",
     states: ["alabama"],
     topics: ["filing", "portal"],
     source: "research",
@@ -239,7 +239,7 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "fl-275-weekly-max",
     title: "Florida weekly max remains $275, unchanged since 1998",
-    body: "Florida's maximum weekly benefit amount remains $275, the figure set for benefit years beginning January 1, 1998 and not raised since. Florida is one of roughly 17 states that do not index the weekly maximum to average wages, so it takes an act of the legislature to change it. Several other low-benefit states, including Tennessee, Alabama, and Louisiana, also cap at $275. Inflation since 1998 has cut the real purchasing power of the $275 figure by roughly half.",
+    body: "Florida's maximum weekly benefit amount remains $275, the figure set for benefit years beginning January 1, 1998 and not raised since. Florida is one of roughly 17 states that do not index the weekly maximum to average wages, so it takes an act of the legislature to change it. Several other low-benefit states, including Alabama and Louisiana, also cap at $275. Inflation since 1998 has cut the real purchasing power of the $275 figure by roughly half.",
     states: ["florida"],
     topics: ["filing"],
     source: "research",
@@ -1037,7 +1037,7 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "tx-twc-tele-center-time",
     title: "Texas TWC Tele-Center calls clear 8:00 to 8:45 AM Central",
-    body: "Texas TWC Tele-Center hold times are generally shortest right after the lines open. TWC call center hours are 7:00am to 7:00pm Central, seven days a week, and calling early in the morning typically means a shorter wait than midday. The Tele-Center number is 800-939-6631; have your claim ID and the date of your last work ready before dialing. For automated payment requests and claim status, Tele-Serv is 800-558-8321.",
+    body: "Texas TWC Tele-Center hold times are generally shortest right after the lines open. TWC call center hours are 7:00am to 7:00pm Central, Monday through Friday, and calling early in the morning typically means a shorter wait than midday. The Tele-Center number is 800-939-6631; have your claim ID and the date of your last work ready before dialing. For automated payment requests and claim status, Tele-Serv is 800-558-8321.",
     states: ["texas"],
     topics: ["phone"],
     source: "research",
@@ -1233,7 +1233,7 @@ export const seedFieldNotes: FieldNote[] = [
   {
     id: "multi-idme-3-week-backlog",
     title: "ID.me video verification can add a wait in CA, KS, AL, AZ",
-    body: "Several states route identity checks through ID.me video verification (California, Kansas, Alabama, Arizona, and others). After your documents are approved, you schedule a Trusted Referee video call; ID.me books appointments up to about a week ahead and shows a live wait time that varies with demand. Schedule the call as soon as you receive the prompt instead of waiting to gather documents first. Missed appointments send you back to rescheduling.",
+    body: "Several states route identity checks through ID.me video verification (California, Alabama, Arizona, and others). After your documents are approved, you schedule a Trusted Referee video call; ID.me books appointments up to about a week ahead and shows a live wait time that varies with demand. Schedule the call as soon as you receive the prompt instead of waiting to gather documents first. Missed appointments send you back to rescheduling.",
     states: ["california", "kansas", "alabama", "arizona"],
     topics: ["filing", "portal"],
     source: "research",

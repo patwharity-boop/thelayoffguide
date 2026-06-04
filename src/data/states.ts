@@ -465,10 +465,10 @@ export const states: StateData[] = [
     filingPhone: "1-860-263-6970",
     handbookUrl: "https://www.ctdol.state.ct.us/progsupt/unemplt/claimant-guide/uc-288.pdf",
     stateJobsUrl: "https://www.jobapscloud.com/CT/",
-    minEarnings: "You must have earned at least $1,680 in total base period wages (40 times the minimum weekly benefit rate).",
+    minEarnings: "You must have earned at least $1,760 in total base period wages (40 times the minimum weekly benefit rate).",
     eligibility: [
       "You separated from your Connecticut job through no fault of your own",
-      "You earned at least $1,680 across your base period (40 times the minimum weekly rate)",
+      "You earned at least $1,760 across your base period (40 times the minimum weekly rate)",
       "You are physically able and available for full-time Connecticut work",
       "You make at least 3 employer contacts per week and report them to CTDOL",
       "You register with American Job Centers (AJC) within Connecticut"
