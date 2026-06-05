@@ -705,7 +705,7 @@ export const states: StateData[] = [
     name: "Hawaii",
     slug: "hawaii",
     abbreviation: "HI",
-    maxWeeklyBenefit: 835,
+    maxWeeklyBenefit: 871,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://huiclaims.hawaii.gov/",
@@ -744,7 +744,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Hawaii?",
-        answer: "Hawaii pays up to $835 per week, one of the highest in the nation."
+        answer: "Hawaii pays up to $871 per week, one of the highest in the nation."
       },
       {
         question: "How long can I receive unemployment benefits in Hawaii?",
@@ -888,7 +888,7 @@ export const states: StateData[] = [
     name: "Indiana",
     slug: "indiana",
     abbreviation: "IN",
-    maxWeeklyBenefit: 445,
+    maxWeeklyBenefit: 390,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://www.in.gov/dwd/indiana-unemployment/file/",
@@ -927,7 +927,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Indiana?",
-        answer: "Indiana pays up to $445 per week."
+        answer: "Indiana pays up to $390 per week."
       },
       {
         question: "How long can I receive unemployment benefits in Indiana?",
@@ -1072,7 +1072,7 @@ export const states: StateData[] = [
     slug: "kentucky",
     abbreviation: "KY",
     maxWeeklyBenefit: 720,
-    maxWeeks: 26,
+    maxWeeks: 16,
     waitingWeek: true,
     filingUrl: "https://kewes.ky.gov/",
     filingPhone: "1-502-875-0442",
@@ -1114,7 +1114,7 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive unemployment benefits in Kentucky?",
-        answer: "You can receive benefits for up to 26 weeks."
+        answer: "You can receive benefits for 16 weeks under current conditions. Kentucky uses a sliding scale of 16 to 24 weeks tied to the state unemployment rate."
       },
       {
         question: "Can I file for unemployment online in Kentucky?",
@@ -1132,7 +1132,7 @@ export const states: StateData[] = [
     name: "Louisiana",
     slug: "louisiana",
     abbreviation: "LA",
-    maxWeeklyBenefit: 275,
+    maxWeeklyBenefit: 282,
     maxWeeks: 12,
     waitingWeek: false,
     filingUrl: "https://www.laworks.net/",
@@ -1171,7 +1171,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Louisiana?",
-        answer: "Louisiana pays up to $275 per week."
+        answer: "Louisiana pays up to $282 per week."
       },
       {
         question: "How long can I receive unemployment benefits in Louisiana?",
@@ -1186,14 +1186,14 @@ export const states: StateData[] = [
       { headline: "No waiting week, file immediately.", body: "Louisiana pays from your first eligible week, unlike most states. File and certify the same week you separate to maximize benefit weeks." },
       { headline: "Register on HiRE the same day you file.", body: "Louisiana's UI system holds benefits until your HiRE workforce profile is complete. The two are linked but require separate registration." },
       { headline: "Confirm your maximum weeks in writing.", body: "Louisiana's duration ranges from 12 to 20 weeks based on the state unemployment rate. The Louisiana Workforce Commission will mail your specific maximum." },
-      { headline: "Plan finances around $275/week.", body: "Louisiana has one of the lowest maximum weekly benefits in the country. Reduce fixed costs aggressively from week one, there's not much room." }
+      { headline: "Plan finances around $282/week.", body: "Louisiana has one of the lowest maximum weekly benefits in the country. Reduce fixed costs aggressively from week one, there's not much room." }
     ]
   },
   {
     name: "Maine",
     slug: "maine",
     abbreviation: "ME",
-    maxWeeklyBenefit: 623,
+    maxWeeklyBenefit: 649,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://reemployme.maine.gov/",
@@ -1232,7 +1232,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Maine?",
-        answer: "Maine pays up to $623 per week."
+        answer: "Maine pays up to $649 per week."
       },
       {
         question: "How long can I receive unemployment benefits in Maine?",
