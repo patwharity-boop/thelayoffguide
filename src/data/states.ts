@@ -1621,7 +1621,7 @@ export const states: StateData[] = [
     slug: "montana",
     abbreviation: "MT",
     maxWeeklyBenefit: 698,
-    maxWeeks: 20,
+    maxWeeks: 24,
     waitingWeek: true,
     filingUrl: "https://uid.dli.mt.gov/",
     filingPhone: "1-406-444-2545",
@@ -1663,7 +1663,7 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive benefits?",
-        answer: "Up to 20 weeks."
+        answer: "Up to 24 weeks."
       },
       {
         question: "Can I file online?",
@@ -1671,7 +1671,7 @@ export const states: StateData[] = [
       }
     ],
     tips: [
-      { headline: "Plan for 20 weeks max.", body: "Montana's duration is shorter than the national norm. Apply aggressively from week one and budget tightly." },
+      { headline: "Plan for 24 weeks max.", body: "Montana's duration is shorter than the national norm. Apply aggressively from week one and budget tightly." },
       { headline: "Report ranch and seasonal income.", body: "Montana's UI fund cross-references agricultural and ranch employer reports. Underreporting triggers fraud investigations." },
       { headline: "Register on MontanaWorks.", body: "Montana DLI holds payments until your MontanaWorks profile is complete. Do it the same day you file your claim." },
       { headline: "Use the UI eServices portal on desktop.", body: "Montana's UI eServices works most reliably on a full browser. Mobile sessions have been known to drop mid-application." }
