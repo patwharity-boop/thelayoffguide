@@ -1256,7 +1256,7 @@ export const states: StateData[] = [
     abbreviation: "MD",
     maxWeeklyBenefit: 430,
     maxWeeks: 26,
-    waitingWeek: true,
+    waitingWeek: false,
     filingUrl: "https://www.dllr.state.md.us/employment/unemployment.shtml",
     filingPhone: "1-410-949-0022",
     handbookUrl: "https://labor.maryland.gov/employment/clmtguide/uiclmtpamphlet.pdf",
