@@ -827,7 +827,7 @@ export const states: StateData[] = [
     name: "Illinois",
     slug: "illinois",
     abbreviation: "IL",
-    maxWeeklyBenefit: 859,
+    maxWeeklyBenefit: 628,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://ides.illinois.gov/unemployment/file-a-claim.html",
