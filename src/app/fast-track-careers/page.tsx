@@ -146,7 +146,7 @@ const quickStart = [
     title: "Solar Panel Installer",
     training: "1–6 months",
     salary: "$44K–$67K",
-    outlook: "Outstanding, 42% growth projected, one of fastest-growing jobs in America",
+    outlook: "Outstanding, among the fastest-growing jobs in America per BLS",
     description:
       "Install, maintain, and repair solar systems on rooftops. Entry-level training is quick, NABCEP certification boosts pay. The green energy boom makes this a future-proof career.",
     link: "https://www.solarenergy.org/become-a-solar-installer/",
