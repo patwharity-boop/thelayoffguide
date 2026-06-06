@@ -176,10 +176,10 @@ export const states: StateData[] = [
     filingPhone: "1-877-600-2722",
     handbookUrl: "https://des.az.gov/sites/default/files/legacy/dl/UIB-1240A.pdf",
     stateJobsUrl: "https://www.azstatejobs.gov/",
-    minEarnings: "You must have earned at least 390 times the state minimum wage (approximately $5,733) in your highest quarter of your base period.",
+    minEarnings: "You must have earned at least 390 times the state minimum wage (approximately $5,909) in your highest quarter of your base period.",
     eligibility: [
       "You lost your Arizona job through no fault of your own, layoffs and reductions qualify, voluntary quits typically don't",
-      "You earned at least 390 times the Arizona minimum wage (about $5,733) in your highest base period quarter",
+      "You earned at least 390 times the Arizona minimum wage (about $5,909) in your highest base period quarter",
       "You are physically able to work and immediately available for full-time Arizona employment",
       "You complete at least 4 work search activities each week and document them",
       "You serve Arizona's one-week unpaid waiting period before paid benefits begin"
@@ -220,7 +220,7 @@ export const states: StateData[] = [
       },
       {
         question: "Who qualifies for unemployment in Arizona?",
-        answer: "You qualify if you separated from your Arizona job through no fault of your own, earned at least 390 times the state minimum wage (approximately $5,733) in your highest quarter of your base period, and meet Arizona's job-search requirement of 4 contacts on 4 separate days each week."
+        answer: "You qualify if you separated from your Arizona job through no fault of your own, earned at least 390 times the state minimum wage (approximately $5,909) in your highest quarter of your base period, and meet Arizona's job-search requirement of 4 contacts on 4 separate days each week."
       },
       {
         question: "When should I apply for unemployment in Arizona?",
@@ -394,7 +394,7 @@ export const states: StateData[] = [
     waitingWeek: false,
     filingUrl: "https://cdle.colorado.gov/unemployment",
     filingPhone: "1-303-318-9000",
-    handbookUrl: "https://www.colorado.gov/pacific/sites/default/files/atoms/files/YourGuidetoUnemploymentBenefits.pdf",
+    handbookUrl: "https://cdle.colorado.gov/unemployment/ui-claimant-guide",
     stateJobsUrl: "https://careers.colorado.gov/",
     minEarnings: "You must have earned at least $2,500 in wages during your base period.",
     eligibility: [
@@ -651,10 +651,10 @@ export const states: StateData[] = [
     filingPhone: "1-877-709-8185",
     handbookUrl: "https://dol.georgia.gov/document/unemployment-benefits/ui-claimant-handbook/download",
     stateJobsUrl: "https://careers.georgia.gov/",
-    minEarnings: "You must have earned at least $3,080 in your base period with wages in at least two quarters.",
+    minEarnings: "You must have earned at least $1,134 in your two highest base period quarters combined, with wages in at least two quarters and total base period wages of at least 1.5 times your highest quarter.",
     eligibility: [
       "You separated from your Georgia job through no fault of your own",
-      "You earned at least $3,080 in base period wages with earnings in two or more quarters",
+      "You earned at least $1,134 across your two highest base period quarters, with earnings in two or more quarters",
       "You are physically able to work and available for full-time Georgia employment",
       "You complete and report weekly work search activities through the MyUI Claimant Portal",
       "You serve a one-week unpaid waiting period before paid benefits begin"
@@ -712,10 +712,10 @@ export const states: StateData[] = [
     filingPhone: "1-808-762-5751",
     handbookUrl: "https://labor.hawaii.gov/ui/files/2026/01/DLIR-UI-Claimant-Handbook-Rev1.26-with-BABEL.pdf",
     stateJobsUrl: "https://www.governmentjobs.com/careers/hawaii",
-    minEarnings: "You must have earned at least $130 in your highest quarter and at least 26 times your weekly benefit amount in your base period.",
+    minEarnings: "You must have wages in at least two quarters of your base period and total base period wages of at least 26 times your weekly benefit amount. Hawaii does not set a separate highest-quarter dollar minimum.",
     eligibility: [
       "You separated from your Hawaii employer through no fault of your own",
-      "You earned at least $130 in your highest base period quarter and 26 times your weekly benefit amount in total",
+      "You have wages in at least two base period quarters and total base period wages of at least 26 times your weekly benefit amount",
       "You are able and available to accept full-time work in Hawaii",
       "You complete weekly work search activity and report it to DLIR",
       "You serve a one-week unpaid waiting period before paid benefits begin"
@@ -1686,7 +1686,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dol.nebraska.gov/UIBenefits",
     filingPhone: "1-402-458-2500",
-    handbookUrl: "https://www.dol.nebraska.gov/webdocs/Resources/Items/ClaimantGuide_1-9-18.pdf",
+    handbookUrl: "https://dol.nebraska.gov/webdocs/Resources/Items/Updated%20English%20Handbook%20for%20Unemployed%20Workers.pdf",
     stateJobsUrl: "https://statejobs.nebraska.gov/",
     minEarnings: "You must have earned at least $5,440 in your base period, with at least $1,850 in one quarter and $800 in another.",
     eligibility: [
@@ -1745,9 +1745,9 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 469,
     maxWeeks: 26,
     waitingWeek: false,
-    filingUrl: "https://ui.nv.gov/PDAS.aspx",
+    filingUrl: "https://nui.nv.gov/CSS/",
     filingPhone: "1-702-486-0350",
-    handbookUrl: "https://ui.nv.gov/PDFs/UI_Claimants_Handbook.pdf",
+    handbookUrl: "https://detr.nv.gov/content/media/DETR_250032_001_Claimant_Handbook_EN_v2_F.pdf",
     stateJobsUrl: "https://nvjobs.nv.gov/",
     minEarnings: "You must have earned at least $400 in your highest quarter. Total base period wages must be at least 1.5 times your highest quarter.",
     eligibility: [
@@ -1929,9 +1929,9 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 598,
     maxWeeks: 26,
     waitingWeek: true,
-    filingUrl: "https://www.jobs.state.nm.us/",
+    filingUrl: "https://www.dws.nm.gov/Unemployment",
     filingPhone: "1-877-664-6984",
-    handbookUrl: "https://www.dws.state.nm.us/Portals/0/DM/UI/UI_Handbook_052015.pdf",
+    handbookUrl: "https://www.dws.nm.gov/Unemployment",
     stateJobsUrl: "https://careers.share.nm.gov/",
     minEarnings: "You must have earned at least $2,090 in total base period wages with wages in at least two quarters.",
     eligibility: [
@@ -2055,10 +2055,10 @@ export const states: StateData[] = [
     filingPhone: "1-888-737-0259",
     handbookUrl: "https://www.des.nc.gov/documents/guide-ui-benefits-english/open",
     stateJobsUrl: "https://oshr.nc.gov/work-nc",
-    minEarnings: "You must have earned at least $5,776 in your base period.",
+    minEarnings: "You must have wages in at least two base period quarters totaling at least 6 times the state average weekly insured wage (an indexed figure set each year).",
     eligibility: [
       "You separated from your North Carolina job through no fault of your own",
-      "You earned at least $5,776 in base period wages",
+      "You have wages in at least two base period quarters totaling at least 6 times the state average weekly insured wage",
       "You are able and available for full-time North Carolina work",
       "You complete weekly work search activities through NCWorks",
       "You serve a one-week unpaid waiting period before paid benefits begin"
@@ -2116,10 +2116,10 @@ export const states: StateData[] = [
     filingPhone: "1-701-328-4995",
     handbookUrl: "https://www.jobsnd.com/sites/www/files/documents/jsnd-documents/uiclaimantguidejsnd4003.pdf",
     stateJobsUrl: "https://www.omb.nd.gov/team-nd-careers/career-openings",
-    minEarnings: "You must have earned at least $4,279 in your base period.",
+    minEarnings: "You must have wages in at least two base period quarters and total base period wages of at least 1.5 times your highest quarter. North Dakota uses a formula rather than a fixed dollar minimum.",
     eligibility: [
       "You separated from your North Dakota job through no fault of your own",
-      "You earned at least $4,279 in base period wages",
+      "You have wages in at least two base period quarters totaling at least 1.5 times your highest quarter",
       "You are able and available for full-time North Dakota work",
       "You complete weekly work search activities and report through Job Service ND",
       "You register on jobsnd.com, required for benefits"
@@ -2236,7 +2236,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://unemployment.state.ok.us/",
     filingPhone: "1-405-525-1500",
-    handbookUrl: "https://www.ok.gov/oesc/documents/OES-339.pdf",
+    handbookUrl: "https://www.oklahoma.gov/content/dam/ok/en/oesc/documents/forms/OES-339.pdf",
     stateJobsUrl: "https://www.jobs.ok.gov/",
     minEarnings: "You must have earned at least $1,500 in your base period.",
     eligibility: [
@@ -2360,11 +2360,11 @@ export const states: StateData[] = [
     filingPhone: "1-888-313-7284",
     handbookUrl: "https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucp-forms/ucp-1.pdf",
     stateJobsUrl: "https://careers.employment.pa.gov/",
-    minEarnings: "You must have earned at least $116 per week for at least 18 credit weeks, with total base period wages of at least $2,900. At least 37% of wages must come from outside your highest quarter.",
+    minEarnings: "You must have earned at least $116 per week for at least 18 credit weeks, with total base period wages of at least $2,718. At least 37% of wages must come from outside your highest quarter.",
     eligibility: [
       "You separated from your Pennsylvania job through no fault of your own",
       "You earned at least $116 per week for 18 or more credit weeks",
-      "Your total base period wages are at least $2,900, with 37%+ outside your highest quarter",
+      "Your total base period wages are at least $2,718, with 37%+ outside your highest quarter",
       "You are able and available for full-time Pennsylvania work",
       "You register with PA CareerLink, required for benefits"
     ],
@@ -2421,10 +2421,10 @@ export const states: StateData[] = [
     filingPhone: "1-401-243-9100",
     handbookUrl: "https://dlt.ri.gov/sites/g/files/xkgbur571/files/documents/pdf/ui/UIGuide.pdf",
     stateJobsUrl: "https://www.ri.gov/employment/",
-    minEarnings: "You must have earned at least $13,800 in your base period, or at least $2,450 in one quarter with additional wage requirements.",
+    minEarnings: "You must have earned at least $19,200 in your base period, or at least $3,200 in one quarter with total base period wages of at least 1.5 times your highest quarter and at least $6,400 overall.",
     eligibility: [
       "You separated from your Rhode Island job through no fault of your own",
-      "You earned at least $13,800 in base period wages, or $2,450 in one quarter plus additional requirements",
+      "You earned at least $19,200 in base period wages, or $3,200 in one quarter plus the alternative wage tests",
       "You are able and available for full-time Rhode Island work",
       "You complete weekly work search activities and report through DLT",
       "You register on EmployRI"
@@ -2480,7 +2480,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dew.sc.gov/individuals/applying-benefits",
     filingPhone: "1-866-831-1724",
-    handbookUrl: "https://www.dew.sc.gov/individuals/search-work",
+    handbookUrl: "https://dew.sc.gov/claimant-handbook",
     stateJobsUrl: "https://careers.sc.gov/",
     minEarnings: "You must have earned at least $4,455 in your base period.",
     eligibility: [
@@ -2604,10 +2604,10 @@ export const states: StateData[] = [
     filingPhone: "1-844-224-5818",
     handbookUrl: "https://www.jobs4tn.gov/admin/gsipub/htmlarea/uploads/UIBenefitRightsInformation.pdf",
     stateJobsUrl: "https://www.tn.gov/careers.html",
-    minEarnings: "You must have earned at least $1,560 in your base period.",
+    minEarnings: "You must have wages averaging at least $780.01 in each of your two highest base period quarters.",
     eligibility: [
       "You separated from your Tennessee job through no fault of your own",
-      "You earned at least $1,560 in base period wages",
+      "You earned an average of at least $780.01 in each of your two highest base period quarters",
       "You are able and available for full-time Tennessee work",
       "You complete weekly work search activities and report through Jobs4TN",
       "You serve a one-week unpaid waiting period before paid benefits begin"
@@ -2665,10 +2665,10 @@ export const states: StateData[] = [
     filingPhone: "1-800-939-6631",
     handbookUrl: "https://www.twc.texas.gov/sites/default/files/ui/docs/unemployment-benefits-handbook-twc.pdf",
     stateJobsUrl: "https://capps.taleo.net/careersection/ex/jobsearch.ftl",
-    minEarnings: "You must have earned at least $2,028 in your highest quarter.",
+    minEarnings: "You must have wages in at least two base period quarters, total base period wages of at least 37 times your weekly benefit amount, and at least $2,500 in base period wages.",
     eligibility: [
       "You separated from your Texas job through no fault of your own",
-      "You earned at least $2,028 in your highest base period quarter",
+      "You have wages in at least two base period quarters totaling at least 37 times your weekly benefit amount and at least $2,500",
       "You are physically able and available for full-time Texas work",
       "You complete weekly work search activities and report through TWC",
       "You register on WorkInTexas.com, required for benefits"
@@ -3040,10 +3040,10 @@ export const states: StateData[] = [
     filingPhone: "1-414-435-7069",
     handbookUrl: "https://dwd.wisconsin.gov/uiben/handbook/pdf/ucb10print.pdf",
     stateJobsUrl: "https://wj.wi.gov/",
-    minEarnings: "You must have earned at least $2,325 in your base period.",
+    minEarnings: "You must have wages in at least two base period quarters, total base period wages of at least 35 times your weekly benefit rate, and enough high-quarter wages to set a weekly rate of at least $54.",
     eligibility: [
       "You separated from your Wisconsin job through no fault of your own",
-      "You earned at least $2,325 in base period wages",
+      "You have wages in at least two base period quarters and total base period wages of at least 35 times your weekly benefit rate",
       "You are able and available for full-time Wisconsin work",
       "You complete weekly work search activities and report to DWD",
       "You register on Job Center of Wisconsin, required for benefits"
