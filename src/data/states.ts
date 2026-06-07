@@ -705,7 +705,7 @@ export const states: StateData[] = [
     name: "Hawaii",
     slug: "hawaii",
     abbreviation: "HI",
-    maxWeeklyBenefit: 871,
+    maxWeeklyBenefit: 868,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://huiclaims.hawaii.gov/",
@@ -2665,7 +2665,7 @@ export const states: StateData[] = [
     filingPhone: "1-800-939-6631",
     handbookUrl: "https://www.twc.texas.gov/sites/default/files/ui/docs/unemployment-benefits-handbook-twc.pdf",
     stateJobsUrl: "https://capps.taleo.net/careersection/ex/jobsearch.ftl",
-    minEarnings: "You must have wages in at least two base period quarters, total base period wages of at least 37 times your weekly benefit amount, and at least $2,500 in base period wages.",
+    minEarnings: "You must have wages in at least two base period quarters and total base period wages of at least 37 times your weekly benefit amount.",
     eligibility: [
       "You separated from your Texas job through no fault of your own",
       "You have wages in at least two base period quarters totaling at least 37 times your weekly benefit amount and at least $2,500",
