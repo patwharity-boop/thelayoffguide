@@ -245,7 +245,7 @@ export const states: StateData[] = [
     filingPhone: "1-844-908-2178",
     handbookUrl: "https://dws.arkansas.gov/wp-content/uploads/UI-Handbook-2026-Final.pdf",
     stateJobsUrl: "https://arcareers.arkansas.gov/",
-    minEarnings: "You must have earned at least $3,965 in your base period.",
+    minEarnings: "You must have wages in at least two quarters of your base period and total base period wages of at least 35 times your weekly benefit amount (the minimum weekly benefit amount is $81).",
     eligibility: [
       "You separated from your Arkansas job through layoff, closure, or reduction in force",
       "You earned at least $3,965 in total base period wages with earnings spread across at least two quarters",
@@ -525,7 +525,7 @@ export const states: StateData[] = [
     filingPhone: "1-302-761-8446",
     handbookUrl: "https://laborfiles.delaware.gov/main/dui/handbook/UI%20Claimant%20Handbook.pdf",
     stateJobsUrl: "https://statejobs.delaware.gov/",
-    minEarnings: "You must have earned at least $966 in your highest quarter and total base period wages of at least 36 times your weekly benefit rate.",
+    minEarnings: "Your weekly benefit rate is 1/46 of your wages in your two highest base period quarters, and your total base period wages must be at least 36 times your weekly benefit rate.",
     eligibility: [
       "You separated from your Delaware job through no fault of your own",
       "You earned at least $966 in your highest base period quarter",
@@ -1933,7 +1933,7 @@ export const states: StateData[] = [
     filingPhone: "1-877-664-6984",
     handbookUrl: "https://www.dws.nm.gov/Unemployment",
     stateJobsUrl: "https://careers.share.nm.gov/",
-    minEarnings: "You must have earned at least $2,090 in total base period wages with wages in at least two quarters.",
+    minEarnings: "You must have wages in at least two quarters of your base period. Your weekly benefit amount is 53.5% of the average weekly wage in your highest quarter; check the New Mexico DWS site for the current minimum and maximum weekly benefit amounts.",
     eligibility: [
       "You separated from your New Mexico job through no fault of your own",
       "You earned at least $2,090 in base period wages with earnings in two or more quarters",
@@ -2796,7 +2796,7 @@ export const states: StateData[] = [
     filingPhone: "1-877-214-3330",
     handbookUrl: "https://labor.vermont.gov/sites/labor/files/doc_library/B-11Claimant%20handbook%202019.pdf",
     stateJobsUrl: "https://careers.vermont.gov/",
-    minEarnings: "You must have earned at least $3,626 in your base period.",
+    minEarnings: "You must have wages in your highest quarter of at least Vermont's minimum quarterly amount (which changes each July), plus wages in your other quarters totaling at least 40% of your highest quarter. Your weekly benefit amount is the total of your two highest quarters divided by 45.",
     eligibility: [
       "You separated from your Vermont job through no fault of your own",
       "You earned at least $3,626 in base period wages",
