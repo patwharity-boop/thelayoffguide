@@ -95,6 +95,7 @@ export default function BlogPage() {
         </h2>
         <div className="space-y-6">
           {[
+            { slug: "working-part-time-on-unemployment", title: "Working Part-Time While on Unemployment: Partial Benefits and Gig Work (2026)", description: "Partial unemployment lets you work some and keep part of your benefit, often stretching it further. How it works, New York\u2019s hours-based system in detail, and how to handle Upwork and gig income.", date: "2026-06-08" },
             { slug: "unemployment-and-taxes", title: "Unemployment and Taxes: The 1099-G and What You Will Actually Owe", description: "Unemployment benefits are taxable but arrive with no tax withheld. How to use Form W-4V (10%), read your 1099-G, and which states do not tax benefits.", date: "2026-06-08" },
             { slug: "negotiate-severance", title: "How to Negotiate a Better Severance Package", description: "Severance is often negotiable because the company wants your signed release. What is on the table, where your leverage is, the OWBPA clock, and when to get a lawyer.", date: "2026-06-08" },
             { slug: "severance-and-unemployment", title: "Got Severance? Here's How It Actually Affects Your Unemployment Benefits", description: "Severance does not cancel your unemployment, but it can delay when payments start. The rules vary a lot by state. Here's what actually drives the outcome.", date: "2026-04-29" },

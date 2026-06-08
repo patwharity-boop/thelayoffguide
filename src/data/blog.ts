@@ -206,7 +206,7 @@ Yes, you still have to report these. States cross-reference tax records and paym
 
 ---
 
-**Working while on unemployment is smart and encouraged.** States want you to get back on your feet. Just be transparent about your earnings and you'll be fine.
+**Working while on unemployment is smart and encouraged.** States want you to get back on your feet. Just be transparent about your earnings and you'll be fine. For how partial benefits are actually reduced (and how they can stretch your benefits further), see [Working Part-Time While on Unemployment](/blog/working-part-time-on-unemployment).
     `.trim(),
   },
 ];

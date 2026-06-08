@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
         { source: "/blog/cobra-vs-marketplace", destination: "/posts/blog-post-7-cobra-vs-marketplace.html" },
         { source: "/blog/unemployment-and-taxes", destination: "/posts/blog-post-14-unemployment-taxes-1099-g.html" },
         { source: "/blog/negotiate-severance", destination: "/posts/blog-post-15-negotiate-severance.html" },
+        { source: "/blog/working-part-time-on-unemployment", destination: "/posts/blog-post-16-working-part-time-on-unemployment.html" },
         { source: "/blog/explain-layoff-interview", destination: "/posts/blog-post-8-explain-layoff-interview.html" },
         { source: "/blog/hidden-benefits", destination: "/posts/blog-post-9-hidden-benefits.html" },
         { source: "/blog/remote-jobs-no-experience", destination: "/posts/blog-post-12-remote-jobs-no-experience.html" },
