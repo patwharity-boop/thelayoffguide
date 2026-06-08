@@ -248,7 +248,7 @@ export const states: StateData[] = [
     minEarnings: "You must have wages in at least two quarters of your base period and total base period wages of at least 35 times your weekly benefit amount (the minimum weekly benefit amount is $81).",
     eligibility: [
       "You separated from your Arkansas job through layoff, closure, or reduction in force",
-      "You earned at least $3,965 in total base period wages with earnings spread across at least two quarters",
+      "You have wages in at least two quarters and total base period wages of at least 35 times your weekly benefit amount",
       "You are able to work and accepting full-time Arkansas employment",
       "You document weekly job search activity through the Arkansas Workforce system",
       "You serve a one-week unpaid waiting period before benefits begin"
@@ -289,7 +289,7 @@ export const states: StateData[] = [
       },
       {
         question: "Who qualifies for unemployment in Arkansas?",
-        answer: "You qualify if you separated from your Arkansas job through a layoff, closure, or reduction in force, earned at least $3,965 in total base period wages spread across at least two quarters, are able to work and accepting full-time Arkansas employment, and document weekly job search activity through the Arkansas Workforce system."
+        answer: "You qualify if you separated from your Arkansas job through a layoff, closure, or reduction in force, have wages in at least two quarters and total base period wages of at least 35 times your weekly benefit amount, are able to work and accepting full-time Arkansas employment, and document weekly job search activity through the Arkansas Workforce system."
       },
       {
         question: "When should I apply for unemployment in Arkansas?",
@@ -528,7 +528,7 @@ export const states: StateData[] = [
     minEarnings: "Your weekly benefit rate is 1/46 of your wages in your two highest base period quarters, and your total base period wages must be at least 36 times your weekly benefit rate.",
     eligibility: [
       "You separated from your Delaware job through no fault of your own",
-      "You earned at least $966 in your highest base period quarter",
+      "You have total base period wages of at least 36 times your weekly benefit rate",
       "Your total base period wages are at least 36 times your calculated weekly benefit",
       "You are able and available for full-time Delaware employment",
       "You complete weekly work search activities and document them"
@@ -1936,7 +1936,7 @@ export const states: StateData[] = [
     minEarnings: "You must have wages in at least two quarters of your base period. Your weekly benefit amount is 53.5% of the average weekly wage in your highest quarter; check the New Mexico DWS site for the current minimum and maximum weekly benefit amounts.",
     eligibility: [
       "You separated from your New Mexico job through no fault of your own",
-      "You earned at least $2,090 in base period wages with earnings in two or more quarters",
+      "You have wages in at least two quarters of your base period",
       "You are able and available for full-time New Mexico employment",
       "You complete weekly work search activities and report through NM DWS",
       "You register on jobs.state.nm.us, required for benefits"
@@ -2799,7 +2799,7 @@ export const states: StateData[] = [
     minEarnings: "You must have wages in your highest quarter of at least Vermont's minimum quarterly amount (which changes each July), plus wages in your other quarters totaling at least 40% of your highest quarter. Your weekly benefit amount is the total of your two highest quarters divided by 45.",
     eligibility: [
       "You separated from your Vermont job through no fault of your own",
-      "You earned at least $3,626 in base period wages",
+      "You have qualifying wages in your highest quarter plus at least 40% of that amount in your other quarters",
       "You are able and available for full-time Vermont work",
       "You complete weekly work search activities and report to VT DOL",
       "You register on Vermont JobLink, required for benefits"
