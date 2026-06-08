@@ -744,15 +744,23 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Hawaii?",
-        answer: "Hawaii pays up to $871 per week, one of the highest in the nation."
+        answer: "Hawaii pays up to $868 per week, one of the highest weekly maximums in the country."
       },
       {
         question: "How long can I receive unemployment benefits in Hawaii?",
-        answer: "You can receive benefits for up to 26 weeks."
+        answer: "You can receive benefits for up to 26 weeks. Hawaii also has a one-week unpaid waiting period before paid benefits begin."
       },
       {
         question: "Can I file for unemployment online in Hawaii?",
         answer: "Yes. File at huiclaims.hawaii.gov or call 1-808-762-5751."
+      },
+      {
+        question: "Who qualifies for unemployment in Hawaii?",
+        answer: "You qualify if you separated from your Hawaii employer through no fault of your own, have wages in at least two base period quarters with total base period wages of at least 26 times your weekly benefit amount, and are able and available for full-time work in Hawaii."
+      },
+      {
+        question: "When should I apply for unemployment in Hawaii?",
+        answer: "File the same week you separate. Hawaii pays from the Sunday of your filing week, so waiting even a few days can cost you a full week of benefits."
       }
     ],
     tips: [
@@ -779,7 +787,7 @@ export const states: StateData[] = [
       "You earned at least $1,872 in your highest base period quarter",
       "Your total base period wages equal at least 1.25 times your highest quarter, with earnings in two or more quarters",
       "You are able and available for full-time Idaho work",
-      "You make at least 2 employer contacts per week and document them"
+      "You complete at least 5 work-search actions per week and document each one"
     ],
     howToFile: [
       "Visit the Idaho Department of Labor website",
@@ -798,7 +806,7 @@ export const states: StateData[] = [
     commonMistakes: [
       "Filing days after separation, Idaho doesn't backdate before the Sunday of the file week",
       "Missing weekly certifications on labor.idaho.gov",
-      "Failing to make the 2 required employer contacts per week",
+      "Failing to complete all 5 required work-search actions per week",
       "Not reporting any earnings, including farm or seasonal work"
     ],
     processingTime: "Claims typically take 2-3 weeks to process.",
@@ -809,18 +817,26 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive unemployment benefits in Idaho?",
-        answer: "You can receive benefits for 10 to 26 weeks depending on state unemployment rate and your earnings."
+        answer: "You can receive benefits for 10 to 26 weeks depending on the state unemployment rate and your earnings."
       },
       {
         question: "Can I file for unemployment online in Idaho?",
         answer: "Yes. File at labor.idaho.gov or call 1-208-332-8942."
+      },
+      {
+        question: "Who qualifies for unemployment in Idaho?",
+        answer: "You qualify if you separated from your Idaho job through no fault of your own, earned at least $1,872 in your highest base period quarter, with total base period wages of at least 1.25 times that amount across at least two quarters, and are able and available for full-time Idaho work."
+      },
+      {
+        question: "When should I apply for unemployment in Idaho?",
+        answer: "File the same week you separate. Idaho does not backdate claims before the Sunday of the filing week, so a delay of even a few days can cost you a full week of benefits."
       }
     ],
     tips: [
       { headline: "Confirm your maximum weeks in writing.", body: "Idaho's duration ranges from 10 to 26 weeks based on the state unemployment rate. The Department of Labor will send you a determination, read it carefully." },
       { headline: "Track agricultural and seasonal earnings.", body: "Idaho's farm-heavy economy means many claimants pick up seasonal work. Report every dollar, the Department of Labor cross-checks employer wage reports." },
       { headline: "Use the Idaho Department of Labor's mobile-friendly portal.", body: "Idaho's online filing system works well on phones, unlike many states, you can certify weekly from your phone reliably." },
-      { headline: "Keep your 2 weekly contacts state-specific.", body: "Idaho requires Idaho-based employer contacts unless you're authorized to seek out-of-state work. Out-of-state contacts may not count." }
+      { headline: "Keep your work-search actions Idaho-focused.", body: "Idaho requires Idaho-based employer contacts unless you're authorized to seek out-of-state work. Out-of-state contacts may not count toward the 5-per-week requirement." }
     ]
   },
   {
@@ -870,11 +886,19 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive unemployment benefits in Illinois?",
-        answer: "You can receive benefits for up to 26 weeks."
+        answer: "You can receive benefits for up to 26 weeks. Illinois has a one-week unpaid waiting period before paid benefits begin."
       },
       {
         question: "Can I file for unemployment online in Illinois?",
         answer: "Yes. File at ides.illinois.gov or call 1-800-244-5631."
+      },
+      {
+        question: "Who qualifies for unemployment in Illinois?",
+        answer: "You qualify if you separated from your Illinois job through no fault of your own, earned at least $1,600 in your base period with at least $440 outside your highest quarter, and are able and immediately available for full-time Illinois work."
+      },
+      {
+        question: "When should I apply for unemployment in Illinois?",
+        answer: "File as soon as possible after your last day. Also register on IllinoisJobLink.com the same day you file, since IDES will not release benefits until that profile is complete and active."
       }
     ],
     tips: [
