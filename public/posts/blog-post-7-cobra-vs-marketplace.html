@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>COBRA vs Marketplace: Which Health Insurance Should You Pick After a Layoff? | The Layoff Guide</title>
+<title>Health Insurance After a Layoff in 2026: COBRA, the Marketplace, and What Just Changed | The Layoff Guide</title>
+<meta name="description" content="The 2026 angle on COBRA vs the Marketplace: the enhanced-subsidy expiry, the two 60-day windows, the retroactive-COBRA safety net, and Medicaid.">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -23,45 +24,33 @@
   .meta-text .date { color: #888; margin-top: 2px; }
   .article-container p { margin-bottom: 24px; color: #2c2c3e; }
   .article-container h2 { font-size: 26px; margin: 48px 0 20px; color: #1a1a2e; line-height: 1.3; }
+  .article-container a { color: #0d9488; text-decoration: none; font-weight: 500; }
+  .article-container a:hover { text-decoration: underline; }
   .pull-quote { border-left: 4px solid #4ecdc4; padding: 20px 28px; margin: 40px 0; background: #f0faf9; border-radius: 0 8px 8px 0; font-size: 19px; font-style: italic; color: #1a1a2e; line-height: 1.7; }
   .inline-image { margin: 40px -40px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
   .inline-image img { width: 100%; height: 340px; object-fit: cover; display: block; }
   .inline-image .caption { font-family: 'Inter', sans-serif; font-size: 13px; color: #888; text-align: center; padding: 12px 16px; background: #f5f5f5; }
 
-  /* Comparison boxes */
-  .compare-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 32px 0;
-  }
-  .compare-box {
+  /* Option cards */
+  .option-box {
     background: #fff;
     border-radius: 12px;
-    padding: 24px;
+    padding: 24px 28px;
+    margin: 24px 0;
     border: 2px solid #e0e0e0;
   }
-  .compare-box.cobra { border-top: 4px solid #6366f1; }
-  .compare-box.marketplace { border-top: 4px solid #0d9488; }
-  .compare-box h3 {
+  .option-box.cobra { border-top: 4px solid #6366f1; }
+  .option-box.marketplace { border-top: 4px solid #0d9488; }
+  .option-box.medicaid { border-top: 4px solid #f59e0b; }
+  .option-box h3 {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
-  .compare-box.cobra h3 { color: #6366f1; }
-  .compare-box.marketplace h3 { color: #0d9488; }
-  .compare-box .item {
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    padding: 8px 0;
-    border-bottom: 1px solid #f0f0f0;
-    color: #444;
-    line-height: 1.5;
-  }
-  .compare-box .item:last-child { border-bottom: none; }
-  .compare-box .item strong { color: #1a1a2e; }
-  .compare-box .pro { color: #0d9488; }
-  .compare-box .con { color: #dc2626; }
+  .option-box.cobra h3 { color: #6366f1; }
+  .option-box.marketplace h3 { color: #0d9488; }
+  .option-box.medicaid h3 { color: #d97706; }
+  .option-box p { margin-bottom: 0; font-size: 16px; }
 
   /* Decision tree */
   .decision-box {
@@ -90,6 +79,8 @@
   .decision-item:last-child { border-bottom: none; }
   .decision-item .arrow { color: #4ecdc4; font-weight: 700; font-size: 18px; flex-shrink: 0; }
 
+  .source-note { font-family: 'Inter', sans-serif; font-size: 13px; color: #888; line-height: 1.7; margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; }
+
   .cta-box { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 40px; border-radius: 12px; margin: 48px 0; text-align: center; }
   .cta-box h3 { color: #4ecdc4; font-family: 'Inter', sans-serif; margin: 0 0 12px; font-size: 20px; }
   .cta-box p { color: #ccc; font-size: 16px; margin-bottom: 20px; }
@@ -104,7 +95,6 @@
     .hero-overlay { padding: 40px 20px 24px; }
     .article-container { padding: 32px 20px 60px; }
     .inline-image { margin: 32px 0; }
-    .compare-grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -118,7 +108,7 @@
   <img src="/posts/img/photo-1576091160550-2173dba999ef.jpg" alt="Healthcare and insurance concept, stethoscope on desk">
   <div class="hero-overlay">
     <div class="category">Health Insurance</div>
-    <h1>COBRA vs Marketplace: Which Health Insurance Should You Pick After a Layoff?</h1>
+    <h1>Health Insurance After a Layoff in 2026: COBRA, the Marketplace, and What Just Changed</h1>
   </div>
 </div>
 
@@ -128,112 +118,73 @@
     <div class="author-avatar">TLG</div>
     <div class="meta-text">
       <div class="author-name">The Layoff Guide</div>
-      <div class="date">April 7, 2026 · 6 min read</div>
+      <div class="date">June 8, 2026 · 7 min read</div>
     </div>
   </div>
 
-  <p>You lost your job, and now you have a health insurance decision to make, probably within the next few days. This is the decision most people get wrong, and getting it wrong can cost you hundreds of dollars a month.</p>
+  <p>Losing your job usually means losing your health insurance at the same time, and 2026 added a twist that makes this decision different from a year ago. You still have good options. You just need to understand the new math and move inside two 60-day windows. Here is the current picture.</p>
 
-  <p>The two main options are <strong>COBRA</strong> (continuing your employer's plan) and the <strong>ACA Marketplace</strong> (buying a new plan through Healthcare.gov). Both have pros and cons, and the right choice depends on your specific situation. Let's cut through the confusion.</p>
+  <h2>What changed in 2026</h2>
 
-  <h2>COBRA vs Marketplace at a Glance</h2>
+  <p>For the past few years, enhanced federal subsidies made Marketplace coverage remarkably cheap, with many people paying very little and some paying nothing. Those enhanced premium tax credits expired on December 31, 2025. Income-based premium tax credits still exist in 2026, and a lower income still pulls your premium down, but the credits are smaller than they were and benchmark premiums rose noticeably. The practical effect: the Marketplace is often still the cheaper choice after a layoff, but the "basically free" era is over, so you need to run your real numbers rather than assume.</p>
 
-  <div class="compare-grid">
-    <div class="compare-box cobra">
-      <h3>COBRA</h3>
-      <div class="item"><strong>What it is:</strong> Continuation of your exact employer health plan</div>
-      <div class="item"><strong>Cost:</strong> Full premium + 2% admin fee <span class="con">(typically $600-$800/mo for individual, $1,500-$2,200/mo for family)</span></div>
-      <div class="item"><strong>Duration:</strong> Up to 18 months</div>
-      <div class="item"><strong>Enrollment window:</strong> 60 days to elect</div>
-      <div class="item"><strong>Coverage gap:</strong> <span class="pro">None, retroactive to your job end date</span></div>
-      <div class="item"><strong>Doctors/network:</strong> <span class="pro">Same doctors, same network, same everything</span></div>
-      <div class="item"><strong>Deductible:</strong> <span class="pro">Keeps your current progress toward annual deductible</span></div>
-    </div>
-    <div class="compare-box marketplace">
-      <h3>ACA Marketplace</h3>
-      <div class="item"><strong>What it is:</strong> New plan purchased through Healthcare.gov (or state exchange)</div>
-      <div class="item"><strong>Cost:</strong> <span class="pro">Based on income; premium tax credits still apply, though they shrank after the enhanced subsidies expired Dec 31, 2025</span></div>
-      <div class="item"><strong>Duration:</strong> As long as you need it</div>
-      <div class="item"><strong>Enrollment window:</strong> 60-day Special Enrollment Period (job loss = qualifying event)</div>
-      <div class="item"><strong>Coverage gap:</strong> May have a short gap between old and new coverage</div>
-      <div class="item"><strong>Doctors/network:</strong> May need to switch doctors depending on plan</div>
-      <div class="item"><strong>Deductible:</strong> Resets to $0 on new plan</div>
-    </div>
+  <h2>Your three options</h2>
+
+  <div class="option-box cobra">
+    <h3>COBRA</h3>
+    <p>COBRA lets you keep your exact current plan, same doctors and same coverage, with no gap. The catch is cost. Your employer was quietly paying most of your premium; with COBRA you pay the entire premium plus up to a 2 percent administrative fee. That often turns a $200 monthly deduction into $700 or more, and family coverage can top $2,000 a month. COBRA generally lasts up to 18 months.</p>
   </div>
 
-  <h2>The Part Most People Get Wrong</h2>
+  <div class="option-box marketplace">
+    <h3>The ACA Marketplace</h3>
+    <p>The ACA Marketplace at <a href="https://www.healthcare.gov">Healthcare.gov</a> (or your state exchange) sells new plans priced by income. Because your income just dropped, you may qualify for premium tax credits that lower the cost. You will likely change plans and possibly doctors, and your deductible resets, but the monthly savings are usually large.</p>
+  </div>
 
-  <p>Here's the mistake: people default to COBRA because it feels safe. Same plan, same doctors, no interruption. And for some people, that's the right call. But for most people who just lost their income, <strong>COBRA is dramatically more expensive than it needs to be.</strong></p>
+  <div class="option-box medicaid">
+    <h3>Medicaid</h3>
+    <p>Medicaid is free or very low cost and worth checking if your income has fallen to near zero. In states that expanded it, adults generally qualify up to 138 percent of the federal poverty line, and you can apply any time with no enrollment window. In the roughly ten states that did not expand Medicaid, eligibility for adults is far more limited, and someone whose income drops to near zero can fall into a coverage gap with too little income for Marketplace premium tax credits and too much for that state's Medicaid. Check your own state's rules on <a href="https://www.medicaid.gov">Medicaid.gov</a>.</p>
+  </div>
 
-  <p>When you were employed, your company was paying 70-80% of your health insurance premium. You only saw the employee portion on your paycheck. With COBRA, you're now paying the entire premium, your share AND your employer's share, plus a 2% administrative fee.</p>
+  <h2>The two 60-day windows that matter</h2>
 
-  <p>That means the $200/month you were paying as an employee is now $700-$800/month. For family coverage, it can easily exceed $2,000/month. That is a massive hit to your budget when you're already losing income.</p>
+  <p>Losing job-based coverage opens a 60-day Special Enrollment Period on the Marketplace. Select "lost job-based coverage" as your qualifying event and you can enroll outside the normal open-enrollment season.</p>
 
-  <p>Meanwhile, ACA Marketplace plans are <strong>income-based</strong>. Since you just lost your job, your projected annual income for the year just dropped significantly, which can qualify you for premium tax credits that lower your monthly cost. One caveat for 2026: the enhanced subsidies that made many plans nearly free from 2021 through 2025 expired on December 31, 2025, so the credits are smaller now and benchmark premiums went up. A lower income still pulls your premium down, just not as far as it would have a year ago, so run your actual numbers on Healthcare.gov before deciding.</p>
+  <p>You also have 60 days to elect COBRA, and COBRA is retroactive to the date your old coverage ended. That second point is a genuine tactic. You can enroll in a Marketplace plan now and still hold your COBRA election in your back pocket. If a medical emergency hits during that 60-day window before your new plan is active, you can elect COBRA retroactively and it covers you as if you had signed up on day one. If nothing happens, you let the COBRA window expire and keep the savings. The cost of using it retroactively is that you would owe all the back premiums for that period, so it is best thought of as an emergency backstop, not a default.</p>
 
   <div class="pull-quote">
-    "COBRA keeps the same plan. The Marketplace keeps the same amount of money in your pocket. For most people after a layoff, the Marketplace wins, and it's not even close."
-  </div>
-
-  <h2>When COBRA Actually Makes Sense</h2>
-
-  <p>COBRA isn't always the wrong choice. Here are situations where it genuinely might be better:</p>
-
-  <div class="decision-box">
-    <h4>Choose COBRA if:</h4>
-    <div class="decision-item"><span class="arrow">→</span> You're in the middle of treatment with a specific doctor or specialist who isn't on Marketplace plans in your area</div>
-    <div class="decision-item"><span class="arrow">→</span> You've already met or nearly met your annual deductible (switching plans resets it to zero)</div>
-    <div class="decision-item"><span class="arrow">→</span> You're pregnant or have a planned surgery, continuity of care matters here</div>
-    <div class="decision-item"><span class="arrow">→</span> You have expensive prescriptions that are fully covered under your current plan but might not be on a Marketplace formulary</div>
-    <div class="decision-item"><span class="arrow">→</span> You expect to be re-employed with benefits within 1-2 months and just need a short bridge</div>
-  </div>
-
-  <div class="decision-box">
-    <h4>Choose the Marketplace if:</h4>
-    <div class="decision-item"><span class="arrow">→</span> You need to minimize monthly expenses while unemployed (this is most people)</div>
-    <div class="decision-item"><span class="arrow">→</span> Your income has dropped significantly, so you may qualify for premium tax credits (smaller in 2026 after the enhanced subsidies expired, but still meaningful at low income)</div>
-    <div class="decision-item"><span class="arrow">→</span> You don't have a specific doctor you absolutely need to keep</div>
-    <div class="decision-item"><span class="arrow">→</span> You haven't made much progress on your deductible this year</div>
-    <div class="decision-item"><span class="arrow">→</span> You expect your job search to take 3+ months</div>
+    "Enroll in a Marketplace plan now and keep your COBRA election in your back pocket. If an emergency hits before your new plan starts, COBRA covers you retroactively. If nothing happens, you let it expire and keep the savings."
   </div>
 
   <div class="inline-image">
     <img src="/posts/img/photo-1554224155-6726b3ff858f.jpg" alt="Financial planning with calculator and notebook">
-    <div class="caption">Run the numbers. The math usually favors the Marketplace after a layoff.</div>
+    <div class="caption">Run the actual after-credit numbers on Healthcare.gov before you decide.</div>
   </div>
 
-  <h2>The COBRA Backdoor Trick</h2>
+  <h2>When COBRA still makes sense</h2>
 
-  <p>Here's something most people don't know: <strong>you have 60 days to elect COBRA, and it's retroactive.</strong> That means you can wait up to 60 days without making a decision, and if something happens during that window (a medical emergency, an unexpected diagnosis), you can elect COBRA retroactively and it covers you as if you'd signed up on day one.</p>
+  <p>COBRA is the right call more often than people think in a few specific cases:</p>
 
-  <p>This means you can sign up for a Marketplace plan AND hold onto your COBRA election window as a safety net. If you need it, activate it. If you don't, let the 60 days expire and save yourself the premium.</p>
+  <div class="decision-box">
+    <h4>Choose COBRA if:</h4>
+    <div class="decision-item"><span class="arrow">&rarr;</span> You are mid-treatment with a doctor who is not in Marketplace networks</div>
+    <div class="decision-item"><span class="arrow">&rarr;</span> You have already met most of your annual deductible and do not want it reset</div>
+    <div class="decision-item"><span class="arrow">&rarr;</span> You are pregnant or have a planned surgery where continuity matters</div>
+    <div class="decision-item"><span class="arrow">&rarr;</span> You have prescriptions that are fully covered now but might not be on a new plan's formulary</div>
+    <div class="decision-item"><span class="arrow">&rarr;</span> You expect to be re-employed with benefits within a month or two and just need a short bridge</div>
+  </div>
 
-  <p>One important caveat: if you do activate COBRA retroactively, you'll owe all the premiums for the retroactive period. So it's essentially an expensive insurance policy against a major medical event during those 60 days. For most healthy people, the Marketplace is the better long-term play.</p>
+  <h2>The move</h2>
 
-  <h2>Don't Forget About Medicaid</h2>
-
-  <p>If your income has dropped to zero (or close to it), you may qualify for <strong>Medicaid</strong>, which is free or very low-cost health insurance. Medicaid eligibility varies by state, and you can apply any time (no enrollment window). In expansion states, single adults earning up to about $20,000/year qualify.</p>
-
-  <p>Check if you qualify at <a href="https://www.medicaid.gov" style="color: #4ecdc4;">Medicaid.gov</a> or through your state's health exchange. There's zero shame in using Medicaid, it's there for exactly this situation, and it can save you hundreds of dollars a month that you need for rent and groceries right now.</p>
-
-  <h2>How to Sign Up for Marketplace Coverage</h2>
-
-  <p><strong>Step 1:</strong> Go to <a href="https://www.healthcare.gov" style="color: #4ecdc4;">Healthcare.gov</a> (or your state's exchange if your state runs its own).</p>
-
-  <p><strong>Step 2:</strong> Select "lost job-based coverage" as your qualifying event. This opens a 60-day Special Enrollment Period.</p>
-
-  <p><strong>Step 3:</strong> Enter your projected income for the year. Since you lost your job, this will be lower than your full-year salary, use your best estimate of what you'll actually earn this calendar year.</p>
-
-  <p><strong>Step 4:</strong> Compare plans. Look at the monthly premium after subsidies, the deductible, and whether your doctors are in-network.</p>
-
-  <p><strong>Step 5:</strong> Enroll. Coverage can start as soon as the first of the following month.</p>
+  <p>File for the Marketplace special enrollment within 60 days, compare the after-credit premium against your COBRA cost, and check Medicaid if your income is very low. Run the actual numbers on Healthcare.gov rather than guessing, because the 2026 subsidy change means last year's rule of thumb may not hold. Then keep the COBRA election window noted on your calendar as a safety net until you are sure your new coverage is active.</p>
 
   <div class="cta-box">
     <h3>Need Help Deciding?</h3>
     <p>Check our Resources page for health insurance help, including links to Healthcare.gov, COBRA info, and Medicaid.</p>
-    <a href="https://www.thelayoffguide.com/resources">Browse Resources →</a>
-    <a href="https://www.thelayoffguide.com" class="secondary">File for Unemployment →</a>
+    <a href="https://www.thelayoffguide.com/resources">Browse Resources &rarr;</a>
+    <a href="https://www.thelayoffguide.com" class="secondary">File for Unemployment &rarr;</a>
   </div>
+
+  <p class="source-note"><strong>Sources:</strong> HealthCare.gov (losing job-based coverage and Special Enrollment Period); U.S. Department of Labor, COBRA Continuation Coverage, dol.gov/general/topic/health-plans/cobra; CMS / Medicaid.gov (eligibility and expansion); KFF and Congressional Research Service (R48290) on the expiration of the enhanced premium tax credits.</p>
 
 </article>
 

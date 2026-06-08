@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unemployment and Taxes: The 1099-G and What You Will Actually Owe | The Layoff Guide</title>
+<meta name="description" content="Unemployment benefits are taxable but arrive with no tax withheld. How to use Form W-4V (10%), read your 1099-G, and which states do not tax benefits.">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Merriweather', Georgia, serif; color: #1a1a2e; background: #fafafa; line-height: 1.85; font-size: 17px; }
+  .site-nav { background: #1a1a2e; padding: 16px 0; text-align: center; position: sticky; top: 0; z-index: 100; }
+  .site-nav a { color: #fff; text-decoration: none; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 20px; }
+  .site-nav a span { color: #4ecdc4; }
+  .hero { width: 100%; max-height: 480px; overflow: hidden; position: relative; }
+  .hero img { width: 100%; height: 480px; object-fit: cover; display: block; filter: brightness(0.8); }
+  .hero-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 60px 40px 40px; background: linear-gradient(transparent, rgba(26,26,46,0.85)); color: #fff; }
+  .hero-overlay .category { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #4ecdc4; margin-bottom: 12px; }
+  .hero-overlay h1 { font-size: 36px; line-height: 1.25; font-weight: 700; max-width: 700px; }
+  .article-container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  .article-meta { font-family: 'Inter', sans-serif; font-size: 14px; color: #666; margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #e0e0e0; display: flex; align-items: center; gap: 16px; }
+  .article-meta .author-avatar { width: 44px; height: 44px; border-radius: 50%; background: #4ecdc4; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 600; font-size: 16px; font-family: 'Inter', sans-serif; }
+  .meta-text .author-name { font-weight: 600; color: #1a1a2e; }
+  .meta-text .date { color: #888; margin-top: 2px; }
+  .article-container p { margin-bottom: 24px; color: #2c2c3e; }
+  .article-container h2 { font-size: 26px; margin: 48px 0 20px; color: #1a1a2e; line-height: 1.3; }
+  .article-container ul { margin: 0 0 24px 24px; color: #2c2c3e; }
+  .article-container li { margin-bottom: 12px; }
+  .article-container a { color: #0d9488; text-decoration: none; font-weight: 500; }
+  .article-container a:hover { text-decoration: underline; }
+  .pull-quote { border-left: 4px solid #4ecdc4; padding: 20px 28px; margin: 40px 0; background: #f0faf9; border-radius: 0 8px 8px 0; font-size: 19px; font-style: italic; color: #1a1a2e; line-height: 1.7; }
+  .inline-image { margin: 40px -40px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+  .inline-image img { width: 100%; height: 340px; object-fit: cover; display: block; }
+  .inline-image .caption { font-family: 'Inter', sans-serif; font-size: 13px; color: #888; text-align: center; padding: 12px 16px; background: #f5f5f5; }
+
+  .callout-box {
+    background: #fff;
+    border: 2px solid #4ecdc4;
+    border-radius: 12px;
+    padding: 28px;
+    margin: 32px 0;
+  }
+  .callout-box h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #1a1a2e;
+    margin-bottom: 16px;
+  }
+  .callout-item {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #444;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .callout-item:last-child { border-bottom: none; }
+  .callout-item .arrow { color: #4ecdc4; font-weight: 700; font-size: 18px; flex-shrink: 0; }
+  .callout-item strong { color: #1a1a2e; }
+
+  .source-note { font-family: 'Inter', sans-serif; font-size: 13px; color: #888; line-height: 1.7; margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; }
+
+  .cta-box { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 40px; border-radius: 12px; margin: 48px 0; text-align: center; }
+  .cta-box h3 { color: #4ecdc4; font-family: 'Inter', sans-serif; margin: 0 0 12px; font-size: 20px; }
+  .cta-box p { color: #ccc; font-size: 16px; margin-bottom: 20px; }
+  .cta-box a { display: inline-block; background: #4ecdc4; color: #1a1a2e; font-family: 'Inter', sans-serif; font-weight: 600; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-size: 15px; margin: 6px; }
+  .cta-box a.secondary { background: transparent; border: 2px solid #4ecdc4; color: #4ecdc4; }
+
+  .site-footer { background: #1a1a2e; color: #888; text-align: center; padding: 32px 24px; font-family: 'Inter', sans-serif; font-size: 14px; }
+  .site-footer a { color: #4ecdc4; text-decoration: none; }
+
+  @media (max-width: 768px) {
+    .hero-overlay h1 { font-size: 26px; }
+    .hero-overlay { padding: 40px 20px 24px; }
+    .article-container { padding: 32px 20px 60px; }
+    .inline-image { margin: 32px 0; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="https://www.thelayoffguide.com">The<span>Layoff</span>Guide</a>
+</nav>
+
+<div class="hero">
+  <img src="/posts/img/photo-1450101499163-c8848c66ca85.jpg" alt="Person reviewing tax documents at a desk">
+  <div class="hero-overlay">
+    <div class="category">Money & Taxes</div>
+    <h1>Unemployment and Taxes: The 1099-G and What You Will Actually Owe</h1>
+  </div>
+</div>
+
+<article class="article-container">
+
+  <div class="article-meta">
+    <div class="author-avatar">TLG</div>
+    <div class="meta-text">
+      <div class="author-name">The Layoff Guide</div>
+      <div class="date">June 8, 2026 · 6 min read</div>
+    </div>
+  </div>
+
+  <p>Here is the part nobody warns you about when you file for unemployment: those benefits are taxable income. The check that feels like a lifeline in March can turn into a tax bill next April if you are not ready for it. The good news is that this is easy to handle once you know the three things that matter: how the benefits are taxed, the form you will get, and how to avoid a surprise.</p>
+
+  <h2>Yes, unemployment benefits are taxable</h2>
+
+  <p>Federal law treats unemployment compensation as taxable income. There is no special exclusion for it in 2026. The IRS spells this out in Topic 418: unemployment compensation is taxable and you report it on your federal return. So whatever you collect over the year gets added to your other income and taxed at your normal rate.</p>
+
+  <p>This catches people off guard because, unlike a paycheck, unemployment usually arrives with no taxes taken out unless you ask for it. The money looks like it is all yours. Some of it belongs to the IRS.</p>
+
+  <h2>The form: your 1099-G</h2>
+
+  <p>Early the next year, your state sends you a Form 1099-G, Certain Government Payments. Box 1 shows the total unemployment compensation paid to you for the year. Box 4 shows any federal income tax that was withheld. You report the Box 1 amount on Schedule 1 of your Form 1040, and any Box 4 withholding goes on your 1040 as tax already paid.</p>
+
+  <p>Two things to watch. First, the 1099-G reports what the state paid you during the calendar year, which may not match what you think you received, so check it against your own records. Second, the 1099-G is a common target for identity fraud. If you get a 1099-G for benefits you never claimed, that is a sign someone filed in your name, and you should report it to your state right away.</p>
+
+  <div class="inline-image">
+    <img src="/posts/img/photo-1554224155-6726b3ff858f.jpg" alt="Notebook with financial planning notes and a calculator on a clean desk">
+    <div class="caption">Set the tax aside as the benefits come in, not at the end.</div>
+  </div>
+
+  <h2>How to avoid a tax-time surprise</h2>
+
+  <p>You have three ways to cover the tax on your benefits. Pick one before the bill builds up.</p>
+
+  <p>The simplest is voluntary withholding. File Form W-4V, Voluntary Withholding Request, with your state unemployment office. For unemployment benefits the only rate allowed is 10 percent, so 10 percent of each payment is sent to the IRS for you, the same idea as withholding from a paycheck. For many people whose unemployment is their main income for the year, 10 percent is a reasonable starting point, though it will not fully cover you if you have other income or a higher bracket.</p>
+
+  <p>The second option is quarterly estimated payments. If you do not withhold, you can send the IRS estimated tax payments during the year using Form 1040-ES. This takes more discipline, but it lets you set aside the right amount rather than a flat 10 percent.</p>
+
+  <p>The third option is to save it yourself. If you would rather hold the cash, move roughly 10 to 15 percent of every payment into a separate savings account and do not touch it. The risk here is obvious: it is your money sitting right there when rent is due. Withholding removes the temptation.</p>
+
+  <div class="callout-box">
+    <h4>Three ways to cover the tax</h4>
+    <div class="callout-item"><span class="arrow">&rarr;</span><span><strong>Withhold 10 percent.</strong> File Form W-4V with your state. The only allowed rate for unemployment is 10 percent, sent to the IRS automatically.</span></div>
+    <div class="callout-item"><span class="arrow">&rarr;</span><span><strong>Pay quarterly estimates.</strong> Use Form 1040-ES to send the IRS the right amount during the year.</span></div>
+    <div class="callout-item"><span class="arrow">&rarr;</span><span><strong>Save it yourself.</strong> Move 10 to 15 percent of each payment into a separate account and do not touch it.</span></div>
+  </div>
+
+  <h2>Your state may not tax it</h2>
+
+  <p>Federal tax applies no matter where you live. State tax is a different story. As of 2026, a number of states do not tax unemployment benefits at all, either because they have no state income tax or because they specifically exempt unemployment. That group includes Alabama, Alaska, California, Florida, Nevada, New Hampshire, New Jersey, Pennsylvania, South Dakota, Tennessee, Texas, Virginia, Washington, and Wyoming, plus the District of Columbia.</p>
+
+  <p>If you live somewhere else, your state probably taxes unemployment the way it taxes wages. State rules change, so confirm with your own state tax agency before you assume one way or the other.</p>
+
+  <h2>The bottom line</h2>
+
+  <p>Treat unemployment like income that arrives without taxes taken out, because that is exactly what it is. Set up 10 percent withholding with Form W-4V on day one, or budget to set the money aside yourself. Keep your 1099-G, check Box 1 against your records, and report any 1099-G for benefits you did not receive. Do that, and tax season is a non-event instead of a second crisis.</p>
+
+  <div class="cta-box">
+    <h3>Filing first? Start there.</h3>
+    <p>If you have not filed for unemployment yet, do that today, then set up your withholding. Our state-by-state guides walk you through it.</p>
+    <a href="https://www.thelayoffguide.com">File for Unemployment &rarr;</a>
+    <a href="https://www.thelayoffguide.com/resources" class="secondary">Browse Resources &rarr;</a>
+  </div>
+
+  <p class="source-note"><strong>Sources:</strong> IRS Topic 418 (Unemployment compensation), irs.gov/taxtopics/tc418; IRS Form W-4V (Voluntary Withholding Request), irs.gov/forms-pubs/about-form-w-4-v; IRS Instructions for Form 1099-G, irs.gov/instructions/i1099g.</p>
+
+</article>
+
+<footer class="site-footer">
+  <p>&copy; 2026 <a href="https://www.thelayoffguide.com">TheLayoffGuide.com</a>, Built with care for people in transition.</p>
+</footer>
+
+</body>
+</html>

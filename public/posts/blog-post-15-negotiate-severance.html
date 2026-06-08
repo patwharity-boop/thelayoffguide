@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Negotiate a Better Severance Package | The Layoff Guide</title>
+<meta name="description" content="Severance is often negotiable because the company wants your signed release. What is on the table, where your leverage is, the OWBPA clock, and when to get a lawyer.">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Merriweather', Georgia, serif; color: #1a1a2e; background: #fafafa; line-height: 1.85; font-size: 17px; }
+  .site-nav { background: #1a1a2e; padding: 16px 0; text-align: center; position: sticky; top: 0; z-index: 100; }
+  .site-nav a { color: #fff; text-decoration: none; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 20px; }
+  .site-nav a span { color: #4ecdc4; }
+  .hero { width: 100%; max-height: 480px; overflow: hidden; position: relative; }
+  .hero img { width: 100%; height: 480px; object-fit: cover; display: block; filter: brightness(0.8); }
+  .hero-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 60px 40px 40px; background: linear-gradient(transparent, rgba(26,26,46,0.85)); color: #fff; }
+  .hero-overlay .category { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #4ecdc4; margin-bottom: 12px; }
+  .hero-overlay h1 { font-size: 36px; line-height: 1.25; font-weight: 700; max-width: 700px; }
+  .article-container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  .article-meta { font-family: 'Inter', sans-serif; font-size: 14px; color: #666; margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #e0e0e0; display: flex; align-items: center; gap: 16px; }
+  .article-meta .author-avatar { width: 44px; height: 44px; border-radius: 50%; background: #4ecdc4; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 600; font-size: 16px; font-family: 'Inter', sans-serif; }
+  .meta-text .author-name { font-weight: 600; color: #1a1a2e; }
+  .meta-text .date { color: #888; margin-top: 2px; }
+  .article-container p { margin-bottom: 24px; color: #2c2c3e; }
+  .article-container h2 { font-size: 26px; margin: 48px 0 20px; color: #1a1a2e; line-height: 1.3; }
+  .article-container ul { margin: 0 0 24px 24px; color: #2c2c3e; }
+  .article-container li { margin-bottom: 12px; }
+  .article-container a { color: #0d9488; text-decoration: none; font-weight: 500; }
+  .article-container a:hover { text-decoration: underline; }
+  .pull-quote { border-left: 4px solid #4ecdc4; padding: 20px 28px; margin: 40px 0; background: #f0faf9; border-radius: 0 8px 8px 0; font-size: 19px; font-style: italic; color: #1a1a2e; line-height: 1.7; }
+  .inline-image { margin: 40px -40px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+  .inline-image img { width: 100%; height: 340px; object-fit: cover; display: block; }
+  .inline-image .caption { font-family: 'Inter', sans-serif; font-size: 13px; color: #888; text-align: center; padding: 12px 16px; background: #f5f5f5; }
+
+  .callout-box {
+    background: #fff;
+    border: 2px solid #4ecdc4;
+    border-radius: 12px;
+    padding: 28px;
+    margin: 32px 0;
+  }
+  .callout-box h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #1a1a2e;
+    margin-bottom: 16px;
+  }
+  .callout-item {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #444;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .callout-item:last-child { border-bottom: none; }
+  .callout-item .arrow { color: #4ecdc4; font-weight: 700; font-size: 18px; flex-shrink: 0; }
+  .callout-item strong { color: #1a1a2e; }
+
+  .source-note { font-family: 'Inter', sans-serif; font-size: 13px; color: #888; line-height: 1.7; margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; }
+
+  .cta-box { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 40px; border-radius: 12px; margin: 48px 0; text-align: center; }
+  .cta-box h3 { color: #4ecdc4; font-family: 'Inter', sans-serif; margin: 0 0 12px; font-size: 20px; }
+  .cta-box p { color: #ccc; font-size: 16px; margin-bottom: 20px; }
+  .cta-box a { display: inline-block; background: #4ecdc4; color: #1a1a2e; font-family: 'Inter', sans-serif; font-weight: 600; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-size: 15px; margin: 6px; }
+  .cta-box a.secondary { background: transparent; border: 2px solid #4ecdc4; color: #4ecdc4; }
+
+  .site-footer { background: #1a1a2e; color: #888; text-align: center; padding: 32px 24px; font-family: 'Inter', sans-serif; font-size: 14px; }
+  .site-footer a { color: #4ecdc4; text-decoration: none; }
+
+  @media (max-width: 768px) {
+    .hero-overlay h1 { font-size: 26px; }
+    .hero-overlay { padding: 40px 20px 24px; }
+    .article-container { padding: 32px 20px 60px; }
+    .inline-image { margin: 32px 0; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="https://www.thelayoffguide.com">The<span>Layoff</span>Guide</a>
+</nav>
+
+<div class="hero">
+  <img src="/posts/img/photo-1521791136064-7986c2920216.jpg" alt="Handshake, a professional transition">
+  <div class="hero-overlay">
+    <div class="category">Severance</div>
+    <h1>How to Negotiate a Better Severance Package</h1>
+  </div>
+</div>
+
+<article class="article-container">
+
+  <div class="article-meta">
+    <div class="author-avatar">TLG</div>
+    <div class="meta-text">
+      <div class="author-name">The Layoff Guide</div>
+      <div class="date">June 8, 2026 · 7 min read</div>
+    </div>
+  </div>
+
+  <p>A severance offer can feel like a take-it-or-leave-it document. Often it is not. Companies build in room to negotiate because they want something specific from you in return: a signed release of claims. Understanding that trade is the key to getting more out of the conversation. This post is about the negotiation itself. For how severance affects your unemployment benefits, see our separate guide on <a href="https://www.thelayoffguide.com/blog/severance-and-unemployment">severance and unemployment</a>.</p>
+
+  <p>One honest caveat before anything else: if you are an at-will employee with no contract or company policy promising severance, you may not be legally owed anything. That does not mean you have no leverage, but it does mean the offer is often a courtesy you are trying to improve, not a right you are enforcing. Go in clear-eyed about which situation you are in.</p>
+
+  <h2>What is actually negotiable</h2>
+
+  <p>Severance is more than the number of weeks of pay. Treat the whole package as on the table:</p>
+
+  <p>The cash itself, usually expressed as weeks of pay per year of service. The continuation of health coverage, or the company paying part of your COBRA premiums for a few months. The payout of unused vacation or PTO. The treatment of bonuses, commissions, or equity that is close to vesting. The wording of how the company will describe your departure and respond to reference checks. Outplacement help. And the timing of your last day, which can matter for benefits, vesting dates, and your own cash flow.</p>
+
+  <p>You will rarely get all of it. Knowing the full list lets you trade: give ground on one item to gain on another that matters more to you.</p>
+
+  <h2>Where your leverage comes from</h2>
+
+  <p>Your leverage is whatever the company wants from you. The biggest one is the release of claims. By signing, you give up your right to sue the employer. That release is worth real money to them, which is exactly why they are offering severance to get it. The stronger any potential claim you might have, the more your signature is worth.</p>
+
+  <p>Other sources of leverage: institutional knowledge they need transferred, a clean and quiet exit during a sensitive time, your cooperation on a transition, and simple goodwill if the relationship is decent. None of these require threats. A calm, specific ask backed by a reason tends to work better than an ultimatum.</p>
+
+  <div class="pull-quote">
+    "The release is the real product here. Your signature is worth real money to them, which is exactly why severance exists."
+  </div>
+
+  <h2>The release agreement, and the time you are owed</h2>
+
+  <p>Read the release carefully before you sign anything, because it is the real product here. Look for what you are giving up beyond the right to sue: non-disparagement clauses, non-compete or non-solicit terms, confidentiality, and any clawback language.</p>
+
+  <p>If you are 40 or older, federal law gives you protected time to review. Under the Older Workers Benefit Protection Act, which amended the Age Discrimination in Employment Act, you must be given at least 21 days to consider an agreement that waives age-discrimination claims, and at least 45 days if the layoff is part of a group termination. After you sign, you get 7 days to revoke. Use that time. Do not let anyone rush you into signing on the spot.</p>
+
+  <div class="callout-box">
+    <h4>If you are 40 or older (OWBPA timeline)</h4>
+    <div class="callout-item"><span class="arrow">&rarr;</span><span><strong>21 days</strong> to consider an agreement waiving age-discrimination claims (individual termination).</span></div>
+    <div class="callout-item"><span class="arrow">&rarr;</span><span><strong>45 days</strong> to consider if the layoff is part of a group termination.</span></div>
+    <div class="callout-item"><span class="arrow">&rarr;</span><span><strong>7 days</strong> to revoke after you sign. The agreement is not final until that window passes.</span></div>
+  </div>
+
+  <div class="inline-image">
+    <img src="/posts/img/photo-1450101499163-c8848c66ca85.jpg" alt="Person reviewing a severance agreement at a desk">
+    <div class="caption">Read the release line by line before signing. The time is yours to use.</div>
+  </div>
+
+  <h2>When to get a lawyer</h2>
+
+  <p>For a small, standard package with clean terms, you may be fine handling it yourself. Talk to an employment attorney when the dollars are significant, when you think you may have a real legal claim such as discrimination or retaliation, when the agreement contains a non-compete or other terms that could limit your next job, or when anything in the document is unclear. Many employment lawyers offer a short initial consultation at low or no cost, and a single review can pay for itself by catching one bad clause.</p>
+
+  <h2>How to actually ask</h2>
+
+  <p>Be professional, be specific, and put it in writing. Thank them for the offer, state the one or two changes you are requesting, and give a brief reason for each. For example: you are asking for four more weeks of pay given your tenure, or for two months of paid COBRA to bridge your coverage. Keep the tone collaborative. You are not fighting them; you are proposing a deal that works for both sides. Then give them time to respond, and use your full review window before you sign.</p>
+
+  <p>The worst outcome is signing immediately because the moment felt overwhelming. Slow it down, read it, ask, and decide on your terms.</p>
+
+  <div class="cta-box">
+    <h3>Sorting out the rest of your exit?</h3>
+    <p>Severance is one piece. See how it affects your benefits, and what else to lock down in your first days after a layoff.</p>
+    <a href="https://www.thelayoffguide.com/blog/severance-and-unemployment">Severance &amp; Unemployment &rarr;</a>
+    <a href="https://www.thelayoffguide.com/resources" class="secondary">Browse Resources &rarr;</a>
+  </div>
+
+  <p class="source-note"><strong>Sources:</strong> U.S. Department of Labor, Older Workers Benefit Protection Act, dol.gov; U.S. Equal Employment Opportunity Commission guidance on severance agreements and waivers of age-discrimination claims (OWBPA/ADEA), eeoc.gov.</p>
+
+</article>
+
+<footer class="site-footer">
+  <p>&copy; 2026 <a href="https://www.thelayoffguide.com">TheLayoffGuide.com</a>, Built with care for people in transition.</p>
+</footer>
+
+</body>
+</html>

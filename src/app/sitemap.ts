@@ -24,6 +24,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/long-term-unemployment-rising`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/fired-unemployment`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/cobra-vs-marketplace`, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/blog/unemployment-and-taxes`, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/blog/negotiate-severance`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/explain-layoff-interview`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/subscription-purge`, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/blog/hidden-benefits`, changeFrequency: "monthly" as const, priority: 0.8 },
