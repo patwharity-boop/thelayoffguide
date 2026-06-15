@@ -544,13 +544,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "mi-20-week-cap",
-    title: "Michigan caps regular UI at 20 weeks since 2011",
-    body: "Michigan capped maximum UI duration at 20 weeks under a 2011 law, one of the lower ceilings in the country. Some 2024 legislative proposals would restore 26 weeks but had not passed as of late 2024. Plan your runway around the 20-week assumption.",
+    title: "Michigan restored 26-week maximum benefits effective April 2, 2025",
+    body: "Michigan extended its maximum benefit duration from 20 weeks back to 26 weeks effective April 2, 2025, reversing a 2011 cut. The weekly maximum also increased to $530 starting January 1, 2026. If you were planning a 20-week runway, update your budget: the full 26 weeks now applies to new claims.",
     states: ["michigan"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.michigan.gov/uia",
-    publishedAt: "2026-06-04",
+    sourceUrl: "https://www.michigan.gov/leo/bureaus-agencies/uia",
+    publishedAt: "2026-06-15",
   },
 
   // ============================== MINNESOTA ==============================
