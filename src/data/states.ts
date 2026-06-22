@@ -1309,7 +1309,7 @@ export const states: StateData[] = [
     slug: "massachusetts",
     abbreviation: "MA",
     maxWeeklyBenefit: 1105,
-    maxWeeks: 26,
+    maxWeeks: 30,
     waitingWeek: true,
     filingUrl: "https://www.mass.gov/how-to/apply-for-unemployment-insurance-benefits",
     filingPhone: "1-877-626-6800",
@@ -1351,7 +1351,7 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive unemployment benefits in Massachusetts?",
-        answer: "You can receive benefits for up to 26 weeks."
+        answer: "You can receive benefits for up to 30 weeks. Massachusetts extended its maximum from 26 to 30 weeks effective April 20, 2025, triggered by the Springfield metro area's 12-month unemployment rate exceeding 5.1 percent. The 30-week maximum continues as long as that trigger remains active; it reverts to 26 weeks when all measured metro areas fall to 5.1 percent or below."
       },
       {
         question: "Can I file for unemployment online in Massachusetts?",
@@ -1360,7 +1360,7 @@ export const states: StateData[] = [
     ],
     tips: [
       { headline: "Claim every dependent.", body: "Massachusetts adds $25 per dependent per week, up to half your benefit amount. With multiple dependents this is real money, don't skip it." },
-      { headline: "Massachusetts has the highest max in the nation.", body: "$1,105/week for 26 weeks = $28,730 max. Get every weekly payment by certifying on time and reporting accurately." },
+      { headline: "Massachusetts has the highest max in the nation.", body: "$1,105/week for up to 30 weeks (as of April 2025, while the state unemployment trigger is active) = up to $33,150 max. Get every weekly payment by certifying on time and reporting accurately." },
       { headline: "Use UI Online on a desktop browser.", body: "Massachusetts's UI Online has had mobile reliability issues. Desktop is more stable for filing weekly certifications." },
       { headline: "Read the 'Guide to Benefits' before filing.", body: "Massachusetts publishes a thorough claimant guide that explains the dependency allowance and partial-earnings rules in plain language." }
     ]
