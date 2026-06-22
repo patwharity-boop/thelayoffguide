@@ -371,13 +371,6 @@ export const states: StateData[] = [
         answer: "File the same week you separate. Your claim starts the Sunday of the week you file, not the day you lost your job, and a seven-day unpaid waiting period begins then, so filing late only pushes back your first payment."
       }
     ],
-    advocacy: [
-      {
-        title: "Petition: Raise California's Maximum Unemployment Benefit",
-        url: "https://www.change.org/unemployment008",
-        description: "California's max weekly benefit of $450 hasn't increased in over 20 years. Sign this petition to push for an update that reflects today's cost of living."
-      }
-    ],
     tips: [
       { headline: "Set up direct deposit before your first payment.", body: "EDD's default is the Money Network debit card, which can take 7-10 days to arrive. Direct deposit shaves a week off your first payment timeline." },
       { headline: "Certify every two weeks, not every week.", body: "California is one of the few states that uses biweekly certification. Many first-time claimants miss this and lose payments." },

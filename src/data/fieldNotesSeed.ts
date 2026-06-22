@@ -1252,13 +1252,13 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "multi-short-duration-states",
-    title: "Short-duration states: FL, NC, GA, AR, IA, MI, MO, SC, LA",
-    body: "Florida, North Carolina, Georgia, Arkansas, Iowa, Michigan, Missouri, South Carolina, and Louisiana all cap regular UI duration below the 26-week standard. Florida, North Carolina, and Louisiana use sliding-scale formulas tied to the state unemployment rate. Plan your runway accordingly; in a low-unemployment economy these caps drop to 12 weeks in some states.",
-    states: ["florida", "north-carolina", "georgia", "arkansas", "iowa", "michigan", "missouri", "south-carolina", "louisiana"],
+    title: "Short-duration states: FL, NC, GA, AR, IA, MO, SC, LA",
+    body: "Florida, North Carolina, Georgia, Arkansas, Iowa, Missouri, South Carolina, and Louisiana all cap regular UI duration below the 26-week standard. Florida, North Carolina, and Louisiana use sliding-scale formulas tied to the state unemployment rate. Plan your runway accordingly; in a low-unemployment economy these caps drop to 12 weeks in some states. Note: Michigan restored its 26-week maximum effective April 2, 2025 (SB 40) and is no longer in this group.",
+    states: ["florida", "north-carolina", "georgia", "arkansas", "iowa", "missouri", "south-carolina", "louisiana"],
     topics: ["filing"],
     source: "research",
     sourceUrl: "https://www.cbpp.org/research/economy/how-many-weeks-of-unemployment-compensation-are-available",
-    publishedAt: "2026-06-04",
+    publishedAt: "2026-06-22",
   },
   {
     id: "multi-dependent-allowance-states",

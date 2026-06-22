@@ -119,9 +119,9 @@ export default function TimelinePage() {
                 first real payment.
               </p>
               <p>
-                Nine states have no waiting week (Colorado, Connecticut, Iowa,
-                Louisiana, Nevada, New Jersey, New York, Rhode Island, Vermont).
-                In those states, paid benefits begin the first eligible week.
+                Ten states have no waiting week (Colorado, Connecticut, Iowa,
+                Louisiana, Maryland, Nevada, New Jersey, New York, Rhode Island,
+                Vermont). In those states, paid benefits begin the first eligible week.
               </p>
             </>
           }

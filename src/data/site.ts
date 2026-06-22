@@ -4,7 +4,7 @@
 
 export const SITE_URL = "https://www.thelayoffguide.com";
 
-export const LAST_REVIEWED = "2026-05-06"; // ISO date, YYYY-MM-DD
+export const LAST_REVIEWED = "2026-06-22"; // ISO date, YYYY-MM-DD
 
 // Author identity. First-name-only by design, the personal narrative lives
 // at /about and is referenced by JSON-LD via the AUTHOR_ID anchor below.
