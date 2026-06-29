@@ -56,7 +56,7 @@ export default function AiLayoffs2026Page() {
         </p>
 
         <p>
-          You are not imagining the pattern. In March 2026, AI became the single most-cited reason employers gave for job cuts, the first time it led all reasons since Challenger, Gray &amp; Christmas began tracking it. AI accounted for about 25 percent of that month&apos;s announced cuts (15,341 of them). Tech-sector cuts, meanwhile, rose 40 percent year over year to 52,050 in the first quarter. The reason on your layoff is now a national trend.
+          You are not imagining the pattern. In March 2026, AI was the single most-cited reason employers gave for job cuts, according to Challenger, Gray &amp; Christmas. AI accounted for 25 percent of that month&apos;s announced cuts (15,341 of them). Tech-sector cuts, meanwhile, rose 40 percent year over year to 52,050 in the first quarter. The reason on your layoff is now a national trend.
         </p>
 
         <p>
