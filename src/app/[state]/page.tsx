@@ -5,6 +5,7 @@ import { states, getStateBySlug, getAllStateSlugs } from "@/data/states";
 import AuthorBlock from "@/components/AuthorBlock";
 import BenefitEstimator from "@/components/BenefitEstimator";
 import FieldNotesForState from "@/components/FieldNotesForState";
+import MoreForFilers from "@/components/MoreForFilers";
 import {
   AUTHOR_ID,
   AUTHOR_NAME,
@@ -539,6 +540,12 @@ export default async function StatePage({
         stateName={state.name}
         reviewedAt={state.lastReviewedAt}
       />
+
+      {/* More for [State] filers — curated blog/page links surfacing
+          the most common next-questions a state-page reader has.
+          Same six articles per state for v1; could become state-aware
+          (e.g. surface WARN guide for CA/NY/NJ once that post merges). */}
+      <MoreForFilers stateName={state.name} />
 
       {/* State Navigation */}
       <nav className="flex items-center justify-between mt-12 pt-8 border-t border-gray-200">
