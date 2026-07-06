@@ -22,6 +22,10 @@ export interface StateData {
   // When present, overrides the global LAST_REVIEWED on the AuthorBlock and
   // in JSON-LD dateModified. Leave undefined to fall back to the global date.
   lastReviewedAt?: string;
+  // Optional custom meta description (max 160 chars). When present, overrides
+  // the auto-generated template in generateMetadata. Use to front-load unique
+  // state details that the template cannot capture (e.g. unusual filing quirks).
+  metaDescription?: string;
 }
 
 // Per-state unemployment data sourced from each state's Department of Labor or workforce agency (2026).
@@ -34,6 +38,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 275,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Alabama unemployment: $275/week max, 26 weeks, 1-week wait. File at adol.alabama.gov the week you're laid off. ID verification required before first payment.",
     filingUrl: "https://adol.alabama.gov/claimants/",
     filingPhone: "1-866-234-5382",
     handbookUrl: "https://labor.alabama.gov/docs/guides/uc_brr_large_print.pdf",
@@ -103,6 +108,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 370,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Alaska unemployment: $370/week max, 26 weeks, 1-week wait. File via my.alaska.gov (myAlaska required). Fishing earnings may not count toward base period.",
     filingUrl: "https://my.alaska.gov/",
     filingPhone: "1-907-269-4700",
     handbookUrl: "https://labor.alaska.gov/unemployment/documents/uihandbook.pdf",
@@ -172,6 +178,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 320,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Arizona unemployment: $320/week max, 26 weeks, 1-week wait. Requires 4 job contacts per week. File at des.az.gov the week you separate or lose a full week.",
     filingUrl: "https://des.az.gov/services/employment/unemployment-individual",
     filingPhone: "1-877-600-2722",
     handbookUrl: "https://des.az.gov/sites/default/files/legacy/dl/UIB-1240A.pdf",
