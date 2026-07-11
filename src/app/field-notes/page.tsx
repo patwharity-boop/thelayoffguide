@@ -154,8 +154,11 @@ export default function FieldNotesIndexPage() {
           Field notes are stronger when they come from people who just lived
           through it. If you have a specific tactic, a portal quirk, a phone
           shortcut, or a state-specific gotcha that saved you time or money,
-          send it along (email TBD). Notes go through editorial review before
-          publishing.
+          send it along through our{" "}
+          <Link href="/contact" className="text-blue-700 underline hover:text-blue-900">
+            contact page
+          </Link>
+          . Notes go through editorial review before publishing.
         </p>
       </section>
     </div>
