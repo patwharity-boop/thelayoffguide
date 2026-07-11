@@ -44,7 +44,7 @@ export default function HomePage() {
           <div className="text-sm text-gray-600">State Guides</div>
         </div>
         <div className="bg-blue-50 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-blue-700">$235–$1,152</div>
+          <div className="text-2xl font-bold text-blue-700">$235–$1,208</div>
           <div className="text-sm text-gray-600">Max Weekly Range</div>
         </div>
         <div className="bg-blue-50 rounded-lg p-4 text-center">
@@ -108,8 +108,8 @@ export default function HomePage() {
         <div className="space-y-4 text-gray-700 leading-relaxed">
           <p>
             The state where you live can mean a difference of more than{" "}
-            <strong>$24,000</strong> in total benefits. Washington claimants
-            can collect $1,152/week for 26 weeks (a max of $29,952). Mississippi
+            <strong>$25,000</strong> in total benefits. Washington claimants
+            can collect $1,208/week for 26 weeks (a max of $31,408). Mississippi
             claimants cap out at $235/week (a max of $6,110 over the same
             period). Florida and North Carolina cut payment off after just 12
             weeks regardless of your earnings.
@@ -195,7 +195,7 @@ export default function HomePage() {
                 See all 50 states ranked by max weekly benefit
               </h3>
               <p className="text-sm text-gray-700">
-                From $235/wk in Mississippi to $1,152/wk in Washington. Sort
+                From $235/wk in Mississippi to $1,208/wk in Washington. Sort
                 by weekly amount, weeks of duration, or total payout. Updated
                 for 2026.
               </p>

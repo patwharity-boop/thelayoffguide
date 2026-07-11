@@ -2285,7 +2285,7 @@ export const states: StateData[] = [
     name: "Oregon",
     slug: "oregon",
     abbreviation: "OR",
-    maxWeeklyBenefit: 872,
+    maxWeeklyBenefit: 902,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://unemployment.oregon.gov/",
@@ -2324,7 +2324,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in Oregon?",
-        answer: "Oregon pays up to $872 per week."
+        answer: "Oregon pays up to $902 per week."
       },
       {
         question: "How long can I receive benefits?",
@@ -2407,7 +2407,7 @@ export const states: StateData[] = [
     name: "Rhode Island",
     slug: "rhode-island",
     abbreviation: "RI",
-    maxWeeklyBenefit: 745,
+    maxWeeklyBenefit: 777,
     maxWeeks: 26,
     waitingWeek: false,
     filingUrl: "https://dlt.ri.gov/individuals/unemployment-insurance",
@@ -2446,7 +2446,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in Rhode Island?",
-        answer: "Rhode Island pays up to $745 per week (up to $931 with dependents)."
+        answer: "Rhode Island pays up to $777 per week (up to $971 with dependents)."
       },
       {
         question: "How long can I receive benefits?",
@@ -2459,7 +2459,7 @@ export const states: StateData[] = [
     ],
     tips: [
       { headline: "No waiting week, file immediately.", body: "Rhode Island pays from your first eligible week. File the day you separate to maximize benefit weeks." },
-      { headline: "Claim every dependent.", body: "Rhode Island's max with dependents is $931/week. Without them, you cap at $745. Don't skip listing every dependent at filing." },
+      { headline: "Claim every dependent.", body: "Rhode Island's max with dependents is $971/week. Without them, you cap at $777. Don't skip listing every dependent at filing." },
       { headline: "Register on EmployRI the same day.", body: "DLT blocks benefits until your EmployRI profile is complete. The two systems aren't automatically linked." },
       { headline: "Read the RI UI Guide.", body: "Rhode Island's claimant handbook explains the dependency allowance rules and partial-earnings formulas, most first-time questions are covered." }
     ]
@@ -2904,7 +2904,7 @@ export const states: StateData[] = [
     name: "Washington",
     slug: "washington",
     abbreviation: "WA",
-    maxWeeklyBenefit: 1152,
+    maxWeeklyBenefit: 1208,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://esd.wa.gov/get-financial-help/unemployment-benefits",
@@ -2943,7 +2943,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Washington?",
-        answer: "Washington pays up to $1,152 per week, the highest maximum in the nation."
+        answer: "Washington pays up to $1,208 per week, the highest maximum in the nation."
       },
       {
         question: "How long can I receive unemployment benefits in Washington?",
@@ -2958,7 +2958,7 @@ export const states: StateData[] = [
       { headline: "Track your 680-hour eligibility.", body: "Washington uses hours, not just dollars, to qualify. Have pay stubs ready in case ESD requests verification of your hours worked." },
       { headline: "Hit 3 weekly job search activities.", body: "Washington requires 3 documented activities. Falling short disqualifies the entire week, not just reduces it." },
       { headline: "Use SecureAccess Washington consistently.", body: "Washington uses SAW across multiple state services. Use the same login for ESD as for other state systems to avoid duplicate accounts." },
-      { headline: "Maximum is highest in the nation.", body: "Washington pays up to $1,152/week for 26 weeks = $29,952 max. Get every weekly payment by certifying on time and reporting accurately." }
+      { headline: "Maximum is highest in the nation.", body: "Washington pays up to $1,208/week for 26 weeks = $31,408 max. Get every weekly payment by certifying on time and reporting accurately." }
     ]
   },
   {

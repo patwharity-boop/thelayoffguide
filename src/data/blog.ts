@@ -113,11 +113,11 @@ Most states have a second level of appeal (to a Board of Review). You can also c
       "Which states have the best unemployment benefits? We ranked all 50 states by weekly benefit, duration, and total payout.",
     date: "2026-04-06",
     content: `
-Not all unemployment benefits are created equal. Depending on which state you live in, you could receive anywhere from $235 to $1,152 per week, and for as few as 12 weeks or as many as 28. Here's how every state stacks up.
+Not all unemployment benefits are created equal. Depending on which state you live in, you could receive anywhere from $235 to $1,208 per week, and for as few as 12 weeks or as many as 28. Here's how every state stacks up.
 
 ## The Best States for Unemployment Benefits
 
-### 1. Washington, $1,152/week, 26 weeks
+### 1. Washington, $1,208/week, 26 weeks
 The highest maximum weekly benefit in the country. Washington's system is based on hours worked (680 hours minimum) rather than dollar amounts, which can make it easier to qualify.
 
 ### 2. Massachusetts, $1,105/week, 26 weeks
@@ -129,7 +129,7 @@ Strong benefits and no waiting week. Minnesota also has good resources for job s
 ### 4. New Jersey, $905/week, 26 weeks
 High benefits with a dependency allowance. New Jersey raised its maximum weekly benefit to $905 effective January 2026.
 
-### 5. Oregon, $872/week, 26 weeks
+### 5. Oregon, $902/week, 26 weeks
 One of the highest in the western US, with strong online filing tools and indexed annual increases.
 
 ## The Worst States for Unemployment Benefits
@@ -151,7 +151,7 @@ The lowest maximum weekly benefit in the nation.
 
 ## Key Takeaways
 
-- **Your state matters enormously.** The difference between Washington ($1,152/wk for 26 weeks = $29,952 max) and Mississippi ($235/wk for 26 weeks = $6,110 max) is nearly $24,000.
+- **Your state matters enormously.** The difference between Washington ($1,208/wk for 26 weeks = $31,408 max) and Mississippi ($235/wk for 26 weeks = $6,110 max) is more than $25,000.
 - **Duration matters as much as weekly amount.** Florida's $275/week for only 12 weeks means a max payout of just $3,300, the lowest total in the country.
 - **States without a waiting week** (TX, NY, CT, and others) start paying you faster.
 - **These are maximums.** Your actual benefit depends on your earnings. Most people receive 40-60% of their previous weekly wage.

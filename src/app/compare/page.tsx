@@ -15,7 +15,7 @@ export const metadata = buildPageMetadata({
   title:
     "Unemployment Benefits by State 2026: Compare Max Weekly Benefit & Duration",
   description:
-    "All 50 states compared by maximum weekly unemployment benefit, weeks of duration, waiting week, and total payout. Sortable table updated for 2026. From $235/wk in Mississippi to $1,152/wk in Washington.",
+    "All 50 states compared by maximum weekly unemployment benefit, weeks of duration, waiting week, and total payout. Sortable table updated for 2026. From $235/wk in Mississippi to $1,208/wk in Washington.",
   path: "/compare",
 });
 
