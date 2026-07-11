@@ -541,7 +541,7 @@ export default async function StatePage({
         reviewedAt={state.lastReviewedAt}
       />
 
-      {/* More for [State] filers — curated blog/page links surfacing
+      {/* More for [State] filers: curated blog/page links surfacing
           the most common next-questions a state-page reader has.
           Same six articles per state for v1; could become state-aware
           (e.g. surface WARN guide for CA/NY/NJ once that post merges). */}
