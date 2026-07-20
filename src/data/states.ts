@@ -807,6 +807,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Idaho?",
         answer: "Yes. File at labor.idaho.gov or call 1-208-332-8942."
+      },
+      {
+        question: "Who qualifies for unemployment in Idaho?",
+        answer: "You qualify if you lost your Idaho job through no fault of your own, earned at least $1,872 in your highest base period quarter (with total base period wages at least 1.25 times that amount across two or more quarters), and are able and available for full-time Idaho work."
+      },
+      {
+        question: "When should I apply for unemployment in Idaho?",
+        answer: "File the same week you separate from your employer. Idaho does not backdate claims before the Sunday of your filing week, so waiting even a few days after separation can cost you a week of benefits."
       }
     ],
     tips: [
@@ -990,6 +998,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Iowa?",
         answer: "Yes. File at the Iowa Workforce Development website or call 1-866-239-0843."
+      },
+      {
+        question: "Who qualifies for unemployment in Iowa?",
+        answer: "You qualify if you lost your Iowa job through no fault of your own, earned at least $1,700 in your highest base period quarter (with total base period wages at least 1.25 times that amount across two or more quarters), and are able and available for full-time Iowa employment."
+      },
+      {
+        question: "When should I apply for unemployment in Iowa?",
+        answer: "File as soon as you separate from your employer. Iowa has no waiting week, so benefits begin from your first eligible week. Every day you delay is potential benefits you cannot recover."
       }
     ],
     tips: [
@@ -1051,6 +1067,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Kansas?",
         answer: "Yes. File at GetKansasBenefits.gov or call 1-800-292-6333."
+      },
+      {
+        question: "Who qualifies for unemployment in Kansas?",
+        answer: "You qualify if you lost your Kansas job through no fault of your own, have wages in at least two base period quarters with total base period wages of at least 30 times your weekly benefit amount, and are able and immediately available for full-time Kansas work."
+      },
+      {
+        question: "When should I apply for unemployment in Kansas?",
+        answer: "File the same week you separate. Kansas does not backdate claims before the Sunday of your filing week. Waiting even a few days after separation can cost you a week of benefits."
       }
     ],
     tips: [
