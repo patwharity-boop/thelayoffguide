@@ -14,6 +14,18 @@ state's own .gov filing page (or dol.gov) that you actually fetched. If a portal
 URL moved, confirm the new one before changing it. If you cannot verify a detail,
 do not add it. A verified thinner page beats a fabricated richer one.
 
+## "Verified" is not permanent — re-scrub on a rolling cadence
+A state marked [x] below is NOT done forever. Benefit amounts reindex (often
+yearly), waiting-week and other laws change (NY reinstated its wait in 2021,
+DE/GA/WY reinstated, RI eliminated in 2012), and portal URLs move. So [x] means
+"verified as of the date noted," not "settled." Re-verification is a standing part
+of this task: on each pass, in addition to the new [P] states, re-check the key
+fields (maxWeeklyBenefit, maxWeeks, waitingWeek, filingUrl, filingPhone) of the
+oldest-verified states against their live primary source. Aim to re-touch every
+state at least ~2x/year. When you re-verify a state, update its date note below.
+Never skip a re-check because "we already confirmed it" — that is exactly how the
+NY waiting-week error survived every prior audit.
+
 ## Per-state work (each state in the weekly batch)
 1. Fetch the state's `filingUrl`. If it redirects or 404s, find and verify the
    current official filing page and update `filingUrl` (this is a real fix).

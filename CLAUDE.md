@@ -23,6 +23,17 @@ repo (Claude Code, the cloud weekly routine, CW/Cowork).
    exact source URL you confirmed.
 6. **Verification ≠ sampling.** Do not "spot-check a few and assume the rest." When auditing,
    each claim stands on its own verified source.
+7. **"Verified" is not permanent — always be re-scrubbing.** A claim being correct today does
+   NOT mean it is still correct. Laws change (NY reinstated its waiting week in 2021; DE, GA,
+   and WY reinstated theirs; RI eliminated its in 2012), benefit amounts reindex (often
+   yearly), and portal URLs move. NEVER mark a field "done forever." Every factual field
+   (benefit amount, max weeks, waiting week, filing URL, phone, deadlines) carries an implicit
+   expiry and must be periodically re-verified to the live primary source on a rolling cadence,
+   even the ones we already confirmed. Treat "we checked this before" as a reason to re-check,
+   not to skip. Internal consistency is NOT accuracy: uniformly-wrong data (flag + FAQ + tip
+   all agreeing) passes every consistency check and still misinforms — only the live primary
+   source catches it. When you touch a state/page, re-verify its key fields regardless of when
+   they were last checked.
 
 If you cannot follow this protocol for a given item, STOP and surface it. That is the correct
 outcome, not a failure.
