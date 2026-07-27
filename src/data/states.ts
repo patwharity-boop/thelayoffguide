@@ -392,7 +392,7 @@ export const states: StateData[] = [
     abbreviation: "CO",
     maxWeeklyBenefit: 844,
     maxWeeks: 26,
-    waitingWeek: false,
+    waitingWeek: true,
     filingUrl: "https://cdle.colorado.gov/unemployment",
     filingPhone: "1-303-318-9000",
     handbookUrl: "https://cdle.colorado.gov/unemployment/ui-claimant-guide",
@@ -445,13 +445,13 @@ export const states: StateData[] = [
       },
       {
         question: "When should I apply for unemployment in Colorado?",
-        answer: "File the same week you separate. Colorado has no unpaid waiting week, so your first eligible week pays, but benefits run only from your claim date forward, so file and request payment immediately."
+        answer: "File the same week you separate. By law, the first week of any Colorado claim is an unpaid waiting week (CDLE cannot pay benefits for it), so filing sooner starts that week sooner. You must still request payment every week, including the waiting week."
       }
     ],
     tips: [
       { headline: "Use 'request payment', not 'certify'.", body: "Colorado's MyUI+ portal phrases the weekly action as 'request payment.' Looking for 'certify' will leave you confused on the dashboard." },
       { headline: "Hit 5 employer contacts every week.", body: "Colorado requires more weekly contacts than most states. Falling below 5 disqualifies the entire week, not just reduces it." },
-      { headline: "There's no waiting week in Colorado.", body: "Unlike most states, your first eligible week pays. Don't assume the first week is free labor, file and request payment immediately." },
+      { headline: "Colorado's first week is an unpaid waiting week, so file the day you separate.", body: "By law, CDLE cannot pay benefits for the first week of your claim. You still must request payment for it. Filing the day you separate starts the waiting week sooner, so your first paid week comes sooner." },
       { headline: "Register at your local Workforce Center early.", body: "Colorado verifies your in-person or online workforce center registration before releasing benefits, do it the same week you file." }
     ]
   },
@@ -1159,7 +1159,7 @@ export const states: StateData[] = [
     abbreviation: "LA",
     maxWeeklyBenefit: 282,
     maxWeeks: 12,
-    waitingWeek: false,
+    waitingWeek: true,
     filingUrl: "https://www.laworks.net/",
     filingPhone: "1-866-783-5567",
     handbookUrl: "https://www.laworks.net/Downloads/UI/UIBenefitRightsInformation.pdf",
@@ -1208,7 +1208,7 @@ export const states: StateData[] = [
       }
     ],
     tips: [
-      { headline: "No waiting week, file immediately.", body: "Louisiana pays from your first eligible week, unlike most states. File and certify the same week you separate to maximize benefit weeks." },
+      { headline: "Louisiana has an unpaid waiting week, so file the day you separate.", body: "The first week of your claim is an unpaid waiting week: you must file and certify it, but you are not paid for it. Filing the week you separate starts the waiting week sooner, so your first paid week comes sooner." },
       { headline: "Register on HiRE the same day you file.", body: "Louisiana's UI system holds benefits until your HiRE workforce profile is complete. The two are linked but require separate registration." },
       { headline: "Confirm your maximum weeks in writing.", body: "Louisiana's duration ranges from 12 to 20 weeks based on the state unemployment rate. The Louisiana Workforce Commission will mail your specific maximum." },
       { headline: "Plan finances around $282/week.", body: "Louisiana has one of the lowest maximum weekly benefits in the country. Reduce fixed costs aggressively from week one, there's not much room." }
@@ -1403,7 +1403,7 @@ export const states: StateData[] = [
     abbreviation: "MI",
     maxWeeklyBenefit: 530,
     maxWeeks: 26,
-    waitingWeek: true,
+    waitingWeek: false,
     filingUrl: "https://www.michigan.gov/leo/bureaus-agencies/uia",
     filingPhone: "1-866-500-0017",
     handbookUrl: "https://www.michigan.gov/-/media/Project/Websites/leo/Documents/UIA/Claimant-Forms/UIA-1901.pdf",
@@ -2816,7 +2816,7 @@ export const states: StateData[] = [
     abbreviation: "VT",
     maxWeeklyBenefit: 705,
     maxWeeks: 26,
-    waitingWeek: false,
+    waitingWeek: true,
     filingUrl: "https://labor.vermont.gov/unemployment-insurance/ui-claimants",
     filingPhone: "1-877-214-3330",
     handbookUrl: "https://labor.vermont.gov/sites/labor/files/doc_library/B-11Claimant%20handbook%202019.pdf",
@@ -2844,7 +2844,7 @@ export const states: StateData[] = [
       "Banking information for direct deposit"
     ],
     commonMistakes: [
-      "Filing late, Vermont has no waiting week, so file the day you separate",
+      "Filing late, Vermont's first eligible week is an unpaid waiting week, so file the day you separate to start it sooner",
       "Missing weekly certifications on labor.vermont.gov",
       "Skipping Vermont JobLink registration",
       "Not reporting maple sugaring or seasonal earnings"
@@ -2853,7 +2853,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in Vermont?",
-        answer: "Vermont pays up to $705 per week. There is no waiting week, benefits begin immediately."
+        answer: "Vermont pays up to $705 per week. The first eligible week of your claim is an unpaid waiting week: you must file a weekly claim for it to get credit, but you are not paid for it. Payment for your second week is processed shortly after you claim it."
       },
       {
         question: "How long can I receive benefits?",
@@ -2865,7 +2865,7 @@ export const states: StateData[] = [
       }
     ],
     tips: [
-      { headline: "No waiting week, file immediately.", body: "Vermont pays from your first eligible week. File the day you separate to maximize benefit weeks." },
+      { headline: "Vermont has an unpaid waiting week, so file the day you separate.", body: "Your first eligible week is an unpaid waiting week. You must file a weekly claim for it to get credit, but you are not paid for it. Filing the day you separate starts the waiting week sooner." },
       { headline: "Register on Vermont JobLink the same day.", body: "VT DOL blocks benefits until your Vermont JobLink profile is active. The two systems aren't automatically linked." },
       { headline: "Report seasonal earnings.", body: "Vermont's UI fund cross-references maple, ski-industry, and tourism employer reports. Underreporting triggers fraud investigations." },
       { headline: "Use labor.vermont.gov on desktop.", body: "Vermont's UI portal works best on a full browser. Mobile sessions have been known to drop mid-application." }
