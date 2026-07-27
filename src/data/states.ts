@@ -1751,22 +1751,22 @@ export const states: StateData[] = [
       "You complete weekly work search activities and report through Employ Nevada"
     ],
     howToFile: [
-      "Visit ui.nv.gov to file online",
-      "Create an account",
+      "Visit nui.nv.gov and create a Claimant Self-Service (CSS) account",
+      "Start a new claim; your claim takes effect the Sunday of the week you file",
       "Provide personal and employment information",
-      "Submit your claim",
-      "File weekly certifications"
+      "Register for work with EmployNV at employnv.gov (required)",
+      "Submit a Weekly Certification each week to get paid"
     ],
     documentsNeeded: [
       "Social Security number",
       "Nevada driver's license or state ID",
       "Employer information for every job in the past 18 months",
-      "Employ Nevada (employnv.gov) account credentials",
+      "EmployNV (employnv.gov) account credentials",
       "Banking information for direct deposit"
     ],
     commonMistakes: [
-      "Skipping Employ Nevada registration, DETR blocks payments until you're registered",
-      "Missing weekly certifications on ui.nv.gov",
+      "Skipping EmployNV registration, DETR blocks payments until you're registered",
+      "Missing your Weekly Certification on nui.nv.gov, no certification means no payment",
       "Not reporting tip income from Las Vegas hospitality jobs",
       "Filing late, Nevada doesn't backdate beyond your file week"
     ],
@@ -1782,14 +1782,14 @@ export const states: StateData[] = [
       },
       {
         question: "Can I file online?",
-        answer: "Yes. File at ui.nv.gov or call 1-702-486-0350."
+        answer: "Yes. File at nui.nv.gov through your Claimant Self-Service (CSS) account, or call 1-702-486-0350."
       }
     ],
     tips: [
-      { headline: "No waiting week, file immediately.", body: "Nevada pays from your first eligible week, unlike most states. Every day's filing delay is benefit days you can't recover." },
+      { headline: "No waiting week, file immediately.", body: "Nevada pays from your first eligible week, unlike most states. Your claim takes effect the Sunday of the week you file, so filing sooner starts your benefits sooner." },
       { headline: "Report all tip and gratuity income.", body: "Nevada's UI fund cross-references hospitality industry wage records. Underreporting tip income triggers overpayment investigations." },
-      { headline: "Register on Employ Nevada.", body: "DETR blocks benefits until your Employ Nevada profile is active. The two systems aren't automatically linked, register the same day you file." },
-      { headline: "File during off-peak hours.", body: "Nevada's ui.nv.gov has had outages during peak filing periods. Early morning or late evening sessions are most reliable." }
+      { headline: "Register on EmployNV.", body: "DETR blocks benefits until your EmployNV profile is active. The two systems aren't automatically linked, register the same day you file." },
+      { headline: "Use Benny and the how-to videos if you get stuck.", body: "The nui.nv.gov Claimant Self-Service portal has a built-in virtual assistant (Benny) and step-by-step how-to videos for filing, certifying, and appeals, available 24/7." }
     ]
   },
   {

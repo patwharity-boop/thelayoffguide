@@ -56,7 +56,7 @@ Priority queue (enrich, alphabetical, 5 per week):
 - [ ] [P] Missouri
 - [ ] [P] Montana
 - [ ] [P] Nebraska
-- [ ] [P] Nevada
+- [x] [P] Nevada  (2026-07-27: portal fix + verified, see Log)
 - [ ] [P] New Hampshire
 - [ ] [P] New Jersey
 - [ ] [P] New Mexico
@@ -81,3 +81,24 @@ Priority queue (enrich, alphabetical, 5 per week):
 ## Log
 - 2026-07-11: tracker created. Enrichment folded into weekly routine. First
   batch (Idaho–Maine) runs in the next weekly pass.
+- 2026-07-27: Nevada enriched + verified (pulled out of alphabetical order
+  because GSC shows it at position ~4-5 for ~250 impr/mo of "waiting week
+  nevada" queries — high-visibility, worth doing first).
+  - Portal URL bug fixed: howToFile/FAQ/commonMistakes/tips said "ui.nv.gov";
+    DETR's own Feb-2026 UI FAQ uses "nui.nv.gov" (Claimant Self-Service/CSS)
+    everywhere. Standardized to nui.nv.gov. filingUrl was already correct.
+  - Waiting-week claim VERIFIED to primary source and left as-is (false/none).
+    NRS 612.375 lists the complete general conditions for benefits "with
+    respect to any week" (a-d) with NO waiting-week condition; "waiting" and
+    "compensable" appear nowhere in NRS 612 or NAC 612. DETR handbook + FAQ
+    also describe no unpaid first week. NOTE: the DOL federal "Comparison of
+    State UI Laws" (2023) Table 3-7 lists NV as "1 week" — this is a secondary
+    summary and conflicts with NV's own current statute; trust the state law.
+  - Reworded howToFile/mistakes/tips to match current DETR mechanics (CSS
+    account, claim effective Sunday of file week, Weekly Certification,
+    EmployNV branding, Benny assistant). maxWeeklyBenefit $469 / 26 wks
+    unchanged (matches DOL Jan-2026 sigpros + DETR FAQ "up to 26 weeks").
+  - Suggest reweighting the priority queue by GSC impressions rather than
+    strict alphabetical: Texas (1090 impr, pos 34.8), California (984),
+    Pennsylvania (810), Louisiana (317, pos 45.7) are all high-impression
+    [P] states one enrichment nudge from page 1-2.
