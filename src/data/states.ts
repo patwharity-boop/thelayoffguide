@@ -2014,7 +2014,7 @@ export const states: StateData[] = [
     abbreviation: "NY",
     maxWeeklyBenefit: 869,
     maxWeeks: 26,
-    waitingWeek: false,
+    waitingWeek: true,
     filingUrl: "https://dol.ny.gov/how-do-i-file",
     filingPhone: "1-888-209-8124",
     handbookUrl: "https://dol.ny.gov/system/files/documents/2026/01/ui-claimant-handbook_1-26.pdf",
@@ -2055,7 +2055,7 @@ export const states: StateData[] = [
       },
       {
         question: "How long can I receive unemployment benefits in New York?",
-        answer: "You can receive benefits for up to 26 weeks. New York has no waiting week."
+        answer: "You can receive benefits for up to 26 weeks. New York has a 1-week unpaid waiting period: you are not paid for the first full week of your claim, but you must still claim it and stay eligible. File the week you separate so the waiting week starts right away."
       },
       {
         question: "Can I file for unemployment online in New York?",
@@ -2063,7 +2063,7 @@ export const states: StateData[] = [
       }
     ],
     tips: [
-      { headline: "No waiting week, file immediately.", body: "New York pays from your first eligible week. File the same week you separate, every day's delay is benefit days you can't recover." },
+      { headline: "New York has an unpaid waiting week, so file the day you separate.", body: "For claims filed since June 28, 2021, New York does not pay you for the first full week of your claim. You still have to claim that week and stay eligible. Filing immediately starts the waiting week sooner, so your first paid week comes sooner." },
       { headline: "Hit 3 work search activities each week.", body: "New York requires 3 documented work search activities. Falling short disqualifies the entire week, not just reduces it." },
       { headline: "Report all freelance and gig income.", body: "New York DOL cross-references 1099 records. Underreporting freelance income from platforms like Uber or Upwork triggers fraud investigations." },
       { headline: "File on your assigned day to skip queues.", body: "NY DOL assigns claimants a designated filing day based on the last name to spread server load. Filing on your day means faster processing." }
