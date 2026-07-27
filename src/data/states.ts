@@ -22,6 +22,9 @@ export interface StateData {
   // When present, overrides the global LAST_REVIEWED on the AuthorBlock and
   // in JSON-LD dateModified. Leave undefined to fall back to the global date.
   lastReviewedAt?: string;
+  // Optional override for the page meta description. When present, replaces
+  // the auto-generated template in generateMetadata. Keep under 160 chars.
+  metaDescription?: string;
 }
 
 // Per-state unemployment data sourced from each state's Department of Labor or workforce agency (2026).
@@ -94,7 +97,8 @@ export const states: StateData[] = [
       { headline: "Pick direct deposit at filing.", body: "Alabama's default Way2Go debit card takes 7-10 days to arrive in the mail. Direct deposit gets you paid a week sooner." },
       { headline: "Log every job contact in writing.", body: "ADOL audits work search activity, and a missing date, employer, or contact method can disqualify the entire week." },
       { headline: "Call ADOL early in the morning.", body: "Hold times stretch mid-day. Calls placed at 8 AM Central time typically reach a representative fastest." }
-    ]
+    ],
+    metaDescription: "Alabama: $275/week max, 26 weeks. 1-week unpaid wait before pay starts. File ADOL portal the week you're laid off. Your start date is your filing week."
   },
   {
     name: "Alaska",
@@ -163,7 +167,8 @@ export const states: StateData[] = [
       { headline: "Report seasonal earnings honestly.", body: "Alaska's UI fund cross-references Department of Fish and Game and Permanent Fund Dividend records, discrepancies trigger overpayment investigations." },
       { headline: "Keep your address current with DOLWD.", body: "Alaska mails monetary determinations and appeal deadlines, missing one letter can cost you the right to appeal a denial." },
       { headline: "Read the Alaska UI Handbook before calling.", body: "It explains the union hiring hall and seasonal industry rules that are unique to Alaska and confuse most first-time claimants." }
-    ]
+    ],
+    metaDescription: "Alaska: $370/week max, 26 weeks, 1-week wait. File at my.alaska.gov the week you separate. Fishing crew wages may not count toward your base period claim."
   },
   {
     name: "Arizona",
@@ -232,7 +237,8 @@ export const states: StateData[] = [
       { headline: "Hit all four work search activities weekly.", body: "Arizona's minimum is higher than most states. Falling short on any week disqualifies that week's payment, not just reduces it." },
       { headline: "Keep USCIS documents ready.", body: "Non-citizens with valid work authorization still cannot complete Arizona's DES intake without their alien registration number on hand." },
       { headline: "Respond to DES requests within deadlines.", body: "Arizona mails or emails wage verification requests with short turnarounds, missing the window suspends your claim until you respond." }
-    ]
+    ],
+    metaDescription: "Arizona: up to $320/week, 26 weeks, 1-week wait. File DES online the week you're laid off. Benefits date from your filing week, not your last day of work."
   },
   {
     name: "Arkansas",
@@ -301,7 +307,8 @@ export const states: StateData[] = [
       { headline: "File the day you're separated, if you can.", body: "Arkansas does not backdate claims. Even a 3-day delay can cost you a full week of benefits at $451/week." },
       { headline: "Track weekly job contacts on paper too.", body: "DWS audits work search records and the online portal occasionally loses entries, keep a backup log with date, employer, and method." },
       { headline: "Read the 2026 UI Handbook on dws.arkansas.gov.", body: "Arkansas's monetary requirements changed for 2026, the handbook explains the new thresholds in plain language." }
-    ]
+    ],
+    metaDescription: "Arkansas: $451/week max but only 12 weeks total. One of the shortest caps in the U.S. 1-week wait. File DWS the week you're laid off."
   },
   {
     name: "California",
@@ -376,7 +383,8 @@ export const states: StateData[] = [
       { headline: "Certify every two weeks, not every week.", body: "California is one of the few states that uses biweekly certification. Many first-time claimants miss this and lose payments." },
       { headline: "Use UI Online from a desktop browser.", body: "The mobile EDD experience is unstable, long forms time out and lose your work. A laptop session is the safest way to certify." },
       { headline: "Respond to every EDD letter immediately.", body: "EDD frequently mails 'request for additional information' notices with 10-day deadlines. Missing one suspends your claim until the response is processed." }
-    ]
+    ],
+    metaDescription: "California EDD: $450/week max, 26 weeks, 1-week wait. File edd.ca.gov the week you're laid off. Many first denials are reversible. File an appeal if rejected."
   },
   {
     name: "Colorado",
