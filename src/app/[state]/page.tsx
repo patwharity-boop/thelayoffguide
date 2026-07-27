@@ -39,7 +39,7 @@ export async function generateMetadata({
   const year = new Date().getFullYear();
   return buildPageMetadata({
     title: `${state.name} Unemployment ${year}: $${state.maxWeeklyBenefit}/wk Max Benefit, How to File`,
-    description: `${state.name}: up to $${state.maxWeeklyBenefit}/week for ${state.maxWeeks} weeks, ${state.waitingWeek ? "1-week wait" : "no waiting week"}. File online the week you're laid off. Step-by-step eligibility and filing guide for ${state.abbreviation}.`,
+    description: state.metaDescription ?? `${state.name}: up to $${state.maxWeeklyBenefit}/week for ${state.maxWeeks} weeks, ${state.waitingWeek ? "1-week wait" : "no waiting week"}. File online the week you're laid off. Step-by-step eligibility and filing guide for ${state.abbreviation}.`,
     path: `/${slug}`,
   });
 }
