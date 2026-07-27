@@ -89,6 +89,15 @@ const quickStart = [
     link: "https://www.osha.gov/training/outreach",
   },
   {
+    title: "Security Guard (Unarmed)",
+    training: "4–42 hours (state guard-card, varies by state)",
+    salary: "$30K–$60K ($38K median)",
+    outlook: "1.3M jobs, ~162,000 openings a year (BLS). Flat growth, but constant hiring from turnover makes it easy to get in.",
+    description:
+      "One of the easiest jobs to get on this list. Most states require a short guard-card license, a few hours to a few days of training plus a background check, then employers hire fast. Demand is steady year round at offices, retail, events, and construction sites. Pay is modest for unarmed work, but armed and specialized roles pay more once you have experience.",
+    link: "https://www.bls.gov/ooh/protective-service/security-guards.htm",
+  },
+  {
     title: "FAA Drone Pilot (Part 107)",
     training: "1–4 weeks",
     salary: "$40K–$75K (freelance: $100K+)",
@@ -366,16 +375,7 @@ const trades = [
     outlook: "Fastest growing job in America, 45-50% growth",
     description:
       "The single fastest growing occupation in the country. Short training, good pay, and you're literally building the future. Programs available at many community colleges.",
-  },
-  {
-    title: "Commercial Truck Driver (CDL)",
-    training: "3–8 weeks",
-    salary: "$50K–$80K+",
-    outlook: "Huge shortage, companies are desperate for drivers",
-    description:
-      "One of the absolute fastest paths to a good paycheck. CDL training takes weeks, not months. Many trucking companies will pay for your training in exchange for a commitment.",
-  },
-  {
+  },  {
     title: "Welding",
     training: "6 months–2 years",
     salary: "$45K–$75K+ (specialized welders earn $100K+)",
