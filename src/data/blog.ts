@@ -113,18 +113,18 @@ Most states have a second level of appeal (to a Board of Review). You can also c
       "Which states have the best unemployment benefits? We ranked all 50 states by weekly benefit, duration, and total payout.",
     date: "2026-04-06",
     content: `
-Not all unemployment benefits are created equal. Depending on which state you live in, you could receive anywhere from $235 to $1,208 per week, and for as few as 12 weeks or as many as 28. Here's how every state stacks up.
+Not all unemployment benefits are created equal. Depending on which state you live in, you could receive anywhere from $235 to $1,208 per week, and for as few as 12 weeks or as many as 30. Here's how every state stacks up.
 
 ## The Best States for Unemployment Benefits
 
 ### 1. Washington, $1,208/week, 26 weeks
 The highest maximum weekly benefit in the country. Washington's system is based on hours worked (680 hours minimum) rather than dollar amounts, which can make it easier to qualify.
 
-### 2. Massachusetts, $1,105/week, 26 weeks
-The highest on the East Coast, especially with the dependency allowance. Massachusetts also has a relatively straightforward filing process.
+### 2. Massachusetts, $1,105/week, 30 weeks
+The highest on the East Coast, especially with the dependency allowance, and one of the longest durations in the country (Massachusetts pays up to 30 weeks when the state unemployment rate is high enough to trigger it). Massachusetts also has a relatively straightforward filing process.
 
 ### 3. Minnesota, $948/week, 26 weeks
-Strong benefits and no waiting week. Minnesota also has good resources for job seekers through their workforce centers.
+Strong benefits, and Minnesota has good resources for job seekers through their workforce centers.
 
 ### 4. New Jersey, $905/week, 26 weeks
 High benefits with a dependency allowance. New Jersey raised its maximum weekly benefit to $905 effective January 2026.
@@ -134,7 +134,7 @@ One of the highest in the western US, with strong online filing tools and indexe
 
 ## The Worst States for Unemployment Benefits
 
-### 46. Louisiana, $275/week, 12 weeks
+### 46. Louisiana, $282/week, 12 weeks
 Low maximum and Louisiana caps current claims at 12 weeks under its sliding-scale duration formula (the higher end of the 12-20 week range only kicks in during higher unemployment).
 
 ### 47. Tennessee, $325/week, 12 weeks
@@ -153,7 +153,7 @@ The lowest maximum weekly benefit in the nation.
 
 - **Your state matters enormously.** The difference between Washington ($1,208/wk for 26 weeks = $31,408 max) and Mississippi ($235/wk for 26 weeks = $6,110 max) is more than $25,000.
 - **Duration matters as much as weekly amount.** Florida's $275/week for only 12 weeks means a max payout of just $3,300, the lowest total in the country.
-- **States without a waiting week** (TX, NY, CT, and others) start paying you faster.
+- **States without a waiting week** (Connecticut, New Jersey, Georgia, Iowa, and a handful of others) start paying you faster. Most states make you serve one unpaid week first.
 - **These are maximums.** Your actual benefit depends on your earnings. Most people receive 40-60% of their previous weekly wage.
 
 Check your state's specific guide on our [homepage](/) for detailed filing instructions and current benefit amounts.
