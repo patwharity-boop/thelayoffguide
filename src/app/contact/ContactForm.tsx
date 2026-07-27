@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // Web3Forms access key. This is PUBLIC by design: it only permits submitting a
 // message to the destination Gmail configured on the Web3Forms account. It cannot
@@ -23,6 +23,22 @@ export default function ContactForm() {
   const [message, setMessage] = useState("");
   const [botcheck, setBotcheck] = useState(""); // honeypot: humans leave this empty
   const [status, setStatus] = useState<Status>("idle");
+  // When a reader clicks "Report a correction" from a state or blog page, we deep
+  // link here with ?category=correction&ref=/nevada. Read those on mount (via
+  // window.location to avoid a useSearchParams Suspense boundary on this static
+  // page): pre-select the correction category and remember which page they were
+  // on, so the emailed report says exactly what page is wrong. No email needed
+  // from the reader.
+  const [reportedPage, setReportedPage] = useState("");
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("category") === "correction") {
+      setCategory("Site info correction (wrong/outdated)");
+    }
+    const ref = params.get("ref");
+    if (ref && ref.startsWith("/")) setReportedPage(ref);
+  }, []);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -43,6 +59,7 @@ export default function ContactForm() {
           name,
           email,
           message,
+          reported_page: reportedPage,
           page_url:
             typeof window !== "undefined" ? window.location.href : "",
           botcheck,
@@ -85,6 +102,15 @@ export default function ContactForm() {
         className="absolute left-[-9999px] h-0 w-0 opacity-0"
         aria-hidden="true"
       />
+
+      {reportedPage && (
+        <div className="rounded-lg border border-blue-200 bg-blue-50 px-4 py-3 text-sm text-gray-800">
+          You&apos;re reporting a possible issue on{" "}
+          <span className="font-semibold">{reportedPage}</span>. Tell us what looks
+          wrong or outdated below, and a link to the correct info if you have one.
+          No email needed unless you&apos;d like a reply.
+        </div>
+      )}
 
       <div>
         <label htmlFor="category" className={labelClass}>

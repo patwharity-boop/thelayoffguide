@@ -470,6 +470,27 @@ export default async function StatePage({
         </section>
       )}
 
+      {/* Accuracy commitment + report-a-correction. Reuses the existing
+          Web3Forms contact form via a deep link that pre-selects the
+          "correction" category and passes this page as ?ref, so a report lands
+          in the inbox already labeled with the page, and the reader never has
+          to enter an email. Doubles as an E-E-A-T trust signal. */}
+      <section className="mb-10">
+        <div className="rounded-lg border border-gray-200 bg-gray-50 p-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-sm text-gray-700">
+            We verify {state.name}&apos;s benefit amounts and filing steps against
+            official state sources and review this page regularly. See something
+            outdated or wrong?
+          </p>
+          <Link
+            href={`/contact?category=correction&ref=/${state.slug}`}
+            className="shrink-0 font-semibold text-blue-700 hover:text-blue-900 underline whitespace-nowrap"
+          >
+            Report a correction &rarr;
+          </Link>
+        </div>
+      </section>
+
       {/* FAQ Schema for Google */}
       <script
         type="application/ld+json"
