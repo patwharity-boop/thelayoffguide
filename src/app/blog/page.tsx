@@ -95,6 +95,7 @@ export default function BlogPage() {
         </h2>
         <div className="space-y-6">
           {[
+            { slug: "employer-relocation-unemployment", title: "Can You Collect Unemployment If Your Company Moves and You Can’t Follow?", description: "Your employer is relocating and you can’t move. Is that a layoff or a voluntary quit? How states apply good-cause-quit rules, constructive discharge, severance, and how to document your claim.", date: "2026-07-27" },
             { slug: "ai-layoffs-2026", title: "Laid Off Because of AI? What the Data Shows and What to Do (2026)", description: "AI became the most-cited reason for US layoffs in early 2026. Which roles are vulnerable, what's actually hiring, and where to pivot after an AI-driven layoff.", date: "2026-06-29" },
             { slug: "warn-act-guide", title: "WARN Act Notice: What a 60-Day Advance Layoff Notice Actually Means", description: "Got a WARN notice? What the 60-day federal notice requires, the three exceptions employers use, state rules in CA/NY/NJ, and how to use the window.", date: "2026-06-29" },
             { slug: "working-part-time-on-unemployment", title: "Working Part-Time While on Unemployment: Partial Benefits and Gig Work (2026)", description: "Partial unemployment lets you work some and keep part of your benefit, often stretching it further. How it works, New York\u2019s hours-based system in detail, and how to handle Upwork and gig income.", date: "2026-06-08" },
