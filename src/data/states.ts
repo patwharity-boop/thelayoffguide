@@ -388,6 +388,7 @@ export const states: StateData[] = [
   },
   {
     name: "Colorado",
+    metaDescription: "Colorado: up to $844/week, 26 weeks. 1-week unpaid wait. File MyUI+ the week you're laid off. Must log 5 employer contacts per week or lose that week's payment.",
     slug: "colorado",
     abbreviation: "CO",
     maxWeeklyBenefit: 844,
@@ -513,7 +514,8 @@ export const states: StateData[] = [
       { headline: "No waiting week, file immediately.", body: "Connecticut pays from your first eligible week, unlike most states. A delayed filing is pure money lost." },
       { headline: "Register with the American Job Center.", body: "CTDOL holds benefits until you register at your local AJC. Do it the same week you file to avoid a payment gap." },
       { headline: "Use a desktop browser for UI Online.", body: "The Connecticut UI Online portal is older than most. Mobile sessions time out frequently mid-application, desktop is more reliable." }
-    ]
+    ],
+    metaDescription: "Connecticut: up to $721/week, 26 weeks. No waiting period -- paid from week one. File CTDOL online. Severance may delay your first payment."
   },
   {
     name: "Delaware",
@@ -574,7 +576,8 @@ export const states: StateData[] = [
       { headline: "Read the DUI Claimant Handbook before calling.", body: "Delaware's call center is small and hold times are long, the handbook answers most first-time questions in writing." },
       { headline: "Document every employer contact.", body: "Delaware requires written records of weekly work search activity. DUI audits randomly and a missing entry disqualifies the week." },
       { headline: "Watch the mail for monetary determinations.", body: "Delaware mails the determination of your weekly benefit amount, the appeal window starts the date of the letter, not the date you receive it." }
-    ]
+    ],
+    metaDescription: "Delaware: $450/week max, 26 weeks. 1-week wait. File ui.delawareworks.com the week you separate. No backdating. Appeal clock starts from letter date."
   },
   {
     name: "Florida",
@@ -639,7 +642,8 @@ export const states: StateData[] = [
       { headline: "Try CONNECT at 5-7 AM Eastern.", body: "Florida's CONNECT portal slows to a crawl during business hours. Early morning filings complete in minutes instead of hours." },
       { headline: "Plan your finances for 12 weeks max.", body: "Florida ties with North Carolina for the shortest duration in the country, start your job search aggressively from week one." },
       { headline: "Keep all 5 weekly employer contacts in writing.", body: "DEO audits work search and the CONNECT system has been known to lose records. A paper backup protects your weekly payments." }
-    ]
+    ],
+    metaDescription: "Florida: up to $275/week, only 12 weeks max. 1-week wait. File at connect.myflorida.com. Register on Employ Florida separately -- DEO won't pay until you do."
   },
   {
     name: "Georgia",
@@ -700,7 +704,8 @@ export const states: StateData[] = [
       { headline: "Complete the GDOL career workshops.", body: "Georgia requires online workshops as part of weekly eligibility. Skipping one disqualifies the week's payment." },
       { headline: "Keep the MyUI Claimant Portal as your single source of truth.", body: "GDOL communicates almost exclusively through the portal, check it daily, not weekly, to avoid missing requests." },
       { headline: "File during off-peak hours.", body: "GDOL's online system has had outages during peak filing periods. Early morning or late evening filings are most reliable." }
-    ]
+    ],
+    metaDescription: "Georgia: up to $365/week, only 14 weeks. 1-week wait. File MyUI the week you're laid off. Miss required GDOL career workshops and lose that week's payment."
   },
   {
     name: "Hawaii",
@@ -1144,6 +1149,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Kentucky?",
         answer: "Yes. File at kcc.ky.gov or call 1-502-875-0442."
+      },
+      {
+        question: "Who qualifies for unemployment in Kentucky?",
+        answer: "You qualify if you separated from a Kentucky employer through no fault of your own, earned at least $1,500 in one base period quarter and another $1,500 across the remaining three quarters, your total base period wages equal at least 1.5 times your highest quarter, and you are able and available for full-time work."
+      },
+      {
+        question: "When should I apply for unemployment in Kentucky?",
+        answer: "File the same week you separate. Kentucky has a one-week unpaid waiting period (you must certify it, but you won't be paid for it). Filing sooner starts that waiting week sooner. Kentucky uses biweekly certification, so mark your two-week certification deadline on the calendar from your first week."
       }
     ],
     tips: [
@@ -1205,6 +1218,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Louisiana?",
         answer: "Yes. File at laworks.net or call 1-866-783-5567."
+      },
+      {
+        question: "Who qualifies for unemployment in Louisiana?",
+        answer: "You qualify if you separated from a Louisiana employer through no fault of your own, earned at least $1,200 in base period wages with earnings in two or more quarters, are able and available for full-time work, and register with HiRE, Louisiana's mandatory workforce portal."
+      },
+      {
+        question: "When should I apply for unemployment in Louisiana?",
+        answer: "File the same week you separate. Louisiana has a one-week unpaid waiting period -- you must certify that week but won't be paid for it. Filing sooner starts the waiting week sooner. Register on HiRE the same day you file; Louisiana blocks payments until your HiRE profile is active."
       }
     ],
     tips: [
@@ -1266,6 +1287,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Maine?",
         answer: "Yes. File at ReEmployME.maine.gov or call 1-800-593-7660."
+      },
+      {
+        question: "Who qualifies for unemployment in Maine?",
+        answer: "You qualify if you separated from a Maine employer through no fault of your own, earned at least $7,193 in base period wages with earnings in two or more quarters, and are able and available for full-time work. You must also register on Maine JobLink, which is required before benefits will be paid."
+      },
+      {
+        question: "When should I apply for unemployment in Maine?",
+        answer: "File the same week you separate. Maine has a one-week unpaid waiting period -- you must certify it but won't be paid for it. Filing sooner starts that waiting week sooner. Register on Maine JobLink the same day you file; ReEmployME holds all payments until your JobLink profile is active."
       }
     ],
     tips: [
