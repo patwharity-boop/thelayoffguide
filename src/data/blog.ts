@@ -153,7 +153,7 @@ The lowest maximum weekly benefit in the nation.
 
 - **Your state matters enormously.** The difference between Washington ($1,208/wk for 26 weeks = $31,408 max) and Mississippi ($235/wk for 26 weeks = $6,110 max) is more than $25,000.
 - **Duration matters as much as weekly amount.** Florida's $275/week for only 12 weeks means a max payout of just $3,300, the lowest total in the country.
-- **States without a waiting week** (Connecticut, New Jersey, Georgia, Iowa, and a handful of others) start paying you faster. Most states make you serve one unpaid week first.
+- **States without a waiting week** (Connecticut, New Jersey, Maryland, Iowa, and a handful of others) start paying you faster. Most states make you serve one unpaid week first.
 - **These are maximums.** Your actual benefit depends on your earnings. Most people receive 40-60% of their previous weekly wage.
 
 Check your state's specific guide on our [homepage](/) for detailed filing instructions and current benefit amounts.
