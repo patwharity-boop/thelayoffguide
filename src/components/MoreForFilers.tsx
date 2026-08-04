@@ -43,6 +43,24 @@ const ARTICLES: Article[] = [
     blurb:
       "Complete day-by-day guide for your first month after losing your job.",
   },
+  {
+    slug: "/blog/ai-layoffs-2026",
+    title: "Laid Off Because of AI? What the Data Shows and What to Do",
+    blurb:
+      "AI became the most-cited reason for US layoffs in early 2026. Which roles are vulnerable, what's actually hiring, and where to pivot.",
+  },
+  {
+    slug: "/blog/warn-act-guide",
+    title: "WARN Act Notice: What a 60-Day Advance Layoff Notice Actually Means",
+    blurb:
+      "Got a WARN notice? What the 60-day federal notice requires, the exceptions employers use, and how to use the window.",
+  },
+  {
+    slug: "/blog/employer-relocation-unemployment",
+    title: "Can You Collect Unemployment If Your Company Moves and You Can't Follow?",
+    blurb:
+      "Your employer is relocating and you can't move. Is that a layoff or a voluntary quit? How states decide.",
+  },
 ];
 
 export default function MoreForFilers({ stateName }: { stateName: string }) {
