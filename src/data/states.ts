@@ -453,7 +453,8 @@ export const states: StateData[] = [
       { headline: "Hit 5 employer contacts every week.", body: "Colorado requires more weekly contacts than most states. Falling below 5 disqualifies the entire week, not just reduces it." },
       { headline: "Colorado's first week is an unpaid waiting week, so file the day you separate.", body: "By law, CDLE cannot pay benefits for the first week of your claim. You still must request payment for it. Filing the day you separate starts the waiting week sooner, so your first paid week comes sooner." },
       { headline: "Register at your local Workforce Center early.", body: "Colorado verifies your in-person or online workforce center registration before releasing benefits, do it the same week you file." }
-    ]
+    ],
+    metaDescription: "Colorado: $844/week max, 26 weeks, 1-week wait. File MyUI+ the week you separate. Must document 5 employer contacts per week through CDLE."
   },
   {
     name: "Connecticut",
@@ -506,6 +507,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Connecticut?",
         answer: "Yes. File online at the CT DOL website or call 1-860-263-6970."
+      },
+      {
+        question: "Who qualifies for unemployment in Connecticut?",
+        answer: "You qualify if you separated from your Connecticut job through no fault of your own, earned at least $1,760 across your base period, are physically able and available for full-time work, and make at least 3 employer contacts per week. Register with your local American Job Center."
+      },
+      {
+        question: "When should I apply for unemployment in Connecticut?",
+        answer: "File the same week you separate. Connecticut has no waiting week, so every delayed day is a lost benefit day. The CTDOL website accepts online applications 24/7 at ctdol.state.ct.us."
       }
     ],
     tips: [
@@ -513,7 +522,8 @@ export const states: StateData[] = [
       { headline: "No waiting week, file immediately.", body: "Connecticut pays from your first eligible week, unlike most states. A delayed filing is pure money lost." },
       { headline: "Register with the American Job Center.", body: "CTDOL holds benefits until you register at your local AJC. Do it the same week you file to avoid a payment gap." },
       { headline: "Use a desktop browser for UI Online.", body: "The Connecticut UI Online portal is older than most. Mobile sessions time out frequently mid-application, desktop is more reliable." }
-    ]
+    ],
+    metaDescription: "Connecticut: $721/week max, 26 weeks, no waiting week. File CTDOL immediately. Severance may delay your start. 3 weekly employer contacts required."
   },
   {
     name: "Delaware",
@@ -567,6 +577,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Delaware?",
         answer: "Yes. File online at ui.delawareworks.com or call 1-302-761-8446."
+      },
+      {
+        question: "Who qualifies for unemployment in Delaware?",
+        answer: "You qualify if you separated from your Delaware job through no fault of your own, have total base period wages of at least 36 times your calculated weekly benefit rate, are able and available for full-time work, and complete weekly work search activities."
+      },
+      {
+        question: "When should I apply for unemployment in Delaware?",
+        answer: "File the same week you separate. Delaware's effective date is the Sunday of the filing week, so waiting even a few days can cost you a full week of benefits. File online at ui.delawareworks.com or call 1-302-761-8446."
       }
     ],
     tips: [
@@ -574,7 +592,8 @@ export const states: StateData[] = [
       { headline: "Read the DUI Claimant Handbook before calling.", body: "Delaware's call center is small and hold times are long, the handbook answers most first-time questions in writing." },
       { headline: "Document every employer contact.", body: "Delaware requires written records of weekly work search activity. DUI audits randomly and a missing entry disqualifies the week." },
       { headline: "Watch the mail for monetary determinations.", body: "Delaware mails the determination of your weekly benefit amount, the appeal window starts the date of the letter, not the date you receive it." }
-    ]
+    ],
+    metaDescription: "Delaware: $450/week max, 26 weeks, 1-week wait. File ui.delawareworks.com the week you separate. Benefits date from Sunday of your filing week."
   },
   {
     name: "Florida",
@@ -632,6 +651,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Florida?",
         answer: "Yes. File at connect.myflorida.com or call 1-800-204-2418. The online system is available 24/7 but can be slow."
+      },
+      {
+        question: "Who qualifies for unemployment in Florida?",
+        answer: "You qualify if you separated from your Florida job through no fault of your own, earned at least $3,400 in your base period across at least two quarters, are able and immediately available for full-time work, make 5 employer contacts each week, and register on Employ Florida."
+      },
+      {
+        question: "When should I apply for unemployment in Florida?",
+        answer: "File the week you separate. Benefits date from your filing week, not your last day of work. Also register on employflorida.com the same day since DEO will not release payment without that step completed."
       }
     ],
     tips: [
@@ -639,7 +666,8 @@ export const states: StateData[] = [
       { headline: "Try CONNECT at 5-7 AM Eastern.", body: "Florida's CONNECT portal slows to a crawl during business hours. Early morning filings complete in minutes instead of hours." },
       { headline: "Plan your finances for 12 weeks max.", body: "Florida ties with North Carolina for the shortest duration in the country, start your job search aggressively from week one." },
       { headline: "Keep all 5 weekly employer contacts in writing.", body: "DEO audits work search and the CONNECT system has been known to lose records. A paper backup protects your weekly payments." }
-    ]
+    ],
+    metaDescription: "Florida Reemployment Assistance: $275/week, 12 weeks max. Register Employ Florida AND file CONNECT the week you separate. 5 weekly job contacts required."
   },
   {
     name: "Georgia",
@@ -693,6 +721,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Georgia?",
         answer: "Yes. File at the Georgia DOL website or call 1-877-709-8185."
+      },
+      {
+        question: "Who qualifies for unemployment in Georgia?",
+        answer: "You qualify if you separated from your Georgia job through no fault of your own, earned at least $1,134 across your two highest base period quarters with wages in two or more quarters, and are physically able and available for full-time Georgia work."
+      },
+      {
+        question: "When should I apply for unemployment in Georgia?",
+        answer: "File the same week you separate. Georgia does not backdate claims before the Sunday of your filing week, so waiting even a few days can cost you a full week of benefits. File online through the Georgia DOL website or call 1-877-709-8185."
       }
     ],
     tips: [
@@ -700,7 +736,8 @@ export const states: StateData[] = [
       { headline: "Complete the GDOL career workshops.", body: "Georgia requires online workshops as part of weekly eligibility. Skipping one disqualifies the week's payment." },
       { headline: "Keep the MyUI Claimant Portal as your single source of truth.", body: "GDOL communicates almost exclusively through the portal, check it daily, not weekly, to avoid missing requests." },
       { headline: "File during off-peak hours.", body: "GDOL's online system has had outages during peak filing periods. Early morning or late evening filings are most reliable." }
-    ]
+    ],
+    metaDescription: "Georgia: $365/week max, 14 weeks, 1-week wait. File GDOL the week you're laid off. Miss the required career workshops and you lose that week's payment."
   },
   {
     name: "Hawaii",
