@@ -746,6 +746,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 868,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Hawaii: $868/week max, 26 weeks, 1-week wait. File huiclaims.hawaii.gov the week you separate. HireNet Hawaii registration required or payments are held.",
     filingUrl: "https://huiclaims.hawaii.gov/",
     filingPhone: "1-808-762-5751",
     handbookUrl: "https://labor.hawaii.gov/ui/files/2026/01/DLIR-UI-Claimant-Handbook-Rev1.26-with-BABEL.pdf",
@@ -791,6 +792,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Hawaii?",
         answer: "Yes. File at huiclaims.hawaii.gov or call 1-808-762-5751."
+      },
+      {
+        question: "Who qualifies for unemployment in Hawaii?",
+        answer: "You qualify if you separated from your Hawaii employer through no fault of your own, have wages in at least two base period quarters with total base period wages of at least 26 times your weekly benefit amount, and are able and available to accept full-time work in Hawaii."
+      },
+      {
+        question: "When should I apply for unemployment in Hawaii?",
+        answer: "File the same week you separate from your employer. Hawaii pays from the Sunday of the week you file, not your separation date. Waiting even a few days means losing that week of benefits."
       }
     ],
     tips: [
@@ -807,6 +816,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 590,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Idaho: $590/week max, 10-26 weeks, 1-week wait. File labor.idaho.gov immediately -- Idaho doesn't backdate claims. 2 Idaho employer contacts required weekly.",
     filingUrl: "https://www.labor.idaho.gov/unemployment/",
     filingPhone: "1-208-332-8942",
     handbookUrl: "https://www.labor.idaho.gov/wp-content/uploads/publications/UIClaimant_Booklet.pdf",
@@ -876,6 +886,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 628,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Illinois: up to $628/week ($859 with dependents), 26 weeks, 1-week wait. File IDES and IllinoisJobLink.com the same day or payments won't start.",
     filingUrl: "https://ides.illinois.gov/unemployment/file-a-claim.html",
     filingPhone: "1-800-244-5631",
     handbookUrl: "https://ides.illinois.gov/content/dam/soi/en/web/ides/ides_forms_and_publications/cli105l.pdf",
@@ -921,6 +932,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Illinois?",
         answer: "Yes. File at ides.illinois.gov or call 1-800-244-5631."
+      },
+      {
+        question: "Who qualifies for unemployment in Illinois?",
+        answer: "You qualify if you lost your Illinois job through no fault of your own, earned at least $1,600 in your base period with at least $440 outside your highest quarter, and are able and immediately available for full-time Illinois work."
+      },
+      {
+        question: "When should I apply for unemployment in Illinois?",
+        answer: "File the same week you separate from your employer and register at IllinoisJobLink.com the same day. IDES won't release payments until both steps are complete. Illinois certifies biweekly, so track the two-week windows carefully."
       }
     ],
     tips: [
@@ -937,6 +956,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 390,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Indiana: $390/week max, 26 weeks, 1-week wait. File Unemployment.IN.gov the week you separate. Submit weekly 'vouchers' in Uplink or your claim goes inactive.",
     filingUrl: "https://www.in.gov/dwd/indiana-unemployment/file/",
     filingPhone: "1-800-891-6499",
     handbookUrl: "https://www.in.gov/dwd/files/Claimant_Handbook.pdf",
@@ -982,6 +1002,14 @@ export const states: StateData[] = [
       {
         question: "Can I file for unemployment online in Indiana?",
         answer: "Yes. File at Unemployment.IN.gov or call 1-800-891-6499."
+      },
+      {
+        question: "Who qualifies for unemployment in Indiana?",
+        answer: "You qualify if you lost your Indiana job through no fault of your own, earned at least $4,200 in base period wages with earnings in the last two quarters, and are able and available for full-time Indiana employment."
+      },
+      {
+        question: "When should I apply for unemployment in Indiana?",
+        answer: "File the same week you separate from your employer at Unemployment.IN.gov. Indiana doesn't backdate claims beyond the filing week, so delay costs you benefits. After filing, submit weekly 'vouchers' in Uplink to keep your claim active."
       }
     ],
     tips: [
@@ -998,6 +1026,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 763,
     maxWeeks: 16,
     waitingWeek: false,
+    metaDescription: "Iowa: $763/week max (with dependents), only 16 weeks, no waiting week -- benefits start week one. File Iowa Workforce Development immediately. IowaWORKS registration required.",
     filingUrl: "https://www.iowaworkforcedevelopment.gov/file-claim-unemployment-insurance-benefits",
     filingPhone: "1-866-239-0843",
     handbookUrl: "https://www.iowaworkforcedevelopment.gov/book/export/html/37356",
