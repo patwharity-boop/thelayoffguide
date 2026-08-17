@@ -745,7 +745,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Hawaii?",
-        answer: "Hawaii pays up to $871 per week, one of the highest in the nation."
+        answer: "Hawaii pays up to $868 per week for 2026, one of the highest in the nation."
       },
       {
         question: "How long can I receive unemployment benefits in Hawaii?",
