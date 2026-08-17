@@ -975,7 +975,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["south-carolina"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.dew.sc.gov/individuals/applying-benefits",
+    sourceUrl: "https://www.dew.sc.gov/individuals/how-unemployment-insurance-works/weekly-benefit-amount",
     publishedAt: "2026-06-04",
   },
 
