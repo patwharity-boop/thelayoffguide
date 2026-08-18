@@ -845,7 +845,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["ohio"],
     topics: ["filing", "portal"],
     source: "research",
-    sourceUrl: "https://jfs.ohio.gov/unemployment-and-workers-comp/unemployment-insurance",
+    sourceUrl: "https://jfs.ohio.gov/unemployment-services",
     publishedAt: "2026-06-04",
   },
   {
@@ -855,7 +855,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["ohio"],
     topics: ["severance"],
     source: "research",
-    sourceUrl: "https://jfs.ohio.gov/unemployment-and-workers-comp/unemployment-insurance",
+    sourceUrl: "https://jfs.ohio.gov/unemployment-services",
     publishedAt: "2026-06-04",
   },
 
