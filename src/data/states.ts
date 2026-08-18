@@ -1026,7 +1026,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 763,
     maxWeeks: 16,
     waitingWeek: false,
-    metaDescription: "Iowa: $763/week max (with dependents), only 16 weeks, no waiting week -- benefits start week one. File Iowa Workforce Development immediately. IowaWORKS registration required.",
+    metaDescription: "Iowa: $763/week max (with dependents), 16 weeks, no waiting week -- benefits start week one. File IWD same week. IowaWORKS registration required.",
     filingUrl: "https://www.iowaworkforcedevelopment.gov/file-claim-unemployment-insurance-benefits",
     filingPhone: "1-866-239-0843",
     handbookUrl: "https://www.iowaworkforcedevelopment.gov/book/export/html/37356",
