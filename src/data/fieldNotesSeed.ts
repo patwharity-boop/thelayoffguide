@@ -1322,7 +1322,7 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "multi-work-search-strict-states",
-    title: "Strict work-search states: WI 4, AZ 4, NC 3, MD 3, TN 3, WA 3",
+    title: "Strict work-search states: WI 4, AZ 4, TN 4, NC 3, MD 3, WA 3",
     body: "Several states require a high number of weekly work-search activities: Wisconsin 4, Arizona 4, Tennessee 4, North Carolina 3, Maryland 3, and Washington 3. These states also run frequent work-search audits, so log each activity with the employer name, method, date, and result, and keep the records for at least a year in case you are asked to prove them.",
     states: ["wisconsin", "arizona", "north-carolina", "maryland", "tennessee", "washington"],
     topics: ["cert"],
