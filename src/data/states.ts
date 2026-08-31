@@ -2077,7 +2077,8 @@ export const states: StateData[] = [
       { headline: "Document weekly job contacts.", body: "NM DWS audits work search records randomly. Keep a written log with date, employer, position, and contact method for every week claimed." },
       { headline: "Apply for SNAP if you qualify.", body: "At $598/week max, many New Mexico claimants also qualify for HSD assistance programs. Filing both the same week maximizes your safety net." },
       { headline: "Watch your jobs.state.nm.us inbox.", body: "New Mexico sends fact-finding requests through the portal, often with short deadlines. Check it weekly to avoid suspended payments." }
-    ]
+    ],
+    metaDescription: "New Mexico: $598/week max, 26 weeks. 1-week unpaid wait. File jobs.state.nm.us same week. Benefit calculated from your highest-quarter wages."
   },
   {
     name: "New York",
@@ -2138,7 +2139,8 @@ export const states: StateData[] = [
       { headline: "Hit 3 work search activities each week.", body: "New York requires 3 documented work search activities. Falling short disqualifies the entire week, not just reduces it." },
       { headline: "Report all freelance and gig income.", body: "New York DOL cross-references 1099 records. Underreporting freelance income from platforms like Uber or Upwork triggers fraud investigations." },
       { headline: "File on your assigned day to skip queues.", body: "NY DOL assigns claimants a designated filing day based on the last name to spread server load. Filing on your day means faster processing." }
-    ]
+    ],
+    metaDescription: "New York: $869/week max, 26 weeks. 1-week unpaid wait. File dol.ny.gov the week you separate. NY assigns a filing day by last name to manage server load."
   },
   {
     name: "North Carolina",
@@ -2199,7 +2201,8 @@ export const states: StateData[] = [
       { headline: "Register on NCWorks the same day you file.", body: "DES blocks benefits until NCWorks.gov registration is complete. The two systems aren't automatically linked." },
       { headline: "Document weekly job search.", body: "NC DES audits work search records. Keep written records with date, employer, position, and method for every week claimed." },
       { headline: "Read the NC UI Benefits Guide.", body: "North Carolina's claimant guide is one of the clearer state handbooks, it explains the partial-earnings deduction formula clearly." }
-    ]
+    ],
+    metaDescription: "North Carolina: $450/week max, 12 weeks. 1-week wait. One of the shortest UI caps in the US. File DES same week. NCWorks registration required."
   },
   {
     name: "North Dakota",
@@ -2260,7 +2263,8 @@ export const states: StateData[] = [
       { headline: "Register on jobsnd.com immediately.", body: "Job Service ND blocks benefits until your jobsnd.com profile is complete. Do it the same day you file your claim." },
       { headline: "File during off-peak hours.", body: "North Dakota's jobsnd.com has occasional outages during peak filing periods. Early morning filings complete most reliably." },
       { headline: "Keep employer separation paperwork.", body: "If you worked seasonal oil-field jobs, North Dakota DLI may request specific shutdown or layoff paperwork, keep it from the start." }
-    ]
+    ],
+    metaDescription: "North Dakota: $786/week max, 26 weeks. 1-week unpaid wait. File jobsnd.com same week. Complete your profile first or benefits are held."
   },
   {
     name: "Ohio",
@@ -2321,7 +2325,8 @@ export const states: StateData[] = [
       { headline: "Register on OhioMeansJobs the same day.", body: "ODJFS blocks benefits until your OhioMeansJobs profile is active. The two systems aren't automatically linked." },
       { headline: "Document the 20-weeks-worked threshold.", body: "Ohio's eligibility requires at least 20 weeks of work in the base period. Have pay stubs ready in case ODJFS asks for verification." },
       { headline: "Watch your unemployment.ohio.gov inbox.", body: "Ohio sends fact-finding questionnaires through the portal, often with short deadlines. Missing one suspends your claim." }
-    ]
+    ],
+    metaDescription: "Ohio: $600/week base ($842 with dependents), 26 weeks. 1-week wait. File unemployment.ohio.gov same week. Register OhioMeansJobs or benefits are blocked."
   },
   {
     name: "Oklahoma",
