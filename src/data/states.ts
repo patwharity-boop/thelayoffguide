@@ -1771,7 +1771,8 @@ export const states: StateData[] = [
       { headline: "Report ranch and seasonal income.", body: "Montana's UI fund cross-references agricultural and ranch employer reports. Underreporting triggers fraud investigations." },
       { headline: "Register on MontanaWorks.", body: "Montana DLI holds payments until your MontanaWorks profile is complete. Do it the same day you file your claim." },
       { headline: "Use the UI eServices portal on desktop.", body: "Montana's UI eServices works most reliably on a full browser. Mobile sessions have been known to drop mid-application." }
-    ]
+    ],
+    metaDescription: "Montana: up to $698/week, 24 weeks max. 1-week wait before benefits start. File at uid.dli.mt.gov and register MontanaWorks same day to avoid payment holds."
   },
   {
     name: "Nebraska",
@@ -1832,7 +1833,8 @@ export const states: StateData[] = [
       { headline: "Complete NEworks profile fully.", body: "Nebraska blocks benefits until your NEworks profile is 100% complete. Skipping optional fields can hold up payments." },
       { headline: "Document weekly job search activity.", body: "Nebraska DOL audits work search records. Keep a written log with date, employer, and contact method for every week claimed." },
       { headline: "Read the Nebraska Claimant Guide.", body: "Nebraska's official handbook explains the partial-earnings deduction formula clearly, important if you're working part-time while claiming." }
-    ]
+    ],
+    metaDescription: "Nebraska: up to $582/week, 26 weeks max. 1-week wait applies. File at NEworks.nebraska.gov. Complete your NEworks profile fully or payments will be held."
   },
   {
     name: "Nevada",
@@ -1893,7 +1895,8 @@ export const states: StateData[] = [
       { headline: "Report all tip and gratuity income.", body: "Nevada's UI fund cross-references hospitality industry wage records. Underreporting tip income triggers overpayment investigations." },
       { headline: "Register on EmployNV.", body: "DETR blocks benefits until your EmployNV profile is active. The two systems aren't automatically linked, register the same day you file." },
       { headline: "Use Benny and the how-to videos if you get stuck.", body: "The nui.nv.gov Claimant Self-Service portal has a built-in virtual assistant (Benny) and step-by-step how-to videos for filing, certifying, and appeals, available 24/7." }
-    ]
+    ],
+    metaDescription: "Nevada: up to $469/week, 26 weeks max. No waiting week, file the week you're laid off at nui.nv.gov. Register on EmployNV or DETR holds your first check."
   },
   {
     name: "New Hampshire",
@@ -1954,7 +1957,8 @@ export const states: StateData[] = [
       { headline: "Document weekly job search.", body: "NHES audits work search records. Keep a written log with date, employer, position, and method of contact for every week claimed." },
       { headline: "Read the NH UC Rights and Obligations book.", body: "New Hampshire's claimant handbook explains state-specific rules around partial earnings and severance, most first-time questions are answered there." },
       { headline: "Use nhes.nh.gov on desktop.", body: "New Hampshire's UI portal works best on a full browser. Mobile users have reported lost work mid-application." }
-    ]
+    ],
+    metaDescription: "New Hampshire: up to $427/week, 26 weeks. 1-week wait before pay starts. File at nhes.nh.gov. Register on NH JobMatch immediately or payments get held."
   },
   {
     name: "New Jersey",
@@ -2016,7 +2020,8 @@ export const states: StateData[] = [
       { headline: "Use the right regional phone number.", body: "New Jersey routes UI calls by region: North 201-601-4100, Central 732-761-2020, South 856-507-2340. The wrong number bounces you and adds hold time." },
       { headline: "Claim your dependency allowance.", body: "New Jersey adds 7% per dependent up to a max, easy to miss. The $905 max benefit reflects this allowance, not the base." },
       { headline: "Watch the appeal deadline carefully.", body: "NJ's appeal window is short. If you miss it without a documented compelling reason, the case cannot be heard regardless of merits." }
-    ]
+    ],
+    metaDescription: "New Jersey: up to $905/week, 26 weeks. No waiting week, benefits start week one. File at myunemployment.nj.gov. Report all 1099 and partial earnings each week."
   },
   {
     name: "New Mexico",
@@ -2946,7 +2951,7 @@ export const states: StateData[] = [
     name: "Virginia",
     slug: "virginia",
     abbreviation: "VA",
-    maxWeeklyBenefit: 430,
+    maxWeeklyBenefit: 478,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://www.vec.virginia.gov/unemployment",
@@ -2985,7 +2990,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in Virginia?",
-        answer: "Virginia pays up to $430 per week."
+        answer: "Virginia pays up to $478 per week for new claims filed on or after July 5, 2026 (up from $430 under HB 1320/SB 759 signed by Governor Spanberger)."
       },
       {
         question: "How long can I receive benefits?",
