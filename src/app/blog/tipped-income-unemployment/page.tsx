@@ -60,14 +60,14 @@ export default function TippedIncomeUnemploymentPage() {
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How unemployment benefits are calculated</h2>
 
         <p>
-          Every state uses a "base period" to calculate your weekly benefit amount. The base period is usually the first four of the last five completed calendar quarters before you filed. The state looks at your wages earned during that period and uses a formula to arrive at your weekly benefit.
+          Every state uses a &ldquo;base period&rdquo; to calculate your weekly benefit amount. The base period is usually the first four of the last five completed calendar quarters before you filed. The state looks at your wages earned during that period and uses a formula to arrive at your weekly benefit.
         </p>
 
         <p>
-          The wages the state sees are the wages in your W-2, specifically box 1 of your Form W-2, which is "wages, tips, other compensation." If your employer reported your tips correctly, they show up there. If your employer did not report them, or if you received cash tips you did not tell your employer about, those wages are invisible to the unemployment system.
+          The wages the state sees are the wages in your W-2, specifically box 1 of your Form W-2, which is &ldquo;wages, tips, other compensation.&rdquo; If your employer reported your tips correctly, they show up there. If your employer did not report them, or if you received cash tips you did not tell your employer about, those wages are invisible to the unemployment system.
         </p>
 
-        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How tips get (or don't get) into your W-2</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How tips get (or don&apos;t get) into your W-2</h2>
 
         <p>
           Under IRS rules (Publication 531), you are required to report all tips totaling $20 or more in a calendar month from a single employer to that employer by the 10th of the following month. Your employer then includes those reported tips in your W-2 wages, withholds payroll taxes on them, and pays its share of Social Security and Medicare on that amount.
@@ -91,7 +91,7 @@ export default function TippedIncomeUnemploymentPage() {
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What this means when you file for unemployment</h2>
 
         <p>
-          When you file a claim, your state pulls your wage records from the state's employer reporting system, which is built from your employer's quarterly wage reports (the same payroll data behind your W-2). You will typically see a screen showing your "base period wages by quarter." For many tipped workers, this number is lower than expected, because it represents only the employer-reported portion of total compensation.
+          When you file a claim, your state pulls your wage records from the state&apos;s employer reporting system, which is built from your employer&apos;s quarterly wage reports (the same payroll data behind your W-2). You will typically see a screen showing your &ldquo;base period wages by quarter.&rdquo; For many tipped workers, this number is lower than expected, because it represents only the employer-reported portion of total compensation.
         </p>
 
         <p>
@@ -100,13 +100,13 @@ export default function TippedIncomeUnemploymentPage() {
 
         <ul className="list-disc list-outside ml-6 space-y-3 my-4">
           <li>
-            <strong>Verify your W-2 tip amounts.</strong> Compare box 1 (wages, tips, other comp) with what you actually earned and reported to your employer. If there's a gap, your employer may have made a reporting error.
+            <strong>Verify your W-2 tip amounts.</strong> Compare box 1 (wages, tips, other comp) with what you actually earned and reported to your employer. If there&apos;s a gap, your employer may have made a reporting error.
           </li>
           <li>
             <strong>Check your pay stubs.</strong> Many employers list reported tips as a separate line item on pay stubs. If they do, the year-to-date figures should match what ended up in your W-2.
           </li>
           <li>
-            <strong>Tipped minimum wage vs. cash wage.</strong> Your employer may have paid you a lower direct wage ("tipped minimum wage") with tips making up the remainder. The direct wage is always employer-reported. The tips are reported only to the extent you disclosed them.
+            <strong>Tipped minimum wage vs. cash wage.</strong> Your employer may have paid you a lower direct wage (&ldquo;tipped minimum wage&rdquo;) with tips making up the remainder. The direct wage is always employer-reported. The tips are reported only to the extent you disclosed them.
           </li>
           <li>
             <strong>Employer under-reporting is a separate problem.</strong> If you reported your tips correctly and your W-2 still does not reflect them, the employer made an error or improperly withheld reporting. Ask the employer for a corrected W-2 (Form W-2c). If they refuse, you can file IRS Form 4852 as a substitute for the incorrect W-2. This is slow for a UI claim but matters for your longer-term Social Security record. (Form 4137 is a different thing: it is only for figuring Social Security and Medicare tax on tips you never reported to your employer.)
@@ -124,13 +124,13 @@ export default function TippedIncomeUnemploymentPage() {
             <strong>Pull your W-2 from IRS.gov.</strong> If you do not have your W-2, you can request a transcript through the IRS Get Transcript tool at <a href="https://www.irs.gov/individuals/get-transcript" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">irs.gov/individuals/get-transcript</a>. This gives you the wage and tip figures your employer reported.
           </li>
           <li>
-            <strong>Request your wage statement from your state's labor agency.</strong> Most states allow claimants to request or view their base period wage record. Look for a "wage record" or "base period wages" option in your state's UI portal.
+            <strong>Request your wage statement from your state&apos;s labor agency.</strong> Most states allow claimants to request or view their base period wage record. Look for a &ldquo;wage record&rdquo; or &ldquo;base period wages&rdquo; option in your state&apos;s UI portal.
           </li>
           <li>
             <strong>If you believe wages are missing, appeal.</strong> You can dispute a base period wage record in most states. The standard path is to provide your own records (tip logs, bank deposits, pay stubs) and ask for a recalculation. Every state has an appeals process, and most have short deadlines, do not wait.
           </li>
           <li>
-            <strong>Ask about an alternate base period.</strong> If your regular base period wages are too low to qualify at all, many states will re-run the numbers using an "alternate base period" that includes your most recently completed quarter. It is a fallback for people who do not qualify under the standard window, not an optional upgrade, so ask about it only if your claim is denied for insufficient wages.
+            <strong>Ask about an alternate base period.</strong> If your regular base period wages are too low to qualify at all, many states will re-run the numbers using an &ldquo;alternate base period&rdquo; that includes your most recently completed quarter. It is a fallback for people who do not qualify under the standard window, not an optional upgrade, so ask about it only if your claim is denied for insufficient wages.
           </li>
         </ol>
 
@@ -141,7 +141,7 @@ export default function TippedIncomeUnemploymentPage() {
         </p>
 
         <p>
-          If a manager or employer improperly kept tips from the pool (a violation of federal law), those amounts would not appear in your wages unless you separately reported them or took legal action. If you believe tip theft happened, the Department of Labor's Wage and Hour Division handles complaints at <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">dol.gov/agencies/whd</a>.
+          If a manager or employer improperly kept tips from the pool (a violation of federal law), those amounts would not appear in your wages unless you separately reported them or took legal action. If you believe tip theft happened, the Department of Labor&apos;s Wage and Hour Division handles complaints at <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">dol.gov/agencies/whd</a>.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Going forward: the single best thing to do</h2>
@@ -151,17 +151,17 @@ export default function TippedIncomeUnemploymentPage() {
         </p>
 
         <div className="border-l-4 border-teal-400 bg-teal-50 rounded-r-lg p-5 my-8 text-lg italic text-gray-800">
-          "Report your tips to your employer every month. Unreported cash tips cost you your unemployment benefits, your Social Security credits, and potentially your disability coverage."
+          &ldquo;Report your tips to your employer every month. Unreported cash tips cost you your unemployment benefits, your Social Security credits, and potentially your disability coverage.&rdquo;
         </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Quick steps if you're filing unemployment now</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Quick steps if you&apos;re filing unemployment now</h2>
 
         <ol className="list-decimal list-outside ml-6 space-y-2 my-4">
           <li>Get your W-2 from your employer or via IRS Get Transcript.</li>
-          <li>File for unemployment in your state the week you separate, don't delay.</li>
+          <li>File for unemployment in your state the week you separate, don&apos;t delay.</li>
           <li>Review your base period wage record in the state UI portal when it appears.</li>
           <li>If wages look low, ask your employer to verify or correct the report, or ask about an alternate base period.</li>
-          <li>If you are denied or underpaid and believe it's because of a wage-record error, file an appeal immediately. Deadlines are usually 10 to 30 days from the determination.</li>
+          <li>If you are denied or underpaid and believe it&apos;s because of a wage-record error, file an appeal immediately. Deadlines are usually 10 to 30 days from the determination.</li>
         </ol>
 
         <p>
@@ -172,14 +172,14 @@ export default function TippedIncomeUnemploymentPage() {
 
         <ul className="list-disc list-outside ml-6 space-y-2 text-sm">
           <li><Link href="/blog/side-hustles-while-on-unemployment" className="text-blue-700 hover:text-blue-900 underline">Gig work and unemployment: Can you DoorDash on UI?</Link> covers how part-time and gig earnings affect your weekly benefit.</li>
-          <li><Link href="/blog/appeal-unemployment-denial" className="text-blue-700 hover:text-blue-900 underline">Got denied unemployment? Here's how to appeal.</Link></li>
+          <li><Link href="/blog/appeal-unemployment-denial" className="text-blue-700 hover:text-blue-900 underline">Got denied unemployment? Here&apos;s how to appeal.</Link></li>
           <li><Link href="/timeline" className="text-blue-700 hover:text-blue-900 underline">The realistic timeline of a claim</Link> walks through what happens week by week after you file.</li>
         </ul>
 
         <div className="mt-10 pt-8 border-t border-gray-200 text-sm text-gray-500">
           <p><strong>Sources verified:</strong></p>
           <ul className="list-disc pl-6 mt-2 space-y-1">
-            <li>IRS Publication 531 (12/2024), "Reporting Tip Income", tip reporting requirements and W-2 treatment: <a href="https://www.irs.gov/publications/p531" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">irs.gov/publications/p531</a></li>
+            <li>IRS Publication 531 (12/2024), &ldquo;Reporting Tip Income&rdquo;, tip reporting requirements and W-2 treatment: <a href="https://www.irs.gov/publications/p531" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">irs.gov/publications/p531</a></li>
             <li>Federal Unemployment Tax Act (FUTA), IRC Sec. 3306: tips reported under IRC Sec. 6053(a) are treated as wages for FUTA purposes; states generally adopt the same definition for SUTA.</li>
             <li>IRS Tip Recordkeeping and Reporting guidance: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/tip-recordkeeping-and-reporting" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">irs.gov/businesses/.../tip-recordkeeping-and-reporting</a></li>
             <li>DOL Wage and Hour Division, tip pooling and employer obligations: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">dol.gov/agencies/whd</a></li>
