@@ -190,6 +190,42 @@ If you're regularly selling items for profit, report it. Occasional garage sale-
 ### Cash Jobs
 Yes, you still have to report these. States cross-reference tax records and payment platforms. Getting caught means repaying benefits plus penalties.
 
+### Teaching English Online
+Platforms like Cambly and Preply take US-based tutors with no degree and no certificate. Cambly pays $0.17 a minute ($10.20 an hour) for adult lessons, and only for time on a call. As of September 2026 its tutor page says it is limiting how many new tutors it accepts. On Preply you set your own rate (the site says English tutors average $15 to $25 an hour), but Preply keeps 100% of every trial lesson and 33% of a new tutor's regular lessons until you build up hours. VIPKid lists $14 to $22 an hour but now requires a bachelor's degree plus a TEFL or TESOL certificate. Every one of these treats you as an independent contractor: no guaranteed hours, no tax withholding, and you owe self-employment tax on what you earn.
+
+Two rules matter for your claim. First, tutoring income is self-employment, and every state we checked (New York, California, Texas, Florida) makes you report it for the week you did the work, even before you get paid. Second, you have to stay available for full-time work, so don't let a tutoring calendar box out interviews.
+
+One thing to skip while you're on a claim: teaching abroad in person. You cannot collect unemployment from overseas. New York, for example, blocks its claim system from foreign countries and treats benefits collected while abroad as fraud, and the government programs run on year-long application cycles anyway. Keep it remote.
+
+### Substitute Teaching (No Teaching Certificate Needed in Most States)
+Districts everywhere are short on subs, and in most states you do not need a teaching certificate to fill in day to day. The rules are set state by state, then tightened by each district, so check both. A few examples from the states' own pages:
+
+- **New York:** subs without a certificate can work up to 40 days per district per school year. Districts can add their own requirements, and New York City requires a bachelor's degree.
+- **California:** you need an Emergency 30-Day Substitute Teaching Permit. A bachelor's degree from an accredited college satisfies both the degree and the basic-skills requirement, plus fingerprinting.
+- **Pennsylvania:** a district can request an emergency Day-to-Day Substitute Permit for anyone with a bachelor's degree, good for up to 20 days per assignment.
+- **Florida:** each district sets its own rules, but state law requires fingerprints, at least a high school diploma or equivalent, and an orientation before you start.
+- **Ohio and Georgia:** schools can hire subs without a college degree if you meet the district's own education minimum (Georgia's list runs all the way down to a high school diploma or GED).
+- **Illinois:** you need a state Substitute License (bachelor's degree) or a Short-Term Substitute License, which takes an associate's degree or 60 college credit hours and is available through June 30, 2028.
+
+Every state runs a fingerprint background check, and that step is usually what sets your start date, so file for it the first week. Staffing firms like Kelly Education and ESS place subs in many districts and walk you through the paperwork. Kelly's own page says many states and districts take candidates without a degree, treats its subs as employees (so W-2, not 1099), and asks them to work at least two days a week when they can.
+
+Sub pay is a day rate set by the district, and it is W-2 wages you report to unemployment for the week you worked. One catch specific to school work: the "reasonable assurance" rule. If your unemployment claim is based on wages from a school and the school expects you back after a break, you generally cannot collect during summer or holiday recess. California's own FAQ says the recess rule does not stop you if you qualified for your claim on non-school wages, which is the case for most laid-off people who pick up subbing on the side. If subbing becomes your main income, ask your state before the next long break.
+
+### Remote Customer Support / Contact Center
+This is the fastest realistic path to a paycheck on this list, and it is a job, not a gig. The Bureau of Labor Statistics puts the median at $21.53 an hour (May 2025), with the lowest 10% under $15.27. Typical entry is a high school diploma and short on-the-job training, and most companies train you on their product. What you need at home: a quiet room, a wired internet connection, and a computer with a webcam (some employers ship you one, some don't).
+
+There are two flavors. **W-2 employee roles** come with set shifts, hourly pay, and often benefits. If it's full-time, it usually ends your claim, which is the goal. **1099 contractor platforms** (Liveops, Working Solutions) let you pick your hours but pay per talk minute with no guaranteed volume, make you supply the equipment, and put you on the hook for your own taxes. Those earnings get reported to unemployment every week like any other side hustle.
+
+**Who hires remote customer service agents** (all had open listings when we checked in September 2026):
+
+- **Big employers hiring directly:** [Amazon](https://hiring.amazon.com/job-opportunities/customer-service-jobs), [Concentrix](https://jobs.concentrix.com/united-states/), [TTEC](https://www.ttecjobs.com/en/work-from-home), [Foundever](https://jobs.foundever.com/), [Teleperformance](https://www.tp.com/en-us/careers/work-from-home-opportunity/)
+- **Staffing and temp agencies:** [Robert Half](https://www.roberthalf.com/us/en/jobs/all/customer-service), [Adecco](https://www.adeccousa.com/jobs/customer-service/), [Randstad](https://www.randstadusa.com/jobs/customer-service/). Temp-to-hire is common in this field, and the agency is the employer of record, so it's W-2.
+- **1099 platforms:** [Liveops](https://join.liveops.com/), [Working Solutions](https://apply.workingsolutions.com/)
+
+Many remote roles are only open in certain states, so filter by your state before you get excited about a listing.
+
+Scam check before you apply anywhere: a real employer never asks you to pay for equipment, training, or a "certification," and never sends you a check to deposit and forward. The FTC's rule is blunt: "Honest employers, including the federal government, will never ask you to pay to get a job."
+
 ## The Smart Approach
 
 1. **Report everything**, it's not worth the risk of fraud charges
@@ -207,6 +243,8 @@ Yes, you still have to report these. States cross-reference tax records and paym
 ---
 
 **Working while on unemployment is smart and encouraged.** States want you to get back on your feet. Just be transparent about your earnings and you'll be fine. For how partial benefits are actually reduced (and how they can stretch your benefits further), see [Working Part-Time While on Unemployment](/blog/working-part-time-on-unemployment).
+
+*Sources for the tutoring, substitute teaching, and support sections (checked September 16, 2026): [Cambly tutor page](https://www.cambly.com/english/tutors), [Preply commission policy](https://help.preply.com/en/articles/4171383), [VIPKid teacher requirements](https://www.vipkid.com/teach/teacher-requirements), [NYSED: Substitute Teaching](https://www.nysed.gov/teaching-initiatives/substitute-teaching), [CA CTC: Emergency 30-Day Substitute Teaching Permit](https://www.ctc.ca.gov/credentials/leaflets/cl-505p/), [PA Dept. of Education: Act 91 substitute guidance](https://www.pa.gov/agencies/education/data-and-reporting/school-staff/act-91-of-2021-guidance), [Florida Statutes 1012.35](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1012/Sections/1012.35.html), [Ohio Revised Code 3319.102](https://codes.ohio.gov/ohio-revised-code/section-3319.102), [GaPSC Rule 505-2-.20](https://www.gapsc.com/Rules/Current/Certification/505-2-.20.pdf), [ISBE: Substitute Licenses](https://www.isbe.net/Pages/Short-Term-Sub-Teach.aspx), [Kelly Education](https://www.mykelly.com/local-jobs/wake-up-teach/), [NY DOL: Benefit Rules for Teachers and Other School Workers](https://dol.ny.gov/unemployment/unemployment-insurance-benefit-rules-teachers-and-other-school-workers), [CA EDD: School Employees FAQ](https://edd.ca.gov/en/unemployment/FAQ_-_School_Employees/), [BLS Occupational Outlook: Customer Service Representatives](https://www.bls.gov/ooh/office-and-administrative-support/customer-service-representatives.htm), [FTC: Job Scams](https://consumer.ftc.gov/articles/job-scams), [NY DOL claimant FAQ](https://dol.ny.gov/postappFAQ), [Texas TWC: Report Your Work and Earnings](https://www.twc.texas.gov/programs/unemployment-benefits/report-your-work-earnings).*
     `.trim(),
   },
 ];
