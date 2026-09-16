@@ -223,7 +223,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["florida"],
     topics: ["portal", "cert"],
     source: "research",
-    sourceUrl: "https://floridajobs.org/Reemployment-Assistance-Service-Center",
+    sourceUrl: "https://floridajobs.org/workforce-resources/reemployment-assistance",
     publishedAt: "2026-06-04",
   },
   {
@@ -233,7 +233,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["florida"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.floridajobs.org/Reemployment-Assistance-Service-Center/reemployment-assistance/claimants",
+    sourceUrl: "https://floridajobs.org/workforce-resources/reemployment-assistance/claimants",
     publishedAt: "2026-06-04",
   },
   {
@@ -243,7 +243,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["florida"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://floridajobs.org/Reemployment-Assistance-Service-Center",
+    sourceUrl: "https://floridajobs.org/workforce-resources/reemployment-assistance",
     publishedAt: "2026-06-04",
   },
 

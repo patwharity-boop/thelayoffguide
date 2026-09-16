@@ -602,7 +602,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 275,
     maxWeeks: 12,
     waitingWeek: true,
-    filingUrl: "https://www.floridajobs.org/reemployment-assistance-service-center/reemployment-assistance/claimants",
+    filingUrl: "https://floridajobs.org/workforce-resources/reemployment-assistance/claimants",
     filingPhone: "1-800-204-2418",
     handbookUrl: "https://www.floridajobs.org/docs/default-source/reemployment-assistance-center/unemployment/bri/bri_english.pdf",
     stateJobsUrl: "https://jobs.myflorida.com/",
