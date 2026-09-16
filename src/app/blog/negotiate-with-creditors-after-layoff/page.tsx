@@ -72,7 +72,7 @@ export default function NegotiateCreditorsPage() {
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Mortgage</h2>
 
         <p>
-          Call your mortgage servicer as soon as you know you might miss a payment and ask about forbearance. Forbearance pauses or reduces your payments for a set period. Handled properly, it should not hurt your credit the same way an unplanned missed payment would: if you were current on the account before entering forbearance, your servicer is generally required to report the account as current, not delinquent. Ask directly how the forbearance will show up on your credit report before you agree to it, and get everything in writing.
+          Call your mortgage servicer as soon as you know you might miss a payment and ask about forbearance. Forbearance pauses or reduces your payments for a set period. Handled properly, it should not hurt your credit the same way an unplanned missed payment would, but how a forbearance is reported to the credit bureaus varies by servicer and loan type. Ask directly how the forbearance will show up on your credit report before you agree to it, and get everything in writing.
         </p>
 
         <p>
@@ -104,7 +104,7 @@ export default function NegotiateCreditorsPage() {
         <div className="border-l-4 border-amber-400 bg-amber-50 rounded-r-lg p-5 my-8">
           <p className="font-semibold text-gray-900 mb-1">Be careful with debt settlement companies</p>
           <p className="text-gray-800 text-sm">
-            Federal law prohibits debt settlement companies from charging you a fee before they&apos;ve actually settled a debt. Any company asking for money up front, before doing anything, is breaking the law, and the CFPB has taken enforcement action against several firms for exactly this. If you want help negotiating rather than doing it yourself, contact a nonprofit credit counseling agency accredited by the <a href="https://www.nfcc.org" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 underline">National Foundation for Credit Counseling</a> instead. A first session is usually free.
+            Federal law prohibits debt settlement companies from charging you a fee before they&apos;ve actually settled a debt. Any company asking for money up front, before doing anything, is breaking the law, and the CFPB has taken enforcement action against several firms for exactly this. If you want help negotiating rather than doing it yourself, contact a nonprofit credit counseling agency accredited by the <a href="https://www.nfcc.org" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 underline">National Foundation for Credit Counseling</a> instead. Ask what the first session costs. Many agencies offer it free or at low cost.
           </p>
         </div>
 
