@@ -57,7 +57,7 @@ export default function FreightLogisticsLayoffsPage() {
 
       <article className="prose-custom text-gray-700 leading-relaxed space-y-6">
         <p>
-          The freight and logistics sector has been contracting through 2026. Carriers are cutting routes. Third-party logistics companies are trimming headcount. Warehouses that were short-staffed two years ago now have more people than loads. If you are reading this after getting your separation notice, the first question you need to answer is not which state to file in. It is whether you were classified as an employee or a contractor.
+          Freight and logistics employment is down from a year ago and well below its 2022 peak, and 2026 has been flat at best. Carriers are cutting routes. Third-party logistics companies are trimming headcount. Warehouses that were short-staffed two years ago now have more people than loads. If you are reading this after getting your separation notice, the first question you need to answer is not which state to file in. It is whether you were classified as an employee or a contractor.
         </p>
 
         <p>
@@ -91,7 +91,7 @@ export default function FreightLogisticsLayoffsPage() {
           <div className="bg-white border border-gray-200 rounded-lg p-5">
             <h3 className="font-bold text-gray-900 mb-1">Which state to file in</h3>
             <p className="text-sm text-gray-700">
-              File in the state where you are domiciled (your home base), or in the state where your employer&apos;s payroll was processed if that is different. For over-the-road drivers who cross state lines constantly, the governing rule is usually the state where your wages were reported for tax purposes. Check your W-2: the state listed there is your filing state.
+              File in the state where your work was based. For over-the-road drivers who cross state lines constantly, that is usually the state where your employer reported your wages, which normally matches the state in box 15 of your W-2. If you are not sure, file in your home state and let the agency route the interstate claim.
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-lg p-5">
@@ -121,7 +121,7 @@ export default function FreightLogisticsLayoffsPage() {
         <div className="bg-amber-50 border-l-4 border-amber-500 rounded p-5 my-6">
           <p className="font-semibold text-amber-900 mb-1">If you think you were misclassified</p>
           <p className="text-amber-800">
-            File the UI claim anyway. Describe yourself as an employee separated through no fault of your own. The state will investigate and contact your former carrier. If the carrier asserts contractor status, you will get a fact-finding interview. Bring whatever evidence you have of employer control: assigned routes, required check-ins, equipment provided by the carrier, mandatory safety meetings. Misclassification rulings in UI proceedings have real consequences for carriers.
+            File the UI claim anyway. Describe yourself as an employee separated through no fault of your own. The state will investigate and contact your former carrier. If the carrier asserts contractor status, the state may schedule a fact-finding interview. Bring whatever evidence you have of employer control: assigned routes, required check-ins, equipment provided by the carrier, mandatory safety meetings. Misclassification rulings in UI proceedings have real consequences for carriers.
           </p>
         </div>
 
@@ -144,7 +144,7 @@ export default function FreightLogisticsLayoffsPage() {
         </p>
 
         <p>
-          One wrinkle: if you were a remote dispatcher working from a different state than your employer&apos;s headquarters, confirm which state&apos;s UI program applies. The general rule is the state where your wages were taxed. Check your W-2 for the state listed in box 15.
+          One wrinkle: if you were a remote dispatcher working from a different state than your employer&apos;s headquarters, confirm which state&apos;s UI program applies. The general rule is the state where your work was based, which normally matches the state your employer reported your wages to. Check box 15 of your W-2, and note that some states have no income tax, so it can be blank.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What to do right now</h2>
@@ -157,7 +157,7 @@ export default function FreightLogisticsLayoffsPage() {
             <strong>File the same week you separate.</strong> Your benefit period starts the week you file, not your last day of work. Delay costs you money.
           </li>
           <li>
-            <strong>Look up your state&apos;s work-search requirements.</strong> Most states require you to document employer contacts every week you claim benefits. Logistics and transportation job boards (DAT Freight &amp; Analytics, Convoy, load boards) count as employer contacts in most states when you apply to a posting, but check your state&apos;s specific rules.
+            <strong>Look up your state&apos;s work-search requirements.</strong> Most states require you to document employer contacts every week you claim benefits. Applying to posted jobs on carrier career pages and general job boards counts as a work search contact in most states. Load boards are for booking freight, not applying for jobs, so check your state&apos;s rules before counting that activity.
           </li>
           <li>
             <strong>Keep your CDL current.</strong> If you hold a CDL, your license and medical certification are what get you back to work. Do not let them lapse during your claim period.

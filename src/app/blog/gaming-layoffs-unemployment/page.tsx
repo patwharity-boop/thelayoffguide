@@ -84,7 +84,7 @@ export default function GamingLayoffsPage() {
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Washington state: where most Xbox workers file</h2>
 
         <p>
-          Microsoft&apos;s Xbox division is headquartered in Redmond, Washington, and the majority of the July 2026 cuts affected workers in that state. Washington Employment Security Department (WA ESD) handles UI for Washington-based workers.
+          Microsoft&apos;s Xbox division is headquartered in Redmond, Washington, and Microsoft&apos;s WARN notice to Washington covered the largest single-state share of the July 2026 cuts. Washington Employment Security Department (WA ESD) handles UI for Washington-based workers.
         </p>
 
         <div className="space-y-4">
@@ -95,15 +95,15 @@ export default function GamingLayoffsPage() {
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-lg p-5">
-            <h3 className="font-bold text-gray-900 mb-1">Washington has no waiting week</h3>
+            <h3 className="font-bold text-gray-900 mb-1">Washington has a one-week unpaid waiting week</h3>
             <p className="text-sm text-gray-700">
-              Washington eliminated its unpaid waiting week. Your first week of benefits is paid. File the week of your separation to start the clock immediately.
+              The first week you file and meet the weekly requirements is your waiting week, and you are not paid for it. File the week of your separation so the waiting week starts immediately instead of a week later.
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-lg p-5">
             <h3 className="font-bold text-gray-900 mb-1">Work-search requirements in Washington</h3>
             <p className="text-sm text-gray-700">
-              Washington requires documented work-search activities each week. Game industry job boards (GameJobsDirectcom, LinkedIn, studio career pages) count as employer contacts when you apply to a posted role. Keep records with dates, the job title, and what you submitted.
+              Washington requires 3 documented job search activities each week. Game industry job boards, LinkedIn, and studio career pages count as employer contacts when you apply to a posted role. Keep records with dates, the job title, and what you submitted.
             </p>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function GamingLayoffsPage() {
         </p>
 
         <p>
-          Vested stock options and RSUs that you exercised or that vested during the employment period are not wages for UI purposes in most states. Unexercised options or unvested RSUs that are forfeited on separation are not wages at all. Neither affects your UI eligibility directly.
+          Unvested RSUs and unexercised options that are forfeited on separation are not wages. How states treat equity that vested or was exercised around your separation varies, so if you had a large vesting event near your last day, tell the agency and let them rule on it.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Remote workers: which state files?</h2>
@@ -147,7 +147,7 @@ export default function GamingLayoffsPage() {
         </p>
 
         <p>
-          If your W-2 shows Washington taxes withheld but you worked from Colorado all year, you should check whether taxes were correctly withheld in Colorado. If they were, you file in Colorado. If your W-2 shows only Washington withholding even though you were remote in Colorado, file in Washington and be prepared to explain the situation.
+          If you worked from Colorado all year for a Redmond studio, your employer should have reported your wages to Colorado, and you file there. If box 15 of your W-2 shows a state other than the one you actually worked in, file in the state where you did the work and be prepared to explain the situation. (Washington has no state income tax, so a Washington employer will not show state withholding.)
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Filing this week: the single most important thing</h2>
