@@ -56,11 +56,11 @@ Already specific (lighter touch only):
 - [ ] New York  [ ] Texas
 
 Priority queue (enrich, alphabetical, 5 per week):
-- [ ] [P] Idaho
-- [ ] [P] Iowa
-- [ ] [P] Kansas
-- [ ] [P] Louisiana
-- [ ] [P] Maine
+- [x] [P] Idaho  (2026-09-16: enriched + verified, see Log)
+- [x] [P] Iowa  (2026-09-16: enriched + verified, see Log)
+- [x] [P] Kansas  (2026-09-16: enriched + verified, see Log)
+- [x] [P] Louisiana  (2026-09-16: enriched + verified, see Log)
+- [x] [P] Maine  (2026-09-16: enriched + verified, see Log)
 - [ ] [P] Maryland
 - [ ] [P] Michigan
 - [ ] [P] Minnesota
@@ -114,3 +114,46 @@ Priority queue (enrich, alphabetical, 5 per week):
     strict alphabetical: Texas (1090 impr, pos 34.8), California (984),
     Pennsylvania (810), Louisiana (317, pos 45.7) are all high-impression
     [P] states one enrichment nudge from page 1-2.
+- 2026-09-16 (manual local run, cloud routine retired): Idaho, Iowa, Kansas,
+  Louisiana, Maine enriched. Every fact verified to the state's own .gov page or
+  handbook (fetched 2026-09-16); howToFile rewritten to name the real portal and
+  mechanics; one state-specific detail added each. Structure/template unchanged.
+  - Idaho: filingUrl labor.idaho.gov/unemployment now 301s to a calendar event;
+    -> /unemployment-benefits/. Portal = iUS Claimant Portal (ID.me sign-in,
+    online only). Work search is FIVE actions/wk since 2024-07-01 (site said 2).
+    Work history = 2 years. Max WBA: $590 expired per AO.674 ("until the first
+    full week of January 2026"); set $624 per DOL Significant Provisions Jan 2026.
+    CAVEAT: Idaho's own 2026 admin order was NOT found on labor.idaho.gov; re-check
+    each January and swap in the Idaho order when it surfaces. Idaho's March-2026
+    UI-facts sheet says "10 to 20 weeks" but statute 72-1367 and the Monetary
+    Eligibility page say 10-26; kept 26.
+  - Iowa: site moved to workforce.iowa.gov, portal = IowaWORKS (iowaworks.gov,
+    ID.me at filing + each weekly claim). Max WBA $763 -> $790 (4 deps) / $644
+    (0 deps) eff 7/5/26; wage floor $2,210 + $1,110 eff 7/5/26. Weekly claim
+    window Sun 12:01am-Fri 11:59pm; 4 reemployment activities, 3 must be
+    applications. Dependents must be added within 10 days.
+  - Kansas: getkansasbenefits.gov 301s to kansasui.gov/cp/landing (Claimant
+    Portal). Max WBA $637 -> $663 (Jul 1 2026-Jun 30 2027, min $165). Handbook
+    -> K-BEN-P 500 (05-26) on dol.ks.gov. 3 work searches/wk logged in Work
+    Search Journal before certifying; 16-day appeal window; USPS ID verification.
+  - Louisiana: filingUrl laworks.net -> louisianaworks.net/hire (HiRE). Removed a
+    WRONG domain (helpinghandsemployment.com). 5 work searches/wk for claims on/
+    after 2026-01-04; 21-day determination window; 12 weeks for H2-2026 claims
+    per LWC memo (Act 184: rate/weeks reset Jan + Jul). $282 confirmed (handbook
+    Rev 08/2026). Note LWC's own FAQ page still says $275 (stale on their side).
+  - Maine: filingUrl -> assist.reemployme.maine.gov/cp/landing. Wage floor
+    $7,193 -> $7,494.72 + $2,498.24 in 2 quarters (reindexes each June). $649/26
+    wks/waiting week confirmed. 14-day weekly-claim deadline; JobLink account is
+    auto-created; 30-day appeal window. Replaced 3 unverifiable tips.
+  - Also fixed this run (news scan): Virginia max $430 -> $478 (VEC, claims on/
+    after 7/5/26); Michigan 3 work searches/wk since 7/19/26 and $614 max coming
+    1/1/2027 (LEO release); Michigan FAQ wrongly said "one-week unpaid waiting
+    period" (contradicted the audited waitingWeek:false), fixed. Florida
+    filingUrl + 3 field-note URLs after floridajobs.org reorg.
+  - Re-verified unchanged: MN $948 (uimn.org), MS $235/26x/waiting period
+    (mdes FAQ), TN 4 work searches (tn.gov), FL $275/12 wks (FL FAQ), WA $1,208.
+  - Not re-verifiable from here: mass.gov (403 to all fetchers). MA unchanged.
+  - Calendar: MN reindexes last Sunday of Oct (2026-10-25); MI $614 on 2027-01-01;
+    ID reindexes January; WA/IA/VA/KS reindex July.
+  - Next batch: Maryland, Michigan, Minnesota, Mississippi, Missouri.
+

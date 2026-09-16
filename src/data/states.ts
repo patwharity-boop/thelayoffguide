@@ -813,13 +813,13 @@ export const states: StateData[] = [
     name: "Idaho",
     slug: "idaho",
     abbreviation: "ID",
-    maxWeeklyBenefit: 590,
+    maxWeeklyBenefit: 624,
     maxWeeks: 26,
     waitingWeek: true,
-    metaDescription: "Idaho: $590/week max, 10-26 weeks, 1-week wait. File labor.idaho.gov immediately -- Idaho doesn't backdate claims. 2 Idaho employer contacts required weekly.",
-    filingUrl: "https://www.labor.idaho.gov/unemployment/",
+    metaDescription: "Idaho: $624/week max, 10-26 weeks, 1-week wait. File in the Claimant Portal the week you separate -- Idaho doesn't backdate claims. 5 work search actions required weekly.",
+    filingUrl: "https://www.labor.idaho.gov/unemployment-benefits/",
     filingPhone: "1-208-332-8942",
-    handbookUrl: "https://www.labor.idaho.gov/wp-content/uploads/publications/UIClaimant_Booklet.pdf",
+    handbookUrl: "https://www.labor.idaho.gov/wp-content/uploads/2024/06/UI_Claimant-guide_Aug-2024.pdf",
     stateJobsUrl: "https://statecareers.idaho.gov/",
     minEarnings: "You must have earned at least $1,872 in your highest quarter, with total base period wages of at least 1.25 times your highest quarter, and wages in at least two quarters.",
     eligibility: [
@@ -827,33 +827,33 @@ export const states: StateData[] = [
       "You earned at least $1,872 in your highest base period quarter",
       "Your total base period wages equal at least 1.25 times your highest quarter, with earnings in two or more quarters",
       "You are able and available for full-time Idaho work",
-      "You make at least 2 employer contacts per week and document them"
+      "You complete at least five work search actions each week and report them on your weekly certification"
     ],
     howToFile: [
-      "Visit the Idaho Department of Labor website",
-      "File your initial claim online",
-      "Provide personal and employment information",
-      "Submit your claim",
-      "File weekly certifications"
+      "Go to labor.idaho.gov/unemployment-benefits, open the Claimant Portal, and click Sign in with ID.me to create an ID.me account and verify your identity",
+      "File your claim in the Claimant Portal the same week you lose your job, before Saturday at midnight; Idaho only accepts claims online and does not backdate them",
+      "Enter your complete work history for the past two years, including gross earnings, employer names, addresses, phone numbers, start and end dates, and the reason for each separation",
+      "Starting the Sunday after you apply, file a weekly certification in the Claimant Portal every week (Sunday is recommended); your first certified week is an unpaid waiting week",
+      "Report at least five work search actions on every weekly certification and register at IdahoWorks; payment comes by direct deposit or a U.S. Bank ReliaCard 2 to 4 business days after each payable certification"
     ],
     documentsNeeded: [
       "Social Security number",
       "Idaho driver's license or state ID",
-      "Employer name, address, and dates for every job in the last 18 months",
-      "Idaho Department of Labor reference number (if you've claimed before)",
+      "Employer name, address, phone, dates, gross earnings, and reason for job loss for every employer in the past two years",
+      "An ID.me account, you sign in to the Claimant Portal with ID.me",
       "Banking information for direct deposit"
     ],
     commonMistakes: [
       "Filing days after separation, Idaho doesn't backdate before the Sunday of the file week",
-      "Missing weekly certifications on labor.idaho.gov",
-      "Failing to make the 2 required employer contacts per week",
+      "Skipping two weeks of certifications in the Claimant Portal, your claim goes inactive and has to be reopened",
+      "Reporting fewer than five work search actions, or counting a call to ask whether a business is hiring (that does not count)",
       "Not reporting any earnings, including farm or seasonal work"
     ],
-    processingTime: "Claims typically take 2-3 weeks to process.",
+    processingTime: "Idaho says your first payment comes no sooner than about 2.5 weeks after you apply. If you quit or were fired, the eligibility review can take 3 to 6 weeks. Once a week is payable, direct deposit lands 2 to 3 business days after you certify.",
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Idaho?",
-        answer: "Idaho pays up to $590 per week."
+        answer: "Idaho pays up to $624 per week for claims filed in 2026. The maximum resets each January."
       },
       {
         question: "How long can I receive unemployment benefits in Idaho?",
@@ -875,8 +875,8 @@ export const states: StateData[] = [
     tips: [
       { headline: "Confirm your maximum weeks in writing.", body: "Idaho's duration ranges from 10 to 26 weeks based on the state unemployment rate. The Department of Labor will send you a determination, read it carefully." },
       { headline: "Track agricultural and seasonal earnings.", body: "Idaho's farm-heavy economy means many claimants pick up seasonal work. Report every dollar, the Department of Labor cross-checks employer wage reports." },
-      { headline: "Use the Idaho Department of Labor's mobile-friendly portal.", body: "Idaho's online filing system works well on phones, unlike many states, you can certify weekly from your phone reliably." },
-      { headline: "Keep your 2 weekly contacts state-specific.", body: "Idaho requires Idaho-based employer contacts unless you're authorized to seek out-of-state work. Out-of-state contacts may not count." }
+      { headline: "Certify on Sunday, before 6 p.m. Mountain Time.", body: "Idaho's benefit week runs Sunday through Saturday and you have seven days to certify for the week that just ended. The Department of Labor recommends Sunday. Certifications filed before 6 p.m. Mountain Time are processed the same business day; weekend filings are processed the next working day." },
+      { headline: "Log five work search actions every week, with proof.", body: "Since July 1, 2024 Idaho requires at least five work search actions per week, up from the old two-contact rule. You enter them on each weekly certification and the Department of Labor checks them with employers, so save screenshots, application confirmations, and interview emails. Simply asking a business if it is hiring does not count." }
     ]
   },
   {
@@ -1023,47 +1023,47 @@ export const states: StateData[] = [
     name: "Iowa",
     slug: "iowa",
     abbreviation: "IA",
-    maxWeeklyBenefit: 763,
+    maxWeeklyBenefit: 790,
     maxWeeks: 16,
     waitingWeek: false,
-    metaDescription: "Iowa: $763/week max (with dependents), 16 weeks, no waiting week -- benefits start week one. File IWD same week. IowaWORKS registration required.",
-    filingUrl: "https://www.iowaworkforcedevelopment.gov/file-claim-unemployment-insurance-benefits",
+    metaDescription: "Iowa: $790/week max (with 4 dependents), 16 weeks, no waiting week -- benefits start week one. File at iowaworks.gov the first week you want paid. 4 reemployment activities weekly.",
+    filingUrl: "https://workforce.iowa.gov/unemployment/initial-claim",
     filingPhone: "1-866-239-0843",
-    handbookUrl: "https://www.iowaworkforcedevelopment.gov/book/export/html/37356",
+    handbookUrl: "https://workforce.iowa.gov/unemployment/resources/unemployment-insurance-claimant-handbook",
     stateJobsUrl: "https://das.iowa.gov/state-employment",
-    minEarnings: "You must have earned at least $1,700 in your highest quarter, with wages in at least two quarters, and total base period wages of at least 1.25 times your highest quarter.",
+    minEarnings: "For claims filed on or after July 5, 2026, you must have earned at least $2,210 in one base period quarter and at least $1,110 in a different quarter, with total base period wages of at least 1.25 times your highest quarter.",
     eligibility: [
       "You separated from your Iowa job through no fault of your own",
-      "You earned at least $1,700 in your highest base period quarter",
+      "You earned at least $2,210 in one base period quarter and at least $1,110 in a different quarter",
       "Your total base period wages equal at least 1.25 times your highest quarter",
       "You are able and available for full-time Iowa employment",
       "You complete weekly work search activities and report them to IWD"
     ],
     howToFile: [
-      "Visit the Iowa Workforce Development website",
-      "File your initial claim online",
-      "Provide personal and employment information",
-      "Submit your claim",
-      "File weekly certifications"
+      "Go to iowaworks.gov, select Sign In/Register, then Individual, then Individual Registration to create your IowaWORKS account (you set up multi-factor authentication during registration)",
+      "Verify your identity through ID.me when the application sends you there: online, by video chat with an agent, or in person at an IowaWORKS Center or a participating UPS Store",
+      "File your initial claim in the Unemployment Services section of IowaWORKS during the first week you want to be paid; your claim starts on the Sunday of the week you file",
+      "Choose direct deposit or the U.S. Bank ReliaCard; the debit card is the default unless you add a bank account under Change Payment Method",
+      "Starting the Sunday after you file, submit your weekly claim on iowaworks.gov between 12:01 a.m. Sunday and 11:59 p.m. Friday (no Saturday filing) and certify four reemployment activities, three of them job applications"
     ],
     documentsNeeded: [
       "Social Security number",
-      "Iowa driver's license or state ID",
+      "Government photo ID for ID.me identity verification",
       "Employer name, address, and dates for every job in the last 18 months",
-      "IowaWORKS account information (registration is required)",
+      "IowaWORKS login (iowaworks.gov), the same account you file and certify in",
       "Banking information for direct deposit"
     ],
     commonMistakes: [
-      "Skipping IowaWORKS registration, IWD requires it before releasing benefits",
-      "Missing the weekly certification on iowaworkforcedevelopment.gov",
-      "Not reporting agricultural or seasonal earnings",
+      "Leaving your IowaWORKS profile without a Social Security number and an active resume, IWD can deny the claim until both are in",
+      "Missing the weekly claim window on iowaworks.gov (12:01 a.m. Sunday to 11:59 p.m. Friday, no Saturday filing)",
+      "Adding dependents late, they can only be added within 10 days of filing your initial claim",
       "Forgetting that Iowa's max duration is just 16 weeks, plan for a shorter runway"
     ],
-    processingTime: "Claims typically take 2-3 weeks to process.",
+    processingTime: "IWD says it may take several weeks to process your application. Once approved, a direct deposit first payment can take 7-10 business days, and a new IWD debit card can take more than 10 business days to arrive. Keep filing weekly claims while you wait.",
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Iowa?",
-        answer: "Iowa pays up to $763 per week with dependents."
+        answer: "For claims filed on or after July 5, 2026, Iowa pays up to $790 per week with four dependents. With no dependents the maximum is $644. The figures reindex each year after the first Sunday in July."
       },
       {
         question: "How long can I receive unemployment benefits in Iowa?",
@@ -1071,11 +1071,11 @@ export const states: StateData[] = [
       },
       {
         question: "Can I file for unemployment online in Iowa?",
-        answer: "Yes. File at the Iowa Workforce Development website or call 1-866-239-0843."
+        answer: "Yes. File at iowaworks.gov (the IowaWORKS portal). For help, call Iowa Workforce Development at 1-866-239-0843, Monday through Friday, 8:00 a.m. to 4:30 p.m."
       },
       {
         question: "Who qualifies for unemployment in Iowa?",
-        answer: "You qualify if you lost your Iowa job through no fault of your own, earned at least $1,700 in your highest base period quarter (with total base period wages at least 1.25 times that amount across two or more quarters), and are able and available for full-time Iowa employment."
+        answer: "You qualify if you lost your Iowa job through no fault of your own, earned at least $2,210 in one base period quarter and at least $1,110 in a different quarter (with total base period wages at least 1.25 times your highest quarter), and are able and available for full-time Iowa employment."
       },
       {
         question: "When should I apply for unemployment in Iowa?",
@@ -1085,54 +1085,54 @@ export const states: StateData[] = [
     tips: [
       { headline: "No waiting week in Iowa.", body: "Unlike most states, Iowa pays from your first eligible week. File and certify immediately, every day's delay is benefit days you can't recover." },
       { headline: "Plan for a 16-week runway.", body: "Iowa's max duration is shorter than the national norm. Treat week one like week ten, apply aggressively, manage finances tightly." },
-      { headline: "Register at IowaWORKS the same day you file.", body: "IWD blocks benefit payments until your IowaWORKS profile is active. The two systems aren't linked." },
-      { headline: "Claim your dependent allowance.", body: "Iowa's max benefit ($763) reflects the dependent boost. Without dependents, your max is lower, make sure you've correctly listed everyone you support." }
+      { headline: "Log four reemployment activities every week, three of them job applications.", body: "Iowa requires four reemployment activities each week and at least three must be job applications. You record and certify them in IowaWORKS when you file your weekly claim. Applying to the same job at the same employer within six weeks does not count. If IWD pays a week without certified activities, you can be called to a fact-finding and made to repay it." },
+      { headline: "Claim your dependents within 10 days.", body: "Iowa's $790 maximum applies with four dependents; with none it is $644. Dependents can only be added within 10 days of filing your initial claim, and a spouse counts if they earned $120 or less that week." }
     ]
   },
   {
     name: "Kansas",
     slug: "kansas",
     abbreviation: "KS",
-    maxWeeklyBenefit: 637,
+    maxWeeklyBenefit: 663,
     maxWeeks: 16,
     waitingWeek: true,
-    filingUrl: "https://www.getkansasbenefits.gov/",
+    filingUrl: "https://kansasui.gov/cp/landing",
     filingPhone: "1-800-292-6333",
-    handbookUrl: "https://www.getkansasbenefits.gov/Files/PDF/kbenp0950.pdf",
+    handbookUrl: "https://www.dol.ks.gov/home/showpublisheddocument/1723/639209267075730000",
     stateJobsUrl: "https://admin.ks.gov/offices/personnel-services/jobs",
     minEarnings: "You must have wages in at least two quarters and total base period wages of at least 30 times your calculated weekly benefit amount.",
     eligibility: [
       "You separated from your Kansas job through no fault of your own",
       "You have wages in at least two base period quarters",
       "Your total base period wages are at least 30 times your weekly benefit amount",
-      "You are able and immediately available for full-time Kansas work",
-      "You complete weekly work search and document the contacts in writing"
+      "You are able and available to accept work",
+      "You log at least three work search activities each week, including one job application or resume sent to an employer, and keep proof"
     ],
     howToFile: [
-      "Visit GetKansasBenefits.gov to file online",
-      "Create an account and provide your information",
-      "Enter employment history",
-      "Submit your claim",
-      "File weekly certifications"
+      "Go to KansasUI.gov and create a Claimant Portal account (confirm your phone by text or call, confirm your email with a code, pick a user ID, and answer three security questions)",
+      "Log in, open the menu, select Claims, and enter every employer from the last 18 months, your reason for separation, and any severance or pension pay, then choose direct deposit or the U.S. Bank ReliaCard",
+      "Sign with the last four digits of your Social Security number and submit, but only after your last day of work is over; your claim starts the Sunday of the week you file and Kansas does not pay for earlier weeks",
+      "Watch your email and the portal for an identity verification request; most claimants take the emailed barcode, a government ID, and proof of address to a listed post office",
+      "File a weekly certification every week starting the first Sunday after you apply, by 11:59 p.m. Saturday, after logging at least three work search activities in the Work Search Journal"
     ],
     documentsNeeded: [
       "Social Security number",
       "Kansas driver's license or state ID",
       "Employer details for every job in the last 18 months",
-      "Severance agreement, if you have one, Kansas may treat it as disqualifying earnings",
+      "Severance or separation pay details, Kansas says separation pay may reduce or stop benefits",
       "Banking information for direct deposit"
     ],
     commonMistakes: [
       "Filing late, Kansas does not backdate before the Sunday of your file week",
-      "Missing the weekly certification on GetKansasBenefits.gov",
-      "Underreporting agricultural or seasonal income",
-      "Not reporting severance, Kansas counts some severance as earnings"
+      "Missing the weekly certification on KansasUI.gov, it is due by 11:59 p.m. Saturday and 14 days of inactivity makes your claim inactive",
+      "Trying to certify before the Work Search Journal shows three activities, the portal will not let you submit",
+      "Not reporting severance, Kansas says separation pay may reduce or delay benefits"
     ],
-    processingTime: "Claims typically take 2-3 weeks to process.",
+    processingTime: "Once eligible, KDOL says payments normally arrive two to three business days after each weekly certification. A first U.S. Bank ReliaCard can take up to 10 business days to arrive after the first payable week, so direct deposit is faster.",
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Kansas?",
-        answer: "Kansas pays up to $637 per week."
+        answer: "Kansas pays between $165 and $663 per week for claims filed between July 1, 2026 and June 30, 2027. The maximum resets each July 1."
       },
       {
         question: "How long can I receive unemployment benefits in Kansas?",
@@ -1140,11 +1140,11 @@ export const states: StateData[] = [
       },
       {
         question: "Can I file for unemployment online in Kansas?",
-        answer: "Yes. File at GetKansasBenefits.gov or call 1-800-292-6333."
+        answer: "Yes. File at KansasUI.gov, the Claimant Self Service Portal, 24 hours a day. The Unemployment Contact Center is 1-800-292-6333 (weekdays, closes 3:15 p.m. Thursdays and 4 p.m. other days)."
       },
       {
         question: "Who qualifies for unemployment in Kansas?",
-        answer: "You qualify if you lost your Kansas job through no fault of your own, have wages in at least two base period quarters with total base period wages of at least 30 times your weekly benefit amount, and are able and immediately available for full-time Kansas work."
+        answer: "You qualify if you lost your Kansas job through no fault of your own, have wages in at least two base period quarters with total base period wages of at least 30 times your weekly benefit amount, and are able and available to accept work."
       },
       {
         question: "When should I apply for unemployment in Kansas?",
@@ -1153,9 +1153,9 @@ export const states: StateData[] = [
     ],
     tips: [
       { headline: "Plan for 16 weeks max.", body: "Kansas has one of the shorter benefit durations in the country. Budget tightly from week one, there's no extension if work doesn't materialize." },
-      { headline: "Report severance honestly.", body: "Kansas treats severance as disqualifying earnings for the weeks it covers. Reporting correctly avoids overpayment notices and clawbacks later." },
-      { headline: "Use GetKansasBenefits.gov on desktop.", body: "Kansas's UI portal can time out mobile sessions mid-application. A laptop session is the most reliable way to certify weekly." },
-      { headline: "Watch for KDOL mailings.", body: "Kansas sends monetary determinations and appeal notices by mail. Appeal windows start the date of the letter, keep an eye on your mailbox." }
+      { headline: "Report severance honestly.", body: "Kansas says a severance package or other separation pay may reduce or stop your benefits, and KDOL may contact you for details to decide whether it is deductible. Reporting correctly avoids overpayment notices and clawbacks later." },
+      { headline: "Log three work searches before you can certify.", body: "The KansasUI.gov portal will not let you submit a weekly certification until the Work Search Journal shows at least three activities for that week, and one must be an actual job application or resume sent to an employer. KDOL audits these, so keep proof." },
+      { headline: "Watch for KDOL notices.", body: "You pick how KDOL sends official notices when you file. Appeals must be submitted within 16 days of the date the decision letter was mailed, so check that channel every few days." }
     ]
   },
   {
@@ -1226,57 +1226,57 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 282,
     maxWeeks: 12,
     waitingWeek: true,
-    filingUrl: "https://www.laworks.net/",
+    filingUrl: "https://www.louisianaworks.net/hire/",
     filingPhone: "1-866-783-5567",
     handbookUrl: "https://www.laworks.net/Downloads/UI/UIBenefitRightsInformation.pdf",
     stateJobsUrl: "https://jobs.la.gov/",
-    minEarnings: "You must have earned at least $1,200 in your base period with wages in at least two quarters.",
+    minEarnings: "You must have earned at least $1,200 in your base period, with total wages at least 1.5 times what you earned in your highest quarter.",
     eligibility: [
       "You separated from your Louisiana job through no fault of your own",
       "You earned at least $1,200 in base period wages with earnings in two or more quarters",
       "You are able and available for full-time Louisiana work",
       "You complete and report weekly job search through HiRE",
-      "You register with HiRE (the Louisiana workforce portal), required for benefits"
+      "You verify your identity through ID.me when you file in HiRE, required before benefits can be paid"
     ],
     howToFile: [
-      "Visit laworks.net to file online",
-      "Create an account",
-      "Enter personal and employment information",
-      "Submit your claim",
-      "File weekly certifications"
+      "Go to HiRE at louisianaworks.net/hire and choose File a Claim / Re-open a Claim (or call 1-866-783-5567 if you cannot file online)",
+      "Verify your identity through ID.me when HiRE redirects you, and save the recovery code it gives you",
+      "Enter your Social Security number and the name, address, and phone number of every employer from the last 18 months, then choose direct deposit or the U.S. Bank debit card",
+      "File your first weekly claim the Sunday after you apply, then every week by Saturday at 11:59 p.m. Central, under Weekly Claim Certification in HiRE or by phone",
+      "Complete at least five work search activities each week, report them when you certify, and keep a detailed record in case you are asked for proof"
     ],
     documentsNeeded: [
       "Social Security number",
-      "Louisiana driver's license or state ID",
+      "A current, unexpired photo ID for ID.me identity verification",
       "Employer information for every job in the last 18 months",
-      "HiRE (helpinghandsemployment.com) account credentials",
+      "HiRE (louisianaworks.net/hire) login, the same account you file and certify in",
       "Banking information for direct deposit"
     ],
     commonMistakes: [
-      "Skipping HiRE registration, Louisiana Workforce Commission blocks payments until your HiRE account is active",
-      "Missing weekly certifications on laworks.net",
-      "Not reporting earnings, Louisiana audits 1099 income from gig platforms",
-      "Filing days late, Louisiana doesn't backdate beyond your file week"
+      "Skipping ID.me identity verification, Louisiana Works will not pay benefits until your identity is verified",
+      "Missing the weekly claim deadline in HiRE, every week is due by Saturday at 11:59 p.m. Central",
+      "Reporting fewer than five work search activities on a claim filed on or after January 4, 2026 (older claims need three)",
+      "Filing days late, your benefit year begins the Sunday of the week you file"
     ],
-    processingTime: "Claims typically take 2-3 weeks to process.",
+    processingTime: "Louisiana Works says to allow at least 21 days after you file your first weekly certification for a determination. Once approved, payment is sent 3 to 4 days after each weekly filing, and U.S. Bank mails the debit card 7 to 14 days after your first payment is issued.",
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Louisiana?",
-        answer: "Louisiana pays up to $282 per week."
+        answer: "Louisiana pays between $35 and $282 per week."
       },
       {
         question: "How long can I receive unemployment benefits in Louisiana?",
-        answer: "You can receive benefits for 12-20 weeks (variable based on the state unemployment rate)."
+        answer: "Louisiana sets the maximum between 12 and 20 weeks based on the state unemployment rate, updated each January and July. Claims filed in the second half of 2026 get 12 weeks, and you keep the duration in place when you first filed."
       },
       {
         question: "Can I file for unemployment online in Louisiana?",
-        answer: "Yes. File at laworks.net or call 1-866-783-5567."
+        answer: "Yes. File through HiRE at louisianaworks.net/hire any time, or call the UI Call Center at 1-866-783-5567."
       }
     ],
     tips: [
       { headline: "Louisiana has an unpaid waiting week, so file the day you separate.", body: "The first week of your claim is an unpaid waiting week: you must file and certify it, but you are not paid for it. Filing the week you separate starts the waiting week sooner, so your first paid week comes sooner." },
-      { headline: "Register on HiRE the same day you file.", body: "Louisiana's UI system holds benefits until your HiRE workforce profile is complete. The two are linked but require separate registration." },
-      { headline: "Confirm your maximum weeks in writing.", body: "Louisiana's duration ranges from 12 to 20 weeks based on the state unemployment rate. The Louisiana Workforce Commission will mail your specific maximum." },
+      { headline: "Five work searches a week, reported when you certify.", body: "Claims filed on or after January 4, 2026 must complete at least five work search activities every week and report them on the weekly claim. Keep a detailed record, Louisiana Works can ask for proof later." },
+      { headline: "Confirm your maximum weeks in writing.", body: "Louisiana's duration ranges from 12 to 20 weeks based on the state unemployment rate, reset each January and July. Your monetary determination comes in the mail, and if you disagree you have 15 days (not counting weekends and holidays) to appeal." },
       { headline: "Plan finances around $282/week.", body: "Louisiana has one of the lowest maximum weekly benefits in the country. Reduce fixed costs aggressively from week one, there's not much room." }
     ]
   },
@@ -1287,39 +1287,39 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 649,
     maxWeeks: 26,
     waitingWeek: true,
-    filingUrl: "https://reemployme.maine.gov/",
+    filingUrl: "https://assist.reemployme.maine.gov/cp/landing",
     filingPhone: "1-800-593-7660",
     handbookUrl: "https://www.maine.gov/unemployment/docs/2018/UIGuide2018.pdf",
     stateJobsUrl: "https://www.maine.gov/bhr/state-jobs",
-    minEarnings: "You must have earned at least $7,193 in your base period with wages in at least two quarters.",
+    minEarnings: "You must have earned at least $7,494.72 in your base period, including at least $2,498.24 in each of two of the last four quarters (amounts reindex every June).",
     eligibility: [
       "You separated from your Maine job through no fault of your own",
-      "You earned at least $7,193 in base period wages with earnings in two or more quarters",
+      "You earned at least $7,494.72 in base period wages, with at least $2,498.24 in each of two of the last four quarters",
       "You are able and available for full-time work in Maine",
       "You complete weekly work search activities and document them through ReEmployME",
       "You serve a one-week unpaid waiting period before paid benefits begin"
     ],
     howToFile: [
-      "Visit ReEmployME.maine.gov to file online",
-      "Create an account",
-      "Provide employment and personal details",
-      "Submit your claim",
-      "File weekly certifications"
+      "Go to maine.gov/reemployme and select Create ReEmployME Account (all-lowercase username, then verify your email so you can reset your password later)",
+      "File your initial claim the same week you lose your job; Maine cannot backdate a claim, and weeks before your filing date are not payable",
+      "Enter your Social Security number, every employer from the past 18 months with dates, and your bank routing and account numbers for direct deposit",
+      "Log into Maine JobLink at joblink.maine.gov with the temporary login ReEmployME creates for you and set a new password (an active JobLink account is required)",
+      "File a weekly certification for every week, starting with your unpaid waiting week, any time after 12:01 a.m. Sunday and within 14 days of the Saturday that ends the week"
     ],
     documentsNeeded: [
       "Social Security number",
-      "Maine driver's license or state ID",
+      "DD-214 if you left the military in the last 18 months, or SF-8 / SF-50 if you were a federal employee",
       "Employer name, address, and dates for the past 18 months",
-      "Maine JobLink (joblink.maine.gov) account credentials",
+      "Maine JobLink (joblink.maine.gov) login, which ReEmployME creates for you when you file",
       "Banking information for direct deposit"
     ],
     commonMistakes: [
-      "Skipping Maine JobLink registration, ReEmployME blocks payments until JobLink is active",
+      "Never logging into Maine JobLink to activate the account ReEmployME creates for you, an active JobLink account is required",
       "Missing weekly certifications on ReEmployME",
-      "Not reporting fishing, lobstering, or seasonal earnings",
-      "Filing late, Maine doesn't backdate beyond your file week"
+      "Reporting earnings for the week you got paid instead of the Sunday-through-Saturday week you actually worked",
+      "Filing a weekly certification more than 14 days after the Saturday that ends the week, it may not be paid"
     ],
-    processingTime: "Claims typically take 2-3 weeks to process.",
+    processingTime: "Maine says it takes approximately two to three weeks from the date you first file to receive your first payment. Your first eligible week is an unpaid waiting week, and direct deposit is the fastest way to get paid.",
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Maine?",
@@ -1331,14 +1331,14 @@ export const states: StateData[] = [
       },
       {
         question: "Can I file for unemployment online in Maine?",
-        answer: "Yes. File at ReEmployME.maine.gov or call 1-800-593-7660."
+        answer: "Yes. File at maine.gov/reemployme (the ReEmployME portal) or call 1-800-593-7660, Monday through Friday, 8:00 a.m. to 3:00 p.m."
       }
     ],
     tips: [
-      { headline: "Register on Maine JobLink the same day you file.", body: "ReEmployME holds benefits until your Maine JobLink profile is active. The two are linked but require separate registration." },
-      { headline: "Report seasonal industry earnings honestly.", body: "Maine's UI fund cross-references fishing, lobstering, and tourism employer reports. Underreporting triggers overpayment investigations." },
-      { headline: "Use ReEmployME on a stable internet connection.", body: "Maine's UI portal can time out on slow connections, losing your work mid-application." },
-      { headline: "Watch for ReEmployME messages.", body: "Maine sends critical determinations through the ReEmployME inbox, not just by mail. Check the portal weekly to avoid missing deadlines." }
+      { headline: "Log into Maine JobLink right after you file.", body: "When you file, ReEmployME creates a partial Maine JobLink account for you and gives you a temporary login. Sign in at joblink.maine.gov, set a new password, and keep the account active. Every claimant must have an active JobLink account, and browsing JobLink does not count as a work search activity." },
+      { headline: "File each weekly claim within 14 days.", body: "Each weekly certification must be filed within 14 days of the Saturday that ends the week you are claiming, or it may not be paid. Your work search entry has the same 14-day deadline. You can file any day starting 12:01 a.m. Sunday. Skip two weeks in a row and you have to reopen your claim." },
+      { headline: "Watch the 10-minute timeout in ReEmployME.", body: "ReEmployME logs you out after 10 minutes of no activity. Anything already saved is kept for when you log back in, so save as you go and finish each screen before stepping away." },
+      { headline: "Open your mail: appeal clocks run from the mailing date.", body: "You can view outgoing correspondence in ReEmployME, but written determinations come by mail. You have 30 calendar days from the mailing date of a deputy's decision to appeal, so do not let the envelope sit." }
     ]
   },
   {
@@ -1482,7 +1482,7 @@ export const states: StateData[] = [
       "You earned at least $5,328 in your highest base period quarter",
       "Your total base period wages are at least 1.5 times your highest quarter",
       "You are able and available for full-time Michigan employment",
-      "You register with Michigan Works! and complete weekly work search activities"
+      "You register with Michigan Works! and log at least three work search activities each week (required since July 19, 2026)"
     ],
     howToFile: [
       "Visit Michigan.gov to file online through MiWAM",
@@ -1508,7 +1508,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in Michigan?",
-        answer: "Michigan pays up to $530 per week. Note: Michigan has a one-week unpaid waiting period before benefits begin."
+        answer: "Michigan pays up to $530 per week, rising to $614 for claims starting January 1, 2027."
       },
       {
         question: "How long can I receive benefits in Michigan?",
@@ -2946,7 +2946,7 @@ export const states: StateData[] = [
     name: "Virginia",
     slug: "virginia",
     abbreviation: "VA",
-    maxWeeklyBenefit: 430,
+    maxWeeklyBenefit: 478,
     maxWeeks: 26,
     waitingWeek: true,
     filingUrl: "https://www.vec.virginia.gov/unemployment",
@@ -2985,7 +2985,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in Virginia?",
-        answer: "Virginia pays up to $430 per week."
+        answer: "Virginia pays up to $478 per week for new claims filed on or after July 5, 2026. Claims started before that date stay at the old $430 maximum."
       },
       {
         question: "How long can I receive benefits?",
