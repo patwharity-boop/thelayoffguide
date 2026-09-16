@@ -152,7 +152,8 @@ Priority queue (enrich, alphabetical, 5 per week):
     filingUrl + 3 field-note URLs after floridajobs.org reorg.
   - Re-verified unchanged: MN $948 (uimn.org), MS $235/26x/waiting period
     (mdes FAQ), TN 4 work searches (tn.gov), FL $275/12 wks (FL FAQ), WA $1,208.
-  - Not re-verifiable from here: mass.gov (403 to all fetchers). MA unchanged.
+  - MA $1,105/30 wks confirmed via Chrome on mass.gov ("As of October 5,
+    2025"); MA reindexes early October, re-check Oct 2026.
   - Calendar: MN reindexes last Sunday of Oct (2026-10-25); MI $614 on 2027-01-01;
     ID reindexes January; WA/IA/VA/KS reindex July.
   - Next batch: Maryland, Michigan, Minnesota, Mississippi, Missouri.
