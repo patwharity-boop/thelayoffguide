@@ -61,6 +61,12 @@ const ARTICLES: Article[] = [
     blurb:
       "Your employer is relocating and you can't move. Is that a layoff or a voluntary quit? How states decide.",
   },
+  {
+    slug: "/blog/negotiate-with-creditors-after-layoff",
+    title: "How to Negotiate With Creditors Before You Miss a Payment",
+    blurb:
+      "Call your mortgage servicer and credit card company before you fall behind, not after. What to say and what to avoid.",
+  },
 ];
 
 export default function MoreForFilers({ stateName }: { stateName: string }) {
