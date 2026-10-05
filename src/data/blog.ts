@@ -160,6 +160,14 @@ Check your state's specific guide on our [homepage](/) for detailed filing instr
     `.trim(),
   },
   {
+    slug: "voluntary-separation-unemployment",
+    title: "Voluntary Separation Package: Does Accepting One Affect Your Unemployment Benefits?",
+    description:
+      "Taking a voluntary buyout feels like a choice, but most states treat it as a quit. Washington now protects these separations by statute. California and New York are stricter than most people assume.",
+    date: "2026-10-05",
+    content: "",
+  },
+  {
     slug: "side-hustles-while-on-unemployment",
     title: "Can You DoorDash on Unemployment? Gig Work Rules by State (2026)",
     description:
