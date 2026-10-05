@@ -1096,6 +1096,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 663,
     maxWeeks: 16,
     waitingWeek: true,
+    metaDescription: "Kansas unemployment: up to $663/week, 16 weeks at current state rates. The waiting week is paid back after 3 more weeks. File at kansasui.gov.",
     filingUrl: "https://kansasui.gov/cp/landing",
     filingPhone: "1-800-292-6333",
     handbookUrl: "https://www.dol.ks.gov/home/showpublisheddocument/1723/639209267075730000",
@@ -1162,10 +1163,11 @@ export const states: StateData[] = [
     name: "Kentucky",
     slug: "kentucky",
     abbreviation: "KY",
-    maxWeeklyBenefit: 720,
+    maxWeeklyBenefit: 746,
     maxWeeks: 16,
     waitingWeek: true,
-    filingUrl: "https://kewes.ky.gov/",
+    metaDescription: "Kentucky unemployment: up to $746/week as of July 5, 2026, 16 weeks, 1-week wait. File at uiclaimsportal.ky.gov and register separately or payments are held.",
+    filingUrl: "https://uiclaimsportal.ky.gov/",
     filingPhone: "1-502-875-0442",
     handbookUrl: "https://kcc.ky.gov/career/Documents/PAM400.pdf",
     stateJobsUrl: "https://personnel.ky.gov/Pages/Careers.aspx",
@@ -1175,7 +1177,7 @@ export const states: StateData[] = [
       "You earned at least $1,500 in one base period quarter and another $1,500 across the remaining three",
       "Your total base period wages equal at least 1.5 times your highest quarter",
       "You are able and available for full-time Kentucky work",
-      "You complete biweekly work search and report it through KEWES"
+      "You complete your work search and report it through the claimant portal at uiclaimsportal.ky.gov"
     ],
     howToFile: [
       "Visit kcc.ky.gov to file online",
@@ -1195,7 +1197,7 @@ export const states: StateData[] = [
       "Forgetting that Kentucky uses biweekly certification, not weekly",
       "Not reporting part-time income on the biweekly certification",
       "Failing to register with the Kentucky Career Center as required",
-      "Letting your KEWES password expire, you'll be locked out at the worst time"
+      "Letting your claimant portal password expire, you'll be locked out at the worst time"
     ],
     processingTime: "Claims typically take 2-3 weeks to process.",
     faq: [
@@ -1213,9 +1215,9 @@ export const states: StateData[] = [
       }
     ],
     tips: [
-      { headline: "Certify every two weeks.", body: "Kentucky uses biweekly certification through KEWES. New claimants who try to certify weekly often miss the actual deadline." },
-      { headline: "Save your KEWES password somewhere accessible.", body: "Kentucky's portal locks accounts after a handful of failed login attempts. A locked account costs days at exactly the wrong time." },
-      { headline: "Register with the Kentucky Career Center.", body: "KEWES holds payments until the Kentucky Career Center registration is on file. It's a separate step from filing." },
+      { headline: "Certify every two weeks.", body: "Kentucky certifies through the claimant portal at uiclaimsportal.ky.gov. New claimants who try to certify weekly often miss the actual deadline." },
+      { headline: "Save your claimant portal password somewhere accessible.", body: "Kentucky's portal locks accounts after a handful of failed login attempts. A locked account costs days at exactly the wrong time." },
+      { headline: "Register with the Kentucky Career Center.", body: "Kentucky holds payments until your Career Center registration is on file. It's a separate step from filing." },
       { headline: "Read PAM400 (the official handbook).", body: "Kentucky's claimant handbook explains the biweekly certification calendar and partial-earnings formulas in plain language, most first-time questions are answered there." }
     ]
   },
@@ -1226,6 +1228,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 282,
     maxWeeks: 12,
     waitingWeek: true,
+    metaDescription: "Louisiana unemployment: $282/week max, 12 weeks (cut from 26 for claims filed on or after Jan 5, 2025). 5 work-search activities weekly. File HiRE at louisianaworks.net.",
     filingUrl: "https://www.louisianaworks.net/hire/",
     filingPhone: "1-866-783-5567",
     handbookUrl: "https://www.laworks.net/Downloads/UI/UIBenefitRightsInformation.pdf",
@@ -1287,6 +1290,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 649,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Maine unemployment: up to $649/week, 26 weeks, 1-week wait. Maine requires just one work-search activity a week. File ReEmployME at reemployme.maine.gov.",
     filingUrl: "https://assist.reemployme.maine.gov/cp/landing",
     filingPhone: "1-800-593-7660",
     handbookUrl: "https://www.maine.gov/unemployment/docs/2018/UIGuide2018.pdf",
@@ -1348,6 +1352,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 430,
     maxWeeks: 26,
     waitingWeek: false,
+    metaDescription: "Maryland unemployment: $430/week max, 26 weeks, no waiting week. 3 work-search activities weekly, one a direct job contact. File BEACON at beacon.labor.maryland.gov.",
     filingUrl: "https://beacon.labor.maryland.gov/",
     filingPhone: "1-410-949-0022",
     handbookUrl: "https://labor.maryland.gov/employment/clmtguide/uiclmtpamphlet.pdf",
