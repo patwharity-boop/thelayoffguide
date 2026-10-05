@@ -463,9 +463,9 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 721,
     maxWeeks: 26,
     waitingWeek: false,
-    filingUrl: "https://www.ctdol.state.ct.us/UI-Online/index.htm",
-    filingPhone: "1-860-263-6970",
-    handbookUrl: "https://www.ctdol.state.ct.us/progsupt/unemplt/claimant-guide/uc-288.pdf",
+    filingUrl: "https://reemployct.dol.ct.gov/",
+    filingPhone: "1-800-956-3294",
+    handbookUrl: "https://portal.ct.gov/dolui/benefits-booklet/benefits-booklet---a-guide-to-collecting-benefits-in-connecticut",
     stateJobsUrl: "https://www.jobapscloud.com/CT/",
     minEarnings: "You must have earned at least $1,760 in total base period wages (40 times the minimum weekly benefit rate).",
     eligibility: [
@@ -506,7 +506,7 @@ export const states: StateData[] = [
       },
       {
         question: "Can I file for unemployment online in Connecticut?",
-        answer: "Yes. File online at the CT DOL website or call 1-860-263-6970."
+        answer: "Yes. File online through ReEmployCT at reemployct.dol.ct.gov or call 1-800-956-3294."
       },
       {
         question: "Who qualifies for unemployment in Connecticut?",
@@ -514,16 +514,16 @@ export const states: StateData[] = [
       },
       {
         question: "When should I apply for unemployment in Connecticut?",
-        answer: "File the same week you separate. Connecticut has no waiting week, so every delayed day is a lost benefit day. The CTDOL website accepts online applications 24/7 at ctdol.state.ct.us."
+        answer: "File the same week you separate. Connecticut has no waiting week, so every delayed day is a lost benefit day. File 24/7 through ReEmployCT at reemployct.dol.ct.gov."
       }
     ],
     tips: [
       { headline: "Report severance honestly.", body: "Connecticut treats severance as disqualifying income for the weeks it covers. Reporting it correctly prevents an overpayment that you'll be forced to repay later." },
       { headline: "No waiting week, file immediately.", body: "Connecticut pays from your first eligible week, unlike most states. A delayed filing is pure money lost." },
       { headline: "Register with the American Job Center.", body: "CTDOL holds benefits until you register at your local AJC. Do it the same week you file to avoid a payment gap." },
-      { headline: "Use a desktop browser for UI Online.", body: "The Connecticut UI Online portal is older than most. Mobile sessions time out frequently mid-application, desktop is more reliable." }
+      { headline: "Use a desktop browser for ReEmployCT.", body: "Connecticut files through ReEmployCT at reemployct.dol.ct.gov. Mobile sessions can time out mid-application, so a desktop browser is more reliable." }
     ],
-    metaDescription: "Connecticut: $721/week max, 26 weeks, no waiting week. File CTDOL immediately. Severance may delay your start. 3 weekly employer contacts required."
+    metaDescription: "Connecticut: $721/week max (frozen through Oct 2028), 26 weeks, no waiting week. File ReEmployCT at reemployct.dol.ct.gov the week you separate."
   },
   {
     name: "Delaware",
@@ -545,7 +545,7 @@ export const states: StateData[] = [
       "You complete weekly work search activities and document them"
     ],
     howToFile: [
-      "Visit ui.delawareworks.com to file online",
+      "Visit uics.delawareworks.com to file online",
       "Create an account and provide personal information",
       "Enter employment history and reason for separation",
       "Submit your initial claim",
@@ -576,7 +576,7 @@ export const states: StateData[] = [
       },
       {
         question: "Can I file for unemployment online in Delaware?",
-        answer: "Yes. File online at ui.delawareworks.com or call 1-302-761-8446."
+        answer: "Yes. File online at uics.delawareworks.com or call 1-302-761-8446."
       },
       {
         question: "Who qualifies for unemployment in Delaware?",
@@ -584,16 +584,16 @@ export const states: StateData[] = [
       },
       {
         question: "When should I apply for unemployment in Delaware?",
-        answer: "File the same week you separate. Delaware's effective date is the Sunday of the filing week, so waiting even a few days can cost you a full week of benefits. File online at ui.delawareworks.com or call 1-302-761-8446."
+        answer: "File the same week you separate. Delaware's effective date is the Sunday of the filing week, so waiting even a few days can cost you a full week of benefits. File online at uics.delawareworks.com or call 1-302-761-8446."
       }
     ],
     tips: [
-      { headline: "File at ui.delawareworks.com on day one.", body: "Delaware's effective date is the Sunday of your filing week. Even a 2-day delay can mean a full week of benefits unrecovered." },
+      { headline: "File at uics.delawareworks.com on day one.", body: "Delaware's effective date is the Sunday of your filing week. Even a 2-day delay can mean a full week of benefits unrecovered." },
       { headline: "Read the DUI Claimant Handbook before calling.", body: "Delaware's call center is small and hold times are long, the handbook answers most first-time questions in writing." },
       { headline: "Document every employer contact.", body: "Delaware requires written records of weekly work search activity. DUI audits randomly and a missing entry disqualifies the week." },
       { headline: "Watch the mail for monetary determinations.", body: "Delaware mails the determination of your weekly benefit amount, the appeal window starts the date of the letter, not the date you receive it." }
     ],
-    metaDescription: "Delaware: $450/week max, 26 weeks, 1-week wait. File ui.delawareworks.com the week you separate. Benefits date from Sunday of your filing week."
+    metaDescription: "Delaware: $450/week max, 26 weeks, 1-week wait. File uics.delawareworks.com the week you separate. Benefits date from Sunday of your filing week."
   },
   {
     name: "Florida",
@@ -1348,7 +1348,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 430,
     maxWeeks: 26,
     waitingWeek: false,
-    filingUrl: "https://www.dllr.state.md.us/employment/unemployment.shtml",
+    filingUrl: "https://beacon.labor.maryland.gov/",
     filingPhone: "1-410-949-0022",
     handbookUrl: "https://labor.maryland.gov/employment/clmtguide/uiclmtpamphlet.pdf",
     stateJobsUrl: "https://dbm.maryland.gov/jobseekers/pages/jobseekershome.aspx",
@@ -2335,6 +2335,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 649,
     maxWeeks: 16,
     waitingWeek: true,
+    metaDescription: "Oklahoma unemployment: up to $649/week, 16 weeks max, 1-week wait. File at unemployment.state.ok.us the week you're laid off.",
     filingUrl: "https://unemployment.state.ok.us/",
     filingPhone: "1-405-525-1500",
     handbookUrl: "https://www.oklahoma.gov/content/dam/ok/en/oesc/documents/forms/OES-339.pdf",
@@ -2396,6 +2397,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 902,
     maxWeeks: 26,
     waitingWeek: true,
+    metaDescription: "Oregon unemployment: up to $902/week, 26 weeks, 1-week wait. File Frances Online at unemployment.oregon.gov the week you separate.",
     filingUrl: "https://unemployment.oregon.gov/",
     filingPhone: "1-877-345-3484",
     handbookUrl: "https://unemployment.oregon.gov/uploads/docs/UIPUB350-EN.pdf",
@@ -2457,7 +2459,8 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 605,
     maxWeeks: 26,
     waitingWeek: true,
-    filingUrl: "https://www.uc.pa.gov/",
+    metaDescription: "Pennsylvania UC: $605/week max rate, but a 3.2% solvency reduction means $585 is the most actually paid. Up to 26 weeks. File a weekly certification.",
+    filingUrl: "https://www.pa.gov/services/dli/apply-for-unemployment-compensation-benefits",
     filingPhone: "1-888-313-7284",
     handbookUrl: "https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucp-forms/ucp-1.pdf",
     stateJobsUrl: "https://careers.employment.pa.gov/",
@@ -2518,6 +2521,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 777,
     maxWeeks: 26,
     waitingWeek: false,
+    metaDescription: "Rhode Island: $777/week max before dependents, up to $971 with five. 26 weeks, no waiting week. File at dlt.ri.gov the week you separate.",
     filingUrl: "https://dlt.ri.gov/individuals/unemployment-insurance",
     filingPhone: "1-401-243-9100",
     handbookUrl: "https://dlt.ri.gov/sites/g/files/xkgbur571/files/documents/pdf/ui/UIGuide.pdf",
@@ -2579,6 +2583,7 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 350,
     maxWeeks: 20,
     waitingWeek: true,
+    metaDescription: "South Carolina unemployment: $350/week max, up to 20 weeks, 1-week wait. File at dew.sc.gov the week you're laid off.",
     filingUrl: "https://dew.sc.gov/individuals/applying-benefits",
     filingPhone: "1-866-831-1724",
     handbookUrl: "https://dew.sc.gov/claimant-handbook",
@@ -2895,7 +2900,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://labor.vermont.gov/unemployment-insurance/ui-claimants",
     filingPhone: "1-877-214-3330",
-    handbookUrl: "https://labor.vermont.gov/sites/labor/files/doc_library/B-11Claimant%20handbook%202019.pdf",
+    handbookUrl: "https://labor.vermont.gov/document/unemployment-insurance-claimant-handbook",
     stateJobsUrl: "https://careers.vermont.gov/",
     minEarnings: "You must have wages in your highest quarter of at least Vermont's minimum quarterly amount (which changes each July), plus wages in your other quarters totaling at least 40% of your highest quarter. Your weekly benefit amount is the total of your two highest quarters divided by 45.",
     eligibility: [
@@ -3017,7 +3022,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://esd.wa.gov/get-financial-help/unemployment-benefits",
     filingPhone: "1-800-318-6022",
-    handbookUrl: "https://esdorchardstorage.blob.core.windows.net/esdwa/Default/ESDWAGOV/Unemployment/ESD-Handbook-for-Unemployed-Workers.pdf",
+    handbookUrl: "https://esd.wa.gov/get-financial-help/unemployment-benefits/unemployed-workers-handbook",
     stateJobsUrl: "https://careers.wa.gov/",
     minEarnings: "You must have earned at least 680 hours of work in your base period.",
     eligibility: [
@@ -3200,7 +3205,7 @@ export const states: StateData[] = [
     waitingWeek: true,
     filingUrl: "https://dws.wyo.gov/dws-division/unemployment-insurance/claimants/filing-for-ui/",
     filingPhone: "1-307-473-3789",
-    handbookUrl: "https://www.wyomingworkforce.org/_docs/ui/Wyoming-Claimant-Guidebook.pdf",
+    handbookUrl: "https://dws.wyo.gov/dws-division/unemployment-insurance/claimants/",
     stateJobsUrl: "https://ai.wyo.gov/for-job-seekers",
     minEarnings: "You must have earned at least 8% of the statewide average annual wage in your base period, with wages in at least two quarters and total wages of at least 1.4 times your highest quarter.",
     eligibility: [
