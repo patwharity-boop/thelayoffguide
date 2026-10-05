@@ -1203,7 +1203,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Kentucky?",
-        answer: "Kentucky pays up to $720 per week. Note: Kentucky has a one-week unpaid waiting period before benefits begin."
+        answer: "Kentucky pays up to $746 per week for claims effective on or after July 5, 2026. Note: Kentucky has a one-week unpaid waiting period before benefits begin."
       },
       {
         question: "How long can I receive unemployment benefits in Kentucky?",
