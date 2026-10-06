@@ -46,3 +46,25 @@ git checkout -b restore <sha>
 
 `src/components/EmailCapture.tsx` and `src/app/api/subscribe/route.ts`. That is the
 newsletter feature, removed on purpose. Newsletter was decided against for this site.
+
+## Correction, 2026-10-06
+
+Three of the five "unpublished drafts" turned out to be **already published**. They were recovered,
+then removed from this branch once that was established. They are not lost; they are live:
+
+| recovered markdown draft | already live as | served at |
+|---|---|---|
+| `unemployment-and-taxes-1099-g.md` | `public/posts/blog-post-14-unemployment-taxes-1099-g.html` | `/blog/unemployment-and-taxes` |
+| `how-to-negotiate-severance.md` | `public/posts/blog-post-15-negotiate-severance.html` | `/blog/negotiate-severance` |
+| `health-coverage-after-layoff-2026.md` | `public/posts/blog-post-7-cobra-vs-marketplace.html` | `/blog/cobra-vs-marketplace` |
+
+Proof they shipped, not just overlapped: the live posts carry the exact corrections the June review
+said it applied. Post 14 has the fixed state list (Alabama present, Montana absent, which was the
+specific fix). Post 15 has the full OWBPA clock, 21 and 45 day consideration plus 7 day revocation.
+Post 7 carries the non-expansion coverage-gap caveat and the "entire premium plus up to a 2 percent
+administrative fee" sentence verbatim from the draft.
+
+These URLs are served through `next.config.ts` rewrites from `public/posts/*.html`, which is why they
+do not appear as directories under `src/app/blog/` or as entries in `src/data/blog.ts`.
+
+**Genuinely unpublished, still in this branch:** `401k-after-layoff` and `state-benefit-increases-2026`.
