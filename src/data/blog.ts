@@ -168,6 +168,14 @@ Check your state's specific guide on our [homepage](/) for detailed filing instr
     content: "",
   },
   {
+    slug: "401k-after-layoff",
+    title: "What Happens to Your 401(k) When You Get Laid Off?",
+    description:
+      "You have four real options for your 401(k) after a layoff. Most people default to the wrong one. Here's what each choice costs you in taxes, penalties, and long-term money.",
+    date: "2026-10-06",
+    content: "",
+  },
+  {
     slug: "state-benefit-increases-2026",
     title: "Some States Are Raising Unemployment Benefits. Here's Why and When Yours Might Too.",
     description:
