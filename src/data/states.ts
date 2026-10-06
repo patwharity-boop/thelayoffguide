@@ -1411,10 +1411,10 @@ export const states: StateData[] = [
     name: "Massachusetts",
     slug: "massachusetts",
     abbreviation: "MA",
-    maxWeeklyBenefit: 1105,
+    maxWeeklyBenefit: 1154,
     maxWeeks: 30,
     waitingWeek: true,
-    metaDescription: "Massachusetts: $1,105/week max, 30 weeks, 1-week wait. Highest cap in the US. File mass.gov UI Online the week you're laid off. Add dependents at filing.",
+    metaDescription: "Massachusetts: $1,154/week max as of October 4 2026, 30 weeks, 1-week wait. Highest cap in the US. File the week you're laid off. Dependents add $25 each on top.",
     filingUrl: "https://www.mass.gov/how-to/apply-for-unemployment-insurance-benefits",
     filingPhone: "1-877-626-6800",
     handbookUrl: "https://www.mass.gov/doc/a-guide-to-benefits-and-employment-services/download",
@@ -1451,7 +1451,7 @@ export const states: StateData[] = [
     faq: [
       {
         question: "How much will I receive in unemployment benefits in Massachusetts?",
-        answer: "Massachusetts pays up to $1,105 per week including dependency allowance, the highest in the nation."
+        answer: "Massachusetts pays up to $1,154 per week for benefit years starting on or after October 4, 2026, the highest in the nation. Dependent children add $25 each on top of that."
       },
       {
         question: "How long can I receive unemployment benefits in Massachusetts?",
@@ -1463,8 +1463,8 @@ export const states: StateData[] = [
       }
     ],
     tips: [
-      { headline: "Claim every dependent.", body: "Massachusetts adds $25 per dependent per week, up to half your benefit amount. With multiple dependents this is real money, don't skip it." },
-      { headline: "Massachusetts has the highest max in the nation.", body: "$1,105/week for up to 30 weeks (as of April 2025, while the state unemployment trigger is active) = up to $33,150 max. Get every weekly payment by certifying on time and reporting accurately." },
+      { headline: "Claim every dependent.", body: "Massachusetts adds $25 per week for each dependent child, paid on top of your weekly benefit. Spouses don't count. With several children this is real money, so don't skip it." },
+      { headline: "Massachusetts has the highest max in the nation.", body: "$1,154/week for up to 30 weeks, which is up to $34,620. The maximum resets every year for benefit years starting on or after the first Sunday in October. Get every weekly payment by certifying on time and reporting accurately." },
       { headline: "Use UI Online on a desktop browser.", body: "Massachusetts's UI Online has had mobile reliability issues. Desktop is more stable for filing weekly certifications." },
       { headline: "Read the 'Guide to Benefits' before filing.", body: "Massachusetts publishes a thorough claimant guide that explains the dependency allowance and partial-earnings rules in plain language." }
     ]

@@ -120,7 +120,7 @@ Not all unemployment benefits are created equal. Depending on which state you li
 ### 1. Washington, $1,208/week, 26 weeks
 The highest maximum weekly benefit in the country. Washington's system is based on hours worked (680 hours minimum) rather than dollar amounts, which can make it easier to qualify.
 
-### 2. Massachusetts, $1,105/week, 30 weeks
+### 2. Massachusetts, $1,154/week, 30 weeks
 The highest on the East Coast, especially with the dependency allowance, and one of the longest durations in the country (Massachusetts pays up to 30 weeks when the state unemployment rate is high enough to trigger it). Massachusetts also has a relatively straightforward filing process.
 
 ### 3. Minnesota, $948/week, 26 weeks
