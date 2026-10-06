@@ -517,7 +517,7 @@ export const seedFieldNotes: FieldNote[] = [
     states: ["massachusetts"],
     topics: ["filing"],
     source: "research",
-    sourceUrl: "https://www.mass.gov/info-details/check-eligibility-for-unemployment-benefits",
+    sourceUrl: "https://www.mass.gov/info-details/how-unemployment-insurance-benefits-are-determined",
     publishedAt: "2026-06-04",
   },
 
