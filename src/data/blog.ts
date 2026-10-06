@@ -168,6 +168,14 @@ Check your state's specific guide on our [homepage](/) for detailed filing instr
     content: "",
   },
   {
+    slug: "state-benefit-increases-2026",
+    title: "Some States Are Raising Unemployment Benefits. Here's Why and When Yours Might Too.",
+    description:
+      "Oregon's max went from $872 to $902 in June. Washington's went to $1,208 in July. Massachusetts reset to $1,154 in October. Several states adjust automatically every year.",
+    date: "2026-10-06",
+    content: "",
+  },
+  {
     slug: "side-hustles-while-on-unemployment",
     title: "Can You DoorDash on Unemployment? Gig Work Rules by State (2026)",
     description:
