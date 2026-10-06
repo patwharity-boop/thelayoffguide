@@ -512,8 +512,8 @@ export const seedFieldNotes: FieldNote[] = [
   },
   {
     id: "ma-dependent-allowance-25",
-    title: "Massachusetts pays $25 per dependent up to 50% of weekly amount",
-    body: "Massachusetts adds $25 per qualifying dependent child to the weekly benefit, capped at 50% of your weekly benefit amount. The allowance does not extend duration but raises the cash flow during eligible weeks. List dependents during initial filing.",
+    title: "Massachusetts adds $25 per dependent child on top of your weekly benefit",
+    body: "Massachusetts adds $25 per week for each unemancipated dependent child, paid in addition to your weekly benefit amount under M.G.L. c.151A section 29(c). Spouses do not count. A child qualifies if under 18, under 24 and a full-time student, or over 18 and unable to work due to a disability. The allowance does not extend how many weeks you get. List dependents when you first file.",
     states: ["massachusetts"],
     topics: ["filing"],
     source: "research",
