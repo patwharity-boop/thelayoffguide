@@ -2127,6 +2127,10 @@ export const states: StateData[] = [
     processingTime: "Claims are typically processed within 2-4 weeks.",
     faq: [
       {
+        question: "What happens to my New York unemployment claim during the November 2026 system upgrade?",
+        answer: "New York takes its unemployment system offline starting Monday, November 2, 2026 at 5 PM for an expected 9 to 12 calendar days. During that window you cannot file a new claim, certify for weekly benefits, or access your account, and the phone claim center is down too. Payments will be delayed. The deadline to file or certify is 5 PM on November 2. If you miss it you can backdate your claim in the upgraded system, and the Department of Labor says you will receive all payments you are entitled to once you file or certify in the new system. Keep completing and recording 3 work search activities each week during the outage. Career Centers are available virtually by appointment from November 3 to November 27."
+      },
+      {
         question: "How much will I receive in unemployment benefits in New York?",
         answer: "New York pays up to $869 per week as of October 2025. Your benefit amount is about half your average weekly wage, up to the maximum."
       },
@@ -2140,6 +2144,7 @@ export const states: StateData[] = [
       }
     ],
     tips: [
+      { headline: "File before 5 PM on Monday, November 2 2026 or you will wait: NY shuts its unemployment system down.", body: "New York is replacing its 50-year-old claims system. Starting Monday, November 2 2026 at 5 PM, every online and phone unemployment service goes offline, including the call center, for an expected 9 to 12 calendar days, which puts it back around November 11 to 14. You will not be able to file a new claim, certify for a week, or even look at your account. Payments will be delayed. If you separate anywhere near that date, file before the 5 PM cutoff. If you miss it, you can backdate your claim once the new system is live, and NY says you will still receive every payment you are entitled to. Keep doing and recording your 3 work search activities every week through the outage, because that requirement does not pause. Career Centers are open virtually by appointment from November 3 to November 27." },
       { headline: "New York has an unpaid waiting week, so file the day you separate.", body: "For claims filed since June 28, 2021, New York does not pay you for the first full week of your claim. You still have to claim that week and stay eligible. Filing immediately starts the waiting week sooner, so your first paid week comes sooner." },
       { headline: "Hit 3 work search activities each week.", body: "New York requires 3 documented work search activities. Falling short disqualifies the entire week, not just reduces it." },
       { headline: "Report all freelance and gig income.", body: "New York DOL cross-references 1099 records. Underreporting freelance income from platforms like Uber or Upwork triggers fraud investigations." },
