@@ -2127,6 +2127,10 @@ export const states: StateData[] = [
     processingTime: "Claims are typically processed within 2-4 weeks.",
     faq: [
       {
+        question: "Is New York's maximum unemployment benefit going up?",
+        answer: "Not right now. It has been $869 a week since October 6, 2025, when it rose from $504 after six years frozen. Labor Law section 590 does schedule a further increase, to 50 percent of the state average weekly wage, starting the first Monday of October 2026. That did not happen. The same section blocks any scheduled increase unless the labor commissioner determines, on some day between April 1 and June 30, that the unemployment trust fund has reached thirty percent of what is called the average high cost multiple, a federal measure of how many years of high unemployment a state could pay for out of reserves. The 2025 state budget waived that condition for the October 2025 increase only. New York is nowhere near the threshold: the US Department of Labor put the state's multiple at 0.06 as of January 1, 2026, and the last year New York reached 1.0 was 1974. Paying off the roughly $7 billion federal loan in 2025 cleared the debt but did not build the reserve the statute asks for. Expect $869 to hold until that changes or the legislature carves out another exception."
+      },
+      {
         question: "What happens to my New York unemployment claim during the November 2026 system upgrade?",
         answer: "New York takes its unemployment system offline starting Monday, November 2, 2026 at 5 PM for an expected 9 to 12 calendar days. During that window you cannot file a new claim, certify for weekly benefits, or access your account, and the phone claim center is down too. Payments will be delayed. The deadline to file or certify is 5 PM on November 2. If you miss it you can backdate your claim in the upgraded system, and the Department of Labor says you will receive all payments you are entitled to once you file or certify in the new system. Keep completing and recording 3 work search activities each week during the outage. Career Centers are available virtually by appointment from November 3 to November 27."
       },
