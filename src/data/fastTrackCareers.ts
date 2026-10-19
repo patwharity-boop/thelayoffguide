@@ -137,7 +137,142 @@ export const careers: Career[] = [
       BLS + ". No exact SOC match. Nearest: 31-1120, 31-1133 and 21-1093.",
   },
 
+  // ---- added 2026-10-19 after a second BLS sweep. Highest-volume entries first.
+  {
+    title: "Teacher Assistant / Paraeducator",
+    tier: "under-month",
+    training: "Weeks. Districts hire mid-year and train you in",
+    cost: "A state paraprofessional assessment fee, typically under $100",
+    pay: "$36,780 median",
+    openings: "About 176,200 a year, the most of anything on this page",
+    growth: "0%, little or no change",
+    what:
+      "Support a classroom teacher, often with special needs students. Districts hire constantly, including mid-year, and the entry bar is some college rather than a degree.",
+    caveat:
+      "The pay is the problem and we are not going to dress it up. $36,780, frequently on a nine or ten month contract with no summer paycheck, and often part time hours with no benefits. This is a job that stops the bleeding while you work out your next move, not a destination.",
+    source: BLS + ". SOC 25-9045.",
+  },
+  {
+    title: "Bookkeeping and Accounting Clerk",
+    tier: "under-month",
+    training: "Weeks if you already know the work. The QuickBooks credential is short",
+    cost: "Low. The software certification is commonly free with an accountant account",
+    pay: "$50,670 median, $36,000 to $74,550",
+    openings: "About 144,100 a year",
+    growth: "Declining 6%, a loss of about 85,600 jobs",
+    what:
+      "Record transactions, reconcile accounts and run payroll for small businesses. Despite the decline, the sheer size of the occupation means a lot of seats open every year.",
+    caveat:
+      "This is a shrinking occupation, down 85,600 jobs over the decade, and it is heavily exposed to automation. A QuickBooks certification certifies you in the software, not in bookkeeping, and the vendor aims it at people already practising. If you have no bookkeeping background it will not carry you on its own.",
+    source: BLS + ". SOC 43-3031.",
+  },
+  {
+    title: "Quality Control Inspector",
+    tier: "under-month",
+    training: "Employer trained. A month up to a year on the job",
+    cost: "$0",
+    paidTraining: true,
+    pay: "$48,570 median",
+    openings: "About 66,700 a year",
+    growth: "3%, about average",
+    what:
+      "Check parts and products against spec in manufacturing plants. Manufacturers hire on a high school diploma and train in house, so you are earning while you learn the work.",
+    caveat:
+      "There is no required credential, which cuts both ways. You can start quickly, but you have no portable qualification either, so your pay depends entirely on the employer. The work is repetitive, runs on plant shift schedules, and faces the same automation and offshoring pressure as the lines it inspects.",
+    source: BLS + ". SOC 51-9061.",
+  },
+  {
+    title: "Social and Human Service Assistant",
+    tier: "under-month",
+    training: "Weeks. Short term on the job training",
+    cost: "$0 at most county agencies and nonprofits",
+    paidTraining: true,
+    pay: "$45,930 median, $34,200 to $63,290",
+    openings: "About 48,900 a year",
+    growth: "7%, much faster than average",
+    what:
+      "Help people reach services: benefits, housing, treatment, food assistance. County agencies and nonprofits hire on a high school diploma and train you.",
+    caveat:
+      "There is no licence here, just a hiring path, which makes it less portable than a credentialed job. Much of the funding is grant based, so posts can disappear when a grant ends. And the work carries real secondary trauma. Entry pay at small nonprofits runs well below the national median.",
+    source: BLS + ". SOC 21-1093.",
+  },
+  {
+    title: "Bartender",
+    tier: "under-month",
+    training: "1 to 4 weeks, and no state requires bartending school",
+    cost: "A state alcohol server course, usually under $50",
+    pay: "$34,340 median, and BLS states this figure already includes tips",
+    openings: "About 121,200 a year",
+    growth: "5%, faster than average",
+    what:
+      "High turnover means constant openings, and you can be working within weeks.",
+    caveat:
+      "Read the pay figure carefully, because it is the one people get wrong. $34,340 is the median with tips already counted, not before them. The bottom tenth of bartenders earn under $9.67 an hour all in. Much of this work is part time and nights, weekends and holidays are the job. No state requires you to pay for bartending school, so do not.",
+    source: BLS + ". SOC 35-3011.",
+  },
+
   // ------------------------------------------------------------- one to three months
+  {
+    title: "Correctional Officer",
+    tier: "one-three",
+    training: "An 8 to 9 week academy, and you are on full salary throughout",
+    cost: "$0",
+    paidTraining: true,
+    pay: "$58,940 median",
+    openings: "About 30,000 a year",
+    growth: "Declining 7%",
+    what:
+      "State and county corrections hire on a high school diploma and pay you a full officer salary from day one of the academy. In Texas that is $52,441 to start, higher at maximum security units.",
+    caveat:
+      "The occupation is shrinking by 7% over the decade. The work carries genuine violence risk, forced overtime and rotating shifts, and turnover is high for obvious reasons. Most new facilities are rural, so you may have to move. Background check, drug test and in many states a polygraph screen out a lot of applicants.",
+    source: BLS + ". SOC 33-3012.",
+  },
+  {
+    title: "Insurance Sales Agent",
+    tier: "one-three",
+    training: "Weeks to licensed. Carriers train you after hiring",
+    cost: "State licence fees, roughly $190 in California, plus required ethics study",
+    pay: "$62,280 median",
+    openings: "About 43,100 a year",
+    growth: "3%, about average",
+    what:
+      "Sell life, health or property and casualty cover. You need a state producer licence per line, and carriers routinely hire unlicensed people and put them through it.",
+    caveat:
+      "Entry roles are commission weighted. What a carrier calls paid training is often a draw against future commission, which becomes a debt you owe if you wash out, so read that contract before you sign. Some agencies also expect you to buy your own leads. Licences are per state and per line, so moving means re-licensing.",
+    source: BLS + ". SOC 41-3021.",
+  },
+  {
+    title: "Diesel Service Technician",
+    tier: "one-three",
+    training: "Hired as a helper in weeks. Full ASE certification takes 1 to 3 years of experience",
+    cost: "$34 registration plus $62 per ASE test",
+    pay: "$61,770 median",
+    openings: "About 24,400 a year",
+    growth: "4%, about average",
+    what:
+      "Keep trucks, buses and heavy equipment running. Fleets, school districts, municipalities and dealers routinely hire apprentice technicians and pay for the certification tests.",
+    caveat:
+      "The tool bill is the barrier nobody mentions. Technicians buy their own hand tools and it commonly runs into thousands of dollars, which is brutal if you have no savings. Second and third shift is normal and the work is hard on your back, hands and knees.",
+    link: "https://www.ase.com/tests/register-now",
+    linkLabel: "ASE certification and fees",
+    source: BLS + ". SOC 49-3031.",
+  },
+  {
+    title: "Personal Trainer",
+    tier: "one-three",
+    training: "4 to 12 weeks, plus CPR and AED certification",
+    cost: "Certification programme cost varies by provider. Budget for CPR and AED separately",
+    pay: "$47,160 median, $28,800 to $83,100",
+    openings: "About 68,000 a year",
+    growth: "7%, much faster than average",
+    what:
+      "Train clients one to one or in groups. A real national certification, a short runway and strong demand.",
+    caveat:
+      "A lot of this sector is part time, hourly plus commission, or renting floor space at a gym as a contractor, and the $47,160 median reflects that mix. The bottom tenth earn $28,800. You also have to recertify every two years with continuing education.",
+    link: "https://www.nasm.org/products/become-a-personal-trainer",
+    linkLabel: "NASM certification requirements",
+    source: BLS + ". SOC 39-9031.",
+  },
   {
     title: "CDL Truck Driver",
     tier: "one-three",
@@ -283,6 +418,52 @@ export const careers: Career[] = [
   },
 
   // ------------------------------------------------------------- three to six months
+  {
+    title: "Paralegal and Legal Assistant",
+    tier: "three-six",
+    training: "A few months for a paralegal certificate if you already hold a degree",
+    cost: "Certificate tuition varies. The national certification exam runs about $240 to $400",
+    pay: "$62,890 median",
+    openings: "About 40,800 a year",
+    growth: "0%, little or no change",
+    what:
+      "Research, draft and manage case files for lawyers. This is the best fit on the page for a laid-off office worker who already has a bachelor's degree in something else, because that degree plus a short certificate is a recognised route in.",
+    caveat:
+      "Two honest problems. Growth is flat, and this is the most exposed occupation on this page to AI doing the first draft of document review and research. It is also not a path from zero: the main certification route wants a degree plus either paralegal coursework or a year of experience, and firms prefer people with some legal exposure already.",
+    link: "https://nala.org/certification/",
+    linkLabel: "NALA certification requirements",
+    source: BLS + ". SOC 23-2011.",
+  },
+  {
+    title: "Massage Therapist",
+    tier: "three-six",
+    training: "Several months. States commonly mandate 500 to 750 programme hours",
+    cost: "School tuition is the real cost and comes out of your pocket. The licensing exam is a few hundred dollars",
+    pay: "$58,450 median",
+    openings: "About 20,400 a year",
+    growth: "15%, much faster than average",
+    what:
+      "Licensed therapeutic massage in clinics, spas, chiropractic practices or your own practice. Strong growth and better pay than most entries at this training length.",
+    caveat:
+      "The exam is cheap, the school is not, and no employer pays for it. Your income is capped by how many sessions your body can physically do in a week, and franchise employee pay runs well under the self employed median. Career length is limited by your own hands and shoulders, which is a real consideration if you are already in your fifties.",
+    source: BLS + ". SOC 31-9011.",
+  },
+  {
+    title: "IT Support Specialist",
+    tier: "three-six",
+    training: "2 to 4 months to pass the entry certification exams",
+    cost: "Exam vouchers. Check the current price with the certifying body directly",
+    pay: "$61,860 median for user support, $76,220 for network support",
+    openings: "About 48,700 a year",
+    growth: "Declining 3%",
+    what:
+      "Help desk and desktop support, the usual way into an IT career. CompTIA A+ is the recognised entry credential.",
+    caveat:
+      "Two things to know before you spend money. The occupation is projected to decline 3%, so the openings come from turnover rather than growth. And CompTIA itself recommends about 12 months of hands on IT experience before taking A+, so our old claim that no prior experience is needed overstated it. The certification is a real credential, just not a shortcut past experience.",
+    link: "https://www.comptia.org/en-us/certifications/a/",
+    linkLabel: "CompTIA A+ requirements",
+    source: BLS + ". SOC 15-1231 and 15-1232.",
+  },
   {
     title: "HVAC Technician",
     tier: "three-six",

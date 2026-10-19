@@ -219,12 +219,32 @@ export default function FastTrackCareersPage() {
             certifying bodies, not from advertising.
           </p>
           <p>
-            We removed several popular suggestions. Wind turbine technician has a
-            spectacular growth rate attached to roughly 1,500 openings a year in five
-            states. Water treatment is a declining occupation. Court reporting takes two
-            to three years with about 1,800 openings nationally. Dental hygiene takes
-            three years and competitive admission. All are fine careers and none of them
-            belong on a page about getting hired quickly.
+            We removed a lot of popular suggestions, and it is worth saying why.
+            Wind turbine technician has a spectacular growth rate attached to roughly
+            1,500 openings a year in five states. Water treatment is a declining
+            occupation. Court reporting takes two to three years for about 1,800
+            openings nationally. Dental hygiene takes three years and competitive
+            admission. Air traffic control pays superbly, has roughly 2,100 openings
+            and an age limit of 31. All are fine careers. None of them answer the
+            question this page exists to answer.
+          </p>
+          <p>
+            We also removed several things that are sold as fast tracks and are not.
+            The OSHA 10 and 30 hour cards are not a certification, and OSHA says so in
+            those words on its own site. The Project Management Professional credential
+            needs three to five years of documented project leadership before you can
+            even sit the exam. A two day scrum course does not produce a six figure job
+            without delivery experience behind it. The AWS foundational certificate is
+            described by Amazon itself as cloud literacy for non technical staff. And
+            real estate is commission only, more than half self employed, with the
+            Bureau of Labor Statistics noting in its own words that agents sometimes go
+            weeks or months without a sale. We do not list commission only work as a
+            fast route to a paycheck.
+          </p>
+          <p>
+            Anything that pays mostly in tips or commission, or that is really self
+            employment, is labelled as such. Drone piloting and loan signing are real
+            ways to earn money and neither is a job you get hired into.
           </p>
           <p>
             Figures are a snapshot and they move. Wages update each spring and projections
