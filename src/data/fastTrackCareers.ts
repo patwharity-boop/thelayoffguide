@@ -93,7 +93,7 @@ export const careers: Career[] = [
     training: "4 to 42 hours depending on your state, plus a background check",
     cost: "$50 to $200 for a state guard card",
     pay: "$38,050 median",
-    openings: "About 157,200 a year",
+    openings: "About 157,200 a year across security guards and gambling surveillance officers",
     growth: "1%, slower than average",
     what:
       "Offices, retail, events, construction sites and hospitals all hire constantly. One of the easiest jobs on this page to actually get.",
@@ -133,6 +133,8 @@ export const careers: Career[] = [
       "Support adults with intellectual and developmental disabilities in group homes or their own homes. Most states require no pre-employment certification, so agencies hire first and train after.",
     caveat:
       "BLS publishes no occupation called direct support professional, so the pay figures above are drawn from the nearest matching occupations rather than measured directly. Treat them as a range, not a promise. The work is emotionally demanding and turnover is high.",
+    link: "https://www.careeronestop.org/toolkit/training/find-local-training.aspx",
+    linkLabel: "Find local agencies hiring and training",
     source:
       BLS + ". No exact SOC match. Nearest: 31-1120, 31-1133 and 21-1093.",
   },
@@ -144,12 +146,14 @@ export const careers: Career[] = [
     training: "Weeks. Districts hire mid-year and train you in",
     cost: "A state paraprofessional assessment fee, typically under $100",
     pay: "$36,780 median",
-    openings: "About 176,200 a year, the most of anything on this page",
+    openings: "About 176,200 a year, second only to truck driving on this page",
     growth: "0%, little or no change",
     what:
       "Support a classroom teacher, often with special needs students. Districts hire constantly, including mid-year, and the entry bar is some college rather than a degree.",
     caveat:
       "The pay is the problem and we are not going to dress it up. $36,780, frequently on a nine or ten month contract with no summer paycheck, and often part time hours with no benefits. This is a job that stops the bleeding while you work out your next move, not a destination.",
+    link: "https://parapro.ets.org/",
+    linkLabel: "The ParaPro assessment most states use",
     source: BLS + ". SOC 25-9045.",
   },
   {
@@ -164,6 +168,8 @@ export const careers: Career[] = [
       "Record transactions, reconcile accounts and run payroll for small businesses. Despite the decline, the sheer size of the occupation means a lot of seats open every year.",
     caveat:
       "This is a shrinking occupation, down 85,600 jobs over the decade, and it is heavily exposed to automation. A QuickBooks certification certifies you in the software, not in bookkeeping, and the vendor aims it at people already practising. If you have no bookkeeping background it will not carry you on its own.",
+    link: "https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm",
+    linkLabel: "BLS occupational profile",
     source: BLS + ". SOC 43-3031.",
   },
   {
@@ -179,6 +185,8 @@ export const careers: Career[] = [
       "Check parts and products against spec in manufacturing plants. Manufacturers hire on a high school diploma and train in house, so you are earning while you learn the work.",
     caveat:
       "There is no required credential, which cuts both ways. You can start quickly, but you have no portable qualification either, so your pay depends entirely on the employer. The work is repetitive, runs on plant shift schedules, and faces the same automation and offshoring pressure as the lines it inspects.",
+    link: "https://www.bls.gov/ooh/production/quality-control-inspectors.htm",
+    linkLabel: "BLS occupational profile",
     source: BLS + ". SOC 51-9061.",
   },
   {
@@ -194,6 +202,8 @@ export const careers: Career[] = [
       "Help people reach services: benefits, housing, treatment, food assistance. County agencies and nonprofits hire on a high school diploma and train you.",
     caveat:
       "There is no licence here, just a hiring path, which makes it less portable than a credentialed job. Much of the funding is grant based, so posts can disappear when a grant ends. And the work carries real secondary trauma. Entry pay at small nonprofits runs well below the national median.",
+    link: "https://www.bls.gov/ooh/community-and-social-service/social-and-human-service-assistants.htm",
+    linkLabel: "BLS occupational profile",
     source: BLS + ". SOC 21-1093.",
   },
   {
@@ -208,6 +218,8 @@ export const careers: Career[] = [
       "High turnover means constant openings, and you can be working within weeks.",
     caveat:
       "Read the pay figure carefully, because it is the one people get wrong. $34,340 is the median with tips already counted, not before them. The bottom tenth of bartenders earn under $9.67 an hour all in. Much of this work is part time and nights, weekends and holidays are the job. No state requires you to pay for bartending school, so do not.",
+    link: "https://www.bls.gov/ooh/food-preparation-and-serving/bartenders.htm",
+    linkLabel: "BLS occupational profile",
     source: BLS + ". SOC 35-3011.",
   },
 
@@ -225,6 +237,8 @@ export const careers: Career[] = [
       "State and county corrections hire on a high school diploma and pay you a full officer salary from day one of the academy. In Texas that is $52,441 to start, higher at maximum security units.",
     caveat:
       "The occupation is shrinking by 7% over the decade. The work carries genuine violence risk, forced overtime and rotating shifts, and turnover is high for obvious reasons. Most new facilities are rural, so you may have to move. Background check, drug test and in many states a polygraph screen out a lot of applicants.",
+    link: "https://www.bls.gov/ooh/protective-service/correctional-officers.htm",
+    linkLabel: "BLS occupational profile",
     source: BLS + ". SOC 33-3012.",
   },
   {
@@ -239,6 +253,8 @@ export const careers: Career[] = [
       "Sell life, health or property and casualty cover. You need a state producer licence per line, and carriers routinely hire unlicensed people and put them through it.",
     caveat:
       "Entry roles are commission weighted. What a carrier calls paid training is often a draw against future commission, which becomes a debt you owe if you wash out, so read that contract before you sign. Some agencies also expect you to buy your own leads. Licences are per state and per line, so moving means re-licensing.",
+    link: "https://content.naic.org/state-insurance-departments",
+    linkLabel: "Find your state's insurance regulator",
     source: BLS + ". SOC 41-3021.",
   },
   {
@@ -295,7 +311,7 @@ export const careers: Career[] = [
     training: "4 to 12 weeks. Federal floor is 75 hours, California requires 160",
     cost: "$700 to $1,600, and often $0 when an employer or workforce programme pays",
     pay: "$42,260 median, $33,940 to $51,980",
-    openings: "About 203,300 a year",
+    openings: "About 203,300 a year across nursing assistants and orderlies",
     growth: "3%, about average",
     what:
       "Hands-on patient care in nursing homes, hospitals and home health. The volume of openings here is enormous and hiring never really stops.",
@@ -359,7 +375,7 @@ export const careers: Career[] = [
     training: "8 to 12 weeks full time, 4 to 6 months part time",
     cost: "$800 to $2,500 plus a $104 exam",
     pay: "$44,470 median, $34,130 to $62,500",
-    openings: "About 18,200 a year",
+    openings: "About 18,200 a year across EMTs and paramedics",
     growth: "6%, faster than average",
     what:
       "Emergency pre-hospital care with ambulance services, fire departments and hospitals.",
@@ -414,6 +430,8 @@ export const careers: Career[] = [
       "Residential and commercial pest management. You can start as a technician quickly under someone else's licence.",
     caveat:
       "There are two different things called certification here and the gap between them is years. Working as a technician takes weeks. Becoming a certified operator in your own right is gated by state law, and in Florida that means a high school diploma plus three years of experience. Check your own state department of agriculture before you plan around a timeline.",
+    link: "https://www.bls.gov/ooh/building-and-grounds-cleaning/pest-control-workers.htm",
+    linkLabel: "BLS profile, including state licensing",
     source: BLS + ". SOC 37-2021.",
   },
 
@@ -446,6 +464,8 @@ export const careers: Career[] = [
       "Licensed therapeutic massage in clinics, spas, chiropractic practices or your own practice. Strong growth and better pay than most entries at this training length.",
     caveat:
       "The exam is cheap, the school is not, and no employer pays for it. Your income is capped by how many sessions your body can physically do in a week, and franchise employee pay runs well under the self employed median. Career length is limited by your own hands and shoulders, which is a real consideration if you are already in your fifties.",
+    link: "https://www.fsmtb.org/mblex/",
+    linkLabel: "The MBLEx licensing exam",
     source: BLS + ". SOC 31-9011.",
   },
   {
@@ -454,7 +474,7 @@ export const careers: Career[] = [
     training: "2 to 4 months to pass the entry certification exams",
     cost: "Exam vouchers. Check the current price with the certifying body directly",
     pay: "$61,860 median for user support, $76,220 for network support",
-    openings: "About 48,700 a year",
+    openings: "About 48,700 a year across computer support specialists",
     growth: "Declining 3%",
     what:
       "Help desk and desktop support, the usual way into an IT career. CompTIA A+ is the recognised entry credential.",
