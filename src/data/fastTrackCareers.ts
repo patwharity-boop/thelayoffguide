@@ -219,7 +219,7 @@ export const careers: Career[] = [
     cost: "$0",
     paidTraining: true,
     pay: "$58,940 median",
-    openings: "About 30,000 a year",
+    openings: "About 30,000 a year across correctional officers and bailiffs",
     growth: "Declining 7%",
     what:
       "State and county corrections hire on a high school diploma and pay you a full officer salary from day one of the academy. In Texas that is $52,441 to start, higher at maximum security units.",
