@@ -18,6 +18,24 @@ export interface StateData {
   faq: { question: string; answer: string }[];
   advocacy?: { title: string; url: string; description: string }[];
   tips?: { headline: string; body: string }[];
+  /**
+   * Programmes this state runs that go BEYOND the federal baseline.
+   *
+   * The baseline, true in every state, is 26 U.S.C. 3304(a)(8): a state cannot
+   * deny benefits because you are in state-approved training, nor deny you on
+   * work-search grounds while you are in it. That is universal and lives on
+   * /fast-track-careers, not here.
+   *
+   * Only populate this where a state-specific programme has been CONFIRMED to a
+   * primary source. Absence means not confirmed, NOT that the state lacks one,
+   * so the rendered copy must never imply "your state does not have this".
+   */
+  beyondBaseline?: {
+    /** Extra weeks of benefits for people in approved training, if any. */
+    trainingExtension?: { name: string; detail: string; url?: string };
+    /** Self-employment assistance, run by only a handful of states. */
+    selfEmployment?: { name: string; detail: string; url?: string };
+  };
   // Optional ISO date (YYYY-MM-DD) of the last hand-review for this state.
   // When present, overrides the global LAST_REVIEWED on the AuthorBlock and
   // in JSON-LD dateModified. Leave undefined to fall back to the global date.
@@ -317,6 +335,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 450,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "California Training Benefits",
+        detail:
+          "California can extend you to 52 total weeks of payments, roughly 26 extra. The binding deadline is the inquiry: ask before the 16th week of benefit payments to protect the extension. You cannot be approved in advance, so you tell them early, enrol, then report the start date in the week it happens. Training through WIOA, the state provider list, a union, an employer or an apprenticeship is pre-blessed; self-arranged training has a stiffer test. One extension per claim.",
+        url: "https://edd.ca.gov/en/unemployment/qualifying_for_a_training_extension/",
+      },
+    },
     filingUrl: "https://edd.ca.gov/unemployment/",
     filingPhone: "1-800-300-5616",
     handbookUrl: "https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de1275a.pdf",
@@ -532,6 +558,13 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 450,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      selfEmployment: {
+        name: "Self-Employment Assistance Program",
+        detail:
+          "Delaware has self-employment assistance in law under 19 Del. C. section 3328, and the US Department of Labor lists it as active. You would draw your existing benefits while working full time on a business, with work search waived and business income not treated as disqualifying. It adds no extra weeks. One honest warning: Delaware publishes nothing about this programme anywhere on its website, so there is no page to point you to. Phone the Division of Unemployment Insurance and ask about the self-employment assistance allowance, citing the statute.",
+      },
+    },
     filingUrl: "https://uics.delawareworks.com/",
     filingPhone: "1-302-761-8446",
     handbookUrl: "https://laborfiles.delaware.gov/main/dui/handbook/UI%20Claimant%20Handbook.pdf",
@@ -816,6 +849,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 624,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Training extension benefits",
+        detail:
+          "Idaho law provides up to 26 times your average weekly benefit amount under Idaho Code section 72-1366(22). You must have exhausted regular and extended benefits and be enrolled in department-approved or WIOA training. If the department finds you were separated from a declining occupation, the training must prepare you for a high demand one. Not advertised on Idaho's claimant pages, so ask by name.",
+        url: "https://legislature.idaho.gov/statutesrules/idstat/Title72/T72CH13/SECT72-1366/",
+      },
+    },
     metaDescription: "Idaho: $624/week max, 10-26 weeks, 1-week wait. File in the Claimant Portal the week you separate -- Idaho doesn't backdate claims. 5 work search actions required weekly.",
     filingUrl: "https://www.labor.idaho.gov/unemployment-benefits/",
     filingPhone: "1-208-332-8942",
@@ -1026,6 +1067,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 790,
     maxWeeks: 16,
     waitingWeek: false,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Training extension benefits",
+        detail:
+          "Iowa law provides up to 26 times your weekly benefit amount under Iowa Code section 96.3(5)(b). The timing rule is unforgiving: you must already be in approved training at the moment your regular benefits are exhausted. Enrol after they run out and the extension is simply gone. Training must be for a high demand or high technology occupation. Not advertised, so ask by name.",
+        url: "https://www.legis.iowa.gov/docs/code/96.pdf",
+      },
+    },
     metaDescription: "Iowa: $790/week max (with 4 dependents), 16 weeks, no waiting week -- benefits start week one. File at iowaworks.gov the first week you want paid. 4 reemployment activities weekly.",
     filingUrl: "https://workforce.iowa.gov/unemployment/initial-claim",
     filingPhone: "1-866-239-0843",
@@ -1290,6 +1339,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 649,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Extended benefits for dislocated workers in approved training",
+        detail:
+          "Maine law provides up to 26 additional weeks for dislocated workers in approved training, under 26 M.R.S. section 1196. You must have exhausted your benefit year within 30 months of enrolling and exhausted all other state and federal unemployment entitlement first. Maine does not surface this on its claimant pages, so ask for it by name and cite the statute.",
+        url: "https://legislature.maine.gov/legis/statutes/26/title26sec1196.html",
+      },
+    },
     metaDescription: "Maine unemployment: up to $649/week, 26 weeks, 1-week wait. Maine requires just one work-search activity a week. File ReEmployME at reemployme.maine.gov.",
     filingUrl: "https://assist.reemployme.maine.gov/cp/landing",
     filingPhone: "1-800-593-7660",
@@ -1414,6 +1471,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 1154,
     maxWeeks: 30,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Section 30 training extension",
+        detail:
+          "Massachusetts law allows your benefits to be extended by up to 26 times your benefit rate while in approved training, under chapter 151A section 30(c). Two catches. You must apply by the 20th week of your claim, and you must have exhausted your regular and extended benefits with no rights under any other law. Good cause waivers exist. The state does not advertise this on its claimant pages, so ask for the Section 30 training extension by name.",
+        url: "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151A/Section30",
+      },
+    },
     metaDescription: "Massachusetts: $1,154/week max as of October 4 2026, 30 weeks, 1-week wait. Highest cap in the US. File the week you're laid off. Dependents add $25 each on top.",
     filingUrl: "https://www.mass.gov/how-to/apply-for-unemployment-insurance-benefits",
     filingPhone: "1-877-626-6800",
@@ -1600,6 +1665,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 235,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      selfEmployment: {
+        name: "Self-Employment Assistance Program",
+        detail:
+          "One of only five states running this. You draw your existing benefits while working 40 hours or more a week on your business, with no requirement to look for other work. Maximum 26 weeks, and it ends when your underlying benefits run out, so it adds no extra weeks. The useful asymmetry: earnings from your own business are not deducted from your weekly cheque, but any wages from someone else are. You need a business plan and must report progress.",
+        url: "https://mdes.ms.gov/i-need-a-job/job-searching-resources/self-employment-assistance-program/",
+      },
+    },
     metaDescription: "Mississippi: $235/week max, 26 weeks, 1-week wait. Among the lowest caps nationally. File mdes.ms.gov the week you're laid off. Weekly certifications required.",
     filingUrl: "https://mdes.ms.gov/unemployment-claims/",
     filingPhone: "1-888-844-3577",
@@ -1724,6 +1797,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 698,
     maxWeeks: 24,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Training benefits for worker training program participants",
+        detail:
+          "Montana law provides additional benefits for people in approved training under MCA 39-51-2116. You must have exhausted regular benefits, be making satisfactory progress in state-approved or WIOA training necessary for reemployment, and have been separated from a declining occupation or a permanent reduction of operations. The statute itself sets no cap on weeks; ask the department what the current limit is. Not advertised, so ask by name.",
+        url: "https://archive.legmt.gov/bills/mca/title_0390/chapter_0510/part_0210/section_0160/0390-0510-0210-0160.html",
+      },
+    },
     filingUrl: "https://uid.dli.mt.gov/",
     filingPhone: "1-406-444-2545",
     handbookUrl: "https://uid.dli.mt.gov/Portals/55/Documents/Claims-Processing/dli-uid-cl001.pdf",
@@ -1785,6 +1866,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 582,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Additional unemployment benefits",
+        detail:
+          "Nebraska law provides up to 26 additional weeks under section 48-628.17. You must be enrolled in approved or WIOA training no later than the end of your benefit year, have been separated from a declining occupation or a permanent reduction of operations, and be training for a high demand occupation. The statute requires the state to notify you of the enrolment requirement at your initial determination. Not advertised on the claimant pages, so ask by name.",
+        url: "https://nebraskalegislature.gov/laws/statutes.php?statute=48-628.17",
+      },
+    },
     filingUrl: "https://dol.nebraska.gov/UIBenefits",
     filingPhone: "1-402-458-2500",
     handbookUrl: "https://dol.nebraska.gov/webdocs/Resources/Items/Updated%20English%20Handbook%20for%20Unemployed%20Workers.pdf",
@@ -1907,6 +1996,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 427,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      selfEmployment: {
+        name: "Pathway to Work",
+        detail:
+          "New Hampshire is one of only five states with self-employment assistance in law, where it is called Pathway to Work. You draw your existing benefits while working full time on a business, with work search waived. It adds no extra weeks. New Hampshire has the strictest entry in the country: you must apply within 60 days of your initial claim, have at least 18 weeks and 18 times your weekly amount left, and the programme is capped at 2.5 percent of claimants with a waiting list. We could not confirm from the state's website that it is currently enrolling, so call your local office and ask for Pathway to Work by name before you count on it.",
+        url: "https://www.nhes.nh.gov",
+      },
+    },
     filingUrl: "https://www.nhes.nh.gov/services/claimants/index.htm",
     filingPhone: "1-603-271-7700",
     handbookUrl: "https://www.nhes.nh.gov/forms/documents/uc-r-and-o.pdf",
@@ -1968,6 +2065,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 905,
     maxWeeks: 26,
     waitingWeek: false,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Additional Benefits During Training",
+        detail:
+          "New Jersey can add up to 26 weeks, but the gate is procedural and it is the strictest in the country. The state says plainly that you cannot be considered for Additional Benefits During Training, or for a training grant, if you enrol without working with a One-Stop career counsellor first. Enrolling on your own may also cost you the tuition funding and can jeopardise your ordinary benefits. Training must be for a labour demand occupation and must be full time.",
+        url: "https://www.nj.gov/labor/myunemployment/jobseekers/training/index.shtml",
+      },
+    },
     filingUrl: "https://myunemployment.nj.gov/",
     filingPhone: "North NJ: 1-201-601-4100 | Central NJ: 1-732-761-2020 | South NJ: 1-856-507-2340",
     handbookUrl: "https://www.nj.gov/labor/forms_pdfs/ui/PR-94.pdf",
@@ -2092,6 +2197,20 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 869,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Section 599",
+        detail:
+          "If your full-time training is approved before your regular benefits run out, New York can pay up to 26 additional weeks under Section 599.2. Two things to know. You must apply within the first 13 weeks of your claim to get the maximum, and the money is capped at $20 million a year with a live waiting list ordered by approval date. No retroactive payments are made, so if you finish your training before funds reach your date, you get nothing. Training must be at least 12 credit hours a semester or 12 classroom hours a week. This is not tuition assistance.",
+        url: "https://dol.ny.gov/599-program",
+      },
+      selfEmployment: {
+        name: "Self-Employment Assistance Program",
+        detail:
+          "New York is one of only five states running this. You work full time on a new business while drawing your existing benefits, with the work search requirement waived and your business income not deducted. It does not add weeks or money; you are spending the benefits you already had on your business instead of a job search. You need at least 13 weeks of benefits left when accepted, you can only do it once in your life, you cannot already own a business, and you must have written acceptance before you start trading.",
+        url: "https://dol.ny.gov/SEAP",
+      },
+    },
     filingUrl: "https://dol.ny.gov/how-do-i-file",
     filingPhone: "1-888-209-8124",
     handbookUrl: "https://dol.ny.gov/system/files/documents/2026/01/ui-claimant-handbook_1-26.pdf",
@@ -2415,6 +2534,20 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 902,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Training Unemployment Insurance, plus Supplemental Unemployment for Dislocated Workers",
+        detail:
+          "Approved full-time training waives your work search, and dislocated workers in it can then get up to 26 more weeks, or until the training ends, whichever comes first. Oregon is unusually welcoming about applying: its own guidance says to apply even if you are unsure whether you qualify. If you have been unemployed eight consecutive weeks you may count as dislocated. You still pay for the training yourself.",
+        url: "https://unemployment.oregon.gov/tui",
+      },
+      selfEmployment: {
+        name: "Self-Employment Assistance",
+        detail:
+          "One of only five states running this. You draw your existing benefits while working full time on a business, with work search waived. Oregon states plainly that it does not extend your claim or add funds, though its statute does allow a further period in lieu of extended benefits when those are payable. Within 45 days of acceptance you must supply a business identification number, a federal employer identification number and a business plan. Cannabis businesses are excluded.",
+        url: "https://unemployment.oregon.gov/self-employment",
+      },
+    },
     metaDescription: "Oregon unemployment: up to $902/week, 26 weeks, 1-week wait. File Frances Online at unemployment.oregon.gov the week you separate.",
     filingUrl: "https://unemployment.oregon.gov/",
     filingPhone: "1-877-345-3484",
@@ -2916,6 +3049,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 705,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Training benefit program",
+        detail:
+          "Vermont law provides up to an additional 26 weeks under 21 V.S.A. section 1471. You must have exhausted your maximum benefit amount, be making satisfactory progress in approved or WIOA training, have been separated from a declining occupation or a permanent reduction of operations, and be training for a high demand occupation. Vermont does not advertise it, so ask by name.",
+        url: "https://legislature.vermont.gov/statutes/section/21/017/01471",
+      },
+    },
     filingUrl: "https://labor.vermont.gov/unemployment-insurance/ui-claimants",
     filingPhone: "1-877-214-3330",
     handbookUrl: "https://labor.vermont.gov/document/unemployment-insurance-claimant-handbook",
@@ -3038,6 +3179,14 @@ export const states: StateData[] = [
     maxWeeklyBenefit: 1208,
     maxWeeks: 26,
     waitingWeek: true,
+    beyondBaseline: {
+      trainingExtension: {
+        name: "Training Benefits",
+        detail:
+          "Washington can pay up to 52 times your weekly benefit amount in total, which is roughly 26 extra weeks on a full claim. Apply within 90 days of opening your claim and enrol within 120, though dislocated workers get until the end of the benefit year instead. Funding is capped at $20 million a year. Decisions can take up to 12 weeks, and while you wait you must keep searching for work and stay available, so turning down a suitable job because it clashes with school can cost you everything including the training benefits.",
+        url: "https://esd.wa.gov/jobs-and-training/job-training-support/training-benefits-program",
+      },
+    },
     filingUrl: "https://esd.wa.gov/get-financial-help/unemployment-benefits",
     filingPhone: "1-800-318-6022",
     handbookUrl: "https://esd.wa.gov/get-financial-help/unemployment-benefits/unemployed-workers-handbook",

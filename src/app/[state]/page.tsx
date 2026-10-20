@@ -395,6 +395,81 @@ export default async function StatePage({
         </section>
       )}
 
+      {/* Retraining. The federal baseline is universal and lives on the
+          careers page; anything state-specific renders only when confirmed.
+          Never imply that an absent section means the state lacks a programme. */}
+      <section className="mb-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          Retraining while you claim in {state.name}
+        </h2>
+        <div className="border-l-4 border-emerald-500 bg-emerald-50 rounded-r-lg p-6">
+          <p className="text-gray-800 mb-3">
+            Federal law protects your benefits while you retrain. A state cannot
+            deny you because you are in training it has approved, and cannot fail
+            you on work search while you are in it. That applies in every state,
+            including {state.name}.
+          </p>
+          <p className="text-gray-800 mb-3">
+            The catch is the word approved. Get the training approved by{" "}
+            {state.name} before you enrol, not after, because approval is
+            generally not retroactive. The training itself may also be paid for,
+            and there is a deadline on the part of that money that comes as a
+            cash stipend.
+          </p>
+          <p className="text-gray-800">
+            <Link href="/fast-track-careers" className="text-blue-700 hover:text-blue-900 underline font-semibold">
+              See which jobs are worth retraining for, and who pays for it
+            </Link>
+          </p>
+        </div>
+
+        {state.beyondBaseline && (
+          <div className="mt-4 space-y-4">
+            {state.beyondBaseline.trainingExtension && (
+              <div className="border border-gray-200 rounded-lg p-5">
+                <h3 className="font-bold text-gray-900 mb-1">
+                  {state.name} goes further: {state.beyondBaseline.trainingExtension.name}
+                </h3>
+                <p className="text-sm text-gray-700">
+                  {state.beyondBaseline.trainingExtension.detail}
+                </p>
+                {state.beyondBaseline.trainingExtension.url && (
+                  <a
+                    href={state.beyondBaseline.trainingExtension.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-700 hover:text-blue-900 underline mt-2 inline-block"
+                  >
+                    Official {state.name} information
+                  </a>
+                )}
+              </div>
+            )}
+
+            {state.beyondBaseline.selfEmployment && (
+              <div className="border border-gray-200 rounded-lg p-5">
+                <h3 className="font-bold text-gray-900 mb-1">
+                  Starting a business instead: {state.beyondBaseline.selfEmployment.name}
+                </h3>
+                <p className="text-sm text-gray-700">
+                  {state.beyondBaseline.selfEmployment.detail}
+                </p>
+                {state.beyondBaseline.selfEmployment.url && (
+                  <a
+                    href={state.beyondBaseline.selfEmployment.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-700 hover:text-blue-900 underline mt-2 inline-block"
+                  >
+                    Official {state.name} information
+                  </a>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+      </section>
+
       {/* Field Notes for this state. Pulls the top 3 most recent notes from
           the central /field-notes feed that are tagged with this state.
           Pinned notes (cross-state tactical wisdom) appear first. */}
