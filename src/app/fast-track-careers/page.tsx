@@ -107,6 +107,177 @@ export default function FastTrackCareersPage() {
         </p>
       </div>
 
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-gray-900 mb-3">So who pays for the training?</h2>
+        <p className="text-gray-700 mb-4">
+          Nobody hands you a cheque. But there is real money for this, most
+          people never ask for it, and the rules changed in your favour this
+          year. There are three live sources, one that is dead, and one deadline
+          that catches people out.
+        </p>
+
+        <div className="space-y-4">
+          <div className="border border-gray-200 rounded-xl p-5">
+            <h3 className="font-bold text-gray-900 mb-2">
+              The main one: dislocated worker funding
+            </h3>
+            <p className="text-sm text-gray-700 mb-2">
+              Federal law funds retraining for people laid off through no fault
+              of their own, and it runs through your local American Job Center.
+              Being laid off is enough to get in the door. There is no income
+              test for dislocated workers, which surprises people who assume
+              these programmes are only for the very poor.
+            </p>
+            <p className="text-sm text-gray-700">
+              It pays the school directly rather than handing you money, through
+              something called an Individual Training Account. It can also cover
+              transport and childcare, and sometimes a modest cash stipend while
+              you study. The amount is capped by local policy and is often in the
+              low thousands, so treat it as one part of a stack rather than the
+              whole answer.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-blue-500 bg-blue-50 rounded-r-lg p-5">
+            <h3 className="font-bold text-gray-900 mb-2">
+              The new one: Pell Grants now cover short programmes
+            </h3>
+            <p className="text-sm text-gray-800 mb-2">
+              This is genuinely new and most layoff guides have not caught up.
+              Since the 2026 to 2027 award year, a Pell Grant of up to $7,395 can
+              pay for short workforce programmes running at least eight weeks but
+              fewer than fifteen, between 150 and 599 clock hours. That window
+              covers a good number of the jobs in the one to three months tier
+              on this page.
+            </p>
+            <p className="text-sm text-gray-800 mb-2">
+              The part worth reading twice: <strong>you can use it even if you
+              already have a bachelor&apos;s degree.</strong> Pell normally stops
+              once you hold one. For these programmes it does not. If you were
+              laid off from a professional job and assumed federal grants were
+              not for you, that assumption is now out of date.
+            </p>
+            <p className="text-sm text-gray-800">
+              The catch is real though. Every programme has to be approved one at
+              a time, by your state and then by the Department of Education, and
+              approvals only started in August 2026. A handful of states had any
+              at all by the end of September. So do not assume your local
+              college&apos;s course qualifies. Ask them directly whether that
+              specific programme is an approved eligible workforce programme.
+              These short courses are also grant eligible but not loan eligible,
+              so there is no federal loan to cover a gap.
+            </p>
+          </div>
+
+          <div className="border border-red-200 bg-red-50 rounded-xl p-5">
+            <h3 className="font-bold text-gray-900 mb-2">
+              The dead one: stop looking for Trade Adjustment Assistance
+            </h3>
+            <p className="text-sm text-gray-800">
+              If your job went overseas you will find plenty of advice telling
+              you to apply for Trade Adjustment Assistance. Do not waste the
+              time. The programme stopped taking new people on 1 July 2022 and
+              is still shut. The Department of Labor can no longer certify new
+              groups of workers, and more than a thousand petitions filed since
+              then cannot be decided unless Congress revives it. You had to be
+              covered on or before 30 June 2022. Anyone laid off since then
+              cannot get it, under any circumstances.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-amber-500 bg-amber-50 rounded-r-lg p-5">
+            <h3 className="font-bold text-gray-900 mb-2">
+              The deadline nobody mentions
+            </h3>
+            <p className="text-sm text-gray-800">
+              If you want the cash stipend that can come with dislocated worker
+              training, you generally have to be enrolled in training by the end
+              of the thirteenth week after your layoff. Miss that and you may
+              still get tuition paid, but the income support is gone. That alone
+              is a reason to walk into a job centre in your first week rather
+              than in month four, while you are still telling yourself you will
+              find something similar.
+            </p>
+          </div>
+        </div>
+
+        <h3 className="font-bold text-gray-900 mt-8 mb-3">What to actually do</h3>
+        <ol className="list-decimal list-outside ml-6 space-y-3 text-gray-700">
+          <li>
+            <strong>File for unemployment first, the same week.</strong> It
+            starts the clock and your eligibility is usually part of what makes
+            you a dislocated worker in the first place.
+          </li>
+          <li>
+            <strong>Contact your local American Job Center in week one.</strong>
+            Ask for the dislocated worker programme by name, and ask for an
+            assessment appointment. Funding legally requires an assessment
+            before anything is paid, so this is not a step you can skip.
+          </li>
+          <li>
+            <strong>Ask two separate questions, and know they are separate.</strong>{" "}
+            First, is this training approved, meaning is the provider on your
+            state&apos;s eligible training provider list. Second, is there money
+            for it this year and what is the cap. A counsellor can tell you a
+            course is perfectly approvable and still have no budget left. Get the
+            cap in writing.
+          </li>
+          <li>
+            <strong>Get the training approved before you enrol.</strong> This is
+            the big one. Both your benefits protection and the funding are built
+            around approval happening first. The money is designed to pay a
+            school going forward, not to reimburse you for a course you already
+            bought. Enrolling first and asking later is the most expensive
+            mistake on this page.
+          </li>
+          <li>
+            <strong>File the FAFSA in parallel</strong>, even if you expect the
+            job centre to pay. The grants are designed to stack, and you will be
+            asked whether you applied.
+          </li>
+          <li>
+            <strong>If your whole site or plant closed</strong>, ask whether
+            rapid response services are already running for your employer. There
+            is sometimes a dedicated pot of money attached to a specific mass
+            layoff that your local board is already holding.
+          </li>
+        </ol>
+
+        <h3 className="font-bold text-gray-900 mt-8 mb-3">Three more worth knowing</h3>
+        <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
+          <li>
+            <strong>Apprenticeships.</strong> The employer carries the training
+            cost and you are paid from day one. Look for the paid from day one
+            badge on the jobs above.
+          </li>
+          <li>
+            <strong>If you served</strong>, the GI Bill covers far more than
+            degrees, including apprenticeships, vocational programmes and
+            licensing exam fees. Veterans also get priority of service at job
+            centres.
+          </li>
+          <li>
+            <strong>If you have a disability</strong>, state vocational
+            rehabilitation funds training, books and tools, and people receiving
+            disability benefits are generally presumed eligible. Some states run
+            waiting lists, so apply early.
+          </li>
+        </ul>
+
+        <p className="text-sm text-gray-500 mt-6">
+          Start here:{" "}
+          <a
+            href="https://www.careeronestop.org/LocalHelp/AmericanJobCenters/american-job-centers.aspx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700 hover:text-blue-900 underline"
+          >
+            find your nearest American Job Center
+          </a>
+          , or call the free Department of Labor line on 1-877-872-5627.
+        </p>
+      </section>
+
       {TIERS.map((tier) => {
         const jobs = careers.filter((c) => c.tier === tier.id);
         if (jobs.length === 0) return null;
